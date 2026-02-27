@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "artifact_type": "parser_spot_checks_gold",
+    "schema_version": "0.1.0-draft",
+    "description": "Small manually curated parser spot checks used for Phase 8 parser quality reporting."
+  },
+  "checks": [
+    {
+      "check_id": "manifest-scene-count-explicit",
+      "kind": "manifest_summary_equals",
+      "path": "scene_count_explicit_headers",
+      "expected": 297,
+      "description": "Explicit scene-header benchmark count matches PRD target."
+    },
+    {
+      "check_id": "manifest-scene-count-total",
+      "kind": "manifest_summary_equals",
+      "path": "scene_count_total",
+      "expected": 298,
+      "description": "Total scenes include one synthetic prelude scene."
+    },
+    {
+      "check_id": "manifest-marker-voice-over",
+      "kind": "manifest_summary_equals",
+      "path": "marker_counts.voice_over",
+      "expected": 128,
+      "description": "Voice-over marker count remains stable."
+    },
+    {
+      "check_id": "manifest-marker-pre-lap",
+      "kind": "manifest_summary_equals",
+      "path": "marker_counts.pre_lap",
+      "expected": 1,
+      "description": "PRE-LAP marker count remains stable."
+    },
+    {
+      "check_id": "scene-0001-synthetic-prelude-header",
+      "kind": "scene_field_equals",
+      "scene_id": "scene_0001",
+      "field": "header_raw",
+      "expected": "IMPLICIT PRELUDE (NO SCENE HEADER)",
+      "description": "Synthetic prelude scene preserves the opening material."
+    },
+    {
+      "check_id": "scene-0001-flag-synthetic",
+      "kind": "scene_field_contains",
+      "scene_id": "scene_0001",
+      "field": "flags",
+      "expected": "synthetic_prelude_scene",
+      "description": "Synthetic prelude scene is explicitly labeled."
+    },
+    {
+      "check_id": "scene-0003-explicit-year",
+      "kind": "scene_field_equals",
+      "scene_id": "scene_0003",
+      "field": "year_explicit",
+      "expected": 2000,
+      "description": "Early framing scene year extraction remains stable."
+    },
+    {
+      "check_id": "scene-0004-explicit-year",
+      "kind": "scene_field_equals",
+      "scene_id": "scene_0004",
+      "field": "year_explicit",
+      "expected": 1975,
+      "description": "1975 framing scene year extraction remains stable."
+    },
+    {
+      "check_id": "utterance-cue-frank-vo-count",
+      "kind": "utterance_count_by_cue",
+      "speaker_cue_raw": "FRANK V/O",
+      "expected": 123,
+      "description": "FRANK V/O cue count remains stable."
+    },
+    {
+      "check_id": "utterance-cue-frank-in-sync-count",
+      "kind": "utterance_count_by_cue",
+      "speaker_cue_raw": "FRANK (IN SYNC)",
+      "expected": 22,
+      "description": "FRANK (IN SYNC) cue count remains stable."
+    },
+    {
+      "check_id": "utterance-cue-bill-prelap-count",
+      "kind": "utterance_count_by_cue",
+      "speaker_cue_raw": "BILL (PRE-LAP)",
+      "expected": 1,
+      "description": "BILL (PRE-LAP) cue count remains stable."
+    },
+    {
+      "check_id": "utterance-prelap-modifier",
+      "kind": "utterance_modifier_contains",
+      "utterance_id": "utt_000064",
+      "expected": "pre_lap",
+      "description": "PRE-LAP cue is normalized into delivery modifiers."
+    },
+    {
+      "check_id": "utterance-overlap-modifier",
+      "kind": "utterance_modifier_contains",
+      "utterance_id": "utt_000356",
+      "expected": "overlap",
+      "description": "OVERLAP cue is normalized into delivery modifiers."
+    },
+    {
+      "check_id": "block-000004-type",
+      "kind": "script_block_field_equals",
+      "block_id": "blk_000004",
+      "field": "block_type",
+      "expected": "utterance",
+      "description": "Early utterance block type remains stable."
+    },
+    {
+      "check_id": "block-000004-marker-voice-over",
+      "kind": "script_block_marker_contains",
+      "block_id": "blk_000004",
+      "expected": "voice_over",
+      "description": "Early utterance block preserves voice-over marker."
+    },
+    {
+      "check_id": "block-000009-type-scene-header",
+      "kind": "script_block_field_equals",
+      "block_id": "blk_000009",
+      "field": "block_type",
+      "expected": "scene_header",
+      "description": "First explicit scene header is represented as a scene_header block."
+    },
+    {
+      "check_id": "block-000009-seq-zero",
+      "kind": "script_block_field_equals",
+      "block_id": "blk_000009",
+      "field": "sequence_in_scene",
+      "expected": 0,
+      "description": "Scene header blocks keep sequence_in_scene=0 convention."
+    }
+  ]
+}

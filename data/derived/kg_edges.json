@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "artifact_type": "kg_edges",
+    "schema_version": "0.1.0-draft",
+    "pipeline_version": "phase2-kg-v0.1.0",
+    "build_timestamp": "2026-02-25T18:48:13Z",
+    "source_file_hash": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+    "record_count": 30,
+    "manual_edge_count": 18,
+    "derived_edge_count": 12,
+    "predicate_counts": {
+      "co_present_dialogue": 12,
+      "cousin_of": 1,
+      "legal_counsel_to": 1,
+      "union_affiliation": 3,
+      "associated_with": 1,
+      "father_of": 1,
+      "member_of": 4,
+      "spouse_of": 2,
+      "works_with": 1,
+      "daughter_of": 1,
+      "advises": 1,
+      "subset_of": 1,
+      "part_of": 1
+    },
+    "cooccurrence_min_scenes": 3,
+    "cooccurrence_max_edges": 120,
+    "source_artifacts": [
+      "data/derived/entities.json",
+      "data/derived/entity_aliases.json",
+      "data/intermediate/utterances.json"
+    ],
+    "config_file": "config/entity_aliases.manual.json",
+    "skipped_manual_edge_count": 0
+  },
+  "items": [
+    {
+      "edge_id": "kg_00001",
+      "subject_id": "char_bill_bufalino",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_frank_sheeran",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0031",
+        "scene:scene_0032",
+        "scene:scene_0033",
+        "scene:scene_0106"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 4,
+        "evidence_scene_ids": [
+          "scene_0031",
+          "scene_0032",
+          "scene_0033",
+          "scene_0106"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00002",
+      "subject_id": "char_bill_bufalino",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_jimmy_hoffa",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0102",
+        "scene:scene_0129",
+        "scene:scene_0150"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 3,
+        "evidence_scene_ids": [
+          "scene_0102",
+          "scene_0129",
+          "scene_0150"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00003",
+      "subject_id": "char_bill_bufalino",
+      "predicate": "cousin_of",
+      "object_id": "char_russell_bufalino",
+      "stability": "stable",
+      "evidence_refs": [
+        "scene:scene_0004"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0004"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00004",
+      "subject_id": "char_bill_bufalino",
+      "predicate": "legal_counsel_to",
+      "object_id": "char_russell_bufalino",
+      "stability": "semi_stable",
+      "evidence_refs": [
+        "scene:scene_0004"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0004"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00005",
+      "subject_id": "char_bill_bufalino",
+      "predicate": "union_affiliation",
+      "object_id": "grp_teamsters",
+      "stability": "semi_stable",
+      "evidence_refs": [
+        "scene:scene_0004"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0004"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00006",
+      "subject_id": "char_chuckie",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_sally_bugs",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0247",
+        "scene:scene_0248",
+        "scene:scene_0249"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 3,
+        "evidence_scene_ids": [
+          "scene_0247",
+          "scene_0248",
+          "scene_0249"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00007",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "associated_with",
+      "object_id": "char_russell_bufalino",
+      "stability": "semi_stable",
+      "evidence_refs": [
+        "scene:scene_0010",
+        "scene:scene_0011"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0010",
+          "scene_0011"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00008",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_jimmy_hoffa",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0085",
+        "scene:scene_0088",
+        "scene:scene_0097",
+        "scene:scene_0098",
+        "scene:scene_0099",
+        "scene:scene_0120",
+        "scene:scene_0121",
+        "scene:scene_0139"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 28,
+        "evidence_scene_ids": [
+          "scene_0085",
+          "scene_0088",
+          "scene_0097",
+          "scene_0098",
+          "scene_0099",
+          "scene_0120",
+          "scene_0121",
+          "scene_0139"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00009",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_joey",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0092",
+        "scene:scene_0095",
+        "scene:scene_0097"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 3,
+        "evidence_scene_ids": [
+          "scene_0092",
+          "scene_0095",
+          "scene_0097"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00010",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_judge",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0032",
+        "scene:scene_0163",
+        "scene:scene_0169"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 3,
+        "evidence_scene_ids": [
+          "scene_0032",
+          "scene_0163",
+          "scene_0169"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00011",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_peggy_sheeran",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0083",
+        "scene:scene_0099",
+        "scene:scene_0101",
+        "scene:scene_0117",
+        "scene:scene_0132",
+        "scene:scene_0228",
+        "scene:scene_0255"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 7,
+        "evidence_scene_ids": [
+          "scene_0083",
+          "scene_0099",
+          "scene_0101",
+          "scene_0117",
+          "scene_0132",
+          "scene_0228",
+          "scene_0255"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00012",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_priest",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0295",
+        "scene:scene_0297",
+        "scene:scene_0298"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 3,
+        "evidence_scene_ids": [
+          "scene_0295",
+          "scene_0297",
+          "scene_0298"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00013",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_sally_bugs",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0246",
+        "scene:scene_0247",
+        "scene:scene_0249",
+        "scene:scene_0250",
+        "scene:scene_0269"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 5,
+        "evidence_scene_ids": [
+          "scene_0246",
+          "scene_0247",
+          "scene_0249",
+          "scene_0250",
+          "scene_0269"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00014",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_skinny_razor",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0018",
+        "scene:scene_0028",
+        "scene:scene_0047",
+        "scene:scene_0085"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 4,
+        "evidence_scene_ids": [
+          "scene_0018",
+          "scene_0028",
+          "scene_0047",
+          "scene_0085"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00015",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "father_of",
+      "object_id": "char_peggy_sheeran",
+      "stability": "stable",
+      "evidence_refs": [
+        "scene:scene_0012"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0012"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00016",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "member_of",
+      "object_id": "grp_frank_family",
+      "stability": "stable",
+      "evidence_refs": [
+        "scene:scene_0012"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0012"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00017",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "spouse_of",
+      "object_id": "char_irene_sheeran",
+      "stability": "semi_stable",
+      "evidence_refs": [
+        "scene:scene_0006",
+        "scene:scene_0007"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0006",
+          "scene_0007"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00018",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "spouse_of",
+      "object_id": "char_mary_sheeran",
+      "stability": "semi_stable",
+      "evidence_refs": [
+        "scene:scene_0012"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0012"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00019",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "union_affiliation",
+      "object_id": "grp_teamsters",
+      "stability": "semi_stable",
+      "evidence_refs": [
+        "scene:scene_0001"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0001"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00020",
+      "subject_id": "char_frank_sheeran",
+      "predicate": "works_with",
+      "object_id": "char_jimmy_hoffa",
+      "stability": "semi_stable",
+      "evidence_refs": [
+        "scene:scene_0044"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0044"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00021",
+      "subject_id": "char_irene_sheeran",
+      "predicate": "member_of",
+      "object_id": "grp_frank_family",
+      "stability": "stable",
+      "evidence_refs": [
+        "scene:scene_0006"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0006"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00022",
+      "subject_id": "char_jimmy_hoffa",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_russell_bufalino",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0085",
+        "scene:scene_0216",
+        "scene:scene_0223",
+        "scene:scene_0231",
+        "scene:scene_0234"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 5,
+        "evidence_scene_ids": [
+          "scene_0085",
+          "scene_0216",
+          "scene_0223",
+          "scene_0231",
+          "scene_0234"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00023",
+      "subject_id": "char_jimmy_hoffa",
+      "predicate": "union_affiliation",
+      "object_id": "grp_teamsters",
+      "stability": "stable",
+      "evidence_refs": [
+        "scene:scene_0044"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0044"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00024",
+      "subject_id": "char_mary_sheeran",
+      "predicate": "member_of",
+      "object_id": "grp_frank_family",
+      "stability": "stable",
+      "evidence_refs": [
+        "scene:scene_0012"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0012"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00025",
+      "subject_id": "char_peggy_sheeran",
+      "predicate": "daughter_of",
+      "object_id": "char_frank_sheeran",
+      "stability": "stable",
+      "evidence_refs": [
+        "scene:scene_0012"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0012"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00026",
+      "subject_id": "char_peggy_sheeran",
+      "predicate": "member_of",
+      "object_id": "grp_frank_family",
+      "stability": "stable",
+      "evidence_refs": [
+        "scene:scene_0012"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0012"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00027",
+      "subject_id": "char_russell_bufalino",
+      "predicate": "advises",
+      "object_id": "char_frank_sheeran",
+      "stability": "semi_stable",
+      "evidence_refs": [
+        "scene:scene_0010"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0010"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00028",
+      "subject_id": "char_russell_bufalino",
+      "predicate": "co_present_dialogue",
+      "object_id": "char_salerno",
+      "stability": "volatile",
+      "evidence_refs": [
+        "scene:scene_0205",
+        "scene:scene_0216",
+        "scene:scene_0222"
+      ],
+      "metadata": {
+        "generation_method": "scene_co_speaker",
+        "cooccurrence_scene_count": 3,
+        "evidence_scene_ids": [
+          "scene_0205",
+          "scene_0216",
+          "scene_0222"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00029",
+      "subject_id": "grp_teamsters",
+      "predicate": "subset_of",
+      "object_id": "org_teamsters_local_107",
+      "stability": "semi_stable",
+      "evidence_refs": [
+        "scene:scene_0001"
+      ],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": [
+          "scene_0001"
+        ]
+      }
+    },
+    {
+      "edge_id": "kg_00030",
+      "subject_id": "org_fbi",
+      "predicate": "part_of",
+      "object_id": "grp_government_legal_institutions",
+      "stability": "stable",
+      "evidence_refs": [],
+      "metadata": {
+        "generation_method": "manual_config",
+        "evidence_scene_ids": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "metadata": {
+    "artifact_type": "parser_quality_report",
+    "schema_version": "0.1.0-draft",
+    "pipeline_version": "phase8-parser-quality-v0.1.0",
+    "build_timestamp": "2026-02-25T21:19:21Z",
+    "source_file": "the-irishman-ampas-script-cleaned.md",
+    "source_file_hash": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+    "parser_manifest_file": "data/intermediate/parser_build_manifest.json",
+    "gold_spot_checks_file": "data/gold/parser_spot_checks.json",
+    "duration_seconds": 0.014
+  },
+  "summary": {
+    "release_gate_passed": true,
+    "total_checks": 32,
+    "passed_checks": 32,
+    "failed_checks": 0,
+    "integrity_check_count": 15,
+    "integrity_failed_count": 0,
+    "spot_check_count": 17,
+    "spot_check_failed_count": 0,
+    "explicit_scene_header_count_target": 297,
+    "explicit_scene_header_count_actual": 297,
+    "scene_count_total": 298,
+    "scene_count_synthetic": 1,
+    "utterance_count": 1045,
+    "action_beat_count": 309,
+    "script_block_count": 1651,
+    "source_line_count": 4142,
+    "parser_script_body_line_count": 4130
+  },
+  "aggregate_metrics": {
+    "scene_header_prefix_counts": {
+      "EXT.": 112,
+      "EXT./INT.": 1,
+      "EXT/INT.": 1,
+      "INT.": 177,
+      "INT/EXT.": 6
+    },
+    "marker_counts": {
+      "back_to": 23,
+      "contd": 38,
+      "flashback": 11,
+      "in_sync": 24,
+      "overlap": 15,
+      "pre_lap": 1,
+      "voice_over": 128
+    },
+    "empty_utterance_count": 11,
+    "script_block_type_counts": {
+      "action": 309,
+      "scene_header": 297,
+      "utterance": 1045
+    },
+    "scene_range_stats": {
+      "scene_count": 298,
+      "first_line": 1,
+      "last_line": 4130,
+      "gap_count": 0,
+      "overlap_count": 0,
+      "gaps_sample": [],
+      "overlaps_sample": []
+    },
+    "block_sequence_stats": {
+      "scene_count_checked": 298,
+      "issue_count": 0,
+      "issues_sample": []
+    }
+  },
+  "integrity_checks": {
+    "summary": {
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "pass_rate": 1.0
+    },
+    "items": [
+      {
+        "check_id": "source-hash-consistent-across-parser-artifacts",
+        "description": "All parser artifacts and manifest reference the same source file hash.",
+        "passed": true,
+        "actual": {
+          "manifest": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+          "scenes": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+          "utterances": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+          "action_beats": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+          "script_blocks": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c"
+        }
+      },
+      {
+        "check_id": "manifest-counts-match-artifact-record-counts",
+        "description": "Manifest summary counts match parser artifact record counts.",
+        "passed": true,
+        "expected": {
+          "scene_count_total": 298,
+          "utterance_count": 1045,
+          "action_beat_count": 309,
+          "script_block_count": 1651
+        },
+        "actual": {
+          "scene_count_total": 298,
+          "utterance_count": 1045,
+          "action_beat_count": 309,
+          "script_block_count": 1651
+        }
+      },
+      {
+        "check_id": "scene-explicit-vs-synthetic-counts-consistent",
+        "description": "Scene explicit/synthetic counts match scenes metadata and parser manifest.",
+        "passed": true,
+        "actual": {
+          "scenes_meta_explicit": 297,
+          "scenes_meta_synthetic": 1,
+          "manifest_explicit": 297,
+          "manifest_synthetic": 1,
+          "computed_explicit": 297,
+          "computed_synthetic": 1
+        }
+      },
+      {
+        "check_id": "scene-header-prefix-counts-match-manifest",
+        "description": "Computed scene header prefix counts match parser manifest summary.",
+        "passed": true,
+        "actual": {
+          "EXT.": 112,
+          "EXT./INT.": 1,
+          "EXT/INT.": 1,
+          "INT.": 177,
+          "INT/EXT.": 6
+        },
+        "expected": {
+          "EXT.": 112,
+          "EXT./INT.": 1,
+          "EXT/INT.": 1,
+          "INT.": 177,
+          "INT/EXT.": 6
+        }
+      },
+      {
+        "check_id": "marker-counts-match-manifest",
+        "description": "Computed script-block marker counts match parser manifest summary.",
+        "passed": true,
+        "actual": {
+          "back_to": 23,
+          "contd": 38,
+          "flashback": 11,
+          "in_sync": 24,
+          "overlap": 15,
+          "pre_lap": 1,
+          "voice_over": 128
+        },
+        "expected": {
+          "back_to": 23,
+          "contd": 38,
+          "flashback": 11,
+          "in_sync": 24,
+          "overlap": 15,
+          "pre_lap": 1,
+          "voice_over": 128
+        }
+      },
+      {
+        "check_id": "empty-utterance-count-matches-manifest",
+        "description": "Computed empty-utterance count matches parser manifest summary.",
+        "passed": true,
+        "actual": 11,
+        "expected": 11
+      },
+      {
+        "check_id": "script-block-type-counts-consistent",
+        "description": "Script block type counts match script_blocks metadata and component artifact counts.",
+        "passed": true,
+        "actual": {
+          "metadata_block_type_counts": {
+            "action": 309,
+            "utterance": 1045,
+            "scene_header": 297
+          },
+          "computed_block_type_counts": {
+            "action": 309,
+            "scene_header": 297,
+            "utterance": 1045
+          },
+          "artifact_counts": {
+            "scene_headers_from_scenes": 297,
+            "utterances": 1045,
+            "action_beats": 309
+          }
+        }
+      },
+      {
+        "check_id": "scene-line-ranges-are-contiguous-and-non-overlapping",
+        "description": "Scene line spans cover a contiguous parser body region with no overlaps.",
+        "passed": true,
+        "actual": {
+          "scene_count": 298,
+          "first_line": 1,
+          "last_line": 4130,
+          "gap_count": 0,
+          "overlap_count": 0,
+          "gaps_sample": [],
+          "overlaps_sample": []
+        }
+      },
+      {
+        "check_id": "parser-script-body-line-count-matches-last-scene-line",
+        "description": "Manifest script_body_line_count matches the last parsed scene line.",
+        "passed": true,
+        "actual": 4130,
+        "expected": 4130
+      },
+      {
+        "check_id": "cleaned-source-line-count-not-shorter-than-parser-body-line-count",
+        "description": "Cleaned source file line count is >= parser script_body_line_count.",
+        "passed": true,
+        "actual": {
+          "source_line_count": 4142,
+          "script_body_line_count": 4130
+        }
+      },
+      {
+        "check_id": "no-duplicate-parser-ids",
+        "description": "Scene, utterance, action, and block IDs are unique.",
+        "passed": true,
+        "actual": {
+          "duplicate_scene_id_count": 0,
+          "duplicate_utterance_id_count": 0,
+          "duplicate_action_id_count": 0,
+          "duplicate_block_id_count": 0,
+          "samples": {
+            "scene": [],
+            "utterance": [],
+            "action": [],
+            "block": []
+          }
+        }
+      },
+      {
+        "check_id": "script-block-references-resolve",
+        "description": "Script blocks reference existing scenes and component row IDs.",
+        "passed": true,
+        "actual": {
+          "issue_count": 0,
+          "issues_sample": []
+        }
+      },
+      {
+        "check_id": "script-block-line-spans-stay-within-parent-scene",
+        "description": "Each script block line span falls within its parent scene line span.",
+        "passed": true,
+        "actual": {
+          "issue_count": 0,
+          "issues_sample": []
+        }
+      },
+      {
+        "check_id": "script-block-sequence-conventions-hold",
+        "description": "Per-scene sequence conventions hold (scene_header=0; non-header blocks contiguous from 1).",
+        "passed": true,
+        "actual": {
+          "scene_count_checked": 298,
+          "issue_count": 0,
+          "issues_sample": []
+        }
+      },
+      {
+        "check_id": "utterance-and-action-sequences-match-script-blocks",
+        "description": "Utterance/action sequence_in_scene values are positive and match linked script block rows.",
+        "passed": true,
+        "actual": {
+          "utterance_issue_count": 0,
+          "action_issue_count": 0,
+          "utterance_issues_sample": [],
+          "action_issues_sample": []
+        }
+      }
+    ]
+  },
+  "spot_checks": {
+    "summary": {
+      "total": 17,
+      "passed": 17,
+      "failed": 0,
+      "pass_rate": 1.0
+    },
+    "items": [
+      {
+        "check_id": "manifest-scene-count-explicit",
+        "kind": "manifest_summary_equals",
+        "description": "Explicit scene-header benchmark count matches PRD target.",
+        "expected": 297,
+        "actual": 297,
+        "passed": true
+      },
+      {
+        "check_id": "manifest-scene-count-total",
+        "kind": "manifest_summary_equals",
+        "description": "Total scenes include one synthetic prelude scene.",
+        "expected": 298,
+        "actual": 298,
+        "passed": true
+      },
+      {
+        "check_id": "manifest-marker-voice-over",
+        "kind": "manifest_summary_equals",
+        "description": "Voice-over marker count remains stable.",
+        "expected": 128,
+        "actual": 128,
+        "passed": true
+      },
+      {
+        "check_id": "manifest-marker-pre-lap",
+        "kind": "manifest_summary_equals",
+        "description": "PRE-LAP marker count remains stable.",
+        "expected": 1,
+        "actual": 1,
+        "passed": true
+      },
+      {
+        "check_id": "scene-0001-synthetic-prelude-header",
+        "kind": "scene_field_equals",
+        "description": "Synthetic prelude scene preserves the opening material.",
+        "expected": "IMPLICIT PRELUDE (NO SCENE HEADER)",
+        "actual": "IMPLICIT PRELUDE (NO SCENE HEADER)",
+        "passed": true
+      },
+      {
+        "check_id": "scene-0001-flag-synthetic",
+        "kind": "scene_field_contains",
+        "description": "Synthetic prelude scene is explicitly labeled.",
+        "expected": "synthetic_prelude_scene",
+        "actual": [
+          "synthetic_prelude_scene"
+        ],
+        "passed": true
+      },
+      {
+        "check_id": "scene-0003-explicit-year",
+        "kind": "scene_field_equals",
+        "description": "Early framing scene year extraction remains stable.",
+        "expected": 2000,
+        "actual": 2000,
+        "passed": true
+      },
+      {
+        "check_id": "scene-0004-explicit-year",
+        "kind": "scene_field_equals",
+        "description": "1975 framing scene year extraction remains stable.",
+        "expected": 1975,
+        "actual": 1975,
+        "passed": true
+      },
+      {
+        "check_id": "utterance-cue-frank-vo-count",
+        "kind": "utterance_count_by_cue",
+        "description": "FRANK V/O cue count remains stable.",
+        "expected": 123,
+        "actual": 123,
+        "passed": true
+      },
+      {
+        "check_id": "utterance-cue-frank-in-sync-count",
+        "kind": "utterance_count_by_cue",
+        "description": "FRANK (IN SYNC) cue count remains stable.",
+        "expected": 22,
+        "actual": 22,
+        "passed": true
+      },
+      {
+        "check_id": "utterance-cue-bill-prelap-count",
+        "kind": "utterance_count_by_cue",
+        "description": "BILL (PRE-LAP) cue count remains stable.",
+        "expected": 1,
+        "actual": 1,
+        "passed": true
+      },
+      {
+        "check_id": "utterance-prelap-modifier",
+        "kind": "utterance_modifier_contains",
+        "description": "PRE-LAP cue is normalized into delivery modifiers.",
+        "expected": "pre_lap",
+        "actual": [
+          "pre_lap"
+        ],
+        "passed": true
+      },
+      {
+        "check_id": "utterance-overlap-modifier",
+        "kind": "utterance_modifier_contains",
+        "description": "OVERLAP cue is normalized into delivery modifiers.",
+        "expected": "overlap",
+        "actual": [
+          "overlap"
+        ],
+        "passed": true
+      },
+      {
+        "check_id": "block-000004-type",
+        "kind": "script_block_field_equals",
+        "description": "Early utterance block type remains stable.",
+        "expected": "utterance",
+        "actual": "utterance",
+        "passed": true
+      },
+      {
+        "check_id": "block-000004-marker-voice-over",
+        "kind": "script_block_marker_contains",
+        "description": "Early utterance block preserves voice-over marker.",
+        "expected": "voice_over",
+        "actual": [
+          "voice_over"
+        ],
+        "passed": true
+      },
+      {
+        "check_id": "block-000009-type-scene-header",
+        "kind": "script_block_field_equals",
+        "description": "First explicit scene header is represented as a scene_header block.",
+        "expected": "scene_header",
+        "actual": "scene_header",
+        "passed": true
+      },
+      {
+        "check_id": "block-000009-seq-zero",
+        "kind": "script_block_field_equals",
+        "description": "Scene header blocks keep sequence_in_scene=0 convention.",
+        "expected": 0,
+        "actual": 0,
+        "passed": true
+      }
+    ]
+  },
+  "samples": {
+    "scenes": [
+      {
+        "scene_id": "scene_0001",
+        "header_raw": "IMPLICIT PRELUDE (NO SCENE HEADER)",
+        "line_start": 1,
+        "line_end": 22,
+        "flags": [
+          "synthetic_prelude_scene"
+        ]
+      },
+      {
+        "scene_id": "scene_0002",
+        "header_raw": "INT. EMPTY HOUSE - A BLANK WALL - DAY",
+        "line_start": 23,
+        "line_end": 32,
+        "flags": []
+      },
+      {
+        "scene_id": "scene_0003",
+        "header_raw": "INT. ASSISTED LIVING FACILITY - DAY - 2000",
+        "line_start": 33,
+        "line_end": 38,
+        "flags": [
+          "explicit_year"
+        ]
+      },
+      {
+        "scene_id": "scene_0004",
+        "header_raw": "INT. FRANK\u2019S HOUSE - MORNING - 1975",
+        "line_start": 39,
+        "line_end": 47,
+        "flags": [
+          "explicit_year"
+        ]
+      },
+      {
+        "scene_id": "scene_0297",
+        "header_raw": "INT. ASSISTED LIVING CORRIDOR / ROOM - DAY TO NIGHT",
+        "line_start": 4087,
+        "line_end": 4095,
+        "flags": []
+      },
+      {
+        "scene_id": "scene_0298",
+        "header_raw": "INT. ASSISTED LIVING FACILITY - FRANK\u2019S ROOM - NIGHT",
+        "line_start": 4096,
+        "line_end": 4130,
+        "flags": []
+      }
+    ],
+    "utterances": [
+      {
+        "utterance_id": "utt_000001",
+        "scene_id": "scene_0001",
+        "speaker_cue_raw": "FRANK V/O",
+        "delivery_modifiers": [
+          "voice_over"
+        ],
+        "line_start": 8,
+        "line_end": 9
+      },
+      {
+        "utterance_id": "utt_000002",
+        "scene_id": "scene_0001",
+        "speaker_cue_raw": "FRANK V/O",
+        "delivery_modifiers": [
+          "voice_over"
+        ],
+        "line_start": 11,
+        "line_end": 12
+      },
+      {
+        "utterance_id": "utt_000003",
+        "scene_id": "scene_0001",
+        "speaker_cue_raw": "FRANK V/O",
+        "delivery_modifiers": [
+          "voice_over"
+        ],
+        "line_start": 14,
+        "line_end": 15
+      }
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "version": "0.1.0",
+  "source_prd": "irishman-narrative-trace-explorer-prd.md",
+  "generated_for_phase": 4,
+  "notes": [
+    "Deterministic first-pass rules focused on core relationship pairs required for Phase 4.",
+    "Rules operate over Phase 3 extracted events (event labels + evidence snippets + participants).",
+    "claim_type separates explicit textual relationship claims from inferred behavioral cues."
+  ],
+  "core_pairs": [
+    {
+      "pair_id": "frank_peggy",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "label": "Peggy -> Frank"
+    },
+    {
+      "pair_id": "frank_hoffa",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "label": "Frank -> Jimmy Hoffa"
+    },
+    {
+      "pair_id": "hoffa_frank",
+      "subject_id": "char_jimmy_hoffa",
+      "object_id": "char_frank_sheeran",
+      "label": "Jimmy Hoffa -> Frank"
+    },
+    {
+      "pair_id": "frank_russell",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_russell_bufalino",
+      "label": "Frank -> Russell Bufalino"
+    },
+    {
+      "pair_id": "russell_frank",
+      "subject_id": "char_russell_bufalino",
+      "object_id": "char_frank_sheeran",
+      "label": "Russell Bufalino -> Frank"
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "peggy_frank_trust_initial_protection",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "event_type_l2_any": ["question", "statement"],
+      "text_any": ["he pushed you? peggy nods", "that him? peggy nods", "come with me sweetheart. show me"],
+      "state_dimension": "trust",
+      "direction": "increase",
+      "magnitude": "low",
+      "claim_type": "inferred",
+      "confidence": 0.72,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "peggy_frank_fear_after_violence_witnessing",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "event_type_l2_any": ["observation_or_witnessing", "domestic_routine", "statement", "assault_or_beating"],
+      "text_any": [
+        "stomping up and down on the screaming grocer’s hand",
+        "terrified, peggy",
+        "afraid of him now"
+      ],
+      "state_dimension": "fear",
+      "direction": "increase",
+      "magnitude": "high",
+      "claim_type": "explicit",
+      "confidence": 0.93,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "peggy_frank_trust_decrease_afraid_distance",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "event_type_l2_any": ["statement", "persuasion_attempt", "drive_or_vehicle_travel", "domestic_routine"],
+      "text_any": [
+        "a-scared of me",
+        "she shouldn’t be a-scared of you",
+        "kids get nervous. they start resenting you",
+        "keeps her distance"
+      ],
+      "state_dimension": "trust",
+      "direction": "decrease",
+      "magnitude": "medium",
+      "claim_type": "explicit",
+      "confidence": 0.86,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "peggy_frank_distance_increase_silence_and_avoidance",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "event_type_l2_any": ["statement", "departure", "warning", "request", "bar_or_social_drinking"],
+      "text_any": [
+        "she just leaves",
+        "neither says anything",
+        "she studies her father",
+        "looks away",
+        "walks away from the counter"
+      ],
+      "state_dimension": "distance",
+      "direction": "increase",
+      "magnitude": "medium",
+      "claim_type": "inferred",
+      "confidence": 0.83,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "peggy_frank_relationship_break_disappeared_from_my_life",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "event_type_l2_any": ["statement"],
+      "text_any": ["my daughter peggy disappeared from my life that day"],
+      "state_dimension": "distance",
+      "direction": "break",
+      "magnitude": "high",
+      "claim_type": "explicit",
+      "confidence": 0.96,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "frank_peggy_repair_attempt_late_life",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_peggy_sheeran",
+      "event_type_l2_any": ["warning"],
+      "text_any": ["peggy, don’t. i just want to talk to you"],
+      "state_dimension": "affection",
+      "direction": "repair_attempt",
+      "magnitude": "medium",
+      "claim_type": "explicit",
+      "confidence": 0.9,
+      "inference_method": "rule+review"
+    },
+
+    {
+      "rule_id": "hoffa_frank_respect_increase_intro_and_praise",
+      "subject_id": "char_jimmy_hoffa",
+      "object_id": "char_frank_sheeran",
+      "event_type_l2_any": ["introduction", "statement", "answer_response", "promise_or_vow"],
+      "text_any": [
+        "glad to meet you",
+        "our friend speaks very highly of you",
+        "you’re like family to me, frank",
+        "i respect him. i rely on him",
+        "they’re here for you, my friend"
+      ],
+      "state_dimension": "respect",
+      "direction": "increase",
+      "magnitude": "medium",
+      "claim_type": "explicit",
+      "confidence": 0.9,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "hoffa_frank_dependence_increase_help_and_reliance",
+      "subject_id": "char_jimmy_hoffa",
+      "object_id": "char_frank_sheeran",
+      "event_type_l2_any": ["answer_response", "statement", "promise_or_vow"],
+      "text_any": ["i rely on him", "good union man", "help straighten all this out", "relaxes a little"],
+      "state_dimension": "dependence",
+      "direction": "increase",
+      "magnitude": "medium",
+      "claim_type": "explicit",
+      "confidence": 0.84,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "frank_hoffa_loyalty_increase_support_vow",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "event_type_l2_any": ["promise_or_vow", "statement"],
+      "text_any": [
+        "all my support and help to you, jimmy",
+        "jimmy’s the only guy to get the job done",
+        "i can’t tell you what this means to me"
+      ],
+      "state_dimension": "loyalty",
+      "direction": "increase",
+      "magnitude": "high",
+      "claim_type": "explicit",
+      "confidence": 0.93,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "frank_hoffa_trust_decrease_conflict_and_insult",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "event_type_l2_any": ["warning", "statement", "answer_response", "question"],
+      "text_any": [
+        "don’t insult me",
+        "after you apologize for being late",
+        "you’re late. or wearing fuckin shorts",
+        "i’m sorry pro’s here"
+      ],
+      "state_dimension": "trust",
+      "direction": "decrease",
+      "magnitude": "medium",
+      "claim_type": "inferred",
+      "confidence": 0.82,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "frank_hoffa_institutional_pressure_increase_messenger_conflict",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "event_type_l2_any": ["warning", "statement", "question"],
+      "text_any": [
+        "what am i supposed to do. i got to go back and tell the old man",
+        "still not listening to him",
+        "frank isn’t sure who he’s with anymore, so caught in the middle",
+        "promise me this is okay"
+      ],
+      "state_dimension": "institutional_pressure",
+      "direction": "increase",
+      "magnitude": "high",
+      "claim_type": "inferred",
+      "confidence": 0.89,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "frank_hoffa_fear_increase_protection_warning",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "event_type_l2_any": ["warning", "statement"],
+      "text_any": [
+        "you should maybe keep some bodies around for protection",
+        "they could go after you since you’re with me"
+      ],
+      "state_dimension": "fear",
+      "direction": "increase",
+      "magnitude": "medium",
+      "claim_type": "inferred",
+      "confidence": 0.78,
+      "inference_method": "rule+review"
+    },
+
+    {
+      "rule_id": "frank_russell_trust_increase_early_help_and_recognition",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_russell_bufalino",
+      "event_type_l2_any": ["question", "statement", "farewell_or_closing"],
+      "text_any": [
+        "what do i owe you? russell waves back, ‘nothing’",
+        "the man who helped him with his truck",
+        "you did the right thing"
+      ],
+      "state_dimension": "trust",
+      "direction": "increase",
+      "magnitude": "medium",
+      "claim_type": "inferred",
+      "confidence": 0.83,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "russell_frank_trust_increase_recruitment_and_endorsement",
+      "subject_id": "char_russell_bufalino",
+      "object_id": "char_frank_sheeran",
+      "event_type_l2_any": ["answer_response", "agreement_acceptance", "statement"],
+      "text_any": [
+        "he’s a good union man",
+        "somebody he can trust",
+        "say hello",
+        "i appreciate what he did. he’s okay"
+      ],
+      "state_dimension": "trust",
+      "direction": "increase",
+      "magnitude": "medium",
+      "claim_type": "explicit",
+      "confidence": 0.88,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "russell_frank_dominance_increase_tasking_chain",
+      "subject_id": "char_russell_bufalino",
+      "object_id": "char_frank_sheeran",
+      "event_type_l2_any": ["overlap_dialogue_transition", "statement", "question"],
+      "text_any": [
+        "a guy will meet you there",
+        "you’ll pick up some things",
+        "you understand?",
+        "which frank takes as his order"
+      ],
+      "state_dimension": "dominance",
+      "direction": "increase",
+      "magnitude": "medium",
+      "claim_type": "inferred",
+      "confidence": 0.84,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "frank_russell_loyalty_increase_deference_and_messaging",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_russell_bufalino",
+      "event_type_l2_any": ["warning", "statement", "question", "answer_response"],
+      "text_any": [
+        "russ, i don’t know how jimmy’s running the union",
+        "tell jimmy i’m sorry for his troubles",
+        "jimmy don’t have to know everything. you understand?",
+        "tell russ i got nothing but respect for him"
+      ],
+      "state_dimension": "loyalty",
+      "direction": "increase",
+      "magnitude": "low",
+      "claim_type": "inferred",
+      "confidence": 0.73,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "frank_russell_institutional_pressure_increase_hoffa_split",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_russell_bufalino",
+      "event_type_l2_any": ["statement", "question", "warning"],
+      "text_any": [
+        "tony told russell to tell me to tell you what it is",
+        "what am i supposed to do. i got to go back and tell the old man",
+        "caught in the middle"
+      ],
+      "state_dimension": "institutional_pressure",
+      "direction": "increase",
+      "magnitude": "high",
+      "claim_type": "inferred",
+      "confidence": 0.9,
+      "inference_method": "rule+review"
+    },
+    {
+      "rule_id": "frank_russell_moral_alignment_shift_hoffa_crisis",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_russell_bufalino",
+      "event_type_l2_any": ["statement"],
+      "text_any": ["frank isn’t sure who he’s with anymore, so caught in the middle"],
+      "state_dimension": "moral_alignment",
+      "direction": "shift",
+      "magnitude": "high",
+      "claim_type": "inferred",
+      "confidence": 0.94,
+      "inference_method": "rule+review"
+    }
+  ]
+}

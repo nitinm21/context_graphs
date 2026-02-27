@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "artifact_type": "parser_build_manifest",
+    "schema_version": "0.1.0-draft",
+    "parser_version": "phase1-parser-v0.1.0",
+    "build_timestamp": "2026-02-25T18:48:04Z",
+    "source_file": "the-irishman-ampas-script-cleaned.md",
+    "source_file_hash": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c"
+  },
+  "summary": {
+    "scene_count_total": 298,
+    "scene_count_explicit_headers": 297,
+    "scene_count_synthetic": 1,
+    "utterance_count": 1045,
+    "action_beat_count": 309,
+    "script_block_count": 1651,
+    "empty_utterance_count": 11,
+    "scene_header_prefix_counts": {
+      "INT.": 177,
+      "EXT.": 112,
+      "INT/EXT.": 6,
+      "EXT./INT.": 1,
+      "EXT/INT.": 1
+    },
+    "marker_counts": {
+      "voice_over": 128,
+      "in_sync": 24,
+      "contd": 38,
+      "flashback": 11,
+      "pre_lap": 1,
+      "back_to": 23,
+      "overlap": 15
+    },
+    "script_body_line_count": 4130,
+    "pipeline_version": "phase1-parser"
+  }
+}

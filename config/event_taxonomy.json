@@ -1,0 +1,1224 @@
+{
+  "version": "0.1.0",
+  "source_prd": "irishman-narrative-trace-explorer-prd.md",
+  "generated_at": "2026-02-25T01:56:55Z",
+  "l1_categories": [
+    "narrative_structure",
+    "communication_dialogue",
+    "social_relationship",
+    "movement_travel_logistics",
+    "domestic_leisure_ritual",
+    "business_labor_political",
+    "legal_law_enforcement_incarceration",
+    "criminal_coercive_violence",
+    "health_aging_end_of_life",
+    "perception_surveillance",
+    "other_review_required"
+  ],
+  "l2_by_l1": {
+    "narrative_structure": [
+      {
+        "event_type_l2": "scene_entry",
+        "description": "synthetic scene start node"
+      },
+      {
+        "event_type_l2": "scene_exit",
+        "description": "synthetic scene end node"
+      },
+      {
+        "event_type_l2": "time_jump_explicit",
+        "description": "explicit year/time shift in scene header"
+      },
+      {
+        "event_type_l2": "flashback_enter",
+        "description": "scene/header marks flashback start"
+      },
+      {
+        "event_type_l2": "flashback_return",
+        "description": "`BACK TO ...` or return to prior frame sequence"
+      },
+      {
+        "event_type_l2": "frame_narration_segment",
+        "description": "assisted-living framing narration/context segment"
+      },
+      {
+        "event_type_l2": "voiceover_narration",
+        "description": "`V/O` utterance used as narrative exposition"
+      },
+      {
+        "event_type_l2": "prelap_audio_transition",
+        "description": "dialogue/audio begins before next scene visual (`PRE-LAP`)"
+      },
+      {
+        "event_type_l2": "overlap_dialogue_transition",
+        "description": "overlapping speech marker (`OVERLAP`)"
+      },
+      {
+        "event_type_l2": "montage_or_sequence_marker",
+        "description": "montage/sequence beat if explicitly marked (future-proof)"
+      },
+      {
+        "event_type_l2": "structural_callback_or_rejoin",
+        "description": "explicit return to previously staged thread (non-flashback `BACK TO` style)"
+      }
+    ],
+    "communication_dialogue": [
+      {
+        "event_type_l2": "statement",
+        "description": "neutral declarative utterance"
+      },
+      {
+        "event_type_l2": "question",
+        "description": "explicit information-seeking utterance"
+      },
+      {
+        "event_type_l2": "answer_response",
+        "description": "direct answer to a prior question"
+      },
+      {
+        "event_type_l2": "greeting_or_opening",
+        "description": "greetings / conversational opening"
+      },
+      {
+        "event_type_l2": "farewell_or_closing",
+        "description": "conversational close / goodbye"
+      },
+      {
+        "event_type_l2": "introduction",
+        "description": "introducing one person to another"
+      },
+      {
+        "event_type_l2": "request",
+        "description": "asks someone to do something (non-authoritative)"
+      },
+      {
+        "event_type_l2": "instruction_order",
+        "description": "directive/order from authority or de facto authority"
+      },
+      {
+        "event_type_l2": "warning",
+        "description": "cautionary statement about consequences or risk"
+      },
+      {
+        "event_type_l2": "threat_verbal",
+        "description": "explicit or strongly implied threat"
+      },
+      {
+        "event_type_l2": "promise_or_vow",
+        "description": "commitment statement (includes vows)"
+      },
+      {
+        "event_type_l2": "refusal",
+        "description": "rejection of request/order/offer"
+      },
+      {
+        "event_type_l2": "agreement_acceptance",
+        "description": "agrees/accepts plan/request"
+      },
+      {
+        "event_type_l2": "negotiation",
+        "description": "bargaining over terms/outcomes"
+      },
+      {
+        "event_type_l2": "persuasion_attempt",
+        "description": "attempt to convince/change position"
+      },
+      {
+        "event_type_l2": "advice_or_guidance",
+        "description": "recommendation/mentoring guidance"
+      },
+      {
+        "event_type_l2": "explanation_account",
+        "description": "explanatory narrative / justification / account of events"
+      },
+      {
+        "event_type_l2": "confession_or_admission",
+        "description": "admits act, intent, or responsibility"
+      },
+      {
+        "event_type_l2": "insult_or_disrespect",
+        "description": "hostile/verbal disrespect act"
+      },
+      {
+        "event_type_l2": "apology_or_regret",
+        "description": "apology/regret expression"
+      },
+      {
+        "event_type_l2": "joke_banter_or_toast",
+        "description": "humor, banter, toasts"
+      },
+      {
+        "event_type_l2": "withholding_or_nonresponse",
+        "description": "meaningful silence/avoidance/non-answer"
+      },
+      {
+        "event_type_l2": "phone_call_conversation",
+        "description": "communication event explicitly via phone call"
+      },
+      {
+        "event_type_l2": "public_speech_or_address",
+        "description": "rally speech, public address, podium-style speaking"
+      },
+      {
+        "event_type_l2": "press_qna_exchange",
+        "description": "press questions/answers interaction"
+      }
+    ],
+    "social_relationship": [
+      {
+        "event_type_l2": "first_meeting",
+        "description": "first on-screen meeting/encounter between key entities"
+      },
+      {
+        "event_type_l2": "reintroduction_or_reconnection",
+        "description": "renewed contact after gap"
+      },
+      {
+        "event_type_l2": "social_visit",
+        "description": "non-formal social visit/meeting"
+      },
+      {
+        "event_type_l2": "favor_exchange",
+        "description": "favor requested or granted"
+      },
+      {
+        "event_type_l2": "mentorship_guidance_interaction",
+        "description": "mentor/protege style guidance or demonstration"
+      },
+      {
+        "event_type_l2": "loyalty_signal",
+        "description": "explicit signal of loyalty/alignment/solidarity"
+      },
+      {
+        "event_type_l2": "deference_signal",
+        "description": "respect/obedience/deference display"
+      },
+      {
+        "event_type_l2": "dominance_assertion",
+        "description": "social dominance/control assertion"
+      },
+      {
+        "event_type_l2": "intimidation_social",
+        "description": "social intimidation not yet physical violence"
+      },
+      {
+        "event_type_l2": "family_interaction",
+        "description": "generic family interaction beat"
+      },
+      {
+        "event_type_l2": "parent_child_discipline",
+        "description": "parent/child discipline/punishment incident"
+      },
+      {
+        "event_type_l2": "affection_or_care_signal",
+        "description": "affection/care/protective behavior"
+      },
+      {
+        "event_type_l2": "estrangement_or_distance_behavior",
+        "description": "avoidance/distancing behavior"
+      },
+      {
+        "event_type_l2": "reconciliation_attempt",
+        "description": "attempt to repair relationship"
+      },
+      {
+        "event_type_l2": "betrayal_social_political",
+        "description": "perceived or actual betrayal in alliance/friendship context"
+      }
+    ],
+    "movement_travel_logistics": [
+      {
+        "event_type_l2": "drive_or_vehicle_travel",
+        "description": "general vehicle travel segment"
+      },
+      {
+        "event_type_l2": "road_trip_segment",
+        "description": "multi-stop road trip progression (notably 1975 wedding drive frame)"
+      },
+      {
+        "event_type_l2": "travel_stopover",
+        "description": "deliberate travel stop (gas, food, smoking, business stop)"
+      },
+      {
+        "event_type_l2": "arrival",
+        "description": "arrival at destination or encounter location"
+      },
+      {
+        "event_type_l2": "departure",
+        "description": "leaving scene/location for next action"
+      },
+      {
+        "event_type_l2": "pickup_or_dropoff",
+        "description": "person/item pickup/dropoff"
+      },
+      {
+        "event_type_l2": "vehicle_issue_or_breakdown",
+        "description": "car/truck mechanical issue"
+      },
+      {
+        "event_type_l2": "vehicle_repair_or_maintenance",
+        "description": "repair/fix/maintenance action"
+      },
+      {
+        "event_type_l2": "lodging_checkin_or_stay",
+        "description": "hotel/motel/lodging arrival/stay"
+      },
+      {
+        "event_type_l2": "air_travel_or_flight",
+        "description": "plane/airport/flight movement"
+      },
+      {
+        "event_type_l2": "walking_approach_or_tail",
+        "description": "approach on foot or trailing movement"
+      },
+      {
+        "event_type_l2": "logistics_loading_unloading",
+        "description": "luggage/cargo loading/unloading arrangement"
+      }
+    ],
+    "domestic_leisure_ritual": [
+      {
+        "event_type_l2": "domestic_routine",
+        "description": "household routine activity (home life beat)"
+      },
+      {
+        "event_type_l2": "meal_or_dining",
+        "description": "meals, table conversations, diner/restaurant eating beat"
+      },
+      {
+        "event_type_l2": "bar_or_social_drinking",
+        "description": "bar/club social drinking interaction"
+      },
+      {
+        "event_type_l2": "smoking_break_or_smoking_conflict",
+        "description": "smoking routine or smoking-related conflict"
+      },
+      {
+        "event_type_l2": "shopping_or_purchase",
+        "description": "store/retail purchase activity"
+      },
+      {
+        "event_type_l2": "bowling_or_family_outing",
+        "description": "family outing/leisure activity (Irishman-specific recurring context)"
+      },
+      {
+        "event_type_l2": "religious_ritual",
+        "description": "baptism/church ritual/clerical interaction"
+      },
+      {
+        "event_type_l2": "wedding_related_event",
+        "description": "wedding preparation/attendance/ceremony beat"
+      },
+      {
+        "event_type_l2": "funeral_or_wake_ritual",
+        "description": "funeral/wake/visitation ritual beat"
+      },
+      {
+        "event_type_l2": "gift_or_token_exchange",
+        "description": "gifts/tokens presented/exchanged (if observed)"
+      }
+    ],
+    "business_labor_political": [
+      {
+        "event_type_l2": "work_shift_or_job_task",
+        "description": "ordinary work duty/task execution"
+      },
+      {
+        "event_type_l2": "delivery_or_transport_job",
+        "description": "work delivery/logistics task (e.g., meat delivery)"
+      },
+      {
+        "event_type_l2": "inventory_diversion_or_theft_for_side_income",
+        "description": "diverting goods from employer inventory"
+      },
+      {
+        "event_type_l2": "cash_payment_or_side_deal",
+        "description": "cash handoff tied to side arrangement"
+      },
+      {
+        "event_type_l2": "business_introduction_or_networking",
+        "description": "introduction for business/opportunity"
+      },
+      {
+        "event_type_l2": "collection_business_assignment",
+        "description": "assignment of collection/enforcement-related work as business function"
+      },
+      {
+        "event_type_l2": "union_meeting_or_union_office_interaction",
+        "description": "union office / labor representation interaction"
+      },
+      {
+        "event_type_l2": "grievance_or_labor_dispute",
+        "description": "labor complaint / grievance / dispute beat"
+      },
+      {
+        "event_type_l2": "contract_or_terms_negotiation",
+        "description": "labor/business terms negotiation"
+      },
+      {
+        "event_type_l2": "union_power_or_strike_coordination",
+        "description": "strike threat/work stoppage/power leverage coordination"
+      },
+      {
+        "event_type_l2": "political_favor_or_influence_exchange",
+        "description": "influence/favor exchange in political domain"
+      },
+      {
+        "event_type_l2": "campaign_support_or_fundraising",
+        "description": "campaign support/fundraising coordination or event"
+      },
+      {
+        "event_type_l2": "public_event_or_rally",
+        "description": "organized public political/labor rally event"
+      },
+      {
+        "event_type_l2": "leadership_strategy_session",
+        "description": "strategic planning among leaders (union/mob/political)"
+      },
+      {
+        "event_type_l2": "organizational_transition_or_power_change",
+        "description": "change in leadership/organizational role status"
+      },
+      {
+        "event_type_l2": "financial_control_or_fund_access_conflict",
+        "description": "disputes over access/control of money/funds"
+      },
+      {
+        "event_type_l2": "media_or_entertainment_venue_interaction",
+        "description": "venue/showbiz/business social meetings (Latin Casino/Copa contexts)"
+      }
+    ],
+    "legal_law_enforcement_incarceration": [
+      {
+        "event_type_l2": "law_enforcement_contact_or_questioning",
+        "description": "police/FBI/government questioning or contact"
+      },
+      {
+        "event_type_l2": "surveillance_disclosure_or_bugging_discussion",
+        "description": "discussion of phones/bugging/surveillance pressure"
+      },
+      {
+        "event_type_l2": "legal_counsel_consultation",
+        "description": "lawyer-client legal advice/strategy session"
+      },
+      {
+        "event_type_l2": "subpoena_summons_or_notice",
+        "description": "formal notice to appear/testify"
+      },
+      {
+        "event_type_l2": "hearing_or_committee_session",
+        "description": "committee hearing session event"
+      },
+      {
+        "event_type_l2": "court_appearance",
+        "description": "courtroom appearance/attendance"
+      },
+      {
+        "event_type_l2": "testimony_or_sworn_statement",
+        "description": "testimony under oath / formal statement in proceeding"
+      },
+      {
+        "event_type_l2": "prosecution_action_or_charge_pressure",
+        "description": "prosecution/legal pressure actions discussed or initiated"
+      },
+      {
+        "event_type_l2": "indictment_or_charge",
+        "description": "explicit charging/indictment event"
+      },
+      {
+        "event_type_l2": "trial_or_case_proceeding",
+        "description": "trial/proceeding progress beat"
+      },
+      {
+        "event_type_l2": "verdict_or_case_outcome",
+        "description": "verdict/decision/case outcome event"
+      },
+      {
+        "event_type_l2": "sentencing",
+        "description": "sentence imposed"
+      },
+      {
+        "event_type_l2": "incarceration_intake_or_transfer",
+        "description": "prison intake / transfer"
+      },
+      {
+        "event_type_l2": "prison_confinement_life",
+        "description": "prison life/status beat"
+      },
+      {
+        "event_type_l2": "prison_visit",
+        "description": "prison visit interaction"
+      },
+      {
+        "event_type_l2": "release_or_parole",
+        "description": "prison release/parole event"
+      },
+      {
+        "event_type_l2": "witness_management_or_cooperation_pressure",
+        "description": "pressure re testimony/cooperation/witnesses"
+      },
+      {
+        "event_type_l2": "protective_legal_positioning",
+        "description": "lawyering to reduce exposure / manage risk"
+      }
+    ],
+    "criminal_coercive_violence": [
+      {
+        "event_type_l2": "debt_collection_attempt",
+        "description": "collection visit/demand for payment"
+      },
+      {
+        "event_type_l2": "debt_default_or_excuse",
+        "description": "debtor default/justification interaction"
+      },
+      {
+        "event_type_l2": "loan_sharking_or_shylock_business",
+        "description": "lending/shylock-related criminal business context"
+      },
+      {
+        "event_type_l2": "extortion_or_shakedown",
+        "description": "coercive extraction under threat/power"
+      },
+      {
+        "event_type_l2": "bribery_or_payoff",
+        "description": "illicit payment to influence behavior/outcome"
+      },
+      {
+        "event_type_l2": "fraud_or_election_tampering",
+        "description": "fraud/tampering/manipulated outcome (where depicted/discussed)"
+      },
+      {
+        "event_type_l2": "criminal_assignment_or_tasking",
+        "description": "criminal job assigned (including \"go see him\", \"take care of it\")"
+      },
+      {
+        "event_type_l2": "criminal_planning_meeting",
+        "description": "planning meeting for illicit act or response"
+      },
+      {
+        "event_type_l2": "weapon_display_or_preparation",
+        "description": "weapon shown/readied/handled pre-violence"
+      },
+      {
+        "event_type_l2": "assault_or_beating",
+        "description": "physical attack short of killing"
+      },
+      {
+        "event_type_l2": "threat_with_implied_violence",
+        "description": "threat carrying credible violent implication"
+      },
+      {
+        "event_type_l2": "shooting",
+        "description": "firearm discharge event"
+      },
+      {
+        "event_type_l2": "homicide_killing",
+        "description": "killing/murder event (result-focused)"
+      },
+      {
+        "event_type_l2": "attempted_killing",
+        "description": "attempted killing not completed"
+      },
+      {
+        "event_type_l2": "body_disposal_or_scene_cleanup",
+        "description": "disposing body/cleaning aftermath"
+      },
+      {
+        "event_type_l2": "evidence_concealment_or_destruction",
+        "description": "conceal/destroy evidence"
+      },
+      {
+        "event_type_l2": "forced_compliance",
+        "description": "person complies under coercion/intimidation"
+      },
+      {
+        "event_type_l2": "retaliation_or_revenge_act",
+        "description": "retaliatory criminal/violent response"
+      },
+      {
+        "event_type_l2": "criminal_transport_or_facilitation",
+        "description": "transport/facilitation in service of criminal operation"
+      },
+      {
+        "event_type_l2": "hit_confirmation_or_aftermath_reporting",
+        "description": "reporting/confirming completion of violent assignment"
+      }
+    ],
+    "health_aging_end_of_life": [
+      {
+        "event_type_l2": "health_decline_observation",
+        "description": "visible decline/aging/weakness noted in action/dialogue"
+      },
+      {
+        "event_type_l2": "medical_consultation_or_treatment",
+        "description": "doctor/medical treatment interaction"
+      },
+      {
+        "event_type_l2": "hospital_or_care_facility_stay",
+        "description": "hospital/care facility scene beat"
+      },
+      {
+        "event_type_l2": "nursing_home_or_assisted_living_interaction",
+        "description": "assisted living / nursing environment interaction"
+      },
+      {
+        "event_type_l2": "death_notification_or_news",
+        "description": "someone learns of a death"
+      },
+      {
+        "event_type_l2": "death_event",
+        "description": "explicit death shown or directly narrated in-scene context"
+      },
+      {
+        "event_type_l2": "end_of_life_preparation",
+        "description": "funeral arrangements/coffin/plots/end-of-life preparation"
+      },
+      {
+        "event_type_l2": "grief_or_mourning_expression",
+        "description": "visible/verbal mourning/grief behavior"
+      },
+      {
+        "event_type_l2": "burial_or_gravesite_visit",
+        "description": "burial or cemetery/gravesite visit"
+      },
+      {
+        "event_type_l2": "religious_end_of_life_counsel",
+        "description": "priest/clergy counseling tied to end-of-life themes"
+      }
+    ],
+    "perception_surveillance": [
+      {
+        "event_type_l2": "observation_or_witnessing",
+        "description": "one character observes key act/behavior (including child witnessing violence aftermath context)"
+      },
+      {
+        "event_type_l2": "recognition_or_realization",
+        "description": "character realizes/identifies significance of prior event"
+      },
+      {
+        "event_type_l2": "suspicion_or_distrust_expression",
+        "description": "explicit suspicion/distrust stated or acted upon"
+      },
+      {
+        "event_type_l2": "following_or_tail_surveillance",
+        "description": "active following/tailing"
+      },
+      {
+        "event_type_l2": "stakeout_or_waiting_watch",
+        "description": "waiting while monitoring location/person"
+      },
+      {
+        "event_type_l2": "privacy_or_secrecy_behavior",
+        "description": "coded language, avoiding names, secrecy behavior"
+      },
+      {
+        "event_type_l2": "signal_or_message_delivery",
+        "description": "relayed message/signal between parties (messenger function)"
+      },
+      {
+        "event_type_l2": "news_media_awareness_update",
+        "description": "characters receive narrative updates through media/news coverage"
+      }
+    ],
+    "other_review_required": [
+      {
+        "event_type_l2": "unmapped_review_required",
+        "description": "temporary holding bucket for events that do not fit taxonomy during development; must be zero before Phase 4 completion"
+      }
+    ]
+  },
+  "l2_index": {
+    "scene_entry": {
+      "event_type_l1": "narrative_structure",
+      "description": "synthetic scene start node"
+    },
+    "scene_exit": {
+      "event_type_l1": "narrative_structure",
+      "description": "synthetic scene end node"
+    },
+    "time_jump_explicit": {
+      "event_type_l1": "narrative_structure",
+      "description": "explicit year/time shift in scene header"
+    },
+    "flashback_enter": {
+      "event_type_l1": "narrative_structure",
+      "description": "scene/header marks flashback start"
+    },
+    "flashback_return": {
+      "event_type_l1": "narrative_structure",
+      "description": "`BACK TO ...` or return to prior frame sequence"
+    },
+    "frame_narration_segment": {
+      "event_type_l1": "narrative_structure",
+      "description": "assisted-living framing narration/context segment"
+    },
+    "voiceover_narration": {
+      "event_type_l1": "narrative_structure",
+      "description": "`V/O` utterance used as narrative exposition"
+    },
+    "prelap_audio_transition": {
+      "event_type_l1": "narrative_structure",
+      "description": "dialogue/audio begins before next scene visual (`PRE-LAP`)"
+    },
+    "overlap_dialogue_transition": {
+      "event_type_l1": "narrative_structure",
+      "description": "overlapping speech marker (`OVERLAP`)"
+    },
+    "montage_or_sequence_marker": {
+      "event_type_l1": "narrative_structure",
+      "description": "montage/sequence beat if explicitly marked (future-proof)"
+    },
+    "structural_callback_or_rejoin": {
+      "event_type_l1": "narrative_structure",
+      "description": "explicit return to previously staged thread (non-flashback `BACK TO` style)"
+    },
+    "statement": {
+      "event_type_l1": "communication_dialogue",
+      "description": "neutral declarative utterance"
+    },
+    "question": {
+      "event_type_l1": "communication_dialogue",
+      "description": "explicit information-seeking utterance"
+    },
+    "answer_response": {
+      "event_type_l1": "communication_dialogue",
+      "description": "direct answer to a prior question"
+    },
+    "greeting_or_opening": {
+      "event_type_l1": "communication_dialogue",
+      "description": "greetings / conversational opening"
+    },
+    "farewell_or_closing": {
+      "event_type_l1": "communication_dialogue",
+      "description": "conversational close / goodbye"
+    },
+    "introduction": {
+      "event_type_l1": "communication_dialogue",
+      "description": "introducing one person to another"
+    },
+    "request": {
+      "event_type_l1": "communication_dialogue",
+      "description": "asks someone to do something (non-authoritative)"
+    },
+    "instruction_order": {
+      "event_type_l1": "communication_dialogue",
+      "description": "directive/order from authority or de facto authority"
+    },
+    "warning": {
+      "event_type_l1": "communication_dialogue",
+      "description": "cautionary statement about consequences or risk"
+    },
+    "threat_verbal": {
+      "event_type_l1": "communication_dialogue",
+      "description": "explicit or strongly implied threat"
+    },
+    "promise_or_vow": {
+      "event_type_l1": "communication_dialogue",
+      "description": "commitment statement (includes vows)"
+    },
+    "refusal": {
+      "event_type_l1": "communication_dialogue",
+      "description": "rejection of request/order/offer"
+    },
+    "agreement_acceptance": {
+      "event_type_l1": "communication_dialogue",
+      "description": "agrees/accepts plan/request"
+    },
+    "negotiation": {
+      "event_type_l1": "communication_dialogue",
+      "description": "bargaining over terms/outcomes"
+    },
+    "persuasion_attempt": {
+      "event_type_l1": "communication_dialogue",
+      "description": "attempt to convince/change position"
+    },
+    "advice_or_guidance": {
+      "event_type_l1": "communication_dialogue",
+      "description": "recommendation/mentoring guidance"
+    },
+    "explanation_account": {
+      "event_type_l1": "communication_dialogue",
+      "description": "explanatory narrative / justification / account of events"
+    },
+    "confession_or_admission": {
+      "event_type_l1": "communication_dialogue",
+      "description": "admits act, intent, or responsibility"
+    },
+    "insult_or_disrespect": {
+      "event_type_l1": "communication_dialogue",
+      "description": "hostile/verbal disrespect act"
+    },
+    "apology_or_regret": {
+      "event_type_l1": "communication_dialogue",
+      "description": "apology/regret expression"
+    },
+    "joke_banter_or_toast": {
+      "event_type_l1": "communication_dialogue",
+      "description": "humor, banter, toasts"
+    },
+    "withholding_or_nonresponse": {
+      "event_type_l1": "communication_dialogue",
+      "description": "meaningful silence/avoidance/non-answer"
+    },
+    "phone_call_conversation": {
+      "event_type_l1": "communication_dialogue",
+      "description": "communication event explicitly via phone call"
+    },
+    "public_speech_or_address": {
+      "event_type_l1": "communication_dialogue",
+      "description": "rally speech, public address, podium-style speaking"
+    },
+    "press_qna_exchange": {
+      "event_type_l1": "communication_dialogue",
+      "description": "press questions/answers interaction"
+    },
+    "first_meeting": {
+      "event_type_l1": "social_relationship",
+      "description": "first on-screen meeting/encounter between key entities"
+    },
+    "reintroduction_or_reconnection": {
+      "event_type_l1": "social_relationship",
+      "description": "renewed contact after gap"
+    },
+    "social_visit": {
+      "event_type_l1": "social_relationship",
+      "description": "non-formal social visit/meeting"
+    },
+    "favor_exchange": {
+      "event_type_l1": "social_relationship",
+      "description": "favor requested or granted"
+    },
+    "mentorship_guidance_interaction": {
+      "event_type_l1": "social_relationship",
+      "description": "mentor/protege style guidance or demonstration"
+    },
+    "loyalty_signal": {
+      "event_type_l1": "social_relationship",
+      "description": "explicit signal of loyalty/alignment/solidarity"
+    },
+    "deference_signal": {
+      "event_type_l1": "social_relationship",
+      "description": "respect/obedience/deference display"
+    },
+    "dominance_assertion": {
+      "event_type_l1": "social_relationship",
+      "description": "social dominance/control assertion"
+    },
+    "intimidation_social": {
+      "event_type_l1": "social_relationship",
+      "description": "social intimidation not yet physical violence"
+    },
+    "family_interaction": {
+      "event_type_l1": "social_relationship",
+      "description": "generic family interaction beat"
+    },
+    "parent_child_discipline": {
+      "event_type_l1": "social_relationship",
+      "description": "parent/child discipline/punishment incident"
+    },
+    "affection_or_care_signal": {
+      "event_type_l1": "social_relationship",
+      "description": "affection/care/protective behavior"
+    },
+    "estrangement_or_distance_behavior": {
+      "event_type_l1": "social_relationship",
+      "description": "avoidance/distancing behavior"
+    },
+    "reconciliation_attempt": {
+      "event_type_l1": "social_relationship",
+      "description": "attempt to repair relationship"
+    },
+    "betrayal_social_political": {
+      "event_type_l1": "social_relationship",
+      "description": "perceived or actual betrayal in alliance/friendship context"
+    },
+    "drive_or_vehicle_travel": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "general vehicle travel segment"
+    },
+    "road_trip_segment": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "multi-stop road trip progression (notably 1975 wedding drive frame)"
+    },
+    "travel_stopover": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "deliberate travel stop (gas, food, smoking, business stop)"
+    },
+    "arrival": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "arrival at destination or encounter location"
+    },
+    "departure": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "leaving scene/location for next action"
+    },
+    "pickup_or_dropoff": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "person/item pickup/dropoff"
+    },
+    "vehicle_issue_or_breakdown": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "car/truck mechanical issue"
+    },
+    "vehicle_repair_or_maintenance": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "repair/fix/maintenance action"
+    },
+    "lodging_checkin_or_stay": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "hotel/motel/lodging arrival/stay"
+    },
+    "air_travel_or_flight": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "plane/airport/flight movement"
+    },
+    "walking_approach_or_tail": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "approach on foot or trailing movement"
+    },
+    "logistics_loading_unloading": {
+      "event_type_l1": "movement_travel_logistics",
+      "description": "luggage/cargo loading/unloading arrangement"
+    },
+    "domestic_routine": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "household routine activity (home life beat)"
+    },
+    "meal_or_dining": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "meals, table conversations, diner/restaurant eating beat"
+    },
+    "bar_or_social_drinking": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "bar/club social drinking interaction"
+    },
+    "smoking_break_or_smoking_conflict": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "smoking routine or smoking-related conflict"
+    },
+    "shopping_or_purchase": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "store/retail purchase activity"
+    },
+    "bowling_or_family_outing": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "family outing/leisure activity (Irishman-specific recurring context)"
+    },
+    "religious_ritual": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "baptism/church ritual/clerical interaction"
+    },
+    "wedding_related_event": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "wedding preparation/attendance/ceremony beat"
+    },
+    "funeral_or_wake_ritual": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "funeral/wake/visitation ritual beat"
+    },
+    "gift_or_token_exchange": {
+      "event_type_l1": "domestic_leisure_ritual",
+      "description": "gifts/tokens presented/exchanged (if observed)"
+    },
+    "work_shift_or_job_task": {
+      "event_type_l1": "business_labor_political",
+      "description": "ordinary work duty/task execution"
+    },
+    "delivery_or_transport_job": {
+      "event_type_l1": "business_labor_political",
+      "description": "work delivery/logistics task (e.g., meat delivery)"
+    },
+    "inventory_diversion_or_theft_for_side_income": {
+      "event_type_l1": "business_labor_political",
+      "description": "diverting goods from employer inventory"
+    },
+    "cash_payment_or_side_deal": {
+      "event_type_l1": "business_labor_political",
+      "description": "cash handoff tied to side arrangement"
+    },
+    "business_introduction_or_networking": {
+      "event_type_l1": "business_labor_political",
+      "description": "introduction for business/opportunity"
+    },
+    "collection_business_assignment": {
+      "event_type_l1": "business_labor_political",
+      "description": "assignment of collection/enforcement-related work as business function"
+    },
+    "union_meeting_or_union_office_interaction": {
+      "event_type_l1": "business_labor_political",
+      "description": "union office / labor representation interaction"
+    },
+    "grievance_or_labor_dispute": {
+      "event_type_l1": "business_labor_political",
+      "description": "labor complaint / grievance / dispute beat"
+    },
+    "contract_or_terms_negotiation": {
+      "event_type_l1": "business_labor_political",
+      "description": "labor/business terms negotiation"
+    },
+    "union_power_or_strike_coordination": {
+      "event_type_l1": "business_labor_political",
+      "description": "strike threat/work stoppage/power leverage coordination"
+    },
+    "political_favor_or_influence_exchange": {
+      "event_type_l1": "business_labor_political",
+      "description": "influence/favor exchange in political domain"
+    },
+    "campaign_support_or_fundraising": {
+      "event_type_l1": "business_labor_political",
+      "description": "campaign support/fundraising coordination or event"
+    },
+    "public_event_or_rally": {
+      "event_type_l1": "business_labor_political",
+      "description": "organized public political/labor rally event"
+    },
+    "leadership_strategy_session": {
+      "event_type_l1": "business_labor_political",
+      "description": "strategic planning among leaders (union/mob/political)"
+    },
+    "organizational_transition_or_power_change": {
+      "event_type_l1": "business_labor_political",
+      "description": "change in leadership/organizational role status"
+    },
+    "financial_control_or_fund_access_conflict": {
+      "event_type_l1": "business_labor_political",
+      "description": "disputes over access/control of money/funds"
+    },
+    "media_or_entertainment_venue_interaction": {
+      "event_type_l1": "business_labor_political",
+      "description": "venue/showbiz/business social meetings (Latin Casino/Copa contexts)"
+    },
+    "law_enforcement_contact_or_questioning": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "police/FBI/government questioning or contact"
+    },
+    "surveillance_disclosure_or_bugging_discussion": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "discussion of phones/bugging/surveillance pressure"
+    },
+    "legal_counsel_consultation": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "lawyer-client legal advice/strategy session"
+    },
+    "subpoena_summons_or_notice": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "formal notice to appear/testify"
+    },
+    "hearing_or_committee_session": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "committee hearing session event"
+    },
+    "court_appearance": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "courtroom appearance/attendance"
+    },
+    "testimony_or_sworn_statement": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "testimony under oath / formal statement in proceeding"
+    },
+    "prosecution_action_or_charge_pressure": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "prosecution/legal pressure actions discussed or initiated"
+    },
+    "indictment_or_charge": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "explicit charging/indictment event"
+    },
+    "trial_or_case_proceeding": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "trial/proceeding progress beat"
+    },
+    "verdict_or_case_outcome": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "verdict/decision/case outcome event"
+    },
+    "sentencing": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "sentence imposed"
+    },
+    "incarceration_intake_or_transfer": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "prison intake / transfer"
+    },
+    "prison_confinement_life": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "prison life/status beat"
+    },
+    "prison_visit": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "prison visit interaction"
+    },
+    "release_or_parole": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "prison release/parole event"
+    },
+    "witness_management_or_cooperation_pressure": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "pressure re testimony/cooperation/witnesses"
+    },
+    "protective_legal_positioning": {
+      "event_type_l1": "legal_law_enforcement_incarceration",
+      "description": "lawyering to reduce exposure / manage risk"
+    },
+    "debt_collection_attempt": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "collection visit/demand for payment"
+    },
+    "debt_default_or_excuse": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "debtor default/justification interaction"
+    },
+    "loan_sharking_or_shylock_business": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "lending/shylock-related criminal business context"
+    },
+    "extortion_or_shakedown": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "coercive extraction under threat/power"
+    },
+    "bribery_or_payoff": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "illicit payment to influence behavior/outcome"
+    },
+    "fraud_or_election_tampering": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "fraud/tampering/manipulated outcome (where depicted/discussed)"
+    },
+    "criminal_assignment_or_tasking": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "criminal job assigned (including \"go see him\", \"take care of it\")"
+    },
+    "criminal_planning_meeting": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "planning meeting for illicit act or response"
+    },
+    "weapon_display_or_preparation": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "weapon shown/readied/handled pre-violence"
+    },
+    "assault_or_beating": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "physical attack short of killing"
+    },
+    "threat_with_implied_violence": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "threat carrying credible violent implication"
+    },
+    "shooting": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "firearm discharge event"
+    },
+    "homicide_killing": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "killing/murder event (result-focused)"
+    },
+    "attempted_killing": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "attempted killing not completed"
+    },
+    "body_disposal_or_scene_cleanup": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "disposing body/cleaning aftermath"
+    },
+    "evidence_concealment_or_destruction": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "conceal/destroy evidence"
+    },
+    "forced_compliance": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "person complies under coercion/intimidation"
+    },
+    "retaliation_or_revenge_act": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "retaliatory criminal/violent response"
+    },
+    "criminal_transport_or_facilitation": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "transport/facilitation in service of criminal operation"
+    },
+    "hit_confirmation_or_aftermath_reporting": {
+      "event_type_l1": "criminal_coercive_violence",
+      "description": "reporting/confirming completion of violent assignment"
+    },
+    "health_decline_observation": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "visible decline/aging/weakness noted in action/dialogue"
+    },
+    "medical_consultation_or_treatment": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "doctor/medical treatment interaction"
+    },
+    "hospital_or_care_facility_stay": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "hospital/care facility scene beat"
+    },
+    "nursing_home_or_assisted_living_interaction": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "assisted living / nursing environment interaction"
+    },
+    "death_notification_or_news": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "someone learns of a death"
+    },
+    "death_event": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "explicit death shown or directly narrated in-scene context"
+    },
+    "end_of_life_preparation": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "funeral arrangements/coffin/plots/end-of-life preparation"
+    },
+    "grief_or_mourning_expression": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "visible/verbal mourning/grief behavior"
+    },
+    "burial_or_gravesite_visit": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "burial or cemetery/gravesite visit"
+    },
+    "religious_end_of_life_counsel": {
+      "event_type_l1": "health_aging_end_of_life",
+      "description": "priest/clergy counseling tied to end-of-life themes"
+    },
+    "observation_or_witnessing": {
+      "event_type_l1": "perception_surveillance",
+      "description": "one character observes key act/behavior (including child witnessing violence aftermath context)"
+    },
+    "recognition_or_realization": {
+      "event_type_l1": "perception_surveillance",
+      "description": "character realizes/identifies significance of prior event"
+    },
+    "suspicion_or_distrust_expression": {
+      "event_type_l1": "perception_surveillance",
+      "description": "explicit suspicion/distrust stated or acted upon"
+    },
+    "following_or_tail_surveillance": {
+      "event_type_l1": "perception_surveillance",
+      "description": "active following/tailing"
+    },
+    "stakeout_or_waiting_watch": {
+      "event_type_l1": "perception_surveillance",
+      "description": "waiting while monitoring location/person"
+    },
+    "privacy_or_secrecy_behavior": {
+      "event_type_l1": "perception_surveillance",
+      "description": "coded language, avoiding names, secrecy behavior"
+    },
+    "signal_or_message_delivery": {
+      "event_type_l1": "perception_surveillance",
+      "description": "relayed message/signal between parties (messenger function)"
+    },
+    "news_media_awareness_update": {
+      "event_type_l1": "perception_surveillance",
+      "description": "characters receive narrative updates through media/news coverage"
+    },
+    "unmapped_review_required": {
+      "event_type_l1": "other_review_required",
+      "description": "temporary holding bucket for events that do not fit taxonomy during development; must be zero before Phase 4 completion"
+    }
+  },
+  "counts": {
+    "l1_categories": 11,
+    "l2_event_types": 147
+  }
+}

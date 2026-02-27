@@ -1,0 +1,893 @@
+{
+  "metadata": {
+    "artifact_type": "state_changes",
+    "schema_version": "0.1.0-draft",
+    "pipeline_version": "phase4-state-changes-v0.1.0",
+    "build_timestamp": "2026-02-25T18:48:23Z",
+    "source_file_hash": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+    "record_count": 28,
+    "claim_type_counts": {
+      "explicit": 13,
+      "inferred": 15
+    },
+    "state_dimension_counts": {
+      "affection": 1,
+      "dependence": 2,
+      "distance": 4,
+      "dominance": 3,
+      "fear": 1,
+      "institutional_pressure": 2,
+      "loyalty": 2,
+      "respect": 3,
+      "trust": 10
+    },
+    "direction_counts": {
+      "break": 1,
+      "decrease": 4,
+      "increase": 22,
+      "repair_attempt": 1
+    },
+    "pair_counts": {
+      "char_frank_sheeran->char_jimmy_hoffa": 6,
+      "char_frank_sheeran->char_peggy_sheeran": 1,
+      "char_frank_sheeran->char_russell_bufalino": 2,
+      "char_jimmy_hoffa->char_frank_sheeran": 5,
+      "char_peggy_sheeran->char_frank_sheeran": 8,
+      "char_russell_bufalino->char_frank_sheeran": 6
+    },
+    "pair_counts_undirected": {
+      "char_frank_sheeran<->char_jimmy_hoffa": 11,
+      "char_frank_sheeran<->char_peggy_sheeran": 9,
+      "char_frank_sheeran<->char_russell_bufalino": 8
+    },
+    "core_pair_summary": {
+      "frank_peggy": {
+        "label": "Peggy -> Frank",
+        "subject_id": "char_peggy_sheeran",
+        "object_id": "char_frank_sheeran",
+        "directed_state_change_count": 8,
+        "undirected_state_change_count": 9
+      },
+      "frank_hoffa": {
+        "label": "Frank -> Jimmy Hoffa",
+        "subject_id": "char_frank_sheeran",
+        "object_id": "char_jimmy_hoffa",
+        "directed_state_change_count": 6,
+        "undirected_state_change_count": 11
+      },
+      "hoffa_frank": {
+        "label": "Jimmy Hoffa -> Frank",
+        "subject_id": "char_jimmy_hoffa",
+        "object_id": "char_frank_sheeran",
+        "directed_state_change_count": 5,
+        "undirected_state_change_count": 11
+      },
+      "frank_russell": {
+        "label": "Frank -> Russell Bufalino",
+        "subject_id": "char_frank_sheeran",
+        "object_id": "char_russell_bufalino",
+        "directed_state_change_count": 2,
+        "undirected_state_change_count": 8
+      },
+      "russell_frank": {
+        "label": "Russell Bufalino -> Frank",
+        "subject_id": "char_russell_bufalino",
+        "object_id": "char_frank_sheeran",
+        "directed_state_change_count": 6,
+        "undirected_state_change_count": 8
+      }
+    },
+    "rule_count_active": 18,
+    "rule_hit_counts": {
+      "frank_hoffa_fear_increase_protection_warning": 2,
+      "frank_hoffa_institutional_pressure_increase_messenger_conflict": 3,
+      "frank_hoffa_loyalty_increase_support_vow": 1,
+      "frank_hoffa_trust_decrease_conflict_and_insult": 2,
+      "frank_peggy_repair_attempt_late_life": 1,
+      "frank_russell_loyalty_increase_deference_and_messaging": 2,
+      "frank_russell_trust_increase_early_help_and_recognition": 2,
+      "hoffa_frank_dependence_increase_help_and_reliance": 2,
+      "hoffa_frank_respect_increase_intro_and_praise": 3,
+      "peggy_frank_distance_increase_silence_and_avoidance": 3,
+      "peggy_frank_relationship_break_disappeared_from_my_life": 1,
+      "peggy_frank_trust_decrease_afraid_distance": 6,
+      "peggy_frank_trust_initial_protection": 3,
+      "russell_frank_dominance_increase_tasking_chain": 4,
+      "russell_frank_trust_increase_recruitment_and_endorsement": 4
+    },
+    "source_artifacts": [
+      "data/derived/events.json",
+      "data/derived/scene_index.json",
+      "data/derived/entities.json"
+    ],
+    "config_file": "config/state_change_rules.json",
+    "claim_type_note": "explicit=direct relational/perception wording in evidence; inferred=behavioral/structural cue rule"
+  },
+  "items": [
+    {
+      "state_change_id": "sc_000001",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_russell_bufalino",
+      "state_dimension": "trust",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0033",
+      "trigger_event_ids": [
+        "evt_000228",
+        "evt_000232"
+      ],
+      "evidence_refs": [
+        "evref_000228",
+        "evref_000232"
+      ],
+      "confidence": 0.83,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "frank_russell_trust_increase_early_help_and_recognition"
+        ],
+        "trigger_event_type_l2s": [
+          "statement",
+          "farewell_or_closing"
+        ],
+        "scene_header_raw": "INT. VILLA DI ROMA - NIGHT - 1957"
+      }
+    },
+    {
+      "state_change_id": "sc_000002",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "trust",
+      "direction": "increase",
+      "magnitude": "low",
+      "scene_id": "scene_0050",
+      "trigger_event_ids": [
+        "evt_000353",
+        "evt_000355"
+      ],
+      "evidence_refs": [
+        "evref_000353",
+        "evref_000355"
+      ],
+      "confidence": 0.768,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "peggy_frank_trust_initial_protection"
+        ],
+        "trigger_event_type_l2s": [
+          "question",
+          "statement"
+        ],
+        "scene_header_raw": "INT. FRANK & MARY’S HOUSE - EVENING - 1958"
+      }
+    },
+    {
+      "state_change_id": "sc_000003",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "trust",
+      "direction": "increase",
+      "magnitude": "low",
+      "scene_id": "scene_0051",
+      "trigger_event_ids": [
+        "evt_000361"
+      ],
+      "evidence_refs": [
+        "evref_000361"
+      ],
+      "confidence": 0.768,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "peggy_frank_trust_initial_protection"
+        ],
+        "trigger_event_type_l2s": [
+          "question"
+        ],
+        "scene_header_raw": "EXT. GROCERY STORE - EVENING - 1958"
+      }
+    },
+    {
+      "state_change_id": "sc_000004",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "trust",
+      "direction": "decrease",
+      "magnitude": "medium",
+      "scene_id": "scene_0082",
+      "trigger_event_ids": [
+        "evt_000534"
+      ],
+      "evidence_refs": [
+        "evref_000534"
+      ],
+      "confidence": 0.83,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "peggy_frank_trust_decrease_afraid_distance"
+        ],
+        "trigger_event_type_l2s": [
+          "drive_or_vehicle_travel"
+        ],
+        "scene_header_raw": "INT. BOWLING ALLEY - DAY - 1959"
+      }
+    },
+    {
+      "state_change_id": "sc_000005",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "trust",
+      "direction": "decrease",
+      "magnitude": "medium",
+      "scene_id": "scene_0083",
+      "trigger_event_ids": [
+        "evt_000539",
+        "evt_000540",
+        "evt_000541",
+        "evt_000547",
+        "evt_000549"
+      ],
+      "evidence_refs": [
+        "evref_000539",
+        "evref_000540",
+        "evref_000541",
+        "evref_000547",
+        "evref_000549"
+      ],
+      "confidence": 0.809,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "peggy_frank_trust_decrease_afraid_distance"
+        ],
+        "trigger_event_type_l2s": [
+          "statement",
+          "persuasion_attempt"
+        ],
+        "scene_header_raw": "INT. BOWLING ALLEY - LATER - DAY - 1959"
+      }
+    },
+    {
+      "state_change_id": "sc_000006",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "distance",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0083",
+      "trigger_event_ids": [
+        "evt_000551"
+      ],
+      "evidence_refs": [
+        "evref_000551"
+      ],
+      "confidence": 0.767,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "peggy_frank_distance_increase_silence_and_avoidance"
+        ],
+        "trigger_event_type_l2s": [
+          "statement"
+        ],
+        "scene_header_raw": "INT. BOWLING ALLEY - LATER - DAY - 1959"
+      }
+    },
+    {
+      "state_change_id": "sc_000007",
+      "subject_id": "char_russell_bufalino",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "trust",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0083",
+      "trigger_event_ids": [
+        "evt_000560"
+      ],
+      "evidence_refs": [
+        "evref_000560"
+      ],
+      "confidence": 0.811,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "russell_frank_trust_increase_recruitment_and_endorsement"
+        ],
+        "trigger_event_type_l2s": [
+          "agreement_acceptance"
+        ],
+        "scene_header_raw": "INT. BOWLING ALLEY - LATER - DAY - 1959"
+      }
+    },
+    {
+      "state_change_id": "sc_000008",
+      "subject_id": "char_jimmy_hoffa",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "dependence",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0085",
+      "trigger_event_ids": [
+        "evt_000570"
+      ],
+      "evidence_refs": [
+        "evref_000570"
+      ],
+      "confidence": 0.816,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "hoffa_frank_dependence_increase_help_and_reliance"
+        ],
+        "trigger_event_type_l2s": [
+          "answer_response"
+        ],
+        "scene_header_raw": "INT. VILLA DI ROMA - NIGHT"
+      }
+    },
+    {
+      "state_change_id": "sc_000009",
+      "subject_id": "char_russell_bufalino",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "trust",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0085",
+      "trigger_event_ids": [
+        "evt_000570",
+        "evt_000571"
+      ],
+      "evidence_refs": [
+        "evref_000570",
+        "evref_000571"
+      ],
+      "confidence": 0.844,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "russell_frank_trust_increase_recruitment_and_endorsement"
+        ],
+        "trigger_event_type_l2s": [
+          "answer_response",
+          "statement"
+        ],
+        "scene_header_raw": "INT. VILLA DI ROMA - NIGHT"
+      }
+    },
+    {
+      "state_change_id": "sc_000010",
+      "subject_id": "char_jimmy_hoffa",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "respect",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0086",
+      "trigger_event_ids": [
+        "evt_000578"
+      ],
+      "evidence_refs": [
+        "evref_000578"
+      ],
+      "confidence": 0.864,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "hoffa_frank_respect_increase_intro_and_praise"
+        ],
+        "trigger_event_type_l2s": [
+          "introduction"
+        ],
+        "scene_header_raw": "INT. TEAMSTER’S WXDC HEADQUARTERS  - OFFICE - CONTINUOUS"
+      }
+    },
+    {
+      "state_change_id": "sc_000011",
+      "subject_id": "char_jimmy_hoffa",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "respect",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0088",
+      "trigger_event_ids": [
+        "evt_000596"
+      ],
+      "evidence_refs": [
+        "evref_000596"
+      ],
+      "confidence": 0.816,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "hoffa_frank_respect_increase_intro_and_praise"
+        ],
+        "trigger_event_type_l2s": [
+          "statement"
+        ],
+        "scene_header_raw": "INT. TEAMSTER RALLY - DETROIT - DAY - 1957 - FLASHBACK"
+      }
+    },
+    {
+      "state_change_id": "sc_000012",
+      "subject_id": "char_russell_bufalino",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "trust",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0106",
+      "trigger_event_ids": [
+        "evt_000725"
+      ],
+      "evidence_refs": [
+        "evref_000725"
+      ],
+      "confidence": 0.811,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "russell_frank_trust_increase_recruitment_and_endorsement"
+        ],
+        "trigger_event_type_l2s": [
+          "agreement_acceptance"
+        ],
+        "scene_header_raw": "INT. PENN DRAPE & CURTAINS - PITTSTON, PA - DAY - 1958"
+      }
+    },
+    {
+      "state_change_id": "sc_000013",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "state_dimension": "trust",
+      "direction": "decrease",
+      "magnitude": "medium",
+      "scene_id": "scene_0121",
+      "trigger_event_ids": [
+        "evt_000819"
+      ],
+      "evidence_refs": [
+        "evref_000819"
+      ],
+      "confidence": 0.784,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "frank_hoffa_trust_decrease_conflict_and_insult"
+        ],
+        "trigger_event_type_l2s": [
+          "warning"
+        ],
+        "scene_header_raw": "INT. HOFFA’S OFFICE - FOYER - CONTINUOUS"
+      }
+    },
+    {
+      "state_change_id": "sc_000014",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_russell_bufalino",
+      "state_dimension": "loyalty",
+      "direction": "increase",
+      "magnitude": "low",
+      "scene_id": "scene_0122",
+      "trigger_event_ids": [
+        "evt_000826",
+        "evt_000829"
+      ],
+      "evidence_refs": [
+        "evref_000826",
+        "evref_000829"
+      ],
+      "confidence": 0.775,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "frank_russell_loyalty_increase_deference_and_messaging"
+        ],
+        "trigger_event_type_l2s": [
+          "warning",
+          "question"
+        ],
+        "scene_header_raw": "INT. VILLA DI ROMA - NIGHT - MARCH 1961"
+      }
+    },
+    {
+      "state_change_id": "sc_000015",
+      "subject_id": "char_russell_bufalino",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "dominance",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0122",
+      "trigger_event_ids": [
+        "evt_000829"
+      ],
+      "evidence_refs": [
+        "evref_000829"
+      ],
+      "confidence": 0.852,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "russell_frank_dominance_increase_tasking_chain"
+        ],
+        "trigger_event_type_l2s": [
+          "question"
+        ],
+        "scene_header_raw": "INT. VILLA DI ROMA - NIGHT - MARCH 1961"
+      }
+    },
+    {
+      "state_change_id": "sc_000016",
+      "subject_id": "char_russell_bufalino",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "dominance",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0125",
+      "trigger_event_ids": [
+        "evt_000848",
+        "evt_000850"
+      ],
+      "evidence_refs": [
+        "evref_000848",
+        "evref_000850"
+      ],
+      "confidence": 0.876,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "russell_frank_dominance_increase_tasking_chain"
+        ],
+        "trigger_event_type_l2s": [
+          "overlap_dialogue_transition"
+        ],
+        "scene_header_raw": "EXT. CONCRETE PLANT - BALTIMORE - DAY - 1961"
+      }
+    },
+    {
+      "state_change_id": "sc_000017",
+      "subject_id": "char_jimmy_hoffa",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "respect",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0145",
+      "trigger_event_ids": [
+        "evt_000978"
+      ],
+      "evidence_refs": [
+        "evref_000978"
+      ],
+      "confidence": 0.816,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "hoffa_frank_respect_increase_intro_and_praise"
+        ],
+        "trigger_event_type_l2s": [
+          "statement"
+        ],
+        "scene_header_raw": "EXT. FARM - NEW JERSEY - DAY - 1961"
+      }
+    },
+    {
+      "state_change_id": "sc_000018",
+      "subject_id": "char_russell_bufalino",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "dominance",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0171",
+      "trigger_event_ids": [
+        "evt_001128"
+      ],
+      "evidence_refs": [
+        "evref_001128"
+      ],
+      "confidence": 0.774,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "russell_frank_dominance_increase_tasking_chain"
+        ],
+        "trigger_event_type_l2s": [
+          "statement"
+        ],
+        "scene_header_raw": "INT. VILLA DI ROMA - NIGHT - 1967"
+      }
+    },
+    {
+      "state_change_id": "sc_000019",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "distance",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0196",
+      "trigger_event_ids": [
+        "evt_001318"
+      ],
+      "evidence_refs": [
+        "evref_001318"
+      ],
+      "confidence": 0.815,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "peggy_frank_distance_increase_silence_and_avoidance"
+        ],
+        "trigger_event_type_l2s": [
+          "request"
+        ],
+        "scene_header_raw": "INT. FRANK’S HOUSE - MORNING - 1972"
+      }
+    },
+    {
+      "state_change_id": "sc_000020",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "state_dimension": "trust",
+      "direction": "decrease",
+      "magnitude": "medium",
+      "scene_id": "scene_0202",
+      "trigger_event_ids": [
+        "evt_001415"
+      ],
+      "evidence_refs": [
+        "evref_001415"
+      ],
+      "confidence": 0.76,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "frank_hoffa_trust_decrease_conflict_and_insult"
+        ],
+        "trigger_event_type_l2s": [
+          "statement"
+        ],
+        "scene_header_raw": "INT. PRIVATE CLUB - MIAMI - DAY - 1972"
+      }
+    },
+    {
+      "state_change_id": "sc_000021",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "state_dimension": "loyalty",
+      "direction": "increase",
+      "magnitude": "high",
+      "scene_id": "scene_0224",
+      "trigger_event_ids": [
+        "evt_001602"
+      ],
+      "evidence_refs": [
+        "evref_001602"
+      ],
+      "confidence": 0.921,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "frank_hoffa_loyalty_increase_support_vow"
+        ],
+        "trigger_event_type_l2s": [
+          "promise_or_vow"
+        ],
+        "scene_header_raw": "INT. THE LATIN CASINO - LATER - NIGHT - 1973"
+      }
+    },
+    {
+      "state_change_id": "sc_000022",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "state_dimension": "institutional_pressure",
+      "direction": "increase",
+      "magnitude": "high",
+      "scene_id": "scene_0228",
+      "trigger_event_ids": [
+        "evt_001650",
+        "evt_001653"
+      ],
+      "evidence_refs": [
+        "evref_001650",
+        "evref_001653"
+      ],
+      "confidence": 0.887,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "frank_hoffa_institutional_pressure_increase_messenger_conflict"
+        ],
+        "trigger_event_type_l2s": [
+          "question",
+          "statement"
+        ],
+        "scene_header_raw": "INT. THE LATIN CASINO - LATER - NIGHT - 1973"
+      }
+    },
+    {
+      "state_change_id": "sc_000023",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "state_dimension": "fear",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0228",
+      "trigger_event_ids": [
+        "evt_001652",
+        "evt_001653"
+      ],
+      "evidence_refs": [
+        "evref_001652",
+        "evref_001653"
+      ],
+      "confidence": 0.756,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "frank_hoffa_fear_increase_protection_warning"
+        ],
+        "trigger_event_type_l2s": [
+          "warning",
+          "statement"
+        ],
+        "scene_header_raw": "INT. THE LATIN CASINO - LATER - NIGHT - 1973"
+      }
+    },
+    {
+      "state_change_id": "sc_000024",
+      "subject_id": "char_jimmy_hoffa",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "dependence",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0249",
+      "trigger_event_ids": [
+        "evt_001863"
+      ],
+      "evidence_refs": [
+        "evref_001863"
+      ],
+      "confidence": 0.816,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "hoffa_frank_dependence_increase_help_and_reliance"
+        ],
+        "trigger_event_type_l2s": [
+          "answer_response"
+        ],
+        "scene_header_raw": "EXT. MACHUS RED FOX RESTAURANT - DAY - 1975"
+      }
+    },
+    {
+      "state_change_id": "sc_000025",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_jimmy_hoffa",
+      "state_dimension": "institutional_pressure",
+      "direction": "increase",
+      "magnitude": "high",
+      "scene_id": "scene_0249",
+      "trigger_event_ids": [
+        "evt_001874"
+      ],
+      "evidence_refs": [
+        "evref_001874"
+      ],
+      "confidence": 0.833,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "frank_hoffa_institutional_pressure_increase_messenger_conflict"
+        ],
+        "trigger_event_type_l2s": [
+          "warning"
+        ],
+        "scene_header_raw": "EXT. MACHUS RED FOX RESTAURANT - DAY - 1975"
+      }
+    },
+    {
+      "state_change_id": "sc_000026",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "distance",
+      "direction": "break",
+      "magnitude": "high",
+      "scene_id": "scene_0256",
+      "trigger_event_ids": [
+        "evt_001930"
+      ],
+      "evidence_refs": [
+        "evref_001930"
+      ],
+      "confidence": 0.858,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "peggy_frank_relationship_break_disappeared_from_my_life"
+        ],
+        "trigger_event_type_l2s": [
+          "statement"
+        ],
+        "scene_header_raw": "INT. ASSISTED LIVING FACILITY - DAY - 2000"
+      }
+    },
+    {
+      "state_change_id": "sc_000027",
+      "subject_id": "char_frank_sheeran",
+      "object_id": "char_peggy_sheeran",
+      "state_dimension": "affection",
+      "direction": "repair_attempt",
+      "magnitude": "medium",
+      "scene_id": "scene_0288",
+      "trigger_event_ids": [
+        "evt_002100"
+      ],
+      "evidence_refs": [
+        "evref_002100"
+      ],
+      "confidence": 0.84,
+      "inference_method": "rule+review",
+      "claim_type": "explicit",
+      "metadata": {
+        "rule_ids": [
+          "frank_peggy_repair_attempt_late_life"
+        ],
+        "trigger_event_type_l2s": [
+          "warning"
+        ],
+        "scene_header_raw": "INT. BANK - DAY - 2000"
+      }
+    },
+    {
+      "state_change_id": "sc_000028",
+      "subject_id": "char_peggy_sheeran",
+      "object_id": "char_frank_sheeran",
+      "state_dimension": "distance",
+      "direction": "increase",
+      "magnitude": "medium",
+      "scene_id": "scene_0288",
+      "trigger_event_ids": [
+        "evt_002100"
+      ],
+      "evidence_refs": [
+        "evref_002100"
+      ],
+      "confidence": 0.791,
+      "inference_method": "rule+review",
+      "claim_type": "inferred",
+      "metadata": {
+        "rule_ids": [
+          "peggy_frank_distance_increase_silence_and_avoidance"
+        ],
+        "trigger_event_type_l2s": [
+          "warning"
+        ],
+        "scene_header_raw": "INT. BANK - DAY - 2000"
+      }
+    }
+  ]
+}

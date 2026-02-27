@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "artifact_type": "unmapped_events_review",
+    "schema_version": "0.1.0-draft",
+    "pipeline_version": "phase3-taxonomy-coverage-v0.1.0",
+    "build_timestamp": "2026-02-25T21:19:21Z",
+    "events_file": "data/derived/events.json"
+  },
+  "summary": {
+    "unknown_event_type_count": 0,
+    "unmapped_review_required_count": 0,
+    "release_blocking_issue_count": 0
+  },
+  "items": []
+}

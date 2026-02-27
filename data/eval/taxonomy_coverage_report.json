@@ -1,0 +1,1175 @@
+{
+  "metadata": {
+    "artifact_type": "taxonomy_coverage_report",
+    "schema_version": "0.1.0-draft",
+    "pipeline_version": "phase3-taxonomy-coverage-v0.1.0",
+    "build_timestamp": "2026-02-25T21:19:21Z",
+    "taxonomy_file": "config/event_taxonomy.json",
+    "events_file": "data/derived/events.json",
+    "events_source_file_hash": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+    "taxonomy_file_hash": "835044e13010bd6638794b9f4337e34c55cc577f7bab263d8350af9d5efad32e",
+    "events_file_hash": "f00038e0e0dbc4667cb8dddffb61d0bf1cd6a3fa3247dacc0bc28223209dcc24"
+  },
+  "summary": {
+    "total_events": 2231,
+    "taxonomy_l1_count": 11,
+    "taxonomy_l2_count": 147,
+    "observed_l1_count": 10,
+    "observed_l2_count": 65,
+    "unknown_event_type_count": 0,
+    "l1_mismatch_count": 0,
+    "unmapped_review_required_count": 0,
+    "missing_l1_categories_count": 1,
+    "missing_l2_types_count": 82
+  },
+  "counts": {
+    "by_l1": {
+      "business_labor_political": 40,
+      "communication_dialogue": 901,
+      "criminal_coercive_violence": 17,
+      "domestic_leisure_ritual": 45,
+      "health_aging_end_of_life": 20,
+      "legal_law_enforcement_incarceration": 37,
+      "movement_travel_logistics": 90,
+      "narrative_structure": 1027,
+      "perception_surveillance": 50,
+      "social_relationship": 4
+    },
+    "by_l2": {
+      "agreement_acceptance": 18,
+      "air_travel_or_flight": 3,
+      "answer_response": 147,
+      "apology_or_regret": 6,
+      "arrival": 2,
+      "bar_or_social_drinking": 22,
+      "cash_payment_or_side_deal": 2,
+      "court_appearance": 13,
+      "deference_signal": 1,
+      "delivery_or_transport_job": 6,
+      "departure": 1,
+      "domestic_routine": 7,
+      "drive_or_vehicle_travel": 40,
+      "end_of_life_preparation": 4,
+      "explanation_account": 33,
+      "family_interaction": 3,
+      "farewell_or_closing": 3,
+      "flashback_enter": 11,
+      "greeting_or_opening": 6,
+      "hearing_or_committee_session": 4,
+      "instruction_order": 1,
+      "insult_or_disrespect": 1,
+      "introduction": 1,
+      "joke_banter_or_toast": 2,
+      "law_enforcement_contact_or_questioning": 3,
+      "lodging_checkin_or_stay": 14,
+      "logistics_loading_unloading": 8,
+      "meal_or_dining": 13,
+      "negotiation": 2,
+      "news_media_awareness_update": 2,
+      "nursing_home_or_assisted_living_interaction": 16,
+      "observation_or_witnessing": 45,
+      "overlap_dialogue_transition": 15,
+      "persuasion_attempt": 2,
+      "phone_call_conversation": 3,
+      "prelap_audio_transition": 1,
+      "press_qna_exchange": 3,
+      "prison_confinement_life": 10,
+      "promise_or_vow": 4,
+      "public_event_or_rally": 1,
+      "public_speech_or_address": 1,
+      "question": 218,
+      "refusal": 28,
+      "religious_ritual": 1,
+      "request": 18,
+      "road_trip_segment": 3,
+      "scene_entry": 298,
+      "scene_exit": 298,
+      "shooting": 5,
+      "smoking_break_or_smoking_conflict": 1,
+      "stakeout_or_waiting_watch": 3,
+      "statement": 347,
+      "structural_callback_or_rejoin": 6,
+      "surveillance_disclosure_or_bugging_discussion": 5,
+      "testimony_or_sworn_statement": 2,
+      "threat_verbal": 4,
+      "time_jump_explicit": 270,
+      "travel_stopover": 6,
+      "union_meeting_or_union_office_interaction": 18,
+      "voiceover_narration": 128,
+      "walking_approach_or_tail": 13,
+      "warning": 53,
+      "weapon_display_or_preparation": 12,
+      "wedding_related_event": 1,
+      "work_shift_or_job_task": 13
+    }
+  },
+  "coverage": {
+    "observed_l1_categories": [
+      "business_labor_political",
+      "communication_dialogue",
+      "criminal_coercive_violence",
+      "domestic_leisure_ritual",
+      "health_aging_end_of_life",
+      "legal_law_enforcement_incarceration",
+      "movement_travel_logistics",
+      "narrative_structure",
+      "perception_surveillance",
+      "social_relationship"
+    ],
+    "missing_l1_categories": [
+      "other_review_required"
+    ],
+    "missing_l2_types": [
+      "advice_or_guidance",
+      "affection_or_care_signal",
+      "assault_or_beating",
+      "attempted_killing",
+      "betrayal_social_political",
+      "body_disposal_or_scene_cleanup",
+      "bowling_or_family_outing",
+      "bribery_or_payoff",
+      "burial_or_gravesite_visit",
+      "business_introduction_or_networking",
+      "campaign_support_or_fundraising",
+      "collection_business_assignment",
+      "confession_or_admission",
+      "contract_or_terms_negotiation",
+      "criminal_assignment_or_tasking",
+      "criminal_planning_meeting",
+      "criminal_transport_or_facilitation",
+      "death_event",
+      "death_notification_or_news",
+      "debt_collection_attempt",
+      "debt_default_or_excuse",
+      "dominance_assertion",
+      "estrangement_or_distance_behavior",
+      "evidence_concealment_or_destruction",
+      "extortion_or_shakedown",
+      "favor_exchange",
+      "financial_control_or_fund_access_conflict",
+      "first_meeting",
+      "flashback_return",
+      "following_or_tail_surveillance",
+      "forced_compliance",
+      "frame_narration_segment",
+      "fraud_or_election_tampering",
+      "funeral_or_wake_ritual",
+      "gift_or_token_exchange",
+      "grief_or_mourning_expression",
+      "grievance_or_labor_dispute",
+      "health_decline_observation",
+      "hit_confirmation_or_aftermath_reporting",
+      "homicide_killing",
+      "hospital_or_care_facility_stay",
+      "incarceration_intake_or_transfer",
+      "indictment_or_charge",
+      "intimidation_social",
+      "inventory_diversion_or_theft_for_side_income",
+      "leadership_strategy_session",
+      "legal_counsel_consultation",
+      "loan_sharking_or_shylock_business",
+      "loyalty_signal",
+      "media_or_entertainment_venue_interaction",
+      "medical_consultation_or_treatment",
+      "mentorship_guidance_interaction",
+      "montage_or_sequence_marker",
+      "organizational_transition_or_power_change",
+      "parent_child_discipline",
+      "pickup_or_dropoff",
+      "political_favor_or_influence_exchange",
+      "prison_visit",
+      "privacy_or_secrecy_behavior",
+      "prosecution_action_or_charge_pressure",
+      "protective_legal_positioning",
+      "recognition_or_realization",
+      "reconciliation_attempt",
+      "reintroduction_or_reconnection",
+      "release_or_parole",
+      "religious_end_of_life_counsel",
+      "retaliation_or_revenge_act",
+      "sentencing",
+      "shopping_or_purchase",
+      "signal_or_message_delivery",
+      "social_visit",
+      "subpoena_summons_or_notice",
+      "suspicion_or_distrust_expression",
+      "threat_with_implied_violence",
+      "trial_or_case_proceeding",
+      "union_power_or_strike_coordination",
+      "unmapped_review_required",
+      "vehicle_issue_or_breakdown",
+      "vehicle_repair_or_maintenance",
+      "verdict_or_case_outcome",
+      "withholding_or_nonresponse",
+      "witness_management_or_cooperation_pressure"
+    ],
+    "l1_categories_not_in_taxonomy_but_observed": []
+  },
+  "issues": {
+    "unknown_event_types": [],
+    "l1_mismatches": [],
+    "unmapped_review_required_events": []
+  },
+  "examples_by_l2": {
+    "agreement_acceptance": [
+      {
+        "event_id": "evt_000206",
+        "scene_id": "scene_0031",
+        "summary": "FRANK: Yeah. (agreement acceptance)"
+      },
+      {
+        "event_id": "evt_000326",
+        "scene_id": "scene_0047",
+        "summary": "FRANK: Yeah. (agreement acceptance)"
+      },
+      {
+        "event_id": "evt_000342",
+        "scene_id": "scene_0049",
+        "summary": "DEADBEAT: Here. Tomorrow. Skinny nods, Okay, go. But the guy doesn’t go. (agreement acceptance)"
+      }
+    ],
+    "air_travel_or_flight": [
+      {
+        "event_id": "evt_000847",
+        "scene_id": "scene_0125",
+        "summary": "air travel or flight in CONCRETE PLANT - BALTIMORE: Frank pulls the rig onto the grounds of the plant. There’s a little landing strip next to it."
+      },
+      {
+        "event_id": "evt_001788",
+        "scene_id": "scene_0241",
+        "summary": "air travel or flight in AIRSTRIP - PORT CLINTON - OHIO: They drive onto a grass airstrip on the edge of Lake Erie where a small plane waits. Frank parks, shuts it off, leaves the keys in the ignition, gets out. Ru..."
+      },
+      {
+        "event_id": "evt_001792",
+        "scene_id": "scene_0242",
+        "summary": "air travel or flight in MICHIGAN: The plane descends over the north shore of Lake Erie. Lands on the Pontiac Airfield. The pilot lowers the steps and Frank climbs out and walks to a parked Fo..."
+      }
+    ],
+    "answer_response": [
+      {
+        "event_id": "evt_000056",
+        "scene_id": "scene_0008",
+        "summary": "BUFALINO: Or on the highway. Carrie isn’t having it; snaps open her little gold lamé cigarette clutch. She cracks the window. Russell glances over at Frank t... (answer response)"
+      },
+      {
+        "event_id": "evt_000072",
+        "scene_id": "scene_0011",
+        "summary": "FRANK: I don’t know. Sounds funny. Frank runs the engine manually from under the hood as Russell listens. (answer response)"
+      },
+      {
+        "event_id": "evt_000102",
+        "scene_id": "scene_0016",
+        "summary": "JOHNNY: He used to work at a butcher shop. (answer response)"
+      }
+    ],
+    "apology_or_regret": [
+      {
+        "event_id": "evt_000219",
+        "scene_id": "scene_0032",
+        "summary": "JUDGE: Not you, Mr. Sheeran. The plaintiff. You bring another workingman before this court with threats instead of evidence, believe me, you’ll be sorry.... (apology or regret)"
+      },
+      {
+        "event_id": "evt_000367",
+        "scene_id": "scene_0052",
+        "summary": "GROCER: Frank, I’m sorry, but your kid was out of line. I only did what you and your wife should have done at home. Frank pulls the Grocer clear over the c... (apology or regret)"
+      },
+      {
+        "event_id": "evt_000827",
+        "scene_id": "scene_0122",
+        "summary": "BUFALINO: Tell Jimmy I’m sorry for his troubles, but if worse comes to worst, the old timers know the father. They talk... and they could straighten things out. (apology or regret)"
+      }
+    ],
+    "arrival": [
+      {
+        "event_id": "evt_000349",
+        "scene_id": "scene_0050",
+        "summary": "arrival in FRANK & MARY’S HOUSE: Frank comes in to find Mary cooking and his daughter Peggy sulking."
+      },
+      {
+        "event_id": "evt_002099",
+        "scene_id": "scene_0288",
+        "summary": "arrival in BANK: He comes in on his canes. Stands in a short line. Looks around like he’s casing the place. Makes it to the front, but lets someone go ahead of him so he can..."
+      }
+    ],
+    "bar_or_social_drinking": [
+      {
+        "event_id": "evt_000106",
+        "scene_id": "scene_0017",
+        "summary": "bar or social drinking in THE FRIENDLY LOUNGE: Frank’s POV of Johnny talking to Skinny and gesturing for Frank to come over."
+      },
+      {
+        "event_id": "evt_000110",
+        "scene_id": "scene_0018",
+        "summary": "bar or social drinking in THE FRIENDLY LOUNGE: Frank and Johnny standing at Skinny’s table."
+      },
+      {
+        "event_id": "evt_000338",
+        "scene_id": "scene_0049",
+        "summary": "bar or social drinking in THE FRIENDLY LOUNGE: Skinny regards the guy standing before him."
+      }
+    ],
+    "cash_payment_or_side_deal": [
+      {
+        "event_id": "evt_000521",
+        "scene_id": "scene_0079",
+        "summary": "cash payment or side deal in MOTEL OFFICE - LEWISBURG, PA.: While their wives smoke outside, Frank and Russell check in. Only instead of taking money from either of them, the manager gives Russell an envelope of cash."
+      },
+      {
+        "event_id": "evt_000708",
+        "scene_id": "scene_0103",
+        "summary": "cash payment or side deal in HOFFA'S OFFICE - ANTEROOM: Frank and Bill open a large ebony credenza with an elaborate Chinese design. Bill opens the credenza to reveal stacks of cash in neat bank banded units readi..."
+      }
+    ],
+    "court_appearance": [
+      {
+        "event_id": "evt_000214",
+        "scene_id": "scene_0032",
+        "summary": "court appearance in COURTROOM: At the plaintiff’s table - the Food Fair lawyers. At the defense table - Frank and his lawyer, Bill Bufalino, who addresses the judge -"
+      },
+      {
+        "event_id": "evt_000802",
+        "scene_id": "scene_0119",
+        "summary": "court appearance in FEDERAL BUILDING: CAMERA looks down from above as upon a chessboard where Hoffa, Bill Bufalino and Frank inch their way across the courthouse’s polished marble floor surrounde..."
+      },
+      {
+        "event_id": "evt_001009",
+        "scene_id": "scene_0150",
+        "summary": "court appearance in COURTROOM - NASHVILLE: With the jury out of the room, attorney Bill Bufalino - the same Teamster attorney who represented Frank in his trucking theft case - appeals to Judge Willia..."
+      }
+    ],
+    "deference_signal": [
+      {
+        "event_id": "evt_000382",
+        "scene_id": "scene_0056",
+        "summary": "deference signal in MELROSE DINER - PHILLY - DAY - LATE FALL 1958: Frank sits at a table with a cup of coffee when Whispers DiTullio sits down. Frank nods."
+      }
+    ],
+    "delivery_or_transport_job": [
+      {
+        "event_id": "evt_000122",
+        "scene_id": "scene_0019",
+        "summary": "delivery or transport job in MEAT COMPANY: It’s summer. As loading dock workers in short sleeves carry hindquarters and hang them in Frank’s refrigerated truck, he signs for the load - 25 beef carcasses."
+      },
+      {
+        "event_id": "evt_000127",
+        "scene_id": "scene_0020",
+        "summary": "delivery or transport job in FOOD FAIR MARKET: Frank backs up to the store’s loading dock and climbs out as the store’s manager approaches with a clipboard and breaks the aluminum seal. Workers begin unlo..."
+      },
+      {
+        "event_id": "evt_000145",
+        "scene_id": "scene_0023",
+        "summary": "delivery or transport job in MEAT COMPANY - CONTINUOUS - DEC. 1956: Frank emerges from the office, crosses the freezing cold dock, shuts the doors of the loaded truck but pockets the seal instead of putting it on the lock."
+      }
+    ],
+    "departure": [
+      {
+        "event_id": "evt_001618",
+        "scene_id": "scene_0226",
+        "summary": "departure in THE LATIN CASINO: Jerry Vale’s singing ‘Spanish Eyes’ as couples dance. Jimmy’s dancing with Frank’s daughter Peggy, and each time they turn, she looks over at - Russell and S..."
+      }
+    ],
+    "domestic_routine": [
+      {
+        "event_id": "evt_000316",
+        "scene_id": "scene_0046",
+        "summary": "domestic routine in BUFALINO’S HOUSE - PITTSTON: The same modest house the Bufalinos will still be in twenty years from now."
+      },
+      {
+        "event_id": "evt_000370",
+        "scene_id": "scene_0053",
+        "summary": "domestic routine in GROCERY STORE: Peggy has not gone home and is peeking into the store where she sees her father stomping up and down on the screaming Grocer’s hand. Terrified, Peggy turns a..."
+      },
+      {
+        "event_id": "evt_000420",
+        "scene_id": "scene_0062",
+        "summary": "domestic routine in FRANK & MARY’S HOUSE: Frank takes five hundred from the $2000 stack of bills in the envelope and gives the rest to Mary, at the kitchen table with their three girls."
+      }
+    ],
+    "drive_or_vehicle_travel": [
+      {
+        "event_id": "evt_000045",
+        "scene_id": "scene_0008",
+        "summary": "drive or vehicle travel in FRANK’S LINCOLN - WILKES-BARRE: Frank drives along a city street with Russell in front, the women in back, Carrie putting on some lipstick."
+      },
+      {
+        "event_id": "evt_000166",
+        "scene_id": "scene_0028",
+        "summary": "drive or vehicle travel in THE FRIENDLY LOUNGE - NIGHT - DEC. 1956: Frank and Johnny and drivers at the bar with Christmas decorations. Skinny and mob friends eating Frank’s stolen steak. Skinny waves Frank over to the table."
+      },
+      {
+        "event_id": "evt_000267",
+        "scene_id": "scene_0037",
+        "summary": "drive or vehicle travel in RURAL PENNSYLVANIA: The road ahead as the Lincoln drives a rural stretch of I-80 West."
+      }
+    ],
+    "end_of_life_preparation": [
+      {
+        "event_id": "evt_000748",
+        "scene_id": "scene_0111",
+        "summary": "end of life preparation in GRAVEYARD - CHICAGO: Some mob guys walk across the lawns of a graveyard, jotting down the names on the tombstones."
+      },
+      {
+        "event_id": "evt_000753",
+        "scene_id": "scene_0112",
+        "summary": "end of life preparation in POLLING PLACE - CHICAGO: The men from the graveyard sign the names from the tombstones on voting registers, then get back in line to do it again."
+      },
+      {
+        "event_id": "evt_001946",
+        "scene_id": "scene_0260",
+        "summary": "end of life preparation in CREMATORY - PONTIAC - FOUR NIGHTS BEFORE: They put Jimmy’s body in a cardboard coffin into a cremation oven. Toss in the linoleum and the empty .22. The gas jets burn so hot they turn everything to a..."
+      }
+    ],
+    "explanation_account": [
+      {
+        "event_id": "evt_000009",
+        "scene_id": "scene_0001",
+        "summary": "FRANK (IN SYNC): One of a thousand working stiffs... This is who we’ve been looking for - Frank Sheeran - perhaps to kill him. But he pays no attention to us, even... (explanation account)"
+      },
+      {
+        "event_id": "evt_000013",
+        "scene_id": "scene_0002",
+        "summary": "FRANK (IN SYNC): ... until I wasn’t anymore... TWO QUICK GUNSHOTS to the back of an UNKNOWN MAN’S head. The blank wall explodes in red, as though a bucket of blood... (explanation account)"
+      },
+      {
+        "event_id": "evt_000024",
+        "scene_id": "scene_0004",
+        "summary": "FRANK (IN SYNC): Bill Bufalino’s daughter was getting married in Detroit. Frank puts the watch on his wrist. The gold ring is on his finger next to his wedding band... (explanation account)"
+      }
+    ],
+    "family_interaction": [
+      {
+        "event_id": "evt_000676",
+        "scene_id": "scene_0099",
+        "summary": "family interaction in MINIATURE GOLF COURSE: Jimmy and his wife Josephine, and Frank and Irene and his still-growing family including infant Connie in a stroller - play miniature golf. Jimmy dotes on Pe..."
+      },
+      {
+        "event_id": "evt_000735",
+        "scene_id": "scene_0108",
+        "summary": "family interaction in BEAUTY PARLOR - DETROIT: Several women sitting under hair dryers. One of the women is Jimmy’s wife, Josephine."
+      },
+      {
+        "event_id": "evt_002108",
+        "scene_id": "scene_0290",
+        "summary": "family interaction in DOLORES’S HOUSE - PHILLY: Frank sits with one of his other daughters - Dolores - now in her 40s."
+      }
+    ],
+    "farewell_or_closing": [
+      {
+        "event_id": "evt_000232",
+        "scene_id": "scene_0033",
+        "summary": "BUFALINO: (teasing) Watch yourself with these tough guys around here. Alright, maybe I see you around. (You did the right thing.) A smiling Russell shakes ha... (farewell or closing)"
+      },
+      {
+        "event_id": "evt_000440",
+        "scene_id": "scene_0067",
+        "summary": "SKINNY: Angelo wants to see you. Frank jumps in Skinny’s car. (farewell or closing)"
+      },
+      {
+        "event_id": "evt_002225",
+        "scene_id": "scene_0298",
+        "summary": "PRIEST: I can come see you again if you want, after the Christmas holidays. (farewell or closing)"
+      }
+    ],
+    "flashback_enter": [
+      {
+        "event_id": "evt_000089",
+        "scene_id": "scene_0014",
+        "summary": "Flashback scene begins"
+      },
+      {
+        "event_id": "evt_000257",
+        "scene_id": "scene_0036",
+        "summary": "Flashback scene begins"
+      },
+      {
+        "event_id": "evt_000276",
+        "scene_id": "scene_0039",
+        "summary": "Flashback scene begins"
+      }
+    ],
+    "greeting_or_opening": [
+      {
+        "event_id": "evt_001765",
+        "scene_id": "scene_0239",
+        "summary": "FRANK: Good morning. (greeting or opening)"
+      },
+      {
+        "event_id": "evt_001809",
+        "scene_id": "scene_0246",
+        "summary": "SALLY BUGS: Hi, Frank. Sally has a matte-knife in his hand and uses it to cut some linoleum he’s laying out on top of the wood floor of the entry. (greeting or opening)"
+      },
+      {
+        "event_id": "evt_001821",
+        "scene_id": "scene_0247",
+        "summary": "CHUCKIE: Hi. Hi, Frank. (greeting or opening)"
+      }
+    ],
+    "hearing_or_committee_session": [
+      {
+        "event_id": "evt_000772",
+        "scene_id": "scene_0115",
+        "summary": "hearing or committee session in SENATE CHAMBERS: Bobby Kennedy regards Hoffa like he’s an insect. It’s ten minutes into the hearing now -"
+      },
+      {
+        "event_id": "evt_001228",
+        "scene_id": "scene_0182",
+        "summary": "hearing or committee session in SENATE CHAMBERS - DAY - 1958 FLASHBACK: Unlike every other organized crime figure the McClellan Committee has dragged in, Joe Gallo has gone out of his way to look the part - black shirt, slicked-b..."
+      },
+      {
+        "event_id": "evt_001482",
+        "scene_id": "scene_0214",
+        "summary": "hearing or committee session in HOFFA’S DC HOTEL ROOM: Jimmy paces back and forth, a ginger ale in his hand, paying no attention to the Watergate hearings on the TV."
+      }
+    ],
+    "instruction_order": [
+      {
+        "event_id": "evt_000445",
+        "scene_id": "scene_0068",
+        "summary": "BRUNO: Sit down, Frank. Frank sits. Listens to a silence before - (instruction order)"
+      }
+    ],
+    "insult_or_disrespect": [
+      {
+        "event_id": "evt_001566",
+        "scene_id": "scene_0222",
+        "summary": "BUFALINO: Son of a bitch. (insult or disrespect)"
+      }
+    ],
+    "introduction": [
+      {
+        "event_id": "evt_000578",
+        "scene_id": "scene_0086",
+        "summary": "HOFFA: Hiya, Frank. This is Jimmy Hoffa. Glad to meet you, even over the phone. (introduction)"
+      }
+    ],
+    "joke_banter_or_toast": [
+      {
+        "event_id": "evt_000921",
+        "scene_id": "scene_0138",
+        "summary": "HOFFA: We’re gonna get through all this legal bullshit garbage. Little “Boobie” Kennedy can’t do a thing to us because we’re the biggest, best and most ho... (joke banter or toast)"
+      },
+      {
+        "event_id": "evt_000922",
+        "scene_id": "scene_0138",
+        "summary": "HOFFA: Plus we have the strongest and most loyal members... Audience cheers. (joke banter or toast)"
+      }
+    ],
+    "law_enforcement_contact_or_questioning": [
+      {
+        "event_id": "evt_001092",
+        "scene_id": "scene_0164",
+        "summary": "law enforcement contact or questioning in PROSECUTOR NEAL’S OFFICE: Hoffa’s prosecutor Jim Neal, reporters, the Judge, FBI agents, and Ed Partin, the teamster who wore the wire against Hoffa, are all celebrating their victory..."
+      },
+      {
+        "event_id": "evt_001148",
+        "scene_id": "scene_0175",
+        "summary": "law enforcement contact or questioning in PRO’S MIAMI HOUSE: As Tony Pro relaxes by the pool of his Miami house in shorts and unbuttoned linen shirt, a drink and a cigar, playing Greek rummy with some guys amidst statu..."
+      },
+      {
+        "event_id": "evt_002015",
+        "scene_id": "scene_0272",
+        "summary": "law enforcement contact or questioning in PENN DRAPE & CURTAINS: Russell is escorted out in cuffs by federal agents."
+      }
+    ],
+    "lodging_checkin_or_stay": [
+      {
+        "event_id": "evt_000302",
+        "scene_id": "scene_0043",
+        "summary": "lodging checkin or stay in PARK SHERATON HOTEL - DAY - OCT. 25, 1957: Arthur Grasso’s barber shop. Four barbers, two bootblacks, a manicurist, and three customers, one of them with his head back, eyes closed, getting a shave. T..."
+      },
+      {
+        "event_id": "evt_000517",
+        "scene_id": "scene_0078",
+        "summary": "lodging checkin or stay in MOTEL - LEWISBURG, PA. - DAY - JULY 28, 1975: Frank pulls the Lincoln into the lot of a roadside motel set down next to the highway."
+      },
+      {
+        "event_id": "evt_000653",
+        "scene_id": "scene_0096",
+        "summary": "lodging checkin or stay in EDGEWATER HOTEL SUITE - CHICAGO: As Joey carefully cuts a hole in a watermelon, Frank checks his watch."
+      }
+    ],
+    "logistics_loading_unloading": [
+      {
+        "event_id": "evt_000029",
+        "scene_id": "scene_0005",
+        "summary": "logistics loading unloading in FRANK’S HOUSE: Frank arranges luggage in the trunk of his black Lincoln Continental, leaving a space for more."
+      },
+      {
+        "event_id": "evt_000040",
+        "scene_id": "scene_0007",
+        "summary": "logistics loading unloading in BUFALINO’S HOUSE - PITTSTON, PA: Irene and Carrie smoke cigarettes on the sidewalk outside a modest suburban house while Frank and Russell Bufalino add his and his wife’s luggage to the trun..."
+      },
+      {
+        "event_id": "evt_000432",
+        "scene_id": "scene_0065",
+        "summary": "logistics loading unloading in DARK STREET: At his car, Frank takes out a red 5-gallon gasoline tank. He unscrews his car’s gas cap and shoves a two foot length of rubber hose into the tank. He sucks o..."
+      }
+    ],
+    "meal_or_dining": [
+      {
+        "event_id": "evt_000136",
+        "scene_id": "scene_0022",
+        "summary": "meal or dining in MEAT COMPANY - DAY - DEC. 1956: A heater glows in the yard manager’s dock office. Frank signs for 25 hindquarters."
+      },
+      {
+        "event_id": "evt_000237",
+        "scene_id": "scene_0034",
+        "summary": "meal or dining in VILLA DI ROMA - ANGELO BRUNO TABLE: Frank sees Russell Bufalino being seated at Angelo Bruno’s table. Skinny Razor is gone. Bruno rises as Russell kisses Bruno’s cheek. Frank sees there are emp..."
+      },
+      {
+        "event_id": "evt_000241",
+        "scene_id": "scene_0035",
+        "summary": "meal or dining in VILLA DI ROMA: Dinner’s over. Russell has joined Bill, Frank and Skinny Razor for coffee and anisette at Bill Bufalino’s table. Bill and Skinny Razor are talking about Skin..."
+      }
+    ],
+    "negotiation": [
+      {
+        "event_id": "evt_001361",
+        "scene_id": "scene_0201",
+        "summary": "HOFFA: (to Frank) See that. Everybody thinks she’s the nice one and that I’m the bad guy. (kisses her cheek) It’s just the opposite. I’m the nice guy and... (negotiation)"
+      },
+      {
+        "event_id": "evt_001443",
+        "scene_id": "scene_0206",
+        "summary": "HOFFA: He’s a cocksucker. Fitz is a cocksucker. I’ll deal with both these cocksuckers myself. (negotiation)"
+      }
+    ],
+    "news_media_awareness_update": [
+      {
+        "event_id": "evt_001205",
+        "scene_id": "scene_0178",
+        "summary": "news media awareness update in VILLA DI ROMA: TV."
+      },
+      {
+        "event_id": "evt_001490",
+        "scene_id": "scene_0215",
+        "summary": "news media awareness update in TELEVISION STUDIO: Jimmy is the guest on a news program."
+      }
+    ],
+    "nursing_home_or_assisted_living_interaction": [
+      {
+        "event_id": "evt_000004",
+        "scene_id": "scene_0001",
+        "summary": "nursing home or assisted living interaction in IMPLICIT PRELUDE: SOMEONE’S POV - MAYBE OURS Moving along a hallway of an ASSISTED LIVING FACILITY, past doors - some open, some closed - as if looking for somebody - and mayb..."
+      },
+      {
+        "event_id": "evt_000018",
+        "scene_id": "scene_0003",
+        "summary": "nursing home or assisted living interaction in ASSISTED LIVING FACILITY: BACK in the ASSISTED LIVING FACILITY, Frank gives us a moment to grasp what he’s said. Then:"
+      },
+      {
+        "event_id": "evt_000080",
+        "scene_id": "scene_0012",
+        "summary": "nursing home or assisted living interaction in ASSISTED LIVING FACILITY: Frank where we left him, in the wheelchair in the rec room with his aviator glasses."
+      }
+    ],
+    "observation_or_witnessing": [
+      {
+        "event_id": "evt_000002",
+        "scene_id": "scene_0001",
+        "summary": "observation or witnessing in IMPLICIT PRELUDE: T H E I R I S H M A N Screenplay by Steven Zaillian"
+      },
+      {
+        "event_id": "evt_000090",
+        "scene_id": "scene_0014",
+        "summary": "observation or witnessing in LIVE CHICKEN MARKET: “SKINNY RAZOR” swiftly runs his razor across a squawking chicken’s neck that gushes blood. Skinny then dumps the fluttering chicken head-first into a metal f..."
+      },
+      {
+        "event_id": "evt_000095",
+        "scene_id": "scene_0015",
+        "summary": "observation or witnessing in SOUTH PHILLY: A place called The Friendly Lounge according to its sign which has “STEAKS AND CHOPS” in neon."
+      }
+    ],
+    "overlap_dialogue_transition": [
+      {
+        "event_id": "evt_000391",
+        "scene_id": "scene_0057",
+        "summary": "WHISPERS (OVERLAP): We supply all the bed sheets, towels, and linen to most of the Atlantic City casinos and hotels. We pick it up, wash it, iron it, and deliver it. U... (overlap dialogue transition)"
+      },
+      {
+        "event_id": "evt_000396",
+        "scene_id": "scene_0058",
+        "summary": "WHISPERS (OVERLAP): Except there’s this fuckin’ laundry down in Delaware that’s knocking us dead. They’re cutting the price. They’re scaring our drivers. They’re sucki... (overlap dialogue transition)"
+      },
+      {
+        "event_id": "evt_000627",
+        "scene_id": "scene_0091",
+        "summary": "JOEY (OVERLAP): This is what we have to deal with, how to get these drivers to join us rather than Paul Hall’s union. He’s bullshitting people that he can get a be... (overlap dialogue transition)"
+      }
+    ],
+    "persuasion_attempt": [
+      {
+        "event_id": "evt_000541",
+        "scene_id": "scene_0083",
+        "summary": "BUFALINO: That’s not good, Frank. She shouldn’t be a-scared of you. You gotta be close with your daughters, you know. You gotta be close with your family. Yo... (persuasion attempt)"
+      },
+      {
+        "event_id": "evt_001109",
+        "scene_id": "scene_0168",
+        "summary": "BUFALINO: You know, everybody likes to shop in your store but your son is “s’feigatta.” He’s acting wild. You can't control him, you know, there’s nobody's g... (persuasion attempt)"
+      }
+    ],
+    "phone_call_conversation": [
+      {
+        "event_id": "evt_000591",
+        "scene_id": "scene_0088",
+        "summary": "BACK TO THE VILLA DI ROMA: as the slow-motion image of Frank on the phone and Russell at the table returns to normal - (phone call conversation)"
+      },
+      {
+        "event_id": "evt_000602",
+        "scene_id": "scene_0088",
+        "summary": "BACK TO THE VILLA DI ROMA: Frank still on the phone with Hoffa - (phone call conversation)"
+      },
+      {
+        "event_id": "evt_001209",
+        "scene_id": "scene_0178",
+        "summary": "BUFALINO: You know what this means. We can speak English on the phone again. (phone call conversation)"
+      }
+    ],
+    "prelap_audio_transition": [
+      {
+        "event_id": "evt_000184",
+        "scene_id": "scene_0030",
+        "summary": "BILL (PRE-LAP): Under the contract, thanks to Jimmy Hoffa, management can only fire a driver on specific charges. (prelap audio transition)"
+      }
+    ],
+    "press_qna_exchange": [
+      {
+        "event_id": "evt_001071",
+        "scene_id": "scene_0161",
+        "summary": "REPORTER: Mr. Hoffa, will you be attending the president’s funeral? (press qna exchange)"
+      },
+      {
+        "event_id": "evt_001075",
+        "scene_id": "scene_0161",
+        "summary": "REPORTER: If you were to go, and were asked to speak, what would you say? (press qna exchange)"
+      },
+      {
+        "event_id": "evt_001333",
+        "scene_id": "scene_0199",
+        "summary": "REPORTER: Any plans after that? (press qna exchange)"
+      }
+    ],
+    "prison_confinement_life": [
+      {
+        "event_id": "evt_001096",
+        "scene_id": "scene_0165",
+        "summary": "prison confinement life in PENNSYLVANIA: A prison bus roars past on Highway 15."
+      },
+      {
+        "event_id": "evt_001100",
+        "scene_id": "scene_0166",
+        "summary": "prison confinement life in LEWISBURG FEDERAL PENITENTIARY: The black bus pulls past the gates of the penitentiary."
+      },
+      {
+        "event_id": "evt_001104",
+        "scene_id": "scene_0167",
+        "summary": "prison confinement life in LEWISBURG PENITENTIARY: Jimmy Hoffa - Inmate No. 33298-NE - is fingerprinted and photographed and given a blue denim prison uniform."
+      }
+    ],
+    "promise_or_vow": [
+      {
+        "event_id": "evt_000054",
+        "scene_id": "scene_0008",
+        "summary": "BUFALINO: Carrie - I made a vow. (promise or vow)"
+      },
+      {
+        "event_id": "evt_000340",
+        "scene_id": "scene_0049",
+        "summary": "DEADBEAT: Tomorrow. I swear. (promise or vow)"
+      },
+      {
+        "event_id": "evt_000662",
+        "scene_id": "scene_0097",
+        "summary": "JOEY: He just took over the pier. They did exactly what he said. (gobbles up watermelon slice) I never seen a guy walk through a crowd like he does and h... (promise or vow)"
+      }
+    ],
+    "public_event_or_rally": [
+      {
+        "event_id": "evt_000946",
+        "scene_id": "scene_0141",
+        "summary": "public event or rally in VILLA ROMANO BAR: As Pro walks into the crowded place, his Teamster workingmen supporters cheer him, wave “Vote TONY ‘PRO’ and Slate” signs, bang on drink trays."
+      }
+    ],
+    "public_speech_or_address": [
+      {
+        "event_id": "evt_001265",
+        "scene_id": "scene_0187",
+        "summary": "GALLO: (laughs) So he’s a boss. So am I a boss. We’re all supposed to be brothers. (public speech or address)"
+      }
+    ],
+    "question": [
+      {
+        "event_id": "evt_000046",
+        "scene_id": "scene_0008",
+        "summary": "CARRIE: Can we stop soon? (question)"
+      },
+      {
+        "event_id": "evt_000055",
+        "scene_id": "scene_0008",
+        "summary": "CARRIE: And I can’t smoke in the car? (question)"
+      },
+      {
+        "event_id": "evt_000061",
+        "scene_id": "scene_0009",
+        "summary": "FRANK: You see where we are? (question)"
+      }
+    ],
+    "refusal": [
+      {
+        "event_id": "evt_000049",
+        "scene_id": "scene_0008",
+        "summary": "CARRIE: You won’t stop on the highway. (refusal)"
+      },
+      {
+        "event_id": "evt_000074",
+        "scene_id": "scene_0011",
+        "summary": "BUFALINO: This fix won’t last forever. Russell wipes his hands on a rag and heads off. (refusal)"
+      },
+      {
+        "event_id": "evt_000202",
+        "scene_id": "scene_0031",
+        "summary": "BILL: Then no. They regard each other. (refusal)"
+      }
+    ],
+    "religious_ritual": [
+      {
+        "event_id": "evt_000085",
+        "scene_id": "scene_0013",
+        "summary": "religious ritual in MOTHER OF SORROWS CHURCH: A priest performs a baptism. Frank and his first wife Mary’s second daughter, Peggy. There are so few people in attendance, it seems like a private ceremony...."
+      }
+    ],
+    "request": [
+      {
+        "event_id": "evt_000325",
+        "scene_id": "scene_0047",
+        "summary": "SKINNY: Don’t tell me, let me guess. His mother died and the funeral set him back. (request)"
+      },
+      {
+        "event_id": "evt_000416",
+        "scene_id": "scene_0061",
+        "summary": "WHISPERS: And remember, please! This is between us. Don’t mention nothing to nobody, even Skinny. That’s why I didn’t wanna borrow the ten grand off the street. (request)"
+      },
+      {
+        "event_id": "evt_000598",
+        "scene_id": "scene_0088",
+        "summary": "HOFFA: He’s not an easy man to please. (request)"
+      }
+    ],
+    "road_trip_segment": [
+      {
+        "event_id": "evt_000854",
+        "scene_id": "scene_0126",
+        "summary": "road trip segment in HIGHWAY: Frank drives the rig down Route 13."
+      },
+      {
+        "event_id": "evt_001213",
+        "scene_id": "scene_0179",
+        "summary": "road trip segment in RURAL OHIO: The Lincoln flies past a highway sign: Columbus 64, Dayton 86, Detroit 272."
+      },
+      {
+        "event_id": "evt_001784",
+        "scene_id": "scene_0240",
+        "summary": "road trip segment in LINCOLN - MOVING - HIGHWAY 80, OHIO: As Frank drives, Russell sits in the passenger seat looking placidly out at the scenery through his thick glasses."
+      }
+    ],
+    "scene_entry": [
+      {
+        "event_id": "evt_000001",
+        "scene_id": "scene_0001",
+        "summary": "Scene entry: IMPLICIT PRELUDE (NO SCENE HEADER)"
+      },
+      {
+        "event_id": "evt_000011",
+        "scene_id": "scene_0002",
+        "summary": "Scene entry: INT. EMPTY HOUSE - A BLANK WALL - DAY"
+      },
+      {
+        "event_id": "evt_000016",
+        "scene_id": "scene_0003",
+        "summary": "Scene entry: INT. ASSISTED LIVING FACILITY - DAY - 2000"
+      }
+    ],
+    "scene_exit": [
+      {
+        "event_id": "evt_000010",
+        "scene_id": "scene_0001",
+        "summary": "Scene exit: IMPLICIT PRELUDE (NO SCENE HEADER)"
+      },
+      {
+        "event_id": "evt_000015",
+        "scene_id": "scene_0002",
+        "summary": "Scene exit: INT. EMPTY HOUSE - A BLANK WALL - DAY"
+      },
+      {
+        "event_id": "evt_000020",
+        "scene_id": "scene_0003",
+        "summary": "Scene exit: INT. ASSISTED LIVING FACILITY - DAY - 2000"
+      }
+    ],
+    "shooting": [
+      {
+        "event_id": "evt_000003",
+        "scene_id": "scene_0001",
+        "summary": "shooting in IMPLICIT PRELUDE: FINAL SHOOTING SCRIPT"
+      },
+      {
+        "event_id": "evt_001017",
+        "scene_id": "scene_0151",
+        "summary": "shooting in POLICE STATION - NASHVILLE: The young would-be assassin, face bloody, stands for his mug shot, holding a booking placard that identifies him as Warren Swanson."
+      },
+      {
+        "event_id": "evt_001134",
+        "scene_id": "scene_0172",
+        "summary": "shooting in ALLEN DORFMAN’S HOUSE - CHICAGO: A garage door opens automatically. Allen Dorfman’s Cadillac backs out. The windows of the Caddie suddenly explode from shotgun blasts. Holes erupt in the bod..."
+      }
+    ],
+    "smoking_break_or_smoking_conflict": [
+      {
+        "event_id": "evt_001671",
+        "scene_id": "scene_0231",
+        "summary": "smoking break or smoking conflict in GAS STATION - OHIO: An attendant checks the oil. The women are buying cigarettes from a machine while Russell buys some candy from another. Frank’s making a call in a phone booth."
+      }
+    ],
+    "stakeout_or_waiting_watch": [
+      {
+        "event_id": "evt_000296",
+        "scene_id": "scene_0042",
+        "summary": "stakeout or waiting watch in PENN DRAPE & CURTAINS, PITTSTON, PA: A succession of guys in suits and ties sit in chairs in the rear of Russell’s fabric shop quietly waiting their turn. They do not speak or acknowledge each o..."
+      },
+      {
+        "event_id": "evt_000471",
+        "scene_id": "scene_0069",
+        "summary": "stakeout or waiting watch in STREET: Whispers waits on the street."
+      },
+      {
+        "event_id": "evt_001338",
+        "scene_id": "scene_0200",
+        "summary": "stakeout or waiting watch in LUMS - MIAMI: Frank waits at the pick-up counter of a hotdog place. A TV by the grill - like every TV in America - reports on the arrest of burglars at the Watergate."
+      }
+    ],
+    "statement": [
+      {
+        "event_id": "evt_000014",
+        "scene_id": "scene_0002",
+        "summary": "FRANK (IN SYNC): ... And started painting houses myself. (statement)"
+      },
+      {
+        "event_id": "evt_000019",
+        "scene_id": "scene_0003",
+        "summary": "FRANK: In this particular matter, the whole thing was built around the wedding. (statement)"
+      },
+      {
+        "event_id": "evt_000025",
+        "scene_id": "scene_0004",
+        "summary": "FRANK (IN SYNC): Bill was a Teamster lawyer, but more important, he was Russell Bufalino’s cousin. He zips a suit and shirt into a garment bag like a body in a body... (statement)"
+      }
+    ],
+    "structural_callback_or_rejoin": [
+      {
+        "event_id": "evt_000954",
+        "scene_id": "scene_0142",
+        "summary": "structural callback or rejoin in VILLA ROMANO BAR: BACK TO THE DEAUVILLE HOTEL SUITE - 1961"
+      },
+      {
+        "event_id": "evt_000972",
+        "scene_id": "scene_0145",
+        "summary": "structural callback or rejoin in FARM - NEW JERSEY: BACK TO THE DEAUVILLE HOTEL SUITE - 1961"
+      },
+      {
+        "event_id": "evt_001045",
+        "scene_id": "scene_0157",
+        "summary": "structural callback or rejoin in HIGHWAY - TENNESSEE: Deserted stretch of highway. A lone Cadillac parked on the shoulder. A Tennessee State Highway Patrol car pulls over. But rather than what normally happens,..."
+      }
+    ],
+    "surveillance_disclosure_or_bugging_discussion": [
+      {
+        "event_id": "evt_001035",
+        "scene_id": "scene_0155",
+        "summary": "surveillance disclosure or bugging discussion in ANDREW JACKSON HOTEL - NASHVILLE: The legal team’s investigator lays out surveillance photographs of the same people - marked JUROR 1, 2, 3, etc. - like a game of solitaire. On the sofa Ed Pa..."
+      },
+      {
+        "event_id": "evt_001049",
+        "scene_id": "scene_0158",
+        "summary": "surveillance disclosure or bugging discussion in ANDREW JACKSON HOTEL SUITE: As Jimmy cooks breakfast for everyone again, we regard the surveillance photographs of the jurors on the table. To one on which someone has already written P..."
+      },
+      {
+        "event_id": "evt_001819",
+        "scene_id": "scene_0247",
+        "summary": "surveillance disclosure or bugging discussion in HOUSE - PONTIAC: Frank and Sally Bugs come out of the house and approach the Mercury."
+      }
+    ],
+    "testimony_or_sworn_statement": [
+      {
+        "event_id": "evt_000792",
+        "scene_id": "scene_0117",
+        "summary": "testimony or sworn statement in BUFALINO'S HOUSE: TV IMAGE - 1961 Of John F. Kennedy being sworn in at his inauguration."
+      },
+      {
+        "event_id": "evt_001199",
+        "scene_id": "scene_0177",
+        "summary": "testimony or sworn statement in DEPARTMENT OF JUSTICE: As LBJ looks on, Ramsey Clark raises his right hand to be sworn in as Attorney General."
+      }
+    ],
+    "threat_verbal": [
+      {
+        "event_id": "evt_000216",
+        "scene_id": "scene_0032",
+        "summary": "BILL (CONT'D): The only rule he ever broke was his own union’s, by helping others carry sides of beef from his truck to their refrigerators in the dead of winter.... (threat verbal)"
+      },
+      {
+        "event_id": "evt_000809",
+        "scene_id": "scene_0120",
+        "summary": "HOFFA: Tell me now so I can kill you worthless fucks right here. (threat verbal)"
+      },
+      {
+        "event_id": "evt_002147",
+        "scene_id": "scene_0294",
+        "summary": "FBI AGENT: He’s dead. (threat verbal)"
+      }
+    ],
+    "time_jump_explicit": [
+      {
+        "event_id": "evt_000017",
+        "scene_id": "scene_0003",
+        "summary": "Explicit time marker in scene header: 2000"
+      },
+      {
+        "event_id": "evt_000022",
+        "scene_id": "scene_0004",
+        "summary": "Explicit time marker in scene header: 1975"
+      },
+      {
+        "event_id": "evt_000028",
+        "scene_id": "scene_0005",
+        "summary": "Explicit time marker in scene header: 1975"
+      }
+    ],
+    "travel_stopover": [
+      {
+        "event_id": "evt_000035",
+        "scene_id": "scene_0006",
+        "summary": "travel stopover in FRANK’S HOUSE: While his wife Irene talks on the kitchen phone to Russell’s wife Carrie about what to wear, Frank marks towns on a AAA map of the eastern states that he kno..."
+      },
+      {
+        "event_id": "evt_000439",
+        "scene_id": "scene_0067",
+        "summary": "travel stopover in FRANK & MARY’S HOUSE: As he comes out and walks toward his car, he sees Skinny standing next to his own, and stops."
+      },
+      {
+        "event_id": "evt_001217",
+        "scene_id": "scene_0180",
+        "summary": "travel stopover in GAS STATION - RURAL OHIO: Russell in a phone booth talking to someone. Frank paying an attendant for gas and getting a receipt, glancing over there. The wives off smoking by the highw..."
+      }
+    ],
+    "union_meeting_or_union_office_interaction": [
+      {
+        "event_id": "evt_000183",
+        "scene_id": "scene_0030",
+        "summary": "union meeting or union office interaction in LOCAL 107 - PHILADELPHIA: The familiar two-horses-and-a-wheel International Brotherhood of Teamsters logo on the door of the Local."
+      },
+      {
+        "event_id": "evt_000188",
+        "scene_id": "scene_0031",
+        "summary": "union meeting or union office interaction in LOCAL 107: Frank sits with Teamster lawyer Bill Bufalino, whose daughter’s wedding Frank and Russell will drive across three states to attend 25 years later."
+      },
+      {
+        "event_id": "evt_000620",
+        "scene_id": "scene_0090",
+        "summary": "union meeting or union office interaction in CHICAGO BATHHOUSE: Frank is seated with JOEY GLIMCO, head of the Chicago taxicab drivers union."
+      }
+    ],
+    "voiceover_narration": [
+      {
+        "event_id": "evt_000005",
+        "scene_id": "scene_0001",
+        "summary": "FRANK V/O: When I was young, I thought house painters painted houses. We glimpse some of the elderly men and women in the rooms, but like everyone else in the... (voiceover narration)"
+      },
+      {
+        "event_id": "evt_000006",
+        "scene_id": "scene_0001",
+        "summary": "FRANK V/O: What did I know? We turn a corner into another hallway, keep looking - (voiceover narration)"
+      },
+      {
+        "event_id": "evt_000007",
+        "scene_id": "scene_0001",
+        "summary": "FRANK V/O: I was a working guy. We drift into a rec room where more elderly men and women watch TV, play cards, stare off at nothing - (voiceover narration)"
+      }
+    ],
+    "walking_approach_or_tail": [
+      {
+        "event_id": "evt_000158",
+        "scene_id": "scene_0026",
+        "summary": "walking approach or tail in FOOD FAIR MARKET - DAY - DEC. 1956: Frank helps the dock workers carry the 20 (not 25) hindquarters to the store’s walk-in refrigerator. They hang them on one side and leave, but Frank stays be..."
+      },
+      {
+        "event_id": "evt_000223",
+        "scene_id": "scene_0033",
+        "summary": "walking approach or tail in VILLA DI ROMA: ANGELO BRUNO, humble-looking and simply dressed is seated at a table with Skinny Razor when Frank and Bill Bufalino walk in. Skinny whispers something to Bruno."
+      },
+      {
+        "event_id": "evt_000444",
+        "scene_id": "scene_0068",
+        "summary": "walking approach or tail in VILLA DI ROMA: Skinny leads Frank into the restaurant. Empty except for Angelo, Russell and Phil the bartender. Phil closes the door as they walk in. The door snaps as he l..."
+      }
+    ],
+    "warning": [
+      {
+        "event_id": "evt_000138",
+        "scene_id": "scene_0022",
+        "summary": "FRANK: I don’t mind it. (warning)"
+      },
+      {
+        "event_id": "evt_000168",
+        "scene_id": "scene_0028",
+        "summary": "FRANK: It’s all Prime meat. I don’t go near “Choice”. (warning)"
+      },
+      {
+        "event_id": "evt_000205",
+        "scene_id": "scene_0031",
+        "summary": "BILL: You know I don’t care if you did it or not. (warning)"
+      }
+    ],
+    "weapon_display_or_preparation": [
+      {
+        "event_id": "evt_000012",
+        "scene_id": "scene_0002",
+        "summary": "weapon display or preparation in EMPTY HOUSE - A BLANK WALL: We see a young man’s hand with the same gold and diamond encrusted watch and diamond pinky ring raise a gun at an unseen target."
+      },
+      {
+        "event_id": "evt_000258",
+        "scene_id": "scene_0036",
+        "summary": "weapon display or preparation in ITALIAN FOREST: Frank holds a rifle on GERMAN SOLDIER #1 and #2 as they dig holes in the forest floor."
+      },
+      {
+        "event_id": "evt_000332",
+        "scene_id": "scene_0048",
+        "summary": "weapon display or preparation in FRANK’S CAR - PHILLY STREET: Frank in his parked car, watching a street corner. Sees DEADBEAT #1 come around it. We stay in the car to watch Frank approach the guy on the sidewalk, showi..."
+      }
+    ],
+    "wedding_related_event": [
+      {
+        "event_id": "evt_000023",
+        "scene_id": "scene_0004",
+        "summary": "wedding related event in FRANK’S HOUSE: A wedding invitation sits on a bureau next to Frank’s gold watch."
+      }
+    ],
+    "work_shift_or_job_task": [
+      {
+        "event_id": "evt_000060",
+        "scene_id": "scene_0009",
+        "summary": "work shift or job task in HIGHWAY I-80: While Irene and Carrie sit on a guard rail smoking, Russell leans on the hood looking off at cars and trucks driving past. Frank comes over."
+      },
+      {
+        "event_id": "evt_000066",
+        "scene_id": "scene_0010",
+        "summary": "work shift or job task in HIGHWAY I-80: Frank, in his 30s, behind the wheel of a refrigerated truck. He’s driving on the same highway he’ll drive to Detroit on twenty-some years later with Russell..."
+      },
+      {
+        "event_id": "evt_000070",
+        "scene_id": "scene_0011",
+        "summary": "work shift or job task in STUCKEY’S/TEXACO GAS STATION - I-80: Frank has the truck’s hood open and is listening to the misfiring engine. He has a cloth tool kit, with various sized wrenches, open on the truck’s fender. R..."
+      }
+    ]
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "version": "0.1.0",
+  "ignored_cues_exact": [
+    "PRO",
+    "FLASHCUT TO",
+    "FRANK AND PRIEST"
+  ],
+  "ignored_cues_normalized": [
+    "PRO",
+    "WHISPERS",
+    "SOMEONE"
+  ],
+  "ignored_cue_prefixes": [
+    "BACK TO ",
+    "FLASHCUT TO"
+  ],
+  "ignored_cue_contains": [
+    "BACK TO THE "
+  ],
+  "manual_entities": [
+    {
+      "entity_id": "char_frank_sheeran",
+      "entity_type": "character",
+      "canonical_name": "Frank Sheeran",
+      "aliases": ["FRANK", "FRANK V/O", "FRANK (IN SYNC)", "FRANK (CONT'D)", "FRANK (CONT’D)", "FRANK (IN SYNC) (CONT'D)"],
+      "metadata": { "is_primary": true, "priority": true }
+    },
+    {
+      "entity_id": "char_jimmy_hoffa",
+      "entity_type": "character",
+      "canonical_name": "Jimmy Hoffa",
+      "aliases": ["HOFFA", "HOFFA (CONT'D)", "HOFFA (CONT’D)", "HOFFA (OVERLAP)", "HOFFA V/O"],
+      "metadata": { "is_primary": true, "priority": true }
+    },
+    {
+      "entity_id": "char_russell_bufalino",
+      "entity_type": "character",
+      "canonical_name": "Russell Bufalino",
+      "aliases": ["BUFALINO", "BUFALINO (OVERLAP)", "BUFALINO (CONT'D)"],
+      "metadata": { "is_primary": true, "priority": true }
+    },
+    {
+      "entity_id": "char_peggy_sheeran",
+      "entity_type": "character",
+      "canonical_name": "Peggy Sheeran",
+      "aliases": ["PEGGY"],
+      "metadata": { "is_primary": true, "priority": true }
+    },
+    {
+      "entity_id": "char_bill_bufalino",
+      "entity_type": "character",
+      "canonical_name": "Bill Bufalino",
+      "aliases": ["BILL", "BILL (CONT'D)", "BILL (PRE-LAP)"],
+      "metadata": { "is_primary": true, "priority": true }
+    },
+    {
+      "entity_id": "char_sally_bugs",
+      "entity_type": "character",
+      "canonical_name": "Sally Bugs",
+      "aliases": ["SALLY BUGS"],
+      "metadata": { "is_primary": true, "priority": true }
+    },
+    {
+      "entity_id": "char_mary_sheeran",
+      "entity_type": "character",
+      "canonical_name": "Mary Sheeran",
+      "aliases": ["MARY"],
+      "metadata": { "priority": true }
+    },
+    {
+      "entity_id": "char_irene_sheeran",
+      "entity_type": "character",
+      "canonical_name": "Irene Sheeran",
+      "aliases": ["IRENE"],
+      "metadata": { "priority": true }
+    },
+    {
+      "entity_id": "char_carrie_bufalino",
+      "entity_type": "character",
+      "canonical_name": "Carrie Bufalino",
+      "aliases": ["CARRIE"],
+      "metadata": { "priority": true }
+    },
+    {
+      "entity_id": "char_frank_fitzsimmons",
+      "entity_type": "character",
+      "canonical_name": "Frank Fitzsimmons",
+      "aliases": ["FITZ"],
+      "metadata": { "priority": false }
+    },
+    {
+      "entity_id": "char_jo_hoffa",
+      "entity_type": "character",
+      "canonical_name": "Jo Hoffa",
+      "aliases": ["JO"],
+      "metadata": { "priority": false }
+    },
+    {
+      "entity_id": "char_skinny_razor",
+      "entity_type": "character",
+      "canonical_name": "Skinny Razor",
+      "aliases": ["SKINNY"],
+      "metadata": { "priority": false }
+    },
+    {
+      "entity_id": "grp_frank_family",
+      "entity_type": "group",
+      "canonical_name": "Frank's Family",
+      "aliases": ["FRANK FAMILY", "FRANK'S FAMILY"],
+      "metadata": { "priority": true, "kind": "family_group" }
+    },
+    {
+      "entity_id": "grp_teamsters",
+      "entity_type": "group",
+      "canonical_name": "Teamsters",
+      "aliases": ["TEAMSTERS"],
+      "metadata": { "priority": true, "kind": "labor_group" }
+    },
+    {
+      "entity_id": "grp_government_legal_institutions",
+      "entity_type": "group",
+      "canonical_name": "Government / Legal Institutions",
+      "aliases": ["GOVERNMENT", "LEGAL SYSTEM"],
+      "metadata": { "priority": true, "kind": "institutional_group" }
+    },
+    {
+      "entity_id": "org_teamsters_local_107",
+      "entity_type": "organization",
+      "canonical_name": "Teamsters Local 107",
+      "aliases": ["TEAMSTER LOCAL ONE-O-SEVEN", "TEAMSTERS LOCAL 107"],
+      "metadata": { "priority": false }
+    },
+    {
+      "entity_id": "org_fbi",
+      "entity_type": "organization",
+      "canonical_name": "Federal Bureau of Investigation",
+      "aliases": ["FBI"],
+      "metadata": { "priority": false }
+    }
+  ],
+  "manual_aliases_exact": {
+    "FRANK": "char_frank_sheeran",
+    "FRANK V/O": "char_frank_sheeran",
+    "FRANK V/O (CONT'D)": "char_frank_sheeran",
+    "FRANK (IN SYNC)": "char_frank_sheeran",
+    "FRANK (IN SYNC) (CONT'D)": "char_frank_sheeran",
+    "FRANK (CONT'D)": "char_frank_sheeran",
+    "FRANK (CONT’D)": "char_frank_sheeran",
+    "HOFFA": "char_jimmy_hoffa",
+    "HOFFA V/O": "char_jimmy_hoffa",
+    "HOFFA (CONT'D)": "char_jimmy_hoffa",
+    "HOFFA (CONT’D)": "char_jimmy_hoffa",
+    "HOFFA (OVERLAP)": "char_jimmy_hoffa",
+    "BUFALINO": "char_russell_bufalino",
+    "BUFALINO (OVERLAP)": "char_russell_bufalino",
+    "BUFALINO (CONT'D)": "char_russell_bufalino",
+    "BILL": "char_bill_bufalino",
+    "BILL (CONT'D)": "char_bill_bufalino",
+    "BILL (PRE-LAP)": "char_bill_bufalino",
+    "PEGGY": "char_peggy_sheeran",
+    "SALLY BUGS": "char_sally_bugs",
+    "MARY": "char_mary_sheeran",
+    "IRENE": "char_irene_sheeran",
+    "CARRIE": "char_carrie_bufalino",
+    "FITZ": "char_frank_fitzsimmons",
+    "JO": "char_jo_hoffa",
+    "SKINNY": "char_skinny_razor",
+    "TEAMSTERS": "grp_teamsters"
+  },
+  "manual_aliases_normalized": {
+    "FRANK": "char_frank_sheeran",
+    "HOFFA": "char_jimmy_hoffa",
+    "BUFALINO": "char_russell_bufalino",
+    "BILL": "char_bill_bufalino",
+    "PEGGY": "char_peggy_sheeran",
+    "SALLY BUGS": "char_sally_bugs",
+    "MARY": "char_mary_sheeran",
+    "IRENE": "char_irene_sheeran",
+    "CARRIE": "char_carrie_bufalino",
+    "TEAMSTERS": "grp_teamsters",
+    "FITZ": "char_frank_fitzsimmons",
+    "JO": "char_jo_hoffa",
+    "SKINNY": "char_skinny_razor"
+  },
+  "manual_kg_edges": [
+    {
+      "subject_id": "char_frank_sheeran",
+      "predicate": "father_of",
+      "object_id": "char_peggy_sheeran",
+      "stability": "stable",
+      "evidence_scene_ids": ["scene_0012"]
+    },
+    {
+      "subject_id": "char_peggy_sheeran",
+      "predicate": "daughter_of",
+      "object_id": "char_frank_sheeran",
+      "stability": "stable",
+      "evidence_scene_ids": ["scene_0012"]
+    },
+    {
+      "subject_id": "char_frank_sheeran",
+      "predicate": "spouse_of",
+      "object_id": "char_irene_sheeran",
+      "stability": "semi_stable",
+      "evidence_scene_ids": ["scene_0006", "scene_0007"]
+    },
+    {
+      "subject_id": "char_frank_sheeran",
+      "predicate": "spouse_of",
+      "object_id": "char_mary_sheeran",
+      "stability": "semi_stable",
+      "evidence_scene_ids": ["scene_0012"]
+    },
+    {
+      "subject_id": "char_bill_bufalino",
+      "predicate": "cousin_of",
+      "object_id": "char_russell_bufalino",
+      "stability": "stable",
+      "evidence_scene_ids": ["scene_0004"]
+    },
+    {
+      "subject_id": "char_bill_bufalino",
+      "predicate": "legal_counsel_to",
+      "object_id": "char_russell_bufalino",
+      "stability": "semi_stable",
+      "evidence_scene_ids": ["scene_0004"]
+    },
+    {
+      "subject_id": "char_frank_sheeran",
+      "predicate": "associated_with",
+      "object_id": "char_russell_bufalino",
+      "stability": "semi_stable",
+      "evidence_scene_ids": ["scene_0010", "scene_0011"]
+    },
+    {
+      "subject_id": "char_frank_sheeran",
+      "predicate": "works_with",
+      "object_id": "char_jimmy_hoffa",
+      "stability": "semi_stable",
+      "evidence_scene_ids": ["scene_0044"]
+    },
+    {
+      "subject_id": "char_russell_bufalino",
+      "predicate": "advises",
+      "object_id": "char_frank_sheeran",
+      "stability": "semi_stable",
+      "evidence_scene_ids": ["scene_0010"]
+    },
+    {
+      "subject_id": "char_jimmy_hoffa",
+      "predicate": "union_affiliation",
+      "object_id": "grp_teamsters",
+      "stability": "stable",
+      "evidence_scene_ids": ["scene_0044"]
+    },
+    {
+      "subject_id": "char_frank_sheeran",
+      "predicate": "union_affiliation",
+      "object_id": "grp_teamsters",
+      "stability": "semi_stable",
+      "evidence_scene_ids": ["scene_0001"]
+    },
+    {
+      "subject_id": "char_bill_bufalino",
+      "predicate": "union_affiliation",
+      "object_id": "grp_teamsters",
+      "stability": "semi_stable",
+      "evidence_scene_ids": ["scene_0004"]
+    },
+    {
+      "subject_id": "char_frank_sheeran",
+      "predicate": "member_of",
+      "object_id": "grp_frank_family",
+      "stability": "stable",
+      "evidence_scene_ids": ["scene_0012"]
+    },
+    {
+      "subject_id": "char_peggy_sheeran",
+      "predicate": "member_of",
+      "object_id": "grp_frank_family",
+      "stability": "stable",
+      "evidence_scene_ids": ["scene_0012"]
+    },
+    {
+      "subject_id": "char_mary_sheeran",
+      "predicate": "member_of",
+      "object_id": "grp_frank_family",
+      "stability": "stable",
+      "evidence_scene_ids": ["scene_0012"]
+    },
+    {
+      "subject_id": "char_irene_sheeran",
+      "predicate": "member_of",
+      "object_id": "grp_frank_family",
+      "stability": "stable",
+      "evidence_scene_ids": ["scene_0006"]
+    },
+    {
+      "subject_id": "grp_teamsters",
+      "predicate": "subset_of",
+      "object_id": "org_teamsters_local_107",
+      "stability": "semi_stable",
+      "evidence_scene_ids": ["scene_0001"]
+    },
+    {
+      "subject_id": "org_fbi",
+      "predicate": "part_of",
+      "object_id": "grp_government_legal_institutions",
+      "stability": "stable",
+      "evidence_scene_ids": []
+    }
+  ]
+}

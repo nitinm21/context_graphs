@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "artifact_type": "query_examples",
+    "schema_version": "0.1.0-draft",
+    "pipeline_version": "phase5-query-fixtures-v0.1.0",
+    "build_timestamp": "2026-02-25T03:00:00Z",
+    "source_file_hash": "",
+    "record_count": 12,
+    "notes": [
+      "Curated benchmark fixtures for deterministic routing and answer contract smoke checks.",
+      "Expected modes reflect default auto-routing behavior for Phase 5."
+    ]
+  },
+  "items": [
+    {
+      "query_id": "qex_0001",
+      "question": "Who are the key people connected to Frank Sheeran?",
+      "query_type_expected": "fact",
+      "mode_expected": "kg",
+      "category": "mvp_fact",
+      "include_baseline_comparison": false,
+      "notes": "KG strength benchmark from PRD."
+    },
+    {
+      "query_id": "qex_0002",
+      "question": "How does Peggy's relationship with Frank change over time?",
+      "query_type_expected": "state_change",
+      "mode_expected": "ntg",
+      "category": "mvp_state_change",
+      "include_baseline_comparison": true,
+      "notes": "Core NTG benchmark and recruiter demo query."
+    },
+    {
+      "query_id": "qex_0003",
+      "question": "What events lead up to Hoffa's disappearance in the story?",
+      "query_type_expected": "causal_chain",
+      "mode_expected": "hybrid",
+      "category": "mvp_causal_chain",
+      "include_baseline_comparison": true,
+      "notes": "Causal-chain style benchmark."
+    },
+    {
+      "query_id": "qex_0004",
+      "question": "Show supporting scenes for that conclusion about Peggy distancing from Frank.",
+      "query_type_expected": "evidence",
+      "mode_expected": "hybrid",
+      "category": "mvp_evidence",
+      "include_baseline_comparison": false,
+      "notes": "Evidence-traceability benchmark."
+    },
+    {
+      "query_id": "qex_0005",
+      "question": "Why is this not just RAG for Peggy and Frank's relationship arc?",
+      "query_type_expected": "comparison",
+      "mode_expected": "hybrid",
+      "category": "mvp_comparison",
+      "include_baseline_comparison": true,
+      "notes": "Meta-demo comparison benchmark."
+    },
+    {
+      "query_id": "qex_0006",
+      "question": "Give me a timeline of Frank and Russell Bufalino interactions.",
+      "query_type_expected": "timeline",
+      "mode_expected": "ntg",
+      "category": "timeline",
+      "include_baseline_comparison": false,
+      "notes": "Core Phase 4 relationship trajectory continuity."
+    },
+    {
+      "query_id": "qex_0007",
+      "question": "What evidence shows Frank warning Hoffa near the end?",
+      "query_type_expected": "evidence",
+      "mode_expected": "hybrid",
+      "category": "evidence",
+      "include_baseline_comparison": false,
+      "notes": "Should surface NTG evidence rows and warning events."
+    },
+    {
+      "query_id": "qex_0008",
+      "question": "When does the 1975 framing context appear relative to the flashbacks?",
+      "query_type_expected": "timeline",
+      "mode_expected": "ntg",
+      "category": "timeline",
+      "include_baseline_comparison": false,
+      "notes": "Temporal ordering / narrative structure query."
+    },
+    {
+      "query_id": "qex_0009",
+      "question": "Compare KG and timeline answers for Jimmy Hoffa and Frank.",
+      "query_type_expected": "comparison",
+      "mode_expected": "hybrid",
+      "category": "comparison",
+      "include_baseline_comparison": true,
+      "notes": "Explicit comparison routing."
+    },
+    {
+      "query_id": "qex_0010",
+      "question": "What sequence of events contributes to Peggy becoming distant from Frank?",
+      "query_type_expected": "causal_chain",
+      "mode_expected": "hybrid",
+      "category": "causal_chain",
+      "include_baseline_comparison": true,
+      "notes": "NTG-heavy causal + state-change blend."
+    },
+    {
+      "query_id": "qex_0011",
+      "question": "Who is Russell Bufalino connected to in the graph?",
+      "query_type_expected": "fact",
+      "mode_expected": "kg",
+      "category": "fact",
+      "include_baseline_comparison": false,
+      "notes": "KG neighbor lookup for second core cluster."
+    },
+    {
+      "query_id": "qex_0012",
+      "question": "Show evidence for Frank and Jimmy Hoffa's late conflict around meetings and warnings.",
+      "query_type_expected": "evidence",
+      "mode_expected": "hybrid",
+      "category": "evidence",
+      "include_baseline_comparison": false,
+      "notes": "Targets late-stage Hoffa conflict evidence and state-change overlays."
+    }
+  ]
+}

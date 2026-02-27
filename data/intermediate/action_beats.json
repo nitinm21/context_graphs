@@ -1,0 +1,2485 @@
+{
+  "metadata": {
+    "artifact_type": "action_beats",
+    "schema_version": "0.1.0-draft",
+    "parser_version": "phase1-parser-v0.1.0",
+    "build_timestamp": "2026-02-25T18:48:04Z",
+    "source_file": "the-irishman-ampas-script-cleaned.md",
+    "source_file_hash": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+    "record_count": 309
+  },
+  "items": [
+    {
+      "action_id": "act_000001",
+      "scene_id": "scene_0001",
+      "text": "T H E   I R I S H M A N Screenplay by Steven Zaillian",
+      "line_start": 1,
+      "line_end": 1,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000002",
+      "scene_id": "scene_0001",
+      "text": "FINAL SHOOTING SCRIPT",
+      "line_start": 3,
+      "line_end": 3,
+      "sequence_in_scene": 2
+    },
+    {
+      "action_id": "act_000003",
+      "scene_id": "scene_0001",
+      "text": "SOMEONE’S POV - MAYBE OURS Moving along a hallway of an ASSISTED LIVING FACILITY, past doors - some open, some closed - as if looking for somebody - and maybe not for benign reasons.",
+      "line_start": 5,
+      "line_end": 6,
+      "sequence_in_scene": 3
+    },
+    {
+      "action_id": "act_000004",
+      "scene_id": "scene_0002",
+      "text": "We see a young man’s hand with the same gold and diamond encrusted watch and diamond pinky ring raise a gun at an unseen target.",
+      "line_start": 24,
+      "line_end": 24,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000005",
+      "scene_id": "scene_0003",
+      "text": "BACK in the ASSISTED LIVING FACILITY, Frank gives us a moment to grasp what he’s said. Then:",
+      "line_start": 34,
+      "line_end": 34,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000006",
+      "scene_id": "scene_0004",
+      "text": "A wedding invitation sits on a bureau next to Frank’s gold watch.",
+      "line_start": 40,
+      "line_end": 40,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000007",
+      "scene_id": "scene_0005",
+      "text": "Frank arranges luggage in the trunk of his black Lincoln Continental, leaving a space for more.",
+      "line_start": 49,
+      "line_end": 49,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000008",
+      "scene_id": "scene_0006",
+      "text": "While his wife Irene talks on the kitchen phone to Russell’s wife Carrie about what to wear, Frank marks towns on a AAA map of the eastern states that he knows Russell will want to stop.",
+      "line_start": 58,
+      "line_end": 58,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000009",
+      "scene_id": "scene_0007",
+      "text": "Irene and Carrie smoke cigarettes on the sidewalk outside a modest suburban house while Frank and Russell Bufalino add his and his wife’s luggage to the trunk. Russell’s about 15 years older than Frank.",
+      "line_start": 64,
+      "line_end": 64,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000010",
+      "scene_id": "scene_0008",
+      "text": "Frank drives along a city street with Russell in front, the women in back, Carrie putting on some lipstick.",
+      "line_start": 70,
+      "line_end": 70,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000011",
+      "scene_id": "scene_0009",
+      "text": "While Irene and Carrie sit on a guard rail smoking, Russell leans on the hood looking off at cars and trucks driving past.  Frank comes over.",
+      "line_start": 105,
+      "line_end": 105,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000012",
+      "scene_id": "scene_0010",
+      "text": "Frank, in his 30s, behind the wheel of a refrigerated truck. He’s driving on the same highway he’ll drive to Detroit on twenty-some years later with Russell and their wives, when the engine starts making noises it shouldn’t.  Up ahead through the windshield is the same Stuckey’s-Texaco station -",
+      "line_start": 114,
+      "line_end": 114,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000013",
+      "scene_id": "scene_0011",
+      "text": "Frank has the truck’s hood open and is listening to the misfiring engine.  He has a cloth tool kit, with various sized wrenches, open on the truck’s fender. Russell - who he doesn’t know yet - appears out of nowhere wearing no glasses.",
+      "line_start": 117,
+      "line_end": 117,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000014",
+      "scene_id": "scene_0012",
+      "text": "Frank where we left him, in the wheelchair in the rec room with his aviator glasses.",
+      "line_start": 139,
+      "line_end": 139,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000015",
+      "scene_id": "scene_0013",
+      "text": "A priest performs a baptism.  Frank and his first wife Mary’s second daughter, Peggy. There are so few people in attendance, it seems like a private ceremony.  But it’s just they don’t have a lot of friends or relatives.",
+      "line_start": 145,
+      "line_end": 145,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000016",
+      "scene_id": "scene_0014",
+      "text": "“SKINNY RAZOR” swiftly runs his razor across a squawking chicken’s neck that gushes blood. Skinny then dumps the fluttering chicken head-first into a metal funnel to let it bleed out while grabbing his next victim.",
+      "line_start": 148,
+      "line_end": 148,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000017",
+      "scene_id": "scene_0015",
+      "text": "A place called The Friendly Lounge according to its sign which has “STEAKS AND CHOPS” in neon.",
+      "line_start": 154,
+      "line_end": 154,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000018",
+      "scene_id": "scene_0016",
+      "text": "Frank hangs out with some other truck drivers, all Italians except him.  Across the room at another table sits a group of mid-level mob guys, eating dinner. Indicating one of them -",
+      "line_start": 157,
+      "line_end": 157,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000019",
+      "scene_id": "scene_0017",
+      "text": "Frank’s POV of Johnny talking to Skinny and gesturing for Frank to come over.",
+      "line_start": 169,
+      "line_end": 169,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000020",
+      "scene_id": "scene_0018",
+      "text": "Frank and Johnny standing at Skinny’s table.",
+      "line_start": 172,
+      "line_end": 172,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000021",
+      "scene_id": "scene_0019",
+      "text": "It’s summer.  As loading dock workers in short sleeves carry hindquarters and hang them in Frank’s refrigerated truck, he signs for the load - 25 beef carcasses.",
+      "line_start": 199,
+      "line_end": 199,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000022",
+      "scene_id": "scene_0020",
+      "text": "Frank backs up to the store’s loading dock and climbs out as the store’s manager approaches with a clipboard and breaks the aluminum seal.  Workers begin unloading the hindquarters, the store manager noting the number.",
+      "line_start": 205,
+      "line_end": 205,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000023",
+      "scene_id": "scene_0021",
+      "text": "The same loading dock as before, but now it’s winter. Snow on the ground.",
+      "line_start": 211,
+      "line_end": 211,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000024",
+      "scene_id": "scene_0022",
+      "text": "A heater glows in the yard manager’s dock office.  Frank signs for 25 hindquarters.",
+      "line_start": 214,
+      "line_end": 214,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000025",
+      "scene_id": "scene_0023",
+      "text": "Frank emerges from the office, crosses the freezing cold dock, shuts the doors of the loaded truck but pockets the seal instead of putting it on the lock.",
+      "line_start": 232,
+      "line_end": 232,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000026",
+      "scene_id": "scene_0024",
+      "text": "Skinny watches guys carry five hindquarters into the back of the Friendly Lounge as he pays Frank cash. After the delivery is done and Skinny goes inside, Frank puts the seal on the truck door’s lock.",
+      "line_start": 235,
+      "line_end": 235,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000027",
+      "scene_id": "scene_0025",
+      "text": "The store MANAGER rubs his gloves together to restore some circulation and breaks the seal on the lock.",
+      "line_start": 238,
+      "line_end": 238,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000028",
+      "scene_id": "scene_0026",
+      "text": "Frank helps the dock workers carry the 20 (not 25) hindquarters to the store’s walk-in refrigerator.  They hang them on one side and leave, but Frank stays behind and re-hangs five hindquarters that were already there on the other side to those he just delivered.",
+      "line_start": 245,
+      "line_end": 245,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000029",
+      "scene_id": "scene_0027",
+      "text": "Back on the dock, the store manager signs for the shipment - 25 side of beef - and Frank hops back into his truck.",
+      "line_start": 248,
+      "line_end": 248,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000030",
+      "scene_id": "scene_0028",
+      "text": "Frank and Johnny and drivers at the bar with Christmas decorations.  Skinny and mob friends eating Frank’s stolen steak.  Skinny waves Frank over to the table.",
+      "line_start": 251,
+      "line_end": 251,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000031",
+      "scene_id": "scene_0029",
+      "text": "Another winter’s day.  The store manager comes out to Frank’s truck and breaks the seal on the doors.",
+      "line_start": 263,
+      "line_end": 263,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000032",
+      "scene_id": "scene_0030",
+      "text": "The familiar two-horses-and-a-wheel International Brotherhood of Teamsters logo on the door of the Local.",
+      "line_start": 284,
+      "line_end": 284,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000033",
+      "scene_id": "scene_0031",
+      "text": "Frank sits with Teamster lawyer Bill Bufalino, whose daughter’s wedding Frank and Russell will drive across three states to attend 25 years later.",
+      "line_start": 290,
+      "line_end": 290,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000034",
+      "scene_id": "scene_0032",
+      "text": "At the plaintiff’s table - the Food Fair lawyers.  At the defense table - Frank and his lawyer, Bill Bufalino, who addresses the judge -",
+      "line_start": 360,
+      "line_end": 360,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000035",
+      "scene_id": "scene_0033",
+      "text": "ANGELO BRUNO, humble-looking and simply dressed is seated at a table with Skinny Razor when Frank and Bill Bufalino walk in. Skinny whispers something to Bruno.",
+      "line_start": 380,
+      "line_end": 380,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000036",
+      "scene_id": "scene_0034",
+      "text": "Frank sees Russell Bufalino being seated at Angelo Bruno’s table. Skinny Razor is gone. Bruno rises as Russell kisses Bruno’s cheek. Frank sees there are empty tables on either side of the Bruno table despite the restaurant being full with diners waiting.",
+      "line_start": 419,
+      "line_end": 419,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000037",
+      "scene_id": "scene_0035",
+      "text": "Dinner’s over. Russell has joined Bill, Frank and Skinny Razor for coffee and anisette at Bill Bufalino’s table. Bill and Skinny Razor are talking about Skinny ducking a subpoena.",
+      "line_start": 425,
+      "line_end": 425,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000038",
+      "scene_id": "scene_0036",
+      "text": "Frank holds a rifle on GERMAN SOLDIER #1 and #2 as they dig holes in the forest floor.",
+      "line_start": 474,
+      "line_end": 474,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000039",
+      "scene_id": "scene_0037",
+      "text": "The road ahead as the Lincoln drives a rural stretch of I-80 West.",
+      "line_start": 492,
+      "line_end": 492,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000040",
+      "scene_id": "scene_0038",
+      "text": "Russell naps in the passenger seat while Frank drives, their wives in back.",
+      "line_start": 495,
+      "line_end": 495,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000041",
+      "scene_id": "scene_0039",
+      "text": "Russell comes in late at night through the back door into the darkened house. He’s surprised by Carrie who is still up. He’s got blood splattered on his shirt and face, which does not alarm her as it might most wives.",
+      "line_start": 501,
+      "line_end": 501,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000042",
+      "scene_id": "scene_0040",
+      "text": "Endless, boring trees, whiz by.",
+      "line_start": 513,
+      "line_end": 513,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000043",
+      "scene_id": "scene_0041",
+      "text": "Frank pulls the car to the side of the highway. The women get out to smoke. The car doors shutting wakes Russell.",
+      "line_start": 519,
+      "line_end": 519,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000044",
+      "scene_id": "scene_0042",
+      "text": "A succession of guys in suits and ties sit in chairs in the rear of Russell’s fabric shop quietly waiting their turn. They do not speak or acknowledge each other as two female clerks hustle around checking bolts of fabric for curtains and drapes.",
+      "line_start": 531,
+      "line_end": 531,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000045",
+      "scene_id": "scene_0043",
+      "text": "Arthur Grasso’s barber shop.  Four barbers, two bootblacks, a manicurist, and three customers, one of them with his head back, eyes closed, getting a shave. The man’s bodyguard leafs through a magazine as he waits, then sets it down, gets up, and - We follow him out to the adjacent lobby of the hotel where he walks past shops, presumably to buy something at the kiosk up ahead, passing two other men coming the other way without acknowledging them - And we go back with these two as they walk past the same shops to the barber shop.  They go in, but we keep going to the florist next door, settling on flower arrangements as ten shots ring out in the barber shop -",
+      "line_start": 540,
+      "line_end": 540,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000046",
+      "scene_id": "scene_0044",
+      "text": "Fingers raise the volume on the car radio.",
+      "line_start": 546,
+      "line_end": 546,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000047",
+      "scene_id": "scene_0045",
+      "text": "Russell, in shirtsleeves, calmly talking to the men inside the car. We hear nothing over the loud car radio music.",
+      "line_start": 549,
+      "line_end": 549,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000048",
+      "scene_id": "scene_0046",
+      "text": "The same modest house the Bufalinos will still be in twenty years from now.",
+      "line_start": 555,
+      "line_end": 555,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000049",
+      "scene_id": "scene_0047",
+      "text": "Frank sits in an idling car, the tailpipe breathing steam into the chilly air.",
+      "line_start": 558,
+      "line_end": 558,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000050",
+      "scene_id": "scene_0048",
+      "text": "Frank in his parked car, watching a street corner.  Sees DEADBEAT #1 come around it. We stay in the car to watch Frank approach the guy on the sidewalk, showing that he is holding a gun in the paper bag.",
+      "line_start": 585,
+      "line_end": 585,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000051",
+      "scene_id": "scene_0049",
+      "text": "Skinny regards the guy standing before him.",
+      "line_start": 594,
+      "line_end": 594,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000052",
+      "scene_id": "scene_0050",
+      "text": "Frank comes in to find Mary cooking and his daughter Peggy sulking.",
+      "line_start": 618,
+      "line_end": 618,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000053",
+      "scene_id": "scene_0051",
+      "text": "Frank leads Peggy to the corner store where the burly GROCER is alone.",
+      "line_start": 643,
+      "line_end": 643,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000054",
+      "scene_id": "scene_0052",
+      "text": "The GROCER is alone whacking away at a leg of lamb with a meat cleaver as Frank enters.",
+      "line_start": 652,
+      "line_end": 652,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000055",
+      "scene_id": "scene_0053",
+      "text": "Peggy has not gone home and is peeking into the store where she sees her father stomping up and down on the screaming Grocer’s hand. Terrified, Peggy turns and runs home as her father stomps on the Grocer writhing on the ground.",
+      "line_start": 658,
+      "line_end": 658,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000056",
+      "scene_id": "scene_0054",
+      "text": "The family eats in silence.  Peggy steals glances at her father, afraid of him now.",
+      "line_start": 661,
+      "line_end": 661,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000057",
+      "scene_id": "scene_0055",
+      "text": "Frank and Mary’s daughter, DOLORES, is being baptized. Unlike the last time, there are a lot of attendees - mobsters from Downtown including Russell, Carrie, Bill Bufalino, his wife, Johnny the trucker, Skinny Razor and other assorted blue collar truckers and part time hoods. Peggy watches her father, all she sees is the image of her father’s heel crushing a hand.",
+      "line_start": 664,
+      "line_end": 664,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000058",
+      "scene_id": "scene_0056",
+      "text": "Frank sits at a table with a cup of coffee when Whispers DiTullio sits down. Frank nods.",
+      "line_start": 670,
+      "line_end": 670,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000059",
+      "scene_id": "scene_0057",
+      "text": "A big industrial laundry service, but with a lot of idle machines.",
+      "line_start": 685,
+      "line_end": 685,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000060",
+      "scene_id": "scene_0058",
+      "text": "This place looks a lot like the other place, only busy.",
+      "line_start": 691,
+      "line_end": 691,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000061",
+      "scene_id": "scene_0059",
+      "text": "Frank leans in closer as Whisper talks.",
+      "line_start": 697,
+      "line_end": 697,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000062",
+      "scene_id": "scene_0060",
+      "text": "As workers haul laundry out to trucks with the name Cadillac Linen Service painted on them -",
+      "line_start": 706,
+      "line_end": 706,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000063",
+      "scene_id": "scene_0061",
+      "text": "Whispers passes an envelope across the table.",
+      "line_start": 709,
+      "line_end": 709,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000064",
+      "scene_id": "scene_0062",
+      "text": "Frank takes five hundred from the $2000 stack of bills in the envelope and gives the rest to Mary, at the kitchen table with their three girls.",
+      "line_start": 730,
+      "line_end": 730,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000065",
+      "scene_id": "scene_0063",
+      "text": "Frank drives slowly past the front of the Cadillac Linen Service building. Then around the side. Then around the back. He notes a burglar alarm box.",
+      "line_start": 736,
+      "line_end": 736,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000066",
+      "scene_id": "scene_0064",
+      "text": "He sits in his parked car, having a look at the building at night.  He gets out and crosses past the trucks, peers in one of the industrial windows at the washing and pressing machines inside.",
+      "line_start": 739,
+      "line_end": 739,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000067",
+      "scene_id": "scene_0065",
+      "text": "At his car, Frank takes out a red 5-gallon gasoline tank. He unscrews his car’s gas cap and shoves a two foot length of rubber hose into the tank. He sucks on the hose for a few seconds and quickly spits out the taste of gasoline before he shoves the hose into the red gasoline tank. He puts the red tank in the trunk of his car where there are two more red tanks and a box of dynamite.",
+      "line_start": 742,
+      "line_end": 742,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000068",
+      "scene_id": "scene_0066",
+      "text": "He puts on a dark jacket over his dark clothes and heads for the door.",
+      "line_start": 745,
+      "line_end": 745,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000069",
+      "scene_id": "scene_0067",
+      "text": "As he comes out and walks toward his car, he sees Skinny standing next to his own, and stops.",
+      "line_start": 748,
+      "line_end": 748,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000070",
+      "scene_id": "scene_0068",
+      "text": "Skinny leads Frank into the restaurant. Empty except for Angelo, Russell and Phil the bartender. Phil closes the door as they walk in. The door snaps as he locks it. He puts the closed sign up.",
+      "line_start": 754,
+      "line_end": 754,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000071",
+      "scene_id": "scene_0069",
+      "text": "Whispers waits on the street.",
+      "line_start": 829,
+      "line_end": 829,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000072",
+      "scene_id": "scene_0070",
+      "text": "Frank is seated at a small table before a soundless television set.",
+      "line_start": 838,
+      "line_end": 838,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000073",
+      "scene_id": "scene_0071",
+      "text": "Frank drives slowly across the empty bridge, slows down and scales the gun into the river as effortlessly as a frisbee.",
+      "line_start": 845,
+      "line_end": 845,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000074",
+      "scene_id": "scene_0072",
+      "text": "Frank sits at the kitchen table reading a newspaper. Glances up at his daughter Peggy, then back down at the paper with a WeeGee-like photo of a body on the sidewalk surrounded by cops and passersby. Next to it is a full face mugshot of Whispers.",
+      "line_start": 851,
+      "line_end": 851,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000075",
+      "scene_id": "scene_0073",
+      "text": "Frank pulls up, gets out, throws a gun in the river.",
+      "line_start": 857,
+      "line_end": 857,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000076",
+      "scene_id": "scene_0074",
+      "text": "Frank throws another gun in the river.",
+      "line_start": 863,
+      "line_end": 863,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000077",
+      "scene_id": "scene_0075",
+      "text": "Another gun hits the water, and this time we go underwater with it as it sinks to the bottom, where there’s an arsenal of discarded guns.",
+      "line_start": 869,
+      "line_end": 869,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000078",
+      "scene_id": "scene_0076",
+      "text": "As Frank approaches Russell’s table, the two sitting with Russell leap to their feet, nod at Frank and move away.",
+      "line_start": 875,
+      "line_end": 875,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000079",
+      "scene_id": "scene_0077",
+      "text": "Frank walks down a rain-slicked Downtown street with the Villa di Roma waitress - Irene - stepping on reflections of lights and neon signs on the wet pavement.",
+      "line_start": 881,
+      "line_end": 881,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000080",
+      "scene_id": "scene_0078",
+      "text": "Frank pulls the Lincoln into the lot of a roadside motel set down next to the highway.",
+      "line_start": 887,
+      "line_end": 887,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000081",
+      "scene_id": "scene_0079",
+      "text": "While their wives smoke outside, Frank and Russell check in.  Only instead of taking money from either of them, the manager gives Russell an envelope of cash.",
+      "line_start": 890,
+      "line_end": 890,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000082",
+      "scene_id": "scene_0080",
+      "text": "Russell and Frank drive along a street in Lewisburg.",
+      "line_start": 893,
+      "line_end": 893,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000083",
+      "scene_id": "scene_0081",
+      "text": "Russell waits in the Lincoln, Frank comes out of the jewelry store with another envelope. Russell adds it to the others in the glove compartment and turns to give his wife and Irene two small gold brooches.",
+      "line_start": 899,
+      "line_end": 899,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000084",
+      "scene_id": "scene_0082",
+      "text": "Russell and his wife Carrie, along with Frank and his second wife, Irene, and his two older daughters, Peggy and Maryanne - bowl. Peggy - about 10 now - and even more uncomfortable with him - keeps her distance.",
+      "line_start": 902,
+      "line_end": 902,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000085",
+      "scene_id": "scene_0083",
+      "text": "Frank and Russell drink beers and watch the women and children bowl.",
+      "line_start": 905,
+      "line_end": 905,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000086",
+      "scene_id": "scene_0084",
+      "text": "A thunderstorm throws rain down on Frank he hurries from his car to the Villa di Roma.",
+      "line_start": 975,
+      "line_end": 975,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000087",
+      "scene_id": "scene_0085",
+      "text": "Russell and Skinny Razor are lingering at one end of the bar. Frank is sitting on his own at a table having a glass of wine. Russell is checking his watch. The bar phone rings.",
+      "line_start": 978,
+      "line_end": 978,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000088",
+      "scene_id": "scene_0086",
+      "text": "Hoffa is behind a large desk wearing a low-cost black suit with a white shirt and black tie.",
+      "line_start": 1005,
+      "line_end": 1005,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000089",
+      "scene_id": "scene_0087",
+      "text": "Jimmy comes through a large crowd of workers eager to shake his hand.",
+      "line_start": 1011,
+      "line_end": 1011,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000090",
+      "scene_id": "scene_0088",
+      "text": "Jimmy orating before the crowd of workers - televised.",
+      "line_start": 1017,
+      "line_end": 1017,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000091",
+      "scene_id": "scene_0089",
+      "text": "Cars pull into a parking lot behind a building.",
+      "line_start": 1086,
+      "line_end": 1086,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000092",
+      "scene_id": "scene_0090",
+      "text": "Frank is seated with JOEY GLIMCO, head of the Chicago taxicab drivers union.",
+      "line_start": 1092,
+      "line_end": 1092,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000093",
+      "scene_id": "scene_0091",
+      "text": "A woman cab driver walks into a diner.",
+      "line_start": 1101,
+      "line_end": 1101,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000094",
+      "scene_id": "scene_0092",
+      "text": "Frank and the other Local 777 guys push stolen non-union cabs into Lake Michigan while cops stand around watching.",
+      "line_start": 1110,
+      "line_end": 1110,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000095",
+      "scene_id": "scene_0093",
+      "text": "The trunk of a car opens revealing boxes of dynamite. Joey and Frank carry the boxes to a back door of a cab garage, held open by another man.",
+      "line_start": 1122,
+      "line_end": 1122,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000096",
+      "scene_id": "scene_0094",
+      "text": "The place is silent.  Full of taxi cabs. Suddenly they start exploding -",
+      "line_start": 1125,
+      "line_end": 1125,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000097",
+      "scene_id": "scene_0095",
+      "text": "Frank and Joey Glimco approach a fruit stand.",
+      "line_start": 1128,
+      "line_end": 1128,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000098",
+      "scene_id": "scene_0096",
+      "text": "As Joey carefully cuts a hole in a watermelon, Frank checks his watch.",
+      "line_start": 1140,
+      "line_end": 1140,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000099",
+      "scene_id": "scene_0097",
+      "text": "They sip from bottles of ginger ale - Joey, Frank and Jimmy Hoffa - but only two of them are eating the sliced-up spiked watermelon.",
+      "line_start": 1146,
+      "line_end": 1146,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000100",
+      "scene_id": "scene_0098",
+      "text": "Joey has left.  It’s just Jimmy and Frank now.  Jimmy in pajamas and slippers.  (Frank, still fully clothed, stands near a utility rolling cot.)",
+      "line_start": 1176,
+      "line_end": 1176,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000101",
+      "scene_id": "scene_0099",
+      "text": "Jimmy and his wife Josephine, and Frank and Irene and his still-growing family including infant Connie in a stroller - play miniature golf.  Jimmy dotes on Peggy, helps her with the club.",
+      "line_start": 1191,
+      "line_end": 1191,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000102",
+      "scene_id": "scene_0100",
+      "text": "Jimmy sets a tray of ice cream sundaes on the table, placing the first one in front of Peggy.",
+      "line_start": 1209,
+      "line_end": 1209,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000103",
+      "scene_id": "scene_0101",
+      "text": "Peggy stands in front of a blackboard reading an essay from a piece of paper.  A banner above the blackboard reads: “CAREER DAY”.",
+      "line_start": 1215,
+      "line_end": 1215,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000104",
+      "scene_id": "scene_0102",
+      "text": "Hoffa behind a large desk in a huge office with drapes and a window view of the White House. JAKE GOTTLIEB, a builder, is showing Hoffa a two-foot high architect’s model of “The Dunes”, the Las Vegas casino he is proposing expanding.",
+      "line_start": 1224,
+      "line_end": 1224,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000105",
+      "scene_id": "scene_0102",
+      "text": "CUT TO: Bill Bufalino standing behind Gottlieb. Frank is standing behind Bill.",
+      "line_start": 1229,
+      "line_end": 1230,
+      "sequence_in_scene": 3
+    },
+    {
+      "action_id": "act_000106",
+      "scene_id": "scene_0103",
+      "text": "Frank and Bill open a large ebony credenza with an elaborate Chinese design. Bill opens the credenza to reveal stacks of cash in neat bank banded units reading: $10,000, $50,000, etc. Bill rummages around the stacks until he piles twelve stacks marked $100,000 into Frank’s arms.",
+      "line_start": 1255,
+      "line_end": 1255,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000107",
+      "scene_id": "scene_0104",
+      "text": "With Peggy still up at the front of the class -",
+      "line_start": 1258,
+      "line_end": 1258,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000108",
+      "scene_id": "scene_0105",
+      "text": "Sign reads: “ALLEN DORFMAN INSURANCE.” Allen Dorfman is seated wearing a “Friend of Hoffa” pin in his lapel.",
+      "line_start": 1264,
+      "line_end": 1264,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000109",
+      "scene_id": "scene_0106",
+      "text": "Russell in the curtain shop checking bolts of cloth talking with his cousin, Bill.",
+      "line_start": 1272,
+      "line_end": 1272,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000110",
+      "scene_id": "scene_0107",
+      "text": "Cranes building the casinos such as the Stardust, the Dunes, the Sands etc. in BG.",
+      "line_start": 1284,
+      "line_end": 1284,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000111",
+      "scene_id": "scene_0108",
+      "text": "Several women sitting under hair dryers.  One of the women is Jimmy’s wife, Josephine.",
+      "line_start": 1290,
+      "line_end": 1290,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000112",
+      "scene_id": "scene_0109",
+      "text": "* POSTCARD: photo of a large real estate display with a golf course. * POSTCARD: photo of a fleet of charter fishing boats. * POSTCARD: photo of Aspen Lodge and ski slopes.",
+      "line_start": 1296,
+      "line_end": 1296,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000113",
+      "scene_id": "scene_0110",
+      "text": "Some parked cars. In the backseat of one sits a man wearing sunglasses and a fedora - SAM “MOMO” GIANCANA.",
+      "line_start": 1302,
+      "line_end": 1302,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000114",
+      "scene_id": "scene_0111",
+      "text": "Some mob guys walk across the lawns of a graveyard, jotting down the names on the tombstones.",
+      "line_start": 1308,
+      "line_end": 1308,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000115",
+      "scene_id": "scene_0112",
+      "text": "The men from the graveyard sign the names from the tombstones on voting registers, then get back in line to do it again.",
+      "line_start": 1314,
+      "line_end": 1314,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000116",
+      "scene_id": "scene_0113",
+      "text": "Chicago boss, SAM “MOMO” GIANCANA, and New Jersey boss, TONY “TONY PRO” PROVENZANO, are watching the Kennedy election victory on television. Momo, Tony Pro, and the roomful of hoods cheer and toast each other with the Kennedy victory.",
+      "line_start": 1320,
+      "line_end": 1320,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000117",
+      "scene_id": "scene_0114",
+      "text": "Jimmy, Jo, and their kids James P., Barbara and adopted son Chuckie - all in their late teens - watching Kennedy and his family on TV - Jackie, Joe, Bobby, Ted - milling around a stage in Hyannis Port for his victory speech.",
+      "line_start": 1326,
+      "line_end": 1326,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000118",
+      "scene_id": "scene_0115",
+      "text": "Bobby Kennedy regards Hoffa like he’s an insect.  It’s ten minutes into the hearing now -",
+      "line_start": 1344,
+      "line_end": 1344,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000119",
+      "scene_id": "scene_0116",
+      "text": "Russell enters and distributes JFK election materials to some regulars. A “Kennedy For President” poster hangs on the restaurant’s mirror.",
+      "line_start": 1367,
+      "line_end": 1367,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000120",
+      "scene_id": "scene_0117",
+      "text": "Christmas Eve. Lights glow on a tree. Music on the hifi. The Bufalinos, and Frank and Irene and the girls sit around the Christmas tree, opening the gifts Russell has given them - jewelry for Irene, clothes and toys for the girls.",
+      "line_start": 1373,
+      "line_end": 1373,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000121",
+      "scene_id": "scene_0117",
+      "text": "TV IMAGE - 1961 Of John F. Kennedy being sworn in at his inauguration.",
+      "line_start": 1384,
+      "line_end": 1385,
+      "sequence_in_scene": 5
+    },
+    {
+      "action_id": "act_000122",
+      "scene_id": "scene_0118",
+      "text": "Frank stands on the front lawn in his robe and slippers, watching a repairman on a telephone pole down the street working on the lines, phone company van parked below.",
+      "line_start": 1391,
+      "line_end": 1391,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000123",
+      "scene_id": "scene_0119",
+      "text": "CAMERA looks down from above as upon a chessboard where Hoffa, Bill Bufalino and Frank inch their way across the courthouse’s polished marble floor surrounded by a small army of reporters, cameramen, and TV anchors waving microphones. The press keep shouting questions at Hoffa and his trio until they are finally rescued by burly Court Officers who shove the press aside and drag Hoffa, Frank and Bill through a courtroom door.",
+      "line_start": 1397,
+      "line_end": 1397,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000124",
+      "scene_id": "scene_0120",
+      "text": "An agitated Jimmy listening on a phone behind his desk stares angrily at six large, tough, teamster officials, including Frank.",
+      "line_start": 1403,
+      "line_end": 1403,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000125",
+      "scene_id": "scene_0121",
+      "text": "Jimmy catches up with Frank.",
+      "line_start": 1416,
+      "line_end": 1416,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000126",
+      "scene_id": "scene_0122",
+      "text": "Frank and Russell alone at a table, floating three coffee beans in their after-dinner Sambuca shots.",
+      "line_start": 1443,
+      "line_end": 1443,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000127",
+      "scene_id": "scene_0123",
+      "text": "Frank pulls into a South Philly trucking company lot, climbs out of his car and speaks to a guy.",
+      "line_start": 1470,
+      "line_end": 1470,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000128",
+      "scene_id": "scene_0124",
+      "text": "Frank behind the wheel of a Milestone semi.",
+      "line_start": 1476,
+      "line_end": 1476,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000129",
+      "scene_id": "scene_0125",
+      "text": "Frank pulls the rig onto the grounds of the plant. There’s a little landing strip next to it.",
+      "line_start": 1482,
+      "line_end": 1482,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000130",
+      "scene_id": "scene_0126",
+      "text": "Frank drives the rig down Route 13.",
+      "line_start": 1493,
+      "line_end": 1493,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000131",
+      "scene_id": "scene_0127",
+      "text": "A deserted greyhound race track.  Stuffed rabbit on a rail pole.  Frank pulls the truck into the parking lot.",
+      "line_start": 1499,
+      "line_end": 1499,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000132",
+      "scene_id": "scene_0128",
+      "text": "A glum Frank and Russell sitting at the bar watching TV showing news footage of the Bay of Pigs disaster.",
+      "line_start": 1517,
+      "line_end": 1517,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000133",
+      "scene_id": "scene_0129",
+      "text": "A furious Hoffa in his office with Bill Bufalino. Hoffa is going through a stack of subpoenas.",
+      "line_start": 1526,
+      "line_end": 1526,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000134",
+      "scene_id": "scene_0130",
+      "text": "JOSEPH P. KENNEDY, 80, in pajamas and wrapped in a robe, is seated in a wheelchair with a male NURSE watching a variety show.",
+      "line_start": 1552,
+      "line_end": 1552,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000135",
+      "scene_id": "scene_0131",
+      "text": "Frank slips a .38 in the back of his waistband as Peggy watches unnoticed. He puts on a car coat. A TV plays a news report on Castro.",
+      "line_start": 1558,
+      "line_end": 1558,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000136",
+      "scene_id": "scene_0132",
+      "text": "It’s late.  The house is dark.  As he’s leaving with his suitcase -",
+      "line_start": 1564,
+      "line_end": 1564,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000137",
+      "scene_id": "scene_0133",
+      "text": "Frank closes the trunk, gets in his car, sets the .38 on the passenger seat.  Peggy watches from a window.",
+      "line_start": 1573,
+      "line_end": 1573,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000138",
+      "scene_id": "scene_0134",
+      "text": "The sun-bleached coastline of Miami Beach.  Everyone in short-sleeves and sunglasses.",
+      "line_start": 1576,
+      "line_end": 1576,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000139",
+      "scene_id": "scene_0135",
+      "text": "Frank climbs out of his car.  A bellman helps him with his luggage.  Everyone else arriving for the annual Teamsters Convention looks just as much like a gangster as he does.",
+      "line_start": 1579,
+      "line_end": 1579,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000140",
+      "scene_id": "scene_0136",
+      "text": "Jimmy and Frank share the suite.  Jimmy knots a tie. Frank sticks a pistol in his back waistband and slips a sports jacket on.",
+      "line_start": 1582,
+      "line_end": 1582,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000141",
+      "scene_id": "scene_0137",
+      "text": "Frank stands next to check-in tables outside a ballroom, scrutinizing the faces of those showing their union cards to clerks for admittance.",
+      "line_start": 1585,
+      "line_end": 1585,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000142",
+      "scene_id": "scene_0138",
+      "text": "While Jimmy addresses the convention delegates, Frank surveys them, looking at their hands for cameras or guns.",
+      "line_start": 1588,
+      "line_end": 1588,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000143",
+      "scene_id": "scene_0139",
+      "text": "Jimmy and Frank in pajamas, getting ready to turn in.",
+      "line_start": 1606,
+      "line_end": 1606,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000144",
+      "scene_id": "scene_0140",
+      "text": "A car pulls up to a one-story box of a building that looks like an abandoned bar.  A short man in a black suit gets out with a couple of other men -",
+      "line_start": 1633,
+      "line_end": 1633,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000145",
+      "scene_id": "scene_0141",
+      "text": "As Pro walks into the crowded place, his Teamster workingmen supporters cheer him, wave “Vote TONY ‘PRO’ and Slate” signs, bang on drink trays.",
+      "line_start": 1639,
+      "line_end": 1639,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000146",
+      "scene_id": "scene_0142",
+      "text": "Pro, seated at a microphone, wearing glasses now, haltingly reads his prepared remarks to the men -",
+      "line_start": 1642,
+      "line_end": 1642,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000147",
+      "scene_id": "scene_0142",
+      "text": "BACK TO THE DEAUVILLE HOTEL SUITE - 1961",
+      "line_start": 1653,
+      "line_end": 1653,
+      "sequence_in_scene": 5
+    },
+    {
+      "action_id": "act_000148",
+      "scene_id": "scene_0143",
+      "text": "A car drives down a highway past farms.",
+      "line_start": 1659,
+      "line_end": 1659,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000149",
+      "scene_id": "scene_0144",
+      "text": "ANTHONY CASTELLITO fiddles with the radio in the front passenger seat, searching for a station in the static.",
+      "line_start": 1665,
+      "line_end": 1665,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000150",
+      "scene_id": "scene_0145",
+      "text": "Sally and the driver smoke outside the car as a tree shredder chews up something.",
+      "line_start": 1674,
+      "line_end": 1674,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000151",
+      "scene_id": "scene_0145",
+      "text": "BACK TO THE DEAUVILLE HOTEL SUITE - 1961",
+      "line_start": 1679,
+      "line_end": 1679,
+      "sequence_in_scene": 3
+    },
+    {
+      "action_id": "act_000152",
+      "scene_id": "scene_0146",
+      "text": "Frank’s Lincoln parked at the side of I-80 West, all the luggage out of the trunk.  As Frank and Russell change a flat tire, the wives seize the opportunity for a cigarette on the guard rail.",
+      "line_start": 1716,
+      "line_end": 1716,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000153",
+      "scene_id": "scene_0147",
+      "text": "A Teamster pin on a lapel.  It’s on Frank’s lapel as he parks a 1962 Lincoln by the loading docks of a trucking company and climbs out, wearing a suit like Jimmy’s.",
+      "line_start": 1719,
+      "line_end": 1719,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000154",
+      "scene_id": "scene_0148",
+      "text": "As Frank enters the trucking company OWNER takes one look at Frank’s suit and union pin and pulls an envelope from his desk to give him. Frank shakes his head no.",
+      "line_start": 1722,
+      "line_end": 1722,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000155",
+      "scene_id": "scene_0149",
+      "text": "Frank in his own office now, behind a desk, talking with a truck driver dressed like he used to dress -",
+      "line_start": 1733,
+      "line_end": 1733,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000156",
+      "scene_id": "scene_0150",
+      "text": "With the jury out of the room, attorney Bill Bufalino - the same Teamster attorney who represented Frank in his trucking theft case - appeals to Judge William Miller to have a case thrown out - this one against Hoffa.",
+      "line_start": 1745,
+      "line_end": 1745,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000157",
+      "scene_id": "scene_0151",
+      "text": "The young would-be assassin, face bloody, stands for his mug shot, holding a booking placard that identifies him as Warren Swanson.",
+      "line_start": 1763,
+      "line_end": 1763,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000158",
+      "scene_id": "scene_0152",
+      "text": "Frank, in his office, on the phone to Jimmy -",
+      "line_start": 1769,
+      "line_end": 1769,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000159",
+      "scene_id": "scene_0153",
+      "text": "Frank and another tough Teamster - Louisianan Ed Partin - Jimmy’s bodyguards now - tower over the diminutive labor leader, walking alongside him to the courtroom.",
+      "line_start": 1775,
+      "line_end": 1775,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000160",
+      "scene_id": "scene_0154",
+      "text": "As prosecutor Jim Neal questions a witness in his Tennessee drawl Frank and Partin survey the room for possible nuts.  Hoffa meanwhile surveys the faces of the jury -",
+      "line_start": 1778,
+      "line_end": 1778,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000161",
+      "scene_id": "scene_0155",
+      "text": "The legal team’s investigator lays out surveillance photographs of the same people - marked JUROR 1, 2, 3, etc. - like a game of solitaire. On the sofa Ed Partin and Frank watch the unfolding events of the Cuban Missile Crisis on the TV while Jimmy, in his pajamas, makes scrambled eggs for them and Chuckie and the legal team.",
+      "line_start": 1781,
+      "line_end": 1781,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000162",
+      "scene_id": "scene_0156",
+      "text": "A shirtless Ed Partin removes a microphone and tape recorder strapped under his arm and hands it to Jim Neal, the prosecutor we saw in court.",
+      "line_start": 1792,
+      "line_end": 1792,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000163",
+      "scene_id": "scene_0157",
+      "text": "Deserted stretch of highway.  A lone Cadillac parked on the shoulder.  A Tennessee State Highway Patrol car pulls over. But rather than what normally happens, a man climbs out of the Cadillac, walks over to the police car, and talks with the trooper.  As he hands him an envelope - A long lens camera captures the bribe, the man walking back to the Cadillac, the car driving off.",
+      "line_start": 1795,
+      "line_end": 1795,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000164",
+      "scene_id": "scene_0158",
+      "text": "As Jimmy cooks breakfast for everyone again, we regard the surveillance photographs of the jurors on the table. To one on which someone has already written Patrolman’s Wife, someone adds a check-mark flourish.",
+      "line_start": 1798,
+      "line_end": 1798,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000165",
+      "scene_id": "scene_0159",
+      "text": "The Caddie driver who rendezvoused with the trooper out on the highway, EWING KING, is called to the stand.  As he raises his right hand and is sworn in, Jimmy, at the defense table, subtly lifts his own hand and spreads his fingers.  The man nods almost imperceptibly as he sits in the box.",
+      "line_start": 1801,
+      "line_end": 1801,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000166",
+      "scene_id": "scene_0160",
+      "text": "Frank keeps an eye on everyone in the shop as Jimmy spoons at an ice cream sundae.  He’s with his attorneys and Chuckie, but is the only one eating.",
+      "line_start": 1825,
+      "line_end": 1825,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000167",
+      "scene_id": "scene_0161",
+      "text": "A solemn day. The city’s flags are at half-staff including the Capitol dome.  As Jimmy, Frank and Bill emerge from the Teamsters’ headquarters building, Jimmy’s trial put on hold by the assassination, a news crew intercepts him.",
+      "line_start": 1834,
+      "line_end": 1834,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000168",
+      "scene_id": "scene_0162",
+      "text": "Hoffa supervises guards and building workmen as they busily haul the fluttering stars and stripes back to the top of the flag pole. Frank and Bill Bufalino just watch.",
+      "line_start": 1859,
+      "line_end": 1859,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000169",
+      "scene_id": "scene_0162",
+      "text": "TV IMAGES - NOV. 25, 1963 The slain president’s solemn funeral procession that Jimmy isn’t part of.",
+      "line_start": 1861,
+      "line_end": 1862,
+      "sequence_in_scene": 2
+    },
+    {
+      "action_id": "act_000170",
+      "scene_id": "scene_0163",
+      "text": "Jimmy stands before the judge and jury.  Frank watches from his usual spot behind Jimmy in the gallery.",
+      "line_start": 1868,
+      "line_end": 1868,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000171",
+      "scene_id": "scene_0164",
+      "text": "Hoffa’s prosecutor Jim Neal, reporters, the Judge, FBI agents, and Ed Partin, the teamster who wore the wire against Hoffa, are all celebrating their victory at Hoffa’s conviction in Neal’s tiny office.",
+      "line_start": 1880,
+      "line_end": 1880,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000172",
+      "scene_id": "scene_0165",
+      "text": "A prison bus roars past on Highway 15.",
+      "line_start": 1883,
+      "line_end": 1883,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000173",
+      "scene_id": "scene_0166",
+      "text": "The black bus pulls past the gates of the penitentiary.",
+      "line_start": 1886,
+      "line_end": 1886,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000174",
+      "scene_id": "scene_0167",
+      "text": "Jimmy Hoffa - Inmate No. 33298-NE - is fingerprinted and photographed and given a blue denim prison uniform.",
+      "line_start": 1889,
+      "line_end": 1889,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000175",
+      "scene_id": "scene_0168",
+      "text": "As a shopgirl wraps the sterling silver gifts Irene and Carrie have chosen in silver wedding paper, Russell talks with the store owner with Frank at his side -",
+      "line_start": 1892,
+      "line_end": 1892,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000176",
+      "scene_id": "scene_0169",
+      "text": "A glass partition separates Jimmy from his lawyer Bill Bufalino and his pension fund lawyer, ALLEN DORFMAN. They’re on the visitor phones.",
+      "line_start": 1898,
+      "line_end": 1898,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000177",
+      "scene_id": "scene_0170",
+      "text": "Fitzsimmons whacks a golf ball off a tee.  The other golfers in his group are mobsters, including Tony Pro.",
+      "line_start": 1915,
+      "line_end": 1915,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000178",
+      "scene_id": "scene_0171",
+      "text": "Russell at dinner with Frank.",
+      "line_start": 1921,
+      "line_end": 1921,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000179",
+      "scene_id": "scene_0172",
+      "text": "A garage door opens automatically.  Allen Dorfman’s Cadillac backs out. The windows of the Caddie suddenly explode from shotgun blasts.  Holes erupt in the body of the car. Dorfman yanks the glove compartment open to get to his gun as the shotgun blasts keep pocking the car. Tires screech and then it’s silent.  Dorfman pokes his head up to see a Lincoln driving off, not quite believing he’s not dead.",
+      "line_start": 1933,
+      "line_end": 1933,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000180",
+      "scene_id": "scene_0173",
+      "text": "The Cadillac is destroyed.  Dorfman is fine and doesn’t even look that concerned anymore, though Fitz does as he nervously regards the shot-up car.",
+      "line_start": 1936,
+      "line_end": 1936,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000181",
+      "scene_id": "scene_0174",
+      "text": "Jimmy sitting at a table by himself. A kitchen inmate makes a special ice cream sundae. Jimmy turns to look around.",
+      "line_start": 1942,
+      "line_end": 1942,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000182",
+      "scene_id": "scene_0175",
+      "text": "As Tony Pro relaxes by the pool of his Miami house in shorts and unbuttoned linen shirt, a drink and a cigar, playing Greek rummy with some guys amidst statuary of wild animals and cherubs and nudes, some FBI agents approach with their badges out.",
+      "line_start": 1948,
+      "line_end": 1948,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000183",
+      "scene_id": "scene_0176",
+      "text": "The kitchen inmate delivers the ice cream sundae to Jimmy at his table.",
+      "line_start": 1954,
+      "line_end": 1954,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000184",
+      "scene_id": "scene_0177",
+      "text": "As LBJ looks on, Ramsey Clark raises his right hand to be sworn in as Attorney General.",
+      "line_start": 2083,
+      "line_end": 2083,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000185",
+      "scene_id": "scene_0178",
+      "text": "Frank, Skinny, Russell and the rest of the regulars are watching Ramsey Clark questioned by a Senator on the bar",
+      "line_start": 2089,
+      "line_end": 2089,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000186",
+      "scene_id": "scene_0178",
+      "text": "TV.",
+      "line_start": 2091,
+      "line_end": 2091,
+      "sequence_in_scene": 2
+    },
+    {
+      "action_id": "act_000187",
+      "scene_id": "scene_0179",
+      "text": "The Lincoln flies past a highway sign: Columbus 64, Dayton 86, Detroit 272.",
+      "line_start": 2106,
+      "line_end": 2106,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000188",
+      "scene_id": "scene_0180",
+      "text": "Russell in a phone booth talking to someone.  Frank paying an attendant for gas and getting a receipt, glancing over there.  The wives off smoking by the highway of this gas station with nothing else around it.",
+      "line_start": 2109,
+      "line_end": 2109,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000189",
+      "scene_id": "scene_0181",
+      "text": "Frank and Russell at Russell’s usual table.",
+      "line_start": 2112,
+      "line_end": 2112,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000190",
+      "scene_id": "scene_0182",
+      "text": "Unlike every other organized crime figure the McClellan Committee has dragged in, Joe Gallo has gone out of his way to look the part - black shirt, slicked-back hair, dark glasses, pinky ring, smoking a cigarette - playing to the news cameras during his testimony.",
+      "line_start": 2121,
+      "line_end": 2121,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000191",
+      "scene_id": "scene_0183",
+      "text": "Frank sitting where we left him.",
+      "line_start": 2133,
+      "line_end": 2133,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000192",
+      "scene_id": "scene_0184",
+      "text": "Crazy Joe gets out of a car with his new young wife, actor friends, and bodyguard Pete the Greek. Flashbulbs pop. He signs a couple of autographs. He jokes with those on line as he and his entourage enter swept in by Copa doormen.",
+      "line_start": 2139,
+      "line_end": 2139,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000193",
+      "scene_id": "scene_0185",
+      "text": "An Italian-American Unity Day rally.  5,000 people. Italian flags, American flags.  Italian-American Civil Rights League signs and buttons.",
+      "line_start": 2145,
+      "line_end": 2145,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000194",
+      "scene_id": "scene_0186",
+      "text": "An Italian-American Civil Rights League pin with a diamond in it, worn by Russell, who’s with Frank at a table. DON RICKLES is in the middle of a set.",
+      "line_start": 2154,
+      "line_end": 2154,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000195",
+      "scene_id": "scene_0187",
+      "text": "The show’s over. Gallo walks past Russell’s table. Frank is standing by Russell. Gallo nods respectfully. Russell raises a glass.",
+      "line_start": 2179,
+      "line_end": 2179,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000196",
+      "scene_id": "scene_0188",
+      "text": "Various calibers of pistols laid out on a bed.",
+      "line_start": 2203,
+      "line_end": 2203,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000197",
+      "scene_id": "scene_0189",
+      "text": "Little Italy on a mid-evening Spring night.",
+      "line_start": 2218,
+      "line_end": 2218,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000198",
+      "scene_id": "scene_0190",
+      "text": "The POV regards the interior - the two entrances on Mulberry and Hester - the arrangement of tables - like making a mental diagram of the place.",
+      "line_start": 2224,
+      "line_end": 2224,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000199",
+      "scene_id": "scene_0191",
+      "text": "John Francis’s car, heading into Manhattan.",
+      "line_start": 2236,
+      "line_end": 2236,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000200",
+      "scene_id": "scene_0192",
+      "text": "Frank and John Francis, not talking as John drives.",
+      "line_start": 2244,
+      "line_end": 2244,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000201",
+      "scene_id": "scene_0193",
+      "text": "It’s 4:00 am.  Umberto’s Clam House is the only place open this late.  Crazy Joey’s Lincoln pulls up in front. He climbs out with his wife Sina, her 12-year-old daughter Lisa, his sister, and his bodyguard.",
+      "line_start": 2250,
+      "line_end": 2250,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000202",
+      "scene_id": "scene_0194",
+      "text": "Frank steps inside.  Notes the bodyguard at one table, and Gallo, his wife and sister and the little girl at another. Frank walks toward the tables and shoots Pete the Greek in the thigh with the .38. Gallo’s wife and sister dive for cover, pulling the girl down with them. Gallo pushes away from the table.  Frank fires, hitting him in the elbow.  As he runs for the door, Frank shoots him in the back.  He collapses on the sidewalk and Frank puts two more in him, then walks up the block just as John Francis pulls around it.  He gets in the car.",
+      "line_start": 2268,
+      "line_end": 2268,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000203",
+      "scene_id": "scene_0195",
+      "text": "Frank throws the .38 into the Hudson while John Francis waits in the car.",
+      "line_start": 2271,
+      "line_end": 2271,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000204",
+      "scene_id": "scene_0196",
+      "text": "A TV report on the hit at Umberto’s.  Frank’s not watching it, he’s making cornflakes.",
+      "line_start": 2274,
+      "line_end": 2274,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000205",
+      "scene_id": "scene_0197",
+      "text": "Frank washes his hands in the men’s room.  Comes out and past Russell on a pay phone. He can’t be sure but it seems Russell maybe stops talking to whoever he’s talking to until Frank is out of earshot. He joins Irene and Carrie at a table.",
+      "line_start": 2280,
+      "line_end": 2280,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000206",
+      "scene_id": "scene_0198",
+      "text": "Jimmy is escorted down the cell block by guards.",
+      "line_start": 2283,
+      "line_end": 2283,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000207",
+      "scene_id": "scene_0199",
+      "text": "Jimmy’s lawyer, Bill Bufalino, stands with his client before reporters and photographers as he’s released from prison.",
+      "line_start": 2289,
+      "line_end": 2289,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000208",
+      "scene_id": "scene_0200",
+      "text": "Frank waits at the pick-up counter of a hotdog place. A TV by the grill - like every TV in America - reports on the arrest of burglars at the Watergate.",
+      "line_start": 2301,
+      "line_end": 2301,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000209",
+      "scene_id": "scene_0201",
+      "text": "The Watergate break-in report on the TV here, too, as Frank and Jimmy eat their chili dogs.  But Jimmy’s less interested in that than the current Teamsters newsletter he’s reading. Jo, just in from the pool, is making herself some lunch.",
+      "line_start": 2310,
+      "line_end": 2310,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000210",
+      "scene_id": "scene_0202",
+      "text": "Frank and Jimmy wait at a table for Tony Pro to show up. Jimmy checks his watch.  Looks at Frank.",
+      "line_start": 2397,
+      "line_end": 2397,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000211",
+      "scene_id": "scene_0203",
+      "text": "Frank drives Jimmy back to his condo after the disaster with Pro. They drive in silence. Then -",
+      "line_start": 2525,
+      "line_end": 2525,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000212",
+      "scene_id": "scene_0204",
+      "text": "Frank and Russell climb out of Frank’s car and head for a storefront on 115th Street - the Palma Boys Social Club - outside which some Genovese guys hang out.",
+      "line_start": 2537,
+      "line_end": 2537,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000213",
+      "scene_id": "scene_0205",
+      "text": "Frank and Russell share a table with Anthony Fat Tony Salerno.",
+      "line_start": 2540,
+      "line_end": 2540,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000214",
+      "scene_id": "scene_0206",
+      "text": "The TV is on, but Jimmy and Frank aren’t watching it.",
+      "line_start": 2561,
+      "line_end": 2561,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000215",
+      "scene_id": "scene_0207",
+      "text": "Jimmy, always a magnet for reporters, stands outside what used to be his office building, giving a televised interview.",
+      "line_start": 2573,
+      "line_end": 2573,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000216",
+      "scene_id": "scene_0208",
+      "text": "Fitz plays golf with Richard Nixon, John Mitchell and Tony Pro.",
+      "line_start": 2581,
+      "line_end": 2581,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000217",
+      "scene_id": "scene_0209",
+      "text": "A man and his wife walk along a dock carrying fishing tackle and a cooler.",
+      "line_start": 2587,
+      "line_end": 2587,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000218",
+      "scene_id": "scene_0210",
+      "text": "A report on the TV shows the aftermath of the Dave Johnson boat bombing.  To Frank -",
+      "line_start": 2593,
+      "line_end": 2593,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000219",
+      "scene_id": "scene_0211",
+      "text": "Fitz and his adult son Richard comes out of Nemo’s Bar. As they walk toward Little Fitz’s white Lincoln, it blows up, knocking them both off their feet.",
+      "line_start": 2599,
+      "line_end": 2599,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000220",
+      "scene_id": "scene_0212",
+      "text": "Josephine Hoffa puts personal items from her desk into a file box.",
+      "line_start": 2602,
+      "line_end": 2602,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000221",
+      "scene_id": "scene_0213",
+      "text": "She puts the file box in the trunk of her car and climbs in behind the wheel.",
+      "line_start": 2608,
+      "line_end": 2608,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000222",
+      "scene_id": "scene_0214",
+      "text": "Jimmy paces back and forth, a ginger ale in his hand, paying no attention to the Watergate hearings on the TV.",
+      "line_start": 2614,
+      "line_end": 2614,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000223",
+      "scene_id": "scene_0215",
+      "text": "Jimmy is the guest on a news program.",
+      "line_start": 2629,
+      "line_end": 2629,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000224",
+      "scene_id": "scene_0216",
+      "text": "Salerno, Russell and Frank at Salerno’s table again.",
+      "line_start": 2638,
+      "line_end": 2638,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000225",
+      "scene_id": "scene_0218",
+      "text": "Back at the same table with Salerno and Russell.  Fat Tony looks at Frank -",
+      "line_start": 2708,
+      "line_end": 2708,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000226",
+      "scene_id": "scene_0219",
+      "text": "Jimmy eating some room service ice cream.  Watergate hearings on the TV.",
+      "line_start": 2716,
+      "line_end": 2716,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000227",
+      "scene_id": "scene_0220",
+      "text": "The Vegas-style supper club looks like it was plucked off Fremont Street and dropped here, but in fact was just moved five miles from Philly across the Delaware River. Usually it’s someone like Al Martino or Dean Martin or Liberace on the marquee, but tonight it reads: ‘Frank Sheeran Appreciation Night.’",
+      "line_start": 2769,
+      "line_end": 2769,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000228",
+      "scene_id": "scene_0221",
+      "text": "We come past a poster on an easel with Frank’s picture on it and make our way into a banquet room, past an open bar, follow waiters serving dinner to 1,500 people.  At the microphone -",
+      "line_start": 2772,
+      "line_end": 2772,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000229",
+      "scene_id": "scene_0222",
+      "text": "Waiters sets down plates of prime rib in front of - Russell, Angelo Bruno, Tony Salerno and Tony Pro and their wives at one table. Skinny and other mid-level Philly guys and their wives at another. Frank’s wife Irene and his four grown daughters at another table with Jimmy’s wife Jo and theirs, Barbara and James P. Hoffa, and foster son Chuckie - Irene and Jo marveling at how big each others’ kids have gotten. Russell and Salerno regard Jimmy cutting into his prime rib on the dais next to Frank.",
+      "line_start": 2781,
+      "line_end": 2781,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000230",
+      "scene_id": "scene_0223",
+      "text": "As dessert is served, a line of fishnet-stockinged dancers high-kick on stage. Peggy, at the Sheeran family table, glances from the dancers to a corner of the room Russell has found where he can speak to Jimmy in confidence.",
+      "line_start": 2811,
+      "line_end": 2811,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000231",
+      "scene_id": "scene_0224",
+      "text": "Russell, Salerno and Pro watch Jimmy up at the podium, finishing his presentation to Frank -",
+      "line_start": 2874,
+      "line_end": 2874,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000232",
+      "scene_id": "scene_0225",
+      "text": "A photographer motions Frank and Jimmy to stand together for a picture -",
+      "line_start": 2898,
+      "line_end": 2898,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000233",
+      "scene_id": "scene_0226",
+      "text": "Jerry Vale’s singing ‘Spanish Eyes’ as couples dance. Jimmy’s dancing with Frank’s daughter Peggy, and each time they turn, she looks over at - Russell and Salerno looking right at her - or rather at Jimmy - as they quietly converse at their table.  Salerno doesn’t look happy, gets up and leaves, followed by Pro.",
+      "line_start": 2922,
+      "line_end": 2922,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000234",
+      "scene_id": "scene_0227",
+      "text": "Back at the Sheeran family table, Peggy’s watching her father with Russell who have found a semi-private spot to talk across the room.",
+      "line_start": 2925,
+      "line_end": 2925,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000235",
+      "scene_id": "scene_0228",
+      "text": "As the dancing continues, Frank and Jimmy, off by themselves, talk.",
+      "line_start": 2963,
+      "line_end": 2963,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000236",
+      "scene_id": "scene_0229",
+      "text": "Jimmy dancing with Peggy.  Frank, at his family’s table now, watches them, a more-than-a-little-concerned look on his face, though Peggy, noticing it, can’t imagine why.",
+      "line_start": 3029,
+      "line_end": 3029,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000237",
+      "scene_id": "scene_0230",
+      "text": "The same concerned look on Frank’s face here.   Then -",
+      "line_start": 3032,
+      "line_end": 3032,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000238",
+      "scene_id": "scene_0231",
+      "text": "An attendant checks the oil.  The women are buying cigarettes from a machine while Russell buys some candy from another.  Frank’s making a call in a phone booth.",
+      "line_start": 3038,
+      "line_end": 3038,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000239",
+      "scene_id": "scene_0231",
+      "text": "INTERCUT with Jimmy at his Lake Orion house outside Detroit.",
+      "line_start": 3040,
+      "line_end": 3041,
+      "sequence_in_scene": 2
+    },
+    {
+      "action_id": "act_000240",
+      "scene_id": "scene_0232",
+      "text": "The Sheerans and Bufalinos checking into a Howard Johnson’s motel.",
+      "line_start": 3113,
+      "line_end": 3113,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000241",
+      "scene_id": "scene_0233",
+      "text": "Russell hangs up a pay phone and crosses a patio past Irene and Carrie wading in the pool with swimming caps on to where Frank’s at a patio table with a Tab, sits.",
+      "line_start": 3116,
+      "line_end": 3116,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000242",
+      "scene_id": "scene_0234",
+      "text": "Frank on the same pay phone near the pool Russell was on, again INTERCUT with Jimmy at his Lake Orion house -",
+      "line_start": 3122,
+      "line_end": 3122,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000243",
+      "scene_id": "scene_0235",
+      "text": "Frank and Irene change into something nice for dinner, like people used to do.",
+      "line_start": 3200,
+      "line_end": 3200,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000244",
+      "scene_id": "scene_0236",
+      "text": "Carrie and Irene sit alone at the best table in the restaurant, sipping cocktails and smoking like you used to be able to do.",
+      "line_start": 3212,
+      "line_end": 3212,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000245",
+      "scene_id": "scene_0237",
+      "text": "Russell, who owns the place, or part of it, prepares his special salad dressing in the restaurant’s kitchen, mixing olive oil, balsamic and ginger root, the loaf of prosciutto bread next to it.",
+      "line_start": 3215,
+      "line_end": 3215,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000246",
+      "scene_id": "scene_0238",
+      "text": "Frank lies awake in bed next to his sleeping wife, staring at the phone on the night stand next to him.",
+      "line_start": 3239,
+      "line_end": 3239,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000247",
+      "scene_id": "scene_0239",
+      "text": "Frank comes down to the breakfast room.  Russell is the only other guest there this early, filling a plastic bowl from an individual-serving box of cornflakes.",
+      "line_start": 3242,
+      "line_end": 3242,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000248",
+      "scene_id": "scene_0240",
+      "text": "As Frank drives, Russell sits in the passenger seat looking placidly out at the scenery through his thick glasses.",
+      "line_start": 3298,
+      "line_end": 3298,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000249",
+      "scene_id": "scene_0241",
+      "text": "They drive onto a grass airstrip on the edge of Lake Erie where a small plane waits.  Frank parks, shuts it off, leaves the keys in the ignition, gets out.  Russell stays in the car. Frank climbs the steps of the plane and sits in one of its six seats.  The pilot closes the door without looking at him and returns to the cockpit.  As the plane begins to taxi, Frank looks out the window at the Lincoln.",
+      "line_start": 3301,
+      "line_end": 3301,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000250",
+      "scene_id": "scene_0242",
+      "text": "The plane descends over the north shore of Lake Erie. Lands on the Pontiac Airfield. The pilot lowers the steps and Frank climbs out and walks to a parked Ford that’s empty.  He gets in, finds its keys under the mat, starts it up.",
+      "line_start": 3304,
+      "line_end": 3304,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000251",
+      "scene_id": "scene_0243",
+      "text": "Frank drives along Telegraph Road.  Opens the glove compartment, notes the little .22 in it, closes it, sees Machus Red Fox restaurant up ahead, checks the gold watch Jimmy presented him with at the Latin Club: 2:05. As he passes the Red Fox, he can see Jimmy sitting in his green Pontiac in the lot.",
+      "line_start": 3307,
+      "line_end": 3307,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000252",
+      "scene_id": "scene_0244",
+      "text": "Jimmy doesn’t notice the Ford pass by.  He’s looking at his own watch, and beginning to get annoyed Frank is five minutes late.",
+      "line_start": 3310,
+      "line_end": 3310,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000253",
+      "scene_id": "scene_0245",
+      "text": "Frank makes a left onto Seven Mile Road.  Drives across a railroad bridge.  Then down a residential street with old modest houses on half acre lots. He checks an address scribbled on a Howard Johnson’s napkin.  Pulls over and regards a brick-and-shingled house. He notes a Buick parked at the end of a single-lane driveway running alongside the house.  Opens the glove box and takes out the .22. He gets out of the car, shoves the pistol in his back waist-band under his jacket, climbs the steps of the house and opens the unlocked front door -",
+      "line_start": 3313,
+      "line_end": 3313,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000254",
+      "scene_id": "scene_0246",
+      "text": "A man on his hands and knees looks up at Frank through Coke-bottle glasses.",
+      "line_start": 3316,
+      "line_end": 3316,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000255",
+      "scene_id": "scene_0247",
+      "text": "Frank and Sally Bugs come out of the house and approach the Mercury.",
+      "line_start": 3340,
+      "line_end": 3340,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000256",
+      "scene_id": "scene_0248",
+      "text": "Chuckie makes a right off Seven Mile Road onto Telegraph. Frank is still uneasy, concerned Sally might strangle him from behind.",
+      "line_start": 3379,
+      "line_end": 3379,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000257",
+      "scene_id": "scene_0249",
+      "text": "Jimmy hangs up a pay phone behind the restaurant and heads for his Pontiac.  Wearing a polo shirt and slacks there’s no way he’s carrying a piece.  The Mercury honks. Jimmy stares at it a moment, then comes over.",
+      "line_start": 3406,
+      "line_end": 3406,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000258",
+      "scene_id": "scene_0250",
+      "text": "The Mercury drives the same route Frank took earlier.",
+      "line_start": 3499,
+      "line_end": 3499,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000259",
+      "scene_id": "scene_0251",
+      "text": "The Mercury pulls into the driveway behind the Buick and the Ford and idles.  Jimmy and Frank get out.  Sally Bugs comes around and gets into the passenger seat. As Chuckie backs the car out, Jimmy and Frank head for the house.  Jimmy - as he always does with whoever he’s with - walks ahead.",
+      "line_start": 3530,
+      "line_end": 3530,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000260",
+      "scene_id": "scene_0252",
+      "text": "As soon as he’s inside, Jimmy knows there’s a problem. He should hear voices - but it’s quiet.  And there’s no one in the living room, which he can see from here in the entry.  And there’s this badly-cut piece of linoleum under his feet. The motion slows to a stop.",
+      "line_start": 3539,
+      "line_end": 3539,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000261",
+      "scene_id": "scene_0252",
+      "text": "FIVE QUICK VIGNETTES (1975): A flurry of feathers:  Tony Pro with his racing pigeons on the roof of Union Hall in New Jersey - A Yankees game on a TV:  Tony Salerno watching it in the Palma Boys Social Club in East Harlem - A golf ball chipped out of a sand trap:  Fitz and Nixon on a golf course in San Clemente - Frank’s Lincoln:  Russell napping in the parked car on the Port Clinton airstrip - Reflections in the Howard Johnson’s pool.  Irene and Carrie next to it on chaise lounges, smoking cigarettes - maybe putting suntan lotion on each other.",
+      "line_start": 3544,
+      "line_end": 3545,
+      "sequence_in_scene": 3
+    },
+    {
+      "action_id": "act_000262",
+      "scene_id": "scene_0252",
+      "text": "BACK TO THE HOUSE - THE IMAGE UNFREEZING - 1975",
+      "line_start": 3550,
+      "line_end": 3550,
+      "sequence_in_scene": 5
+    },
+    {
+      "action_id": "act_000263",
+      "scene_id": "scene_0253",
+      "text": "The plane lands, taxis to a stop.  The pilot, again careful not to look at Frank, lowers the steps.  Frank comes down them and crosses to the Lincoln, where Russell is napping. Frank climbs in, shuts the door.  Russell wakes at the sound of it.  Just by looking at Frank, he can tell the little errand in Detroit has been taken care of. Frank starts the car and they drive off to pick up their wives at the Howard Johnson’s.",
+      "line_start": 3556,
+      "line_end": 3556,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000264",
+      "scene_id": "scene_0254",
+      "text": "Teamster lawyer Bill Bufalino - who represented Frank against the meat packing company long ago - and Hoffa in Nashville - escorts his daughter down the aisle. The church is packed with friends and relatives of the bride and groom, union and mob guys, Russell and Carrie with Frank and Irene.  Frank just stares straight ahead.",
+      "line_start": 3559,
+      "line_end": 3559,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000265",
+      "scene_id": "scene_0255",
+      "text": "A TV broadcasts a news report on Hoffa’s disappearance. He’s been missing a couple days now.  Frank comes in from outside, takes his coat off, regards the TV and his wife and daughters who are watching it.",
+      "line_start": 3562,
+      "line_end": 3562,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000266",
+      "scene_id": "scene_0256",
+      "text": "Frank looks as thoughtful and concerned as he ever has.",
+      "line_start": 3592,
+      "line_end": 3592,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000267",
+      "scene_id": "scene_0257",
+      "text": "Alone in his bedroom, Frank sits on the edge of his bed dialing a phone.  He can hear the report from downstairs faintly up here as people who know nothing theorize about the disappearance.  The call connects.",
+      "line_start": 3598,
+      "line_end": 3598,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000268",
+      "scene_id": "scene_0258",
+      "text": "The two Italians who were playing cards in the kitchen carry the body, in a body bag, out the back door and dump it in the trunk of the Buick.  They toss in the bloody linoleum and .22 pistol.",
+      "line_start": 3609,
+      "line_end": 3609,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000269",
+      "scene_id": "scene_0259",
+      "text": "They lift the body from the trunk and carry it to the back door of a funeral parlor.",
+      "line_start": 3612,
+      "line_end": 3612,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000270",
+      "scene_id": "scene_0260",
+      "text": "They put Jimmy’s body in a cardboard coffin into a cremation oven.  Toss in the linoleum and the empty .22. The gas jets burn so hot they turn everything to ash - bones, teeth - even melting the pistol and Jimmy’s watch and wedding ring - and the spent bullets in his head. The furnace finishes.  The cinders of the coffin have fallen away to reveal the form of an ashy body, like at Pompeii. The two Italians poke at it with rubber-gloved hands, reducing it to gritty sand-like ashes.",
+      "line_start": 3618,
+      "line_end": 3618,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000271",
+      "scene_id": "scene_0262",
+      "text": "Frank is being questioned by an Assistant U.S. Attorney.",
+      "line_start": 3626,
+      "line_end": 3626,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000272",
+      "scene_id": "scene_0262",
+      "text": "ASST.",
+      "line_start": 3634,
+      "line_end": 3634,
+      "sequence_in_scene": 4
+    },
+    {
+      "action_id": "act_000273",
+      "scene_id": "scene_0262",
+      "text": "U.",
+      "line_start": 3636,
+      "line_end": 3636,
+      "sequence_in_scene": 5
+    },
+    {
+      "action_id": "act_000274",
+      "scene_id": "scene_0263",
+      "text": "Frank and his lawyer head for the back exit.",
+      "line_start": 3645,
+      "line_end": 3645,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000275",
+      "scene_id": "scene_0264",
+      "text": "The two Italians playing cards in the kitchen -",
+      "line_start": 3651,
+      "line_end": 3651,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000276",
+      "scene_id": "scene_0265",
+      "text": "Tony Pro walks down a cell block with other inmates -",
+      "line_start": 3657,
+      "line_end": 3657,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000277",
+      "scene_id": "scene_0266",
+      "text": "The man in the passenger seat finds the radio station he wants and sits back.",
+      "line_start": 3663,
+      "line_end": 3663,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000278",
+      "scene_id": "scene_0267",
+      "text": "From far away, someone watches Sally Bugs walk from his car to the building.",
+      "line_start": 3672,
+      "line_end": 3672,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000279",
+      "scene_id": "scene_0268",
+      "text": "Russell and Frank sitting together at the usual table.",
+      "line_start": 3678,
+      "line_end": 3678,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000280",
+      "scene_id": "scene_0269",
+      "text": "Sally comes out of the Andrea Doria Social Club on Mulberry Street.  Frank and John Francis walk up to him.",
+      "line_start": 3684,
+      "line_end": 3684,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000281",
+      "scene_id": "scene_0270",
+      "text": "Tony Salerno on a surgical table getting a colonoscopy.",
+      "line_start": 3696,
+      "line_end": 3696,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000282",
+      "scene_id": "scene_0271",
+      "text": "Russell having what seems to be a normal conversation with another man at a table, Jimmy The Weasel Fratianno.",
+      "line_start": 3702,
+      "line_end": 3702,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000283",
+      "scene_id": "scene_0272",
+      "text": "Russell is escorted out in cuffs by federal agents.",
+      "line_start": 3711,
+      "line_end": 3711,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000284",
+      "scene_id": "scene_0273",
+      "text": "The conveyor draws a 1978 black Lincoln Continental into the car wash tunnel.  Overhead nozzles turn on and spray the car with water.",
+      "line_start": 3717,
+      "line_end": 3717,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000285",
+      "scene_id": "scene_0274",
+      "text": "Frank, hand raised, being sworn in.",
+      "line_start": 3720,
+      "line_end": 3720,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000286",
+      "scene_id": "scene_0275",
+      "text": "Silhouettes of some building cranes and other heavy equipment against the night sky outside Baltimore.",
+      "line_start": 3729,
+      "line_end": 3729,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000287",
+      "scene_id": "scene_0276",
+      "text": "Frank’s car inches through the car wash covered in suds.",
+      "line_start": 3738,
+      "line_end": 3738,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000288",
+      "scene_id": "scene_0277",
+      "text": "A prison set down amidst bare trees in Missouri.",
+      "line_start": 3750,
+      "line_end": 3750,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000289",
+      "scene_id": "scene_0278",
+      "text": "Bundled up against the cold, Russell, Salerno and some other old inmates in wheelchairs roll bocce balls on a snow-patched fenced-in rooftop exercise yard.",
+      "line_start": 3753,
+      "line_end": 3753,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000290",
+      "scene_id": "scene_0279",
+      "text": "Frank comes in with a paper bag, limps across the cafeteria, sits with Russell.  Seeing the bag -",
+      "line_start": 3762,
+      "line_end": 3762,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000291",
+      "scene_id": "scene_0280",
+      "text": "Frank comes out to the exercise yard as Russell in his wheelchair is being pushed by another inmate the other way.",
+      "line_start": 3774,
+      "line_end": 3774,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000292",
+      "scene_id": "scene_0281",
+      "text": "The number of people in attendance seems too small for someone of Russell’s stature, which makes sense since it isn’t his funeral.",
+      "line_start": 3792,
+      "line_end": 3792,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000293",
+      "scene_id": "scene_0282",
+      "text": "Frank moves around the house on his canes, emptying ashtrays of butts with his wife’s lipstick marks on the filters.",
+      "line_start": 3798,
+      "line_end": 3798,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000294",
+      "scene_id": "scene_0283",
+      "text": "He sits in a chair in front of a TV he’s not watching, drinking wine alone.",
+      "line_start": 3801,
+      "line_end": 3801,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000295",
+      "scene_id": "scene_0284",
+      "text": "He fills a plastic container marked with the days of the week with dozens of pills, gets confused and starts over.",
+      "line_start": 3804,
+      "line_end": 3804,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000296",
+      "scene_id": "scene_0285",
+      "text": "He comes past in his pajamas to go to the bathroom, negotiating a dark hallway on his canes.  Trips and falls and can’t get up.",
+      "line_start": 3807,
+      "line_end": 3807,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000297",
+      "scene_id": "scene_0286",
+      "text": "The elderly men and women, dotting the rec room like checkers on an abandoned board, playing cards and dominoes and Candyland. Frank sits apart from them in a wheelchair, the white shirt, the gold watch, the gold ring, his eyes hidden behind the aviator sunglasses. He’s been here for months.  And no one but him is watching the TV with the sound down low: Images of the war in Kosovo.  Bombs.  Carnage.  Death.",
+      "line_start": 3810,
+      "line_end": 3810,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000298",
+      "scene_id": "scene_0287",
+      "text": "An orderly assists Frank as he struggles out of a car with his aluminum canes.",
+      "line_start": 3813,
+      "line_end": 3813,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000299",
+      "scene_id": "scene_0288",
+      "text": "He comes in on his canes.  Stands in a short line. Looks around like he’s casing the place.  Makes it to the front, but lets someone go ahead of him so he can wait for a particular window. The customer there leaves and he starts toward it.  The teller, his daughter Peggy, sees him coming and puts her “closed” sign up before he gets there.",
+      "line_start": 3819,
+      "line_end": 3819,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000300",
+      "scene_id": "scene_0289",
+      "text": "The orderly’s car, parked outside a small house.  He leans against it, smoking a cigarette.",
+      "line_start": 3825,
+      "line_end": 3825,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000301",
+      "scene_id": "scene_0290",
+      "text": "Frank sits with one of his other daughters - Dolores - now in her 40s.",
+      "line_start": 3828,
+      "line_end": 3828,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000302",
+      "scene_id": "scene_0291",
+      "text": "They build them and sell them here.  It’s more like a workshop inside a warehouse.  The salesman used to be a rock and roll promoter, but now he does this, wearing a porkpie hat.",
+      "line_start": 3864,
+      "line_end": 3864,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000303",
+      "scene_id": "scene_0292",
+      "text": "The orderly again waits for Frank outside, smoking another cigarette, idly looking off at a backhoe digging a grave.  He notices a parked black car.  Two men in it. Just sitting.",
+      "line_start": 3888,
+      "line_end": 3888,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000304",
+      "scene_id": "scene_0293",
+      "text": "A marble wall of mausoleum crypts.  Most - the good ones at eye-level or thereabouts - have names on them.  A few - the undesirably-placed available ones - are bare.",
+      "line_start": 3891,
+      "line_end": 3891,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000305",
+      "scene_id": "scene_0294",
+      "text": "The same black car from the cemetery parked here now. The two men who were in it - young FBI agents - sit with Frank on the porch of the building.  He actually seems fine having them here.  At least they’re visitors.",
+      "line_start": 3903,
+      "line_end": 3903,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000306",
+      "scene_id": "scene_0295",
+      "text": "Frank sits in his wheelchair in the chapel of the assisted living facility, a few faded snapshots in his lap. He slowly runs a hand through his hair as he looks at a snapshot of himself with Russell.  Eventually - we see that there’s a young priest with him.",
+      "line_start": 3932,
+      "line_end": 3932,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000307",
+      "scene_id": "scene_0296",
+      "text": "Frank sits in his wheelchair in his room, hooked up to a trolley IV, a few faded snapshots in his lap.  A young nurse opens the door and comes in to check the IV and take his vitals.  As she does it -",
+      "line_start": 4031,
+      "line_end": 4031,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000308",
+      "scene_id": "scene_0297",
+      "text": "We follow action in the corridor as we begin to hear the priest giving absolution. Day changes to night. From out in the corridor we’re only allowed a partial view into Frank’s room, and even that is intermittently obscured by nurses in white coming past. It’s as if what’s going on in there is too sacred to intrude on, the priest’s hands extending over Frank’s head, giving him absolution, the words only sometimes audible over the routine hospital sounds.",
+      "line_start": 4088,
+      "line_end": 4088,
+      "sequence_in_scene": 1
+    },
+    {
+      "action_id": "act_000309",
+      "scene_id": "scene_0298",
+      "text": "We find our way back into Frank’s room.",
+      "line_start": 4097,
+      "line_end": 4097,
+      "sequence_in_scene": 1
+    }
+  ]
+}

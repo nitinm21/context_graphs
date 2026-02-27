@@ -1,0 +1,26 @@
+{
+  "phase": 8,
+  "contracts_version": "0.1.0",
+  "pipeline_version": "phase8-demo-hardening-evaluation",
+  "source": "irishman-narrative-trace-explorer-prd.md",
+  "artifact_schemas": {
+    "script_blocks": "0.1.0-draft",
+    "parser_build_manifest": "0.1.0-draft",
+    "scenes": "0.1.0-draft",
+    "utterances": "0.1.0-draft",
+    "action_beats": "0.1.0-draft",
+    "entities": "0.1.0-draft",
+    "entity_aliases": "0.1.0-draft",
+    "kg_edges": "0.1.0-draft",
+    "events": "0.1.0-draft",
+    "event_participants": "0.1.0-draft",
+    "temporal_edges": "0.1.0-draft",
+    "state_changes": "0.1.0-draft",
+    "scene_index": "0.1.0-draft",
+    "query_examples": "0.1.0-draft",
+    "llm_event_refinement_review": "0.1.0-draft",
+    "taxonomy_coverage_report": "0.1.0-draft",
+    "unmapped_events_review": "0.1.0-draft",
+    "parser_quality_report": "0.1.0-draft"
+  }
+}

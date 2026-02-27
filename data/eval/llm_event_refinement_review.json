@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "artifact_type": "llm_event_refinement_review",
+    "schema_version": "0.1.0-draft",
+    "pipeline_version": "phase7-llm-event-review",
+    "build_timestamp": "2026-02-25T20:16:14Z",
+    "record_count": 3,
+    "dry_run": true,
+    "model": "gpt-4.1-mini",
+    "feature_flag_enabled": false,
+    "duration_seconds": 0.001
+  },
+  "items": [
+    {
+      "event_id": "evt_000001",
+      "scene_id": "scene_0001",
+      "event_type_l2": "scene_entry",
+      "original_summary": "Scene entry: IMPLICIT PRELUDE (NO SCENE HEADER)",
+      "status": "dry_run",
+      "refined_summary_candidate": "Scene entry: IMPLICIT PRELUDE (NO SCENE HEADER)",
+      "notes": "Dry run; no OpenAI call executed.",
+      "prompt_preview": "event_id: evt_000001\nscene_id: scene_0001\nevent_type_l1: narrative_structure\nevent_type_l2: scene_entry\nconfidence: 1.0\nparticipants:\n- (none)\noriginal_summary:\nScene entry: IMPLICIT PRELUDE (NO SCENE HEADER)"
+    },
+    {
+      "event_id": "evt_000002",
+      "scene_id": "scene_0001",
+      "event_type_l2": "observation_or_witnessing",
+      "original_summary": "observation or witnessing in IMPLICIT PRELUDE: T H E I R I S H M A N Screenplay by Steven Zaillian",
+      "status": "dry_run",
+      "refined_summary_candidate": "observation or witnessing in IMPLICIT PRELUDE: T H E I R I S H M A N Screenplay by Steven Zaillian",
+      "notes": "Dry run; no OpenAI call executed.",
+      "prompt_preview": "event_id: evt_000002\nscene_id: scene_0001\nevent_type_l1: perception_surveillance\nevent_type_l2: observation_or_witnessing\nconfidence: 0.48\nparticipants:\n- (none)\noriginal_summary:\nobservation or witnessing in IMPLICIT PRELUDE: T H E I R I S H M A N Screenplay by Steven Zaillian"
+    },
+    {
+      "event_id": "evt_000003",
+      "scene_id": "scene_0001",
+      "event_type_l2": "shooting",
+      "original_summary": "shooting in IMPLICIT PRELUDE: FINAL SHOOTING SCRIPT",
+      "status": "dry_run",
+      "refined_summary_candidate": "shooting in IMPLICIT PRELUDE: FINAL SHOOTING SCRIPT",
+      "notes": "Dry run; no OpenAI call executed.",
+      "prompt_preview": "event_id: evt_000003\nscene_id: scene_0001\nevent_type_l1: criminal_coercive_violence\nevent_type_l2: shooting\nconfidence: 0.92\nparticipants:\n- (none)\noriginal_summary:\nshooting in IMPLICIT PRELUDE: FINAL SHOOTING SCRIPT"
+    }
+  ]
+}

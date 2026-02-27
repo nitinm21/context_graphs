@@ -1,0 +1,15 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="24" x2="222" y2="218" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBCFE8"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="224" height="224" rx="32" fill="url(#bg)"/>
+  <circle cx="120" cy="94" r="40" fill="#334155" opacity="0.9"/>
+  <path d="M58 200C64 160 87 140 120 140C153 140 176 160 182 200" fill="#334155" opacity="0.92"/>
+  <circle cx="92" cy="88" r="12" fill="#64748B" opacity="0.55"/>
+  <circle cx="148" cy="88" r="12" fill="#64748B" opacity="0.55"/>
+  <rect x="20" y="20" width="200" height="200" rx="24" stroke="#0F172A" stroke-opacity="0.14" stroke-width="2"/>
+  <text x="120" y="216" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0F172A" fill-opacity="0.78">PEGGY</text>
+</svg>

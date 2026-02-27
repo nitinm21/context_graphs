@@ -1,0 +1,5053 @@
+{
+  "metadata": {
+    "artifact_type": "scenes",
+    "schema_version": "0.1.0-draft",
+    "parser_version": "phase1-parser-v0.1.0",
+    "build_timestamp": "2026-02-25T18:48:04Z",
+    "source_file": "the-irishman-ampas-script-cleaned.md",
+    "source_file_hash": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+    "record_count": 298,
+    "scene_count_explicit_headers": 297,
+    "scene_count_synthetic": 1
+  },
+  "items": [
+    {
+      "scene_id": "scene_0001",
+      "scene_index": 1,
+      "header_raw": "IMPLICIT PRELUDE (NO SCENE HEADER)",
+      "header_prefix": "IMPLICIT",
+      "location_raw": "IMPLICIT PRELUDE",
+      "location_canonical_id": "loc_implicit_prelude",
+      "time_of_day": null,
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [
+        "synthetic_prelude_scene"
+      ],
+      "line_start": 1,
+      "line_end": 22,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0002",
+      "scene_index": 2,
+      "header_raw": "INT. EMPTY HOUSE - A BLANK WALL - DAY",
+      "header_prefix": "INT.",
+      "location_raw": "EMPTY HOUSE - A BLANK WALL",
+      "location_canonical_id": "loc_empty_house_a_blank_wall",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 23,
+      "line_end": 32,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0003",
+      "scene_index": 3,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY",
+      "location_canonical_id": "loc_assisted_living_facility",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 33,
+      "line_end": 38,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0004",
+      "scene_index": 4,
+      "header_raw": "INT. FRANK’S HOUSE - MORNING - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE",
+      "location_canonical_id": "loc_frank_s_house",
+      "time_of_day": "MORNING",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 39,
+      "line_end": 47,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0005",
+      "scene_index": 5,
+      "header_raw": "EXT. FRANK’S HOUSE - MORNING - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "FRANK’S HOUSE",
+      "location_canonical_id": "loc_frank_s_house",
+      "time_of_day": "MORNING",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 48,
+      "line_end": 56,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0006",
+      "scene_index": 6,
+      "header_raw": "INT. FRANK’S HOUSE - MORNING - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE",
+      "location_canonical_id": "loc_frank_s_house",
+      "time_of_day": "MORNING",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 57,
+      "line_end": 62,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0007",
+      "scene_index": 7,
+      "header_raw": "EXT. BUFALINO’S HOUSE - PITTSTON, PA - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "BUFALINO’S HOUSE - PITTSTON, PA",
+      "location_canonical_id": "loc_bufalino_s_house_pittston_pa",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 63,
+      "line_end": 68,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0008",
+      "scene_index": 8,
+      "header_raw": "INT. FRANK’S LINCOLN - WILKES-BARRE - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S LINCOLN - WILKES-BARRE",
+      "location_canonical_id": "loc_frank_s_lincoln_wilkes_barre",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 69,
+      "line_end": 103,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0009",
+      "scene_index": 9,
+      "header_raw": "EXT. HIGHWAY I-80 - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "HIGHWAY I-80",
+      "location_canonical_id": "loc_highway_i_80",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 104,
+      "line_end": 112,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0010",
+      "scene_index": 10,
+      "header_raw": "INT/EXT. HIGHWAY I-80 - DAY - 1956",
+      "header_prefix": "INT/EXT.",
+      "location_raw": "HIGHWAY I-80",
+      "location_canonical_id": "loc_highway_i_80",
+      "time_of_day": "DAY",
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "mixed_interior_exterior"
+      ],
+      "line_start": 113,
+      "line_end": 115,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0011",
+      "scene_index": 11,
+      "header_raw": "EXT. STUCKEY’S/TEXACO GAS STATION - I-80 - DAY - 1956",
+      "header_prefix": "EXT.",
+      "location_raw": "STUCKEY’S/TEXACO GAS STATION - I-80",
+      "location_canonical_id": "loc_stuckey_s_texaco_gas_station_i_80",
+      "time_of_day": "DAY",
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 116,
+      "line_end": 137,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0012",
+      "scene_index": 12,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY",
+      "location_canonical_id": "loc_assisted_living_facility",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 138,
+      "line_end": 143,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0013",
+      "scene_index": 13,
+      "header_raw": "INT. MOTHER OF SORROWS CHURCH - DAY - 1950",
+      "header_prefix": "INT.",
+      "location_raw": "MOTHER OF SORROWS CHURCH",
+      "location_canonical_id": "loc_mother_of_sorrows_church",
+      "time_of_day": "DAY",
+      "year_explicit": 1950,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 144,
+      "line_end": 146,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0014",
+      "scene_index": 14,
+      "header_raw": "INT. LIVE CHICKEN MARKET - DAY - FLASHBACK - 1946",
+      "header_prefix": "INT.",
+      "location_raw": "LIVE CHICKEN MARKET",
+      "location_canonical_id": "loc_live_chicken_market",
+      "time_of_day": "DAY",
+      "year_explicit": 1946,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "flashback"
+      ],
+      "line_start": 147,
+      "line_end": 152,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0015",
+      "scene_index": 15,
+      "header_raw": "EXT. SOUTH PHILLY - NIGHT - 1956",
+      "header_prefix": "EXT.",
+      "location_raw": "SOUTH PHILLY",
+      "location_canonical_id": "loc_south_philly",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 153,
+      "line_end": 155,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0016",
+      "scene_index": 16,
+      "header_raw": "INT. THE FRIENDLY LOUNGE - NIGHT - 1956",
+      "header_prefix": "INT.",
+      "location_raw": "THE FRIENDLY LOUNGE",
+      "location_canonical_id": "loc_the_friendly_lounge",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 156,
+      "line_end": 167,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0017",
+      "scene_index": 17,
+      "header_raw": "INT. THE FRIENDLY LOUNGE - LATER - 1956",
+      "header_prefix": "INT.",
+      "location_raw": "THE FRIENDLY LOUNGE",
+      "location_canonical_id": "loc_the_friendly_lounge",
+      "time_of_day": "LATER",
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 168,
+      "line_end": 170,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0018",
+      "scene_index": 18,
+      "header_raw": "INT. THE FRIENDLY LOUNGE - CONTINUED - 1956",
+      "header_prefix": "INT.",
+      "location_raw": "THE FRIENDLY LOUNGE",
+      "location_canonical_id": "loc_the_friendly_lounge",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "continued",
+        "explicit_year"
+      ],
+      "line_start": 171,
+      "line_end": 197,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0019",
+      "scene_index": 19,
+      "header_raw": "EXT. MEAT COMPANY - DAY - 1956",
+      "header_prefix": "EXT.",
+      "location_raw": "MEAT COMPANY",
+      "location_canonical_id": "loc_meat_company",
+      "time_of_day": "DAY",
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 198,
+      "line_end": 203,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0020",
+      "scene_index": 20,
+      "header_raw": "EXT. FOOD FAIR MARKET - DAY - 1956",
+      "header_prefix": "EXT.",
+      "location_raw": "FOOD FAIR MARKET",
+      "location_canonical_id": "loc_food_fair_market",
+      "time_of_day": "DAY",
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 204,
+      "line_end": 209,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0021",
+      "scene_index": 21,
+      "header_raw": "EXT. MEAT COMPANY - DAY - DEC. 1956",
+      "header_prefix": "EXT.",
+      "location_raw": "MEAT COMPANY - DAY - DEC. 1956",
+      "location_canonical_id": "loc_meat_company_day_dec_1956",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 210,
+      "line_end": 212,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0022",
+      "scene_index": 22,
+      "header_raw": "INT. MEAT COMPANY - DAY - DEC. 1956",
+      "header_prefix": "INT.",
+      "location_raw": "MEAT COMPANY - DAY - DEC. 1956",
+      "location_canonical_id": "loc_meat_company_day_dec_1956",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 213,
+      "line_end": 230,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0023",
+      "scene_index": 23,
+      "header_raw": "EXT. MEAT COMPANY - CONTINUOUS - DEC. 1956",
+      "header_prefix": "EXT.",
+      "location_raw": "MEAT COMPANY - CONTINUOUS - DEC. 1956",
+      "location_canonical_id": "loc_meat_company_continuous_dec_1956",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 231,
+      "line_end": 233,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0024",
+      "scene_index": 24,
+      "header_raw": "EXT. THE FRIENDLY LOUNGE - LATER - DAY - DEC. 1956",
+      "header_prefix": "EXT.",
+      "location_raw": "THE FRIENDLY LOUNGE - LATER - DAY - DEC. 1956",
+      "location_canonical_id": "loc_the_friendly_lounge_later_day_dec_1956",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 234,
+      "line_end": 236,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0025",
+      "scene_index": 25,
+      "header_raw": "EXT. FOOD FAIR MARKET - LATER - DAY - DEC. 1956",
+      "header_prefix": "EXT.",
+      "location_raw": "FOOD FAIR MARKET - LATER - DAY - DEC. 1956",
+      "location_canonical_id": "loc_food_fair_market_later_day_dec_1956",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 237,
+      "line_end": 243,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0026",
+      "scene_index": 26,
+      "header_raw": "INT. FOOD FAIR MARKET - DAY - DEC. 1956",
+      "header_prefix": "INT.",
+      "location_raw": "FOOD FAIR MARKET - DAY - DEC. 1956",
+      "location_canonical_id": "loc_food_fair_market_day_dec_1956",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 244,
+      "line_end": 246,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0027",
+      "scene_index": 27,
+      "header_raw": "EXT. FOOD FAIR MARKET - DAY - DEC. 1956",
+      "header_prefix": "EXT.",
+      "location_raw": "FOOD FAIR MARKET - DAY - DEC. 1956",
+      "location_canonical_id": "loc_food_fair_market_day_dec_1956",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 247,
+      "line_end": 249,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0028",
+      "scene_index": 28,
+      "header_raw": "INT. THE FRIENDLY LOUNGE - NIGHT - DEC. 1956",
+      "header_prefix": "INT.",
+      "location_raw": "THE FRIENDLY LOUNGE - NIGHT - DEC. 1956",
+      "location_canonical_id": "loc_the_friendly_lounge_night_dec_1956",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 250,
+      "line_end": 261,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0029",
+      "scene_index": 29,
+      "header_raw": "EXT. FOOD FAIR MARKET - DAY - FEB. 1957",
+      "header_prefix": "EXT.",
+      "location_raw": "FOOD FAIR MARKET - DAY - FEB. 1957",
+      "location_canonical_id": "loc_food_fair_market_day_feb_1957",
+      "time_of_day": null,
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 262,
+      "line_end": 282,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0030",
+      "scene_index": 30,
+      "header_raw": "EXT. LOCAL 107 - PHILADELPHIA - DAY - 1957",
+      "header_prefix": "EXT.",
+      "location_raw": "LOCAL 107 - PHILADELPHIA",
+      "location_canonical_id": "loc_local_107_philadelphia",
+      "time_of_day": "DAY",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 283,
+      "line_end": 288,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0031",
+      "scene_index": 31,
+      "header_raw": "INT. LOCAL 107 - DAY - 1957",
+      "header_prefix": "INT.",
+      "location_raw": "LOCAL 107",
+      "location_canonical_id": "loc_local_107",
+      "time_of_day": "DAY",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 289,
+      "line_end": 358,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0032",
+      "scene_index": 32,
+      "header_raw": "INT. COURTROOM - DAY - 1957",
+      "header_prefix": "INT.",
+      "location_raw": "COURTROOM",
+      "location_canonical_id": "loc_courtroom",
+      "time_of_day": "DAY",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 359,
+      "line_end": 378,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0033",
+      "scene_index": 33,
+      "header_raw": "INT. VILLA DI ROMA - NIGHT - 1957",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 379,
+      "line_end": 417,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0034",
+      "scene_index": 34,
+      "header_raw": "INT. VILLA DI ROMA - ANGELO BRUNO TABLE - CONTINUOUS",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA - ANGELO BRUNO TABLE",
+      "location_canonical_id": "loc_villa_di_roma_angelo_bruno_table",
+      "time_of_day": "CONTINUOUS",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 418,
+      "line_end": 423,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0035",
+      "scene_index": 35,
+      "header_raw": "INT. VILLA DI ROMA - NIGHT",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "NIGHT",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 424,
+      "line_end": 472,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0036",
+      "scene_index": 36,
+      "header_raw": "EXT. ITALIAN FOREST - DAY - FLASHBACK",
+      "header_prefix": "EXT.",
+      "location_raw": "ITALIAN FOREST",
+      "location_canonical_id": "loc_italian_forest",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [
+        "flashback"
+      ],
+      "line_start": 473,
+      "line_end": 490,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0037",
+      "scene_index": 37,
+      "header_raw": "EXT. RURAL PENNSYLVANIA - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "RURAL PENNSYLVANIA",
+      "location_canonical_id": "loc_rural_pennsylvania",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 491,
+      "line_end": 493,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0038",
+      "scene_index": 38,
+      "header_raw": "INT. FRANK’S LINCOLN - MOVING - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S LINCOLN - MOVING",
+      "location_canonical_id": "loc_frank_s_lincoln_moving",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 494,
+      "line_end": 499,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0039",
+      "scene_index": 39,
+      "header_raw": "INT. BUFALINO'S HOUSE - NIGHT - 1958 - FLASHBACK",
+      "header_prefix": "INT.",
+      "location_raw": "BUFALINO'S HOUSE",
+      "location_canonical_id": "loc_bufalino_s_house",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "flashback"
+      ],
+      "line_start": 500,
+      "line_end": 511,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0040",
+      "scene_index": 40,
+      "header_raw": "INT. FRANK’S LINCOLN - MOVING - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S LINCOLN - MOVING",
+      "location_canonical_id": "loc_frank_s_lincoln_moving",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 512,
+      "line_end": 517,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0041",
+      "scene_index": 41,
+      "header_raw": "EXT. RURAL PENNSYLVANIA - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "RURAL PENNSYLVANIA",
+      "location_canonical_id": "loc_rural_pennsylvania",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 518,
+      "line_end": 529,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0042",
+      "scene_index": 42,
+      "header_raw": "INT. PENN DRAPE & CURTAINS, PITTSTON, PA - DAY - 1957",
+      "header_prefix": "INT.",
+      "location_raw": "PENN DRAPE & CURTAINS, PITTSTON, PA",
+      "location_canonical_id": "loc_penn_drape_curtains_pittston_pa",
+      "time_of_day": "DAY",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 530,
+      "line_end": 538,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0043",
+      "scene_index": 43,
+      "header_raw": "INT. PARK SHERATON HOTEL - DAY - OCT. 25, 1957",
+      "header_prefix": "INT.",
+      "location_raw": "PARK SHERATON HOTEL - DAY - OCT. 25, 1957",
+      "location_canonical_id": "loc_park_sheraton_hotel_day_oct_25_1957",
+      "time_of_day": null,
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 539,
+      "line_end": 544,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0044",
+      "scene_index": 44,
+      "header_raw": "INT. LINCOLN TOWNCAR - DAY - OCT. 25, 1957",
+      "header_prefix": "INT.",
+      "location_raw": "LINCOLN TOWNCAR - DAY - OCT. 25, 1957",
+      "location_canonical_id": "loc_lincoln_towncar_day_oct_25_1957",
+      "time_of_day": null,
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 545,
+      "line_end": 547,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0045",
+      "scene_index": 45,
+      "header_raw": "EXT. PENN DRAPE & CURTAINS - DAY - OCTOBER 25, 1957",
+      "header_prefix": "EXT.",
+      "location_raw": "PENN DRAPE & CURTAINS - DAY - OCTOBER 25, 1957",
+      "location_canonical_id": "loc_penn_drape_curtains_day_october_25_1957",
+      "time_of_day": null,
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 548,
+      "line_end": 553,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0046",
+      "scene_index": 46,
+      "header_raw": "EXT. BUFALINO’S HOUSE - PITTSTON - DAY - 1957",
+      "header_prefix": "EXT.",
+      "location_raw": "BUFALINO’S HOUSE - PITTSTON",
+      "location_canonical_id": "loc_bufalino_s_house_pittston",
+      "time_of_day": "DAY",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 554,
+      "line_end": 556,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0047",
+      "scene_index": 47,
+      "header_raw": "EXT. SKINNY RAZOR’S HOUSE - PHILLY - DAY - 1957",
+      "header_prefix": "EXT.",
+      "location_raw": "SKINNY RAZOR’S HOUSE - PHILLY",
+      "location_canonical_id": "loc_skinny_razor_s_house_philly",
+      "time_of_day": "DAY",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 557,
+      "line_end": 583,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0048",
+      "scene_index": 48,
+      "header_raw": "INT/EXT. FRANK’S CAR - PHILLY STREET - DAY - 1957",
+      "header_prefix": "INT/EXT.",
+      "location_raw": "FRANK’S CAR - PHILLY STREET",
+      "location_canonical_id": "loc_frank_s_car_philly_street",
+      "time_of_day": "DAY",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "mixed_interior_exterior"
+      ],
+      "line_start": 584,
+      "line_end": 592,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0049",
+      "scene_index": 49,
+      "header_raw": "INT. THE FRIENDLY LOUNGE - LATER - DAY - 1957",
+      "header_prefix": "INT.",
+      "location_raw": "THE FRIENDLY LOUNGE",
+      "location_canonical_id": "loc_the_friendly_lounge",
+      "time_of_day": "LATER",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 593,
+      "line_end": 616,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0050",
+      "scene_index": 50,
+      "header_raw": "INT. FRANK & MARY’S HOUSE - EVENING - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK & MARY’S HOUSE",
+      "location_canonical_id": "loc_frank_mary_s_house",
+      "time_of_day": "EVENING",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 617,
+      "line_end": 641,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0051",
+      "scene_index": 51,
+      "header_raw": "EXT. GROCERY STORE - EVENING - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "GROCERY STORE",
+      "location_canonical_id": "loc_grocery_store",
+      "time_of_day": "EVENING",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 642,
+      "line_end": 650,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0052",
+      "scene_index": 52,
+      "header_raw": "INT. GROCERY STORE - EVENING - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "GROCERY STORE",
+      "location_canonical_id": "loc_grocery_store",
+      "time_of_day": "EVENING",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 651,
+      "line_end": 656,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0053",
+      "scene_index": 53,
+      "header_raw": "EXT. GROCERY STORE - CONTINUOUS",
+      "header_prefix": "EXT.",
+      "location_raw": "GROCERY STORE",
+      "location_canonical_id": "loc_grocery_store",
+      "time_of_day": "CONTINUOUS",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 657,
+      "line_end": 659,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0054",
+      "scene_index": 54,
+      "header_raw": "INT. FRANK & MARY’S HOUSE - LATER - NIGHT - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK & MARY’S HOUSE",
+      "location_canonical_id": "loc_frank_mary_s_house",
+      "time_of_day": "LATER",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 660,
+      "line_end": 662,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0055",
+      "scene_index": 55,
+      "header_raw": "INT. MOTHER OF SORROWS CHURCH - DAY",
+      "header_prefix": "INT.",
+      "location_raw": "MOTHER OF SORROWS CHURCH",
+      "location_canonical_id": "loc_mother_of_sorrows_church",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 663,
+      "line_end": 668,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0056",
+      "scene_index": 56,
+      "header_raw": "INT. MELROSE DINER - PHILLY - DAY - LATE FALL 1958",
+      "header_prefix": "INT.",
+      "location_raw": "MELROSE DINER - PHILLY - DAY - LATE FALL 1958",
+      "location_canonical_id": "loc_melrose_diner_philly_day_late_fall_1958",
+      "time_of_day": null,
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 669,
+      "line_end": 683,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0057",
+      "scene_index": 57,
+      "header_raw": "INT. DAISY LINEN SUPPLY - DAY - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "DAISY LINEN SUPPLY",
+      "location_canonical_id": "loc_daisy_linen_supply",
+      "time_of_day": "DAY",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 684,
+      "line_end": 689,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0058",
+      "scene_index": 58,
+      "header_raw": "INT. CADILLAC LINEN SERVICE - DAY - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "CADILLAC LINEN SERVICE",
+      "location_canonical_id": "loc_cadillac_linen_service",
+      "time_of_day": "DAY",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 690,
+      "line_end": 695,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0059",
+      "scene_index": 59,
+      "header_raw": "INT. MELROSE DINER - CONTINUED - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "MELROSE DINER",
+      "location_canonical_id": "loc_melrose_diner",
+      "time_of_day": null,
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "continued",
+        "explicit_year"
+      ],
+      "line_start": 696,
+      "line_end": 704,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0060",
+      "scene_index": 60,
+      "header_raw": "EXT. CADILLAC LINEN SERVICE - DAY - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "CADILLAC LINEN SERVICE",
+      "location_canonical_id": "loc_cadillac_linen_service",
+      "time_of_day": "DAY",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 705,
+      "line_end": 707,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0061",
+      "scene_index": 61,
+      "header_raw": "INT. MELROSE DINER - CONTINUED - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "MELROSE DINER",
+      "location_canonical_id": "loc_melrose_diner",
+      "time_of_day": null,
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "continued",
+        "explicit_year"
+      ],
+      "line_start": 708,
+      "line_end": 728,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0062",
+      "scene_index": 62,
+      "header_raw": "INT. FRANK & MARY’S HOUSE - NIGHT - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK & MARY’S HOUSE",
+      "location_canonical_id": "loc_frank_mary_s_house",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 729,
+      "line_end": 734,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0063",
+      "scene_index": 63,
+      "header_raw": "EXT. CADILLAC LINEN SERVICE - DELAWARE - DAY - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "CADILLAC LINEN SERVICE - DELAWARE",
+      "location_canonical_id": "loc_cadillac_linen_service_delaware",
+      "time_of_day": "DAY",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 735,
+      "line_end": 737,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0064",
+      "scene_index": 64,
+      "header_raw": "EXT. CADILLAC LINEN SERVICE - DELAWARE - NIGHT",
+      "header_prefix": "EXT.",
+      "location_raw": "CADILLAC LINEN SERVICE - DELAWARE",
+      "location_canonical_id": "loc_cadillac_linen_service_delaware",
+      "time_of_day": "NIGHT",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 738,
+      "line_end": 740,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0065",
+      "scene_index": 65,
+      "header_raw": "EXT. DARK STREET - NIGHT - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "DARK STREET",
+      "location_canonical_id": "loc_dark_street",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 741,
+      "line_end": 743,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0066",
+      "scene_index": 66,
+      "header_raw": "INT. FRANK & MARY'S HOUSE - NIGHT",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK & MARY'S HOUSE",
+      "location_canonical_id": "loc_frank_mary_s_house",
+      "time_of_day": "NIGHT",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 744,
+      "line_end": 746,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0067",
+      "scene_index": 67,
+      "header_raw": "EXT. FRANK & MARY’S HOUSE - NIGHT - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "FRANK & MARY’S HOUSE",
+      "location_canonical_id": "loc_frank_mary_s_house",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 747,
+      "line_end": 752,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0068",
+      "scene_index": 68,
+      "header_raw": "INT. VILLA DI ROMA - LATER - NIGHT - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "LATER",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 753,
+      "line_end": 827,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0069",
+      "scene_index": 69,
+      "header_raw": "EXT. STREET - NIGHT - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "STREET",
+      "location_canonical_id": "loc_street",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 828,
+      "line_end": 836,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0070",
+      "scene_index": 70,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY",
+      "location_canonical_id": "loc_assisted_living_facility",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 837,
+      "line_end": 843,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0071",
+      "scene_index": 71,
+      "header_raw": "EXT. SCHUYLKILL RIVER - NIGHT - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "SCHUYLKILL RIVER",
+      "location_canonical_id": "loc_schuylkill_river",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 844,
+      "line_end": 849,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0072",
+      "scene_index": 72,
+      "header_raw": "INT. FRANK & MARY’S HOUSE - MORNING - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK & MARY’S HOUSE",
+      "location_canonical_id": "loc_frank_mary_s_house",
+      "time_of_day": "MORNING",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 850,
+      "line_end": 855,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0073",
+      "scene_index": 73,
+      "header_raw": "EXT. SCHUYLKILL RIVER - ANOTHER NIGHT - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "SCHUYLKILL RIVER - ANOTHER NIGHT",
+      "location_canonical_id": "loc_schuylkill_river_another_night",
+      "time_of_day": null,
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 856,
+      "line_end": 861,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0074",
+      "scene_index": 74,
+      "header_raw": "EXT. SCHUYLKILL RIVER - ANOTHER NIGHT - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "SCHUYLKILL RIVER - ANOTHER NIGHT",
+      "location_canonical_id": "loc_schuylkill_river_another_night",
+      "time_of_day": null,
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 862,
+      "line_end": 867,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0075",
+      "scene_index": 75,
+      "header_raw": "EXT. SCHUYLKILL RIVER - ANOTHER NIGHT - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "SCHUYLKILL RIVER - ANOTHER NIGHT",
+      "location_canonical_id": "loc_schuylkill_river_another_night",
+      "time_of_day": null,
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 868,
+      "line_end": 873,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0076",
+      "scene_index": 76,
+      "header_raw": "INT. VILLA DI ROMA - NIGHT - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 874,
+      "line_end": 879,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0077",
+      "scene_index": 77,
+      "header_raw": "EXT. PHILADELPHIA - NIGHT - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "PHILADELPHIA",
+      "location_canonical_id": "loc_philadelphia",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 880,
+      "line_end": 885,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0078",
+      "scene_index": 78,
+      "header_raw": "EXT. MOTEL - LEWISBURG, PA. - DAY - JULY 28, 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "MOTEL - LEWISBURG, PA. - DAY - JULY 28, 1975",
+      "location_canonical_id": "loc_motel_lewisburg_pa_day_july_28_1975",
+      "time_of_day": null,
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 886,
+      "line_end": 888,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0079",
+      "scene_index": 79,
+      "header_raw": "INT. MOTEL OFFICE - LEWISBURG, PA. - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "MOTEL OFFICE - LEWISBURG, PA.",
+      "location_canonical_id": "loc_motel_office_lewisburg_pa",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 889,
+      "line_end": 891,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0080",
+      "scene_index": 80,
+      "header_raw": "INT/EXT. LINCOLN - LEWISBURG, PA. - DAY - 1975",
+      "header_prefix": "INT/EXT.",
+      "location_raw": "LINCOLN - LEWISBURG, PA.",
+      "location_canonical_id": "loc_lincoln_lewisburg_pa",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "mixed_interior_exterior"
+      ],
+      "line_start": 892,
+      "line_end": 897,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0081",
+      "scene_index": 81,
+      "header_raw": "EXT. JEWELRY STORE - LEWISBURG - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "JEWELRY STORE - LEWISBURG",
+      "location_canonical_id": "loc_jewelry_store_lewisburg",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 898,
+      "line_end": 900,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0082",
+      "scene_index": 82,
+      "header_raw": "INT. BOWLING ALLEY - DAY - 1959",
+      "header_prefix": "INT.",
+      "location_raw": "BOWLING ALLEY",
+      "location_canonical_id": "loc_bowling_alley",
+      "time_of_day": "DAY",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 901,
+      "line_end": 903,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0083",
+      "scene_index": 83,
+      "header_raw": "INT. BOWLING ALLEY - LATER - DAY - 1959",
+      "header_prefix": "INT.",
+      "location_raw": "BOWLING ALLEY",
+      "location_canonical_id": "loc_bowling_alley",
+      "time_of_day": "LATER",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 904,
+      "line_end": 973,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0084",
+      "scene_index": 84,
+      "header_raw": "EXT. VILLA DI ROMA - NIGHT - 1959",
+      "header_prefix": "EXT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 974,
+      "line_end": 976,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0085",
+      "scene_index": 85,
+      "header_raw": "INT. VILLA DI ROMA - NIGHT",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "NIGHT",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 977,
+      "line_end": 1003,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0086",
+      "scene_index": 86,
+      "header_raw": "INT. TEAMSTER’S WXDC HEADQUARTERS  - OFFICE - CONTINUOUS",
+      "header_prefix": "INT.",
+      "location_raw": "TEAMSTER’S WXDC HEADQUARTERS - OFFICE",
+      "location_canonical_id": "loc_teamster_s_wxdc_headquarters_office",
+      "time_of_day": "CONTINUOUS",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1004,
+      "line_end": 1009,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0087",
+      "scene_index": 87,
+      "header_raw": "EXT. DETROIT - DAY - 1957 - FLASHBACK",
+      "header_prefix": "EXT.",
+      "location_raw": "DETROIT",
+      "location_canonical_id": "loc_detroit",
+      "time_of_day": "DAY",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "flashback"
+      ],
+      "line_start": 1010,
+      "line_end": 1015,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0088",
+      "scene_index": 88,
+      "header_raw": "INT. TEAMSTER RALLY - DETROIT - DAY - 1957 - FLASHBACK",
+      "header_prefix": "INT.",
+      "location_raw": "TEAMSTER RALLY - DETROIT",
+      "location_canonical_id": "loc_teamster_rally_detroit",
+      "time_of_day": "DAY",
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "flashback"
+      ],
+      "line_start": 1016,
+      "line_end": 1084,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0089",
+      "scene_index": 89,
+      "header_raw": "EXT. CHICAGO - DAY - 1959",
+      "header_prefix": "EXT.",
+      "location_raw": "CHICAGO",
+      "location_canonical_id": "loc_chicago",
+      "time_of_day": "DAY",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1085,
+      "line_end": 1090,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0090",
+      "scene_index": 90,
+      "header_raw": "INT. CHICAGO BATHHOUSE - 1959",
+      "header_prefix": "INT.",
+      "location_raw": "CHICAGO BATHHOUSE",
+      "location_canonical_id": "loc_chicago_bathhouse",
+      "time_of_day": null,
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1091,
+      "line_end": 1099,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0091",
+      "scene_index": 91,
+      "header_raw": "EXT. CHICAGO - NIGHT - 1959",
+      "header_prefix": "EXT.",
+      "location_raw": "CHICAGO",
+      "location_canonical_id": "loc_chicago",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1100,
+      "line_end": 1108,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0092",
+      "scene_index": 92,
+      "header_raw": "EXT. LAKE MICHIGAN - NIGHT - 1959",
+      "header_prefix": "EXT.",
+      "location_raw": "LAKE MICHIGAN",
+      "location_canonical_id": "loc_lake_michigan",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1109,
+      "line_end": 1120,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0093",
+      "scene_index": 93,
+      "header_raw": "EXT. CHICAGO - NIGHT - 1959",
+      "header_prefix": "EXT.",
+      "location_raw": "CHICAGO",
+      "location_canonical_id": "loc_chicago",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1121,
+      "line_end": 1123,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0094",
+      "scene_index": 94,
+      "header_raw": "EXT. CAB GARAGE - NIGHT - 1959",
+      "header_prefix": "EXT.",
+      "location_raw": "CAB GARAGE",
+      "location_canonical_id": "loc_cab_garage",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1124,
+      "line_end": 1126,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0095",
+      "scene_index": 95,
+      "header_raw": "EXT. GROCERY STORE - CHICAGO - NIGHT - 1959",
+      "header_prefix": "EXT.",
+      "location_raw": "GROCERY STORE - CHICAGO",
+      "location_canonical_id": "loc_grocery_store_chicago",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1127,
+      "line_end": 1138,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0096",
+      "scene_index": 96,
+      "header_raw": "INT. EDGEWATER HOTEL SUITE - CHICAGO - LATER - NIGHT",
+      "header_prefix": "INT.",
+      "location_raw": "EDGEWATER HOTEL SUITE - CHICAGO",
+      "location_canonical_id": "loc_edgewater_hotel_suite_chicago",
+      "time_of_day": "LATER",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1139,
+      "line_end": 1144,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0097",
+      "scene_index": 97,
+      "header_raw": "INT. EDGEWATER HOTEL SUITE - LATER - NIGHT",
+      "header_prefix": "INT.",
+      "location_raw": "EDGEWATER HOTEL SUITE",
+      "location_canonical_id": "loc_edgewater_hotel_suite",
+      "time_of_day": "LATER",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1145,
+      "line_end": 1174,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0098",
+      "scene_index": 98,
+      "header_raw": "INT. EDGEWATER HOTEL LIVING ROOM SUITE - LATER - NIGHT",
+      "header_prefix": "INT.",
+      "location_raw": "EDGEWATER HOTEL LIVING ROOM SUITE",
+      "location_canonical_id": "loc_edgewater_hotel_living_room_suite",
+      "time_of_day": "LATER",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1175,
+      "line_end": 1189,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0099",
+      "scene_index": 99,
+      "header_raw": "EXT. MINIATURE GOLF COURSE - DAY -  1959",
+      "header_prefix": "EXT.",
+      "location_raw": "MINIATURE GOLF COURSE",
+      "location_canonical_id": "loc_miniature_golf_course",
+      "time_of_day": "DAY",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1190,
+      "line_end": 1207,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0100",
+      "scene_index": 100,
+      "header_raw": "EXT. ICE CREAM PARLOR - NIGHT - 1959",
+      "header_prefix": "EXT.",
+      "location_raw": "ICE CREAM PARLOR",
+      "location_canonical_id": "loc_ice_cream_parlor",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1208,
+      "line_end": 1213,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0101",
+      "scene_index": 101,
+      "header_raw": "INT. SCHOOL CLASSROOM - DAY - 1960",
+      "header_prefix": "INT.",
+      "location_raw": "SCHOOL CLASSROOM",
+      "location_canonical_id": "loc_school_classroom",
+      "time_of_day": "DAY",
+      "year_explicit": 1960,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1214,
+      "line_end": 1222,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0102",
+      "scene_index": 102,
+      "header_raw": "INT. HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ - DAY - 1959",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ",
+      "location_canonical_id": "loc_hoffa_s_office_teamsters_wxdc_hq",
+      "time_of_day": "DAY",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1223,
+      "line_end": 1253,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0103",
+      "scene_index": 103,
+      "header_raw": "INT. HOFFA'S OFFICE - ANTEROOM - CONTINUOUS",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA'S OFFICE - ANTEROOM",
+      "location_canonical_id": "loc_hoffa_s_office_anteroom",
+      "time_of_day": "CONTINUOUS",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1254,
+      "line_end": 1256,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0104",
+      "scene_index": 104,
+      "header_raw": "INT. CLASSROOM - CONTINUED - 1960",
+      "header_prefix": "INT.",
+      "location_raw": "CLASSROOM",
+      "location_canonical_id": "loc_classroom",
+      "time_of_day": null,
+      "year_explicit": 1960,
+      "year_inferred": null,
+      "flags": [
+        "continued",
+        "explicit_year"
+      ],
+      "line_start": 1257,
+      "line_end": 1262,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0105",
+      "scene_index": 105,
+      "header_raw": "INT. OFFICE - DAY - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "OFFICE",
+      "location_canonical_id": "loc_office",
+      "time_of_day": "DAY",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1263,
+      "line_end": 1270,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0106",
+      "scene_index": 106,
+      "header_raw": "INT. PENN DRAPE & CURTAINS - PITTSTON, PA - DAY - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "PENN DRAPE & CURTAINS - PITTSTON, PA",
+      "location_canonical_id": "loc_penn_drape_curtains_pittston_pa",
+      "time_of_day": "DAY",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1271,
+      "line_end": 1282,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0107",
+      "scene_index": 107,
+      "header_raw": "EXT. LAS VEGAS - DAY - 1956-1960",
+      "header_prefix": "EXT.",
+      "location_raw": "LAS VEGAS - DAY - 1956-1960",
+      "location_canonical_id": "loc_las_vegas_day_1956_1960",
+      "time_of_day": null,
+      "year_explicit": 1956,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 1283,
+      "line_end": 1288,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0108",
+      "scene_index": 108,
+      "header_raw": "INT. BEAUTY PARLOR - DETROIT - DAY - 1959",
+      "header_prefix": "INT.",
+      "location_raw": "BEAUTY PARLOR - DETROIT",
+      "location_canonical_id": "loc_beauty_parlor_detroit",
+      "time_of_day": "DAY",
+      "year_explicit": 1959,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1289,
+      "line_end": 1294,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0109",
+      "scene_index": 109,
+      "header_raw": "EXT. MIAMI BEACH DEVELOPMENT - DAY",
+      "header_prefix": "EXT.",
+      "location_raw": "MIAMI BEACH DEVELOPMENT",
+      "location_canonical_id": "loc_miami_beach_development",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1295,
+      "line_end": 1300,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0110",
+      "scene_index": 110,
+      "header_raw": "EXT. GRAVEYARD - CHICAGO - DAY - 1960",
+      "header_prefix": "EXT.",
+      "location_raw": "GRAVEYARD - CHICAGO",
+      "location_canonical_id": "loc_graveyard_chicago",
+      "time_of_day": "DAY",
+      "year_explicit": 1960,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1301,
+      "line_end": 1306,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0111",
+      "scene_index": 111,
+      "header_raw": "EXT. GRAVEYARD - CHICAGO - DAY",
+      "header_prefix": "EXT.",
+      "location_raw": "GRAVEYARD - CHICAGO",
+      "location_canonical_id": "loc_graveyard_chicago",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1307,
+      "line_end": 1312,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0112",
+      "scene_index": 112,
+      "header_raw": "INT. POLLING PLACE - CHICAGO - DAY - 1960",
+      "header_prefix": "INT.",
+      "location_raw": "POLLING PLACE - CHICAGO",
+      "location_canonical_id": "loc_polling_place_chicago",
+      "time_of_day": "DAY",
+      "year_explicit": 1960,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1313,
+      "line_end": 1318,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0113",
+      "scene_index": 113,
+      "header_raw": "INT. ARMORY LOUNGE - DAY",
+      "header_prefix": "INT.",
+      "location_raw": "ARMORY LOUNGE",
+      "location_canonical_id": "loc_armory_lounge",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1319,
+      "line_end": 1324,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0114",
+      "scene_index": 114,
+      "header_raw": "INT. HOFFA’S LAKE ORION HOUSE - DETROIT - DAY - 1960",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S LAKE ORION HOUSE - DETROIT",
+      "location_canonical_id": "loc_hoffa_s_lake_orion_house_detroit",
+      "time_of_day": "DAY",
+      "year_explicit": 1960,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1325,
+      "line_end": 1342,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0115",
+      "scene_index": 115,
+      "header_raw": "INT. SENATE CHAMBERS - 1957 - FLASHBACK",
+      "header_prefix": "INT.",
+      "location_raw": "SENATE CHAMBERS",
+      "location_canonical_id": "loc_senate_chambers",
+      "time_of_day": null,
+      "year_explicit": 1957,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "flashback"
+      ],
+      "line_start": 1343,
+      "line_end": 1365,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0116",
+      "scene_index": 116,
+      "header_raw": "INT. VILLA DI ROMA - DAY - 1960",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "DAY",
+      "year_explicit": 1960,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1366,
+      "line_end": 1371,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0117",
+      "scene_index": 117,
+      "header_raw": "INT. BUFALINO'S HOUSE - NIGHT - 1960",
+      "header_prefix": "INT.",
+      "location_raw": "BUFALINO'S HOUSE",
+      "location_canonical_id": "loc_bufalino_s_house",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1960,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1372,
+      "line_end": 1389,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0118",
+      "scene_index": 118,
+      "header_raw": "EXT. FRANK’S HOUSE - MORNING - MARCH 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "FRANK’S HOUSE - MORNING - MARCH 1961",
+      "location_canonical_id": "loc_frank_s_house_morning_march_1961",
+      "time_of_day": null,
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 1390,
+      "line_end": 1395,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0119",
+      "scene_index": 119,
+      "header_raw": "EXT./INT. FEDERAL BUILDING - DAY - 1961",
+      "header_prefix": "EXT./INT.",
+      "location_raw": "FEDERAL BUILDING",
+      "location_canonical_id": "loc_federal_building",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "mixed_interior_exterior"
+      ],
+      "line_start": 1396,
+      "line_end": 1401,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0120",
+      "scene_index": 120,
+      "header_raw": "INT. HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ - DAY - 1961",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ",
+      "location_canonical_id": "loc_hoffa_s_office_teamsters_wxdc_hq",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1402,
+      "line_end": 1414,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0121",
+      "scene_index": 121,
+      "header_raw": "INT. HOFFA’S OFFICE - FOYER - CONTINUOUS",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S OFFICE - FOYER",
+      "location_canonical_id": "loc_hoffa_s_office_foyer",
+      "time_of_day": "CONTINUOUS",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1415,
+      "line_end": 1441,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0122",
+      "scene_index": 122,
+      "header_raw": "INT. VILLA DI ROMA - NIGHT - MARCH 1961",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA - NIGHT - MARCH 1961",
+      "location_canonical_id": "loc_villa_di_roma_night_march_1961",
+      "time_of_day": null,
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 1442,
+      "line_end": 1468,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0123",
+      "scene_index": 123,
+      "header_raw": "EXT. PHILLY - DAY - 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "PHILLY",
+      "location_canonical_id": "loc_philly",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1469,
+      "line_end": 1474,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0124",
+      "scene_index": 124,
+      "header_raw": "EXT. HIGHWAY - DAY - 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "HIGHWAY",
+      "location_canonical_id": "loc_highway",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1475,
+      "line_end": 1480,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0125",
+      "scene_index": 125,
+      "header_raw": "EXT. CONCRETE PLANT - BALTIMORE - DAY - 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "CONCRETE PLANT - BALTIMORE",
+      "location_canonical_id": "loc_concrete_plant_baltimore",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1481,
+      "line_end": 1491,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0126",
+      "scene_index": 126,
+      "header_raw": "EXT. HIGHWAY - NIGHT - 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "HIGHWAY",
+      "location_canonical_id": "loc_highway",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1492,
+      "line_end": 1497,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0127",
+      "scene_index": 127,
+      "header_raw": "EXT. JACKSONVILLE, FLORIDA - DAWN - 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "JACKSONVILLE, FLORIDA",
+      "location_canonical_id": "loc_jacksonville_florida",
+      "time_of_day": "DAWN",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1498,
+      "line_end": 1515,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0128",
+      "scene_index": 128,
+      "header_raw": "INT. VILLA DI ROMA - APRIL 1961",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA - APRIL 1961",
+      "location_canonical_id": "loc_villa_di_roma_april_1961",
+      "time_of_day": null,
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 1516,
+      "line_end": 1524,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0129",
+      "scene_index": 129,
+      "header_raw": "INT. HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ - DAY APRIL 1961",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ - DAY APRIL 1961",
+      "location_canonical_id": "loc_hoffa_s_office_teamsters_wxdc_hq_day_april_1961",
+      "time_of_day": null,
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 1525,
+      "line_end": 1550,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0130",
+      "scene_index": 130,
+      "header_raw": "EXT. PALM BEACH ESTATE - TERRACE - DAY",
+      "header_prefix": "EXT.",
+      "location_raw": "PALM BEACH ESTATE - TERRACE",
+      "location_canonical_id": "loc_palm_beach_estate_terrace",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1551,
+      "line_end": 1556,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0131",
+      "scene_index": 131,
+      "header_raw": "INT. FRANK’S HOUSE - NIGHT - APRIL, 1961",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE - NIGHT - APRIL, 1961",
+      "location_canonical_id": "loc_frank_s_house_night_april_1961",
+      "time_of_day": null,
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 1557,
+      "line_end": 1562,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0132",
+      "scene_index": 132,
+      "header_raw": "INT. FRANK’S HOUSE - NIGHT - APRIL, 1961",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE - NIGHT - APRIL, 1961",
+      "location_canonical_id": "loc_frank_s_house_night_april_1961",
+      "time_of_day": null,
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 1563,
+      "line_end": 1571,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0133",
+      "scene_index": 133,
+      "header_raw": "INT/EXT. FRANK’S HOUSE - NIGHT - APRIL, 1961",
+      "header_prefix": "INT/EXT.",
+      "location_raw": "FRANK’S HOUSE - NIGHT - APRIL, 1961",
+      "location_canonical_id": "loc_frank_s_house_night_april_1961",
+      "time_of_day": null,
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline",
+        "mixed_interior_exterior"
+      ],
+      "line_start": 1572,
+      "line_end": 1574,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0134",
+      "scene_index": 134,
+      "header_raw": "EXT. MIAMI - DAY - 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "MIAMI",
+      "location_canonical_id": "loc_miami",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1575,
+      "line_end": 1577,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0135",
+      "scene_index": 135,
+      "header_raw": "EXT. DEAUVILLE HOTEL - MIAMI - DAY - 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "DEAUVILLE HOTEL - MIAMI",
+      "location_canonical_id": "loc_deauville_hotel_miami",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1578,
+      "line_end": 1580,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0136",
+      "scene_index": 136,
+      "header_raw": "INT. HOTEL SUITE - DEAUVILLE HOTEL - DAY - 1961",
+      "header_prefix": "INT.",
+      "location_raw": "HOTEL SUITE - DEAUVILLE HOTEL",
+      "location_canonical_id": "loc_hotel_suite_deauville_hotel",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1581,
+      "line_end": 1583,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0137",
+      "scene_index": 137,
+      "header_raw": "INT. DEAUVILLE HOTEL - MIAMI - DAY - 1961",
+      "header_prefix": "INT.",
+      "location_raw": "DEAUVILLE HOTEL - MIAMI",
+      "location_canonical_id": "loc_deauville_hotel_miami",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1584,
+      "line_end": 1586,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0138",
+      "scene_index": 138,
+      "header_raw": "INT. DEAUVILLE HOTEL BALLROOM - MIAMI - DAY - 1961",
+      "header_prefix": "INT.",
+      "location_raw": "DEAUVILLE HOTEL BALLROOM - MIAMI",
+      "location_canonical_id": "loc_deauville_hotel_ballroom_miami",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1587,
+      "line_end": 1604,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0139",
+      "scene_index": 139,
+      "header_raw": "INT. DEAUVILLE HOTEL SUITE - NIGHT - 1961",
+      "header_prefix": "INT.",
+      "location_raw": "DEAUVILLE HOTEL SUITE",
+      "location_canonical_id": "loc_deauville_hotel_suite",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1605,
+      "line_end": 1631,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0140",
+      "scene_index": 140,
+      "header_raw": "EXT. VILLA ROMANO - HOBOKEN - DAY - FLASHBACK - 1958",
+      "header_prefix": "EXT.",
+      "location_raw": "VILLA ROMANO - HOBOKEN",
+      "location_canonical_id": "loc_villa_romano_hoboken",
+      "time_of_day": "DAY",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "flashback"
+      ],
+      "line_start": 1632,
+      "line_end": 1637,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0141",
+      "scene_index": 141,
+      "header_raw": "INT. VILLA ROMANO BAR - DAY - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA ROMANO BAR",
+      "location_canonical_id": "loc_villa_romano_bar",
+      "time_of_day": "DAY",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1638,
+      "line_end": 1640,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0142",
+      "scene_index": 142,
+      "header_raw": "INT. VILLA ROMANO BAR - LATER - DAY - 1958",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA ROMANO BAR",
+      "location_canonical_id": "loc_villa_romano_bar",
+      "time_of_day": "LATER",
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1641,
+      "line_end": 1657,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0143",
+      "scene_index": 143,
+      "header_raw": "EXT. NEW JERSEY - DAY - 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "NEW JERSEY",
+      "location_canonical_id": "loc_new_jersey",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1658,
+      "line_end": 1663,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0144",
+      "scene_index": 144,
+      "header_raw": "INT. CAR - MOVING - DAY - 1961",
+      "header_prefix": "INT.",
+      "location_raw": "CAR - MOVING",
+      "location_canonical_id": "loc_car_moving",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1664,
+      "line_end": 1672,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0145",
+      "scene_index": 145,
+      "header_raw": "EXT. FARM - NEW JERSEY - DAY - 1961",
+      "header_prefix": "EXT.",
+      "location_raw": "FARM - NEW JERSEY",
+      "location_canonical_id": "loc_farm_new_jersey",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1673,
+      "line_end": 1714,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0146",
+      "scene_index": 146,
+      "header_raw": "EXT. HIGHWAY - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "HIGHWAY",
+      "location_canonical_id": "loc_highway",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1715,
+      "line_end": 1717,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0147",
+      "scene_index": 147,
+      "header_raw": "EXT. TRUCKING COMPANY - DELAWARE - DAY - 1962",
+      "header_prefix": "EXT.",
+      "location_raw": "TRUCKING COMPANY - DELAWARE",
+      "location_canonical_id": "loc_trucking_company_delaware",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1718,
+      "line_end": 1720,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0148",
+      "scene_index": 148,
+      "header_raw": "INT. TRUCKING COMPANY OFFICE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "TRUCKING COMPANY OFFICE",
+      "location_canonical_id": "loc_trucking_company_office",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1721,
+      "line_end": 1731,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0149",
+      "scene_index": 149,
+      "header_raw": "INT. LOCAL 326 OFFICE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "LOCAL 326 OFFICE",
+      "location_canonical_id": "loc_local_326_office",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1732,
+      "line_end": 1743,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0150",
+      "scene_index": 150,
+      "header_raw": "INT. COURTROOM - NASHVILLE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "COURTROOM - NASHVILLE",
+      "location_canonical_id": "loc_courtroom_nashville",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1744,
+      "line_end": 1761,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0151",
+      "scene_index": 151,
+      "header_raw": "INT. POLICE STATION - NASHVILLE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "POLICE STATION - NASHVILLE",
+      "location_canonical_id": "loc_police_station_nashville",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1762,
+      "line_end": 1767,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0152",
+      "scene_index": 152,
+      "header_raw": "INT. LOCAL 326 - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "LOCAL 326",
+      "location_canonical_id": "loc_local_326",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1768,
+      "line_end": 1773,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0153",
+      "scene_index": 153,
+      "header_raw": "INT. COURTHOUSE - NASHVILLE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "COURTHOUSE - NASHVILLE",
+      "location_canonical_id": "loc_courthouse_nashville",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1774,
+      "line_end": 1776,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0154",
+      "scene_index": 154,
+      "header_raw": "INT. COURTROOM - NASHVILLE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "COURTROOM - NASHVILLE",
+      "location_canonical_id": "loc_courtroom_nashville",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1777,
+      "line_end": 1779,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0155",
+      "scene_index": 155,
+      "header_raw": "INT. ANDREW JACKSON HOTEL - NASHVILLE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "ANDREW JACKSON HOTEL - NASHVILLE",
+      "location_canonical_id": "loc_andrew_jackson_hotel_nashville",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1780,
+      "line_end": 1790,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0156",
+      "scene_index": 156,
+      "header_raw": "INT. A BATHROOM SOMEWHERE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "A BATHROOM SOMEWHERE",
+      "location_canonical_id": "loc_a_bathroom_somewhere",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1791,
+      "line_end": 1793,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0157",
+      "scene_index": 157,
+      "header_raw": "EXT. HIGHWAY - TENNESSEE - DAY - 1962",
+      "header_prefix": "EXT.",
+      "location_raw": "HIGHWAY - TENNESSEE",
+      "location_canonical_id": "loc_highway_tennessee",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1794,
+      "line_end": 1796,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0158",
+      "scene_index": 158,
+      "header_raw": "INT. ANDREW JACKSON HOTEL SUITE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "ANDREW JACKSON HOTEL SUITE",
+      "location_canonical_id": "loc_andrew_jackson_hotel_suite",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1797,
+      "line_end": 1799,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0159",
+      "scene_index": 159,
+      "header_raw": "INT. COURTROOM - NASHVILLE - DAY - 1962",
+      "header_prefix": "INT.",
+      "location_raw": "COURTROOM - NASHVILLE",
+      "location_canonical_id": "loc_courtroom_nashville",
+      "time_of_day": "DAY",
+      "year_explicit": 1962,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1800,
+      "line_end": 1823,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0160",
+      "scene_index": 160,
+      "header_raw": "INT. ICE CREAM SHOP, NASHVILLE - DAY - NOV. 22, 1963",
+      "header_prefix": "INT.",
+      "location_raw": "ICE CREAM SHOP, NASHVILLE - DAY - NOV. 22, 1963",
+      "location_canonical_id": "loc_ice_cream_shop_nashville_day_nov_22_1963",
+      "time_of_day": null,
+      "year_explicit": 1963,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 1824,
+      "line_end": 1832,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0161",
+      "scene_index": 161,
+      "header_raw": "EXT. TEAMSTERS’ WXDC HEADQUARTERS - DAY - 1963",
+      "header_prefix": "EXT.",
+      "location_raw": "TEAMSTERS’ WXDC HEADQUARTERS",
+      "location_canonical_id": "loc_teamsters_wxdc_headquarters",
+      "time_of_day": "DAY",
+      "year_explicit": 1963,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1833,
+      "line_end": 1857,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0162",
+      "scene_index": 162,
+      "header_raw": "EXT. TEAMSTERS’ WXDC HEADQUARTERS - ROOF - DAY",
+      "header_prefix": "EXT.",
+      "location_raw": "TEAMSTERS’ WXDC HEADQUARTERS - ROOF",
+      "location_canonical_id": "loc_teamsters_wxdc_headquarters_roof",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1858,
+      "line_end": 1866,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0163",
+      "scene_index": 163,
+      "header_raw": "INT. COURTROOM - NASHVILLE - DAY - 1964",
+      "header_prefix": "INT.",
+      "location_raw": "COURTROOM - NASHVILLE",
+      "location_canonical_id": "loc_courtroom_nashville",
+      "time_of_day": "DAY",
+      "year_explicit": 1964,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1867,
+      "line_end": 1878,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0164",
+      "scene_index": 164,
+      "header_raw": "INT. PROSECUTOR NEAL’S OFFICE - DAY",
+      "header_prefix": "INT.",
+      "location_raw": "PROSECUTOR NEAL’S OFFICE",
+      "location_canonical_id": "loc_prosecutor_neal_s_office",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 1879,
+      "line_end": 1881,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0165",
+      "scene_index": 165,
+      "header_raw": "EXT. PENNSYLVANIA - DAY - 1967",
+      "header_prefix": "EXT.",
+      "location_raw": "PENNSYLVANIA",
+      "location_canonical_id": "loc_pennsylvania",
+      "time_of_day": "DAY",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1882,
+      "line_end": 1884,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0166",
+      "scene_index": 166,
+      "header_raw": "EXT. LEWISBURG FEDERAL PENITENTIARY - DAY - 1967",
+      "header_prefix": "EXT.",
+      "location_raw": "LEWISBURG FEDERAL PENITENTIARY",
+      "location_canonical_id": "loc_lewisburg_federal_penitentiary",
+      "time_of_day": "DAY",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1885,
+      "line_end": 1887,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0167",
+      "scene_index": 167,
+      "header_raw": "INT. LEWISBURG PENITENTIARY - DAY - 1967",
+      "header_prefix": "INT.",
+      "location_raw": "LEWISBURG PENITENTIARY",
+      "location_canonical_id": "loc_lewisburg_penitentiary",
+      "time_of_day": "DAY",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1888,
+      "line_end": 1890,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0168",
+      "scene_index": 168,
+      "header_raw": "INT. SILVER SHOP - PITTSBURGH, PA - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "SILVER SHOP - PITTSBURGH, PA",
+      "location_canonical_id": "loc_silver_shop_pittsburgh_pa",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1891,
+      "line_end": 1896,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0169",
+      "scene_index": 169,
+      "header_raw": "INT. VISITORS ROOM - LEWISBURG - DAY - 1967",
+      "header_prefix": "INT.",
+      "location_raw": "VISITORS ROOM - LEWISBURG",
+      "location_canonical_id": "loc_visitors_room_lewisburg",
+      "time_of_day": "DAY",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1897,
+      "line_end": 1913,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0170",
+      "scene_index": 170,
+      "header_raw": "EXT. GOLF COURSE - DAY - 1966",
+      "header_prefix": "EXT.",
+      "location_raw": "GOLF COURSE",
+      "location_canonical_id": "loc_golf_course",
+      "time_of_day": "DAY",
+      "year_explicit": 1966,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1914,
+      "line_end": 1919,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0171",
+      "scene_index": 171,
+      "header_raw": "INT. VILLA DI ROMA - NIGHT - 1967",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1920,
+      "line_end": 1931,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0172",
+      "scene_index": 172,
+      "header_raw": "EXT. ALLEN DORFMAN’S HOUSE - CHICAGO - DAY - 1967",
+      "header_prefix": "EXT.",
+      "location_raw": "ALLEN DORFMAN’S HOUSE - CHICAGO",
+      "location_canonical_id": "loc_allen_dorfman_s_house_chicago",
+      "time_of_day": "DAY",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1932,
+      "line_end": 1934,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0173",
+      "scene_index": 173,
+      "header_raw": "EXT. WRECKING YARD - DAY - 1967",
+      "header_prefix": "EXT.",
+      "location_raw": "WRECKING YARD",
+      "location_canonical_id": "loc_wrecking_yard",
+      "time_of_day": "DAY",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1935,
+      "line_end": 1940,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0174",
+      "scene_index": 174,
+      "header_raw": "INT. LEWISBURG PENITENTIARY - DAY - 1967",
+      "header_prefix": "INT.",
+      "location_raw": "LEWISBURG PENITENTIARY",
+      "location_canonical_id": "loc_lewisburg_penitentiary",
+      "time_of_day": "DAY",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1941,
+      "line_end": 1946,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0175",
+      "scene_index": 175,
+      "header_raw": "EXT. PRO’S MIAMI HOUSE - DAY - 1966",
+      "header_prefix": "EXT.",
+      "location_raw": "PRO’S MIAMI HOUSE",
+      "location_canonical_id": "loc_pro_s_miami_house",
+      "time_of_day": "DAY",
+      "year_explicit": 1966,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1947,
+      "line_end": 1952,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0176",
+      "scene_index": 176,
+      "header_raw": "INT. LEWISBURG PENITENTIARY - DAY - 1967",
+      "header_prefix": "INT.",
+      "location_raw": "LEWISBURG PENITENTIARY",
+      "location_canonical_id": "loc_lewisburg_penitentiary",
+      "time_of_day": "DAY",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 1953,
+      "line_end": 2081,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0177",
+      "scene_index": 177,
+      "header_raw": "INT. DEPARTMENT OF JUSTICE - 1967",
+      "header_prefix": "INT.",
+      "location_raw": "DEPARTMENT OF JUSTICE",
+      "location_canonical_id": "loc_department_of_justice",
+      "time_of_day": null,
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2082,
+      "line_end": 2087,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0178",
+      "scene_index": 178,
+      "header_raw": "INT. VILLA DI ROMA - NIGHT - 1967",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1967,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2088,
+      "line_end": 2104,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0179",
+      "scene_index": 179,
+      "header_raw": "EXT. RURAL OHIO - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "RURAL OHIO",
+      "location_canonical_id": "loc_rural_ohio",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2105,
+      "line_end": 2107,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0180",
+      "scene_index": 180,
+      "header_raw": "EXT. GAS STATION - RURAL OHIO - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "GAS STATION - RURAL OHIO",
+      "location_canonical_id": "loc_gas_station_rural_ohio",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2108,
+      "line_end": 2110,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0181",
+      "scene_index": 181,
+      "header_raw": "INT. VILLA DI ROMA - NIGHT - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2111,
+      "line_end": 2119,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0182",
+      "scene_index": 182,
+      "header_raw": "INT. SENATE CHAMBERS - DAY - 1958 FLASHBACK",
+      "header_prefix": "INT.",
+      "location_raw": "SENATE CHAMBERS - DAY - 1958 FLASHBACK",
+      "location_canonical_id": "loc_senate_chambers_day_1958_flashback",
+      "time_of_day": null,
+      "year_explicit": 1958,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline",
+        "flashback"
+      ],
+      "line_start": 2120,
+      "line_end": 2131,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0183",
+      "scene_index": 183,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY",
+      "location_canonical_id": "loc_assisted_living_facility",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2132,
+      "line_end": 2137,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0184",
+      "scene_index": 184,
+      "header_raw": "EXT. THE COPA - NIGHT - 1972",
+      "header_prefix": "EXT.",
+      "location_raw": "THE COPA",
+      "location_canonical_id": "loc_the_copa",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2138,
+      "line_end": 2143,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0185",
+      "scene_index": 185,
+      "header_raw": "EXT. COLUMBUS CIRCLE - DAY - FLASHBACK - 1971",
+      "header_prefix": "EXT.",
+      "location_raw": "COLUMBUS CIRCLE",
+      "location_canonical_id": "loc_columbus_circle",
+      "time_of_day": "DAY",
+      "year_explicit": 1971,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "flashback"
+      ],
+      "line_start": 2144,
+      "line_end": 2152,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0186",
+      "scene_index": 186,
+      "header_raw": "INT. THE COPA - NIGHT - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "THE COPA",
+      "location_canonical_id": "loc_the_copa",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2153,
+      "line_end": 2177,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0187",
+      "scene_index": 187,
+      "header_raw": "INT. THE COPA - LATER - NIGHT - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "THE COPA",
+      "location_canonical_id": "loc_the_copa",
+      "time_of_day": "LATER",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2178,
+      "line_end": 2201,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0188",
+      "scene_index": 188,
+      "header_raw": "INT. A ROOM - SOMEWHERE - NIGHT - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "A ROOM - SOMEWHERE",
+      "location_canonical_id": "loc_a_room_somewhere",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2202,
+      "line_end": 2216,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0189",
+      "scene_index": 189,
+      "header_raw": "EXT. NEW YORK - NIGHT - APRIL 7, 1972",
+      "header_prefix": "EXT.",
+      "location_raw": "NEW YORK - NIGHT - APRIL 7, 1972",
+      "location_canonical_id": "loc_new_york_night_april_7_1972",
+      "time_of_day": null,
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year_inline"
+      ],
+      "line_start": 2217,
+      "line_end": 2222,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0190",
+      "scene_index": 190,
+      "header_raw": "INT. UMBERTO’S CLAM HOUSE - NIGHT - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "UMBERTO’S CLAM HOUSE",
+      "location_canonical_id": "loc_umberto_s_clam_house",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2223,
+      "line_end": 2234,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0191",
+      "scene_index": 191,
+      "header_raw": "EXT. NEW YORK CITY - NIGHT - 1972",
+      "header_prefix": "EXT.",
+      "location_raw": "NEW YORK CITY",
+      "location_canonical_id": "loc_new_york_city",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2235,
+      "line_end": 2242,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0192",
+      "scene_index": 192,
+      "header_raw": "INT. JOHN FRANCIS’S CAR - MOVING - NIGHT - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "JOHN FRANCIS’S CAR - MOVING",
+      "location_canonical_id": "loc_john_francis_s_car_moving",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2243,
+      "line_end": 2248,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0193",
+      "scene_index": 193,
+      "header_raw": "EXT. LITTLE ITALY - NIGHT - 1972",
+      "header_prefix": "EXT.",
+      "location_raw": "LITTLE ITALY",
+      "location_canonical_id": "loc_little_italy",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2249,
+      "line_end": 2266,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0194",
+      "scene_index": 194,
+      "header_raw": "INT/EXT. UMBERTO’S CLAM HOUSE - NIGHT - 1972",
+      "header_prefix": "INT/EXT.",
+      "location_raw": "UMBERTO’S CLAM HOUSE",
+      "location_canonical_id": "loc_umberto_s_clam_house",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "mixed_interior_exterior"
+      ],
+      "line_start": 2267,
+      "line_end": 2269,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0195",
+      "scene_index": 195,
+      "header_raw": "EXT. YONKERS - LATER - DAWN - 1972",
+      "header_prefix": "EXT.",
+      "location_raw": "YONKERS",
+      "location_canonical_id": "loc_yonkers",
+      "time_of_day": "LATER",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2270,
+      "line_end": 2272,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0196",
+      "scene_index": 196,
+      "header_raw": "INT. FRANK’S HOUSE - MORNING - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE",
+      "location_canonical_id": "loc_frank_s_house",
+      "time_of_day": "MORNING",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2273,
+      "line_end": 2278,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0197",
+      "scene_index": 197,
+      "header_raw": "INT. COFFEE SHOP - OHIO - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "COFFEE SHOP - OHIO",
+      "location_canonical_id": "loc_coffee_shop_ohio",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2279,
+      "line_end": 2281,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0198",
+      "scene_index": 198,
+      "header_raw": "INT. LEWISBURG PENITENTIARY - DAY - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "LEWISBURG PENITENTIARY",
+      "location_canonical_id": "loc_lewisburg_penitentiary",
+      "time_of_day": "DAY",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2282,
+      "line_end": 2287,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0199",
+      "scene_index": 199,
+      "header_raw": "EXT. LEWISBURG PENITENTIARY - DAY - 1972",
+      "header_prefix": "EXT.",
+      "location_raw": "LEWISBURG PENITENTIARY",
+      "location_canonical_id": "loc_lewisburg_penitentiary",
+      "time_of_day": "DAY",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2288,
+      "line_end": 2299,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0200",
+      "scene_index": 200,
+      "header_raw": "EXT. LUMS - MIAMI - DAY - 1972",
+      "header_prefix": "EXT.",
+      "location_raw": "LUMS - MIAMI",
+      "location_canonical_id": "loc_lums_miami",
+      "time_of_day": "DAY",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2300,
+      "line_end": 2308,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0201",
+      "scene_index": 201,
+      "header_raw": "INT. JIMMY’S CONDO - MIAMI - DAY - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "JIMMY’S CONDO - MIAMI",
+      "location_canonical_id": "loc_jimmy_s_condo_miami",
+      "time_of_day": "DAY",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2309,
+      "line_end": 2395,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0202",
+      "scene_index": 202,
+      "header_raw": "INT. PRIVATE CLUB - MIAMI - DAY - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "PRIVATE CLUB - MIAMI",
+      "location_canonical_id": "loc_private_club_miami",
+      "time_of_day": "DAY",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2396,
+      "line_end": 2523,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0203",
+      "scene_index": 203,
+      "header_raw": "INT. CAR - MOVING - MIAMI - DAY",
+      "header_prefix": "INT.",
+      "location_raw": "CAR - MOVING - MIAMI",
+      "location_canonical_id": "loc_car_moving_miami",
+      "time_of_day": "DAY",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 2524,
+      "line_end": 2535,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0204",
+      "scene_index": 204,
+      "header_raw": "EXT. HARLEM - NIGHT - 1972",
+      "header_prefix": "EXT.",
+      "location_raw": "HARLEM",
+      "location_canonical_id": "loc_harlem",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2536,
+      "line_end": 2538,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0205",
+      "scene_index": 205,
+      "header_raw": "INT. PALMA BOYS SOCIAL CLUB - NIGHT - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "PALMA BOYS SOCIAL CLUB",
+      "location_canonical_id": "loc_palma_boys_social_club",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2539,
+      "line_end": 2559,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0206",
+      "scene_index": 206,
+      "header_raw": "INT. HOFFA’S DC HOTEL ROOM - DAY - 1972",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S DC HOTEL ROOM",
+      "location_canonical_id": "loc_hoffa_s_dc_hotel_room",
+      "time_of_day": "DAY",
+      "year_explicit": 1972,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2560,
+      "line_end": 2571,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0207",
+      "scene_index": 207,
+      "header_raw": "EXT. TEAMSTERS’ WXDC HEADQUARTERS - DAY - 1973",
+      "header_prefix": "EXT.",
+      "location_raw": "TEAMSTERS’ WXDC HEADQUARTERS",
+      "location_canonical_id": "loc_teamsters_wxdc_headquarters",
+      "time_of_day": "DAY",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2572,
+      "line_end": 2579,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0208",
+      "scene_index": 208,
+      "header_raw": "EXT. GOLF COURSE - DAY - 1973",
+      "header_prefix": "EXT.",
+      "location_raw": "GOLF COURSE",
+      "location_canonical_id": "loc_golf_course",
+      "time_of_day": "DAY",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2580,
+      "line_end": 2585,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0209",
+      "scene_index": 209,
+      "header_raw": "EXT. DETROIT RIVER MARINA - DAY - 1973",
+      "header_prefix": "EXT.",
+      "location_raw": "DETROIT RIVER MARINA",
+      "location_canonical_id": "loc_detroit_river_marina",
+      "time_of_day": "DAY",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2586,
+      "line_end": 2591,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0210",
+      "scene_index": 210,
+      "header_raw": "INT. HOFFA’S DC HOTEL ROOM - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S DC HOTEL ROOM",
+      "location_canonical_id": "loc_hoffa_s_dc_hotel_room",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2592,
+      "line_end": 2597,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0211",
+      "scene_index": 211,
+      "header_raw": "EXT. NEMO’S BAR - DETROIT - EVENING - 1973",
+      "header_prefix": "EXT.",
+      "location_raw": "NEMO’S BAR - DETROIT",
+      "location_canonical_id": "loc_nemo_s_bar_detroit",
+      "time_of_day": "EVENING",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2598,
+      "line_end": 2600,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0212",
+      "scene_index": 212,
+      "header_raw": "INT. LOCAL 299 - DETROIT - DAY - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "LOCAL 299 - DETROIT",
+      "location_canonical_id": "loc_local_299_detroit",
+      "time_of_day": "DAY",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2601,
+      "line_end": 2606,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0213",
+      "scene_index": 213,
+      "header_raw": "EXT. LOCAL 299, DETROIT - DAY - 1973",
+      "header_prefix": "EXT.",
+      "location_raw": "LOCAL 299, DETROIT",
+      "location_canonical_id": "loc_local_299_detroit",
+      "time_of_day": "DAY",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2607,
+      "line_end": 2612,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0214",
+      "scene_index": 214,
+      "header_raw": "INT. HOFFA’S DC HOTEL ROOM -  NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S DC HOTEL ROOM",
+      "location_canonical_id": "loc_hoffa_s_dc_hotel_room",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2613,
+      "line_end": 2627,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0215",
+      "scene_index": 215,
+      "header_raw": "INT. TELEVISION STUDIO - DAY - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "TELEVISION STUDIO",
+      "location_canonical_id": "loc_television_studio",
+      "time_of_day": "DAY",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2628,
+      "line_end": 2636,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0216",
+      "scene_index": 216,
+      "header_raw": "INT. PALMA BOYS SOCIAL CLUB - DAY - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "PALMA BOYS SOCIAL CLUB",
+      "location_canonical_id": "loc_palma_boys_social_club",
+      "time_of_day": "DAY",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2637,
+      "line_end": 2671,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0217",
+      "scene_index": 217,
+      "header_raw": "INT. HOFFA’S DC HOTEL ROOM - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S DC HOTEL ROOM",
+      "location_canonical_id": "loc_hoffa_s_dc_hotel_room",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2672,
+      "line_end": 2706,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0218",
+      "scene_index": 218,
+      "header_raw": "INT. PALMA BOYS SOCIAL CLUB - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "PALMA BOYS SOCIAL CLUB",
+      "location_canonical_id": "loc_palma_boys_social_club",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2707,
+      "line_end": 2714,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0219",
+      "scene_index": 219,
+      "header_raw": "INT. HOFFA’S DC HOTEL ROOM - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S DC HOTEL ROOM",
+      "location_canonical_id": "loc_hoffa_s_dc_hotel_room",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2715,
+      "line_end": 2767,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0220",
+      "scene_index": 220,
+      "header_raw": "EXT. THE LATIN CASINO - NEW JERSEY - NIGHT - 1973",
+      "header_prefix": "EXT.",
+      "location_raw": "THE LATIN CASINO - NEW JERSEY",
+      "location_canonical_id": "loc_the_latin_casino_new_jersey",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2768,
+      "line_end": 2770,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0221",
+      "scene_index": 221,
+      "header_raw": "INT. THE LATIN CASINO - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "THE LATIN CASINO",
+      "location_canonical_id": "loc_the_latin_casino",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2771,
+      "line_end": 2779,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0222",
+      "scene_index": 222,
+      "header_raw": "INT. THE LATIN CASINO - CONTINUED - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "THE LATIN CASINO",
+      "location_canonical_id": "loc_the_latin_casino",
+      "time_of_day": null,
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "continued",
+        "explicit_year"
+      ],
+      "line_start": 2780,
+      "line_end": 2809,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0223",
+      "scene_index": 223,
+      "header_raw": "INT. THE LATIN CASINO - LATER - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "THE LATIN CASINO",
+      "location_canonical_id": "loc_the_latin_casino",
+      "time_of_day": "LATER",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2810,
+      "line_end": 2872,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0224",
+      "scene_index": 224,
+      "header_raw": "INT. THE LATIN CASINO - LATER - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "THE LATIN CASINO",
+      "location_canonical_id": "loc_the_latin_casino",
+      "time_of_day": "LATER",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2873,
+      "line_end": 2896,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0225",
+      "scene_index": 225,
+      "header_raw": "INT. THE LATIN CASINO - LATER - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "THE LATIN CASINO",
+      "location_canonical_id": "loc_the_latin_casino",
+      "time_of_day": "LATER",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2897,
+      "line_end": 2920,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0226",
+      "scene_index": 226,
+      "header_raw": "INT. THE LATIN CASINO - LATER - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "THE LATIN CASINO",
+      "location_canonical_id": "loc_the_latin_casino",
+      "time_of_day": "LATER",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2921,
+      "line_end": 2923,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0227",
+      "scene_index": 227,
+      "header_raw": "INT. THE LATIN CASINO - LATER - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "THE LATIN CASINO",
+      "location_canonical_id": "loc_the_latin_casino",
+      "time_of_day": "LATER",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2924,
+      "line_end": 2961,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0228",
+      "scene_index": 228,
+      "header_raw": "INT. THE LATIN CASINO - LATER - NIGHT - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "THE LATIN CASINO",
+      "location_canonical_id": "loc_the_latin_casino",
+      "time_of_day": "LATER",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 2962,
+      "line_end": 3027,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0229",
+      "scene_index": 229,
+      "header_raw": "INT. THE LATIN CASINO - LATER - 1973",
+      "header_prefix": "INT.",
+      "location_raw": "THE LATIN CASINO",
+      "location_canonical_id": "loc_the_latin_casino",
+      "time_of_day": "LATER",
+      "year_explicit": 1973,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3028,
+      "line_end": 3030,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0230",
+      "scene_index": 230,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY",
+      "location_canonical_id": "loc_assisted_living_facility",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3031,
+      "line_end": 3036,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0231",
+      "scene_index": 231,
+      "header_raw": "EXT. GAS STATION - OHIO - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "GAS STATION - OHIO",
+      "location_canonical_id": "loc_gas_station_ohio",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3037,
+      "line_end": 3111,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0232",
+      "scene_index": 232,
+      "header_raw": "EXT/INT. HOWARD JOHNSON’S - OHIO - DAY - 1975",
+      "header_prefix": "EXT/INT.",
+      "location_raw": "HOWARD JOHNSON’S - OHIO",
+      "location_canonical_id": "loc_howard_johnson_s_ohio",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "mixed_interior_exterior"
+      ],
+      "line_start": 3112,
+      "line_end": 3114,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0233",
+      "scene_index": 233,
+      "header_raw": "INT. HOWARD JOHNSON’S - OHIO - LATER - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "HOWARD JOHNSON’S - OHIO",
+      "location_canonical_id": "loc_howard_johnson_s_ohio",
+      "time_of_day": "LATER",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3115,
+      "line_end": 3120,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0234",
+      "scene_index": 234,
+      "header_raw": "INT. HOWARD JOHNSON’S - OHIO - LATER - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "HOWARD JOHNSON’S - OHIO",
+      "location_canonical_id": "loc_howard_johnson_s_ohio",
+      "time_of_day": "LATER",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3121,
+      "line_end": 3198,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0235",
+      "scene_index": 235,
+      "header_raw": "INT. HOWARD JOHNSON’S MOTEL ROOM - EVENING - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "HOWARD JOHNSON’S MOTEL ROOM",
+      "location_canonical_id": "loc_howard_johnson_s_motel_room",
+      "time_of_day": "EVENING",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3199,
+      "line_end": 3210,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0236",
+      "scene_index": 236,
+      "header_raw": "INT. ITALIAN RESTAURANT - OHIO - NIGHT - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "ITALIAN RESTAURANT - OHIO",
+      "location_canonical_id": "loc_italian_restaurant_ohio",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3211,
+      "line_end": 3213,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0237",
+      "scene_index": 237,
+      "header_raw": "INT. RESTAURANT KITCHEN - SAME TIME - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "RESTAURANT KITCHEN",
+      "location_canonical_id": "loc_restaurant_kitchen",
+      "time_of_day": "SAME TIME",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3214,
+      "line_end": 3237,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0238",
+      "scene_index": 238,
+      "header_raw": "INT. HOWARD JOHNSON’S MOTEL ROOM - NIGHT - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "HOWARD JOHNSON’S MOTEL ROOM",
+      "location_canonical_id": "loc_howard_johnson_s_motel_room",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3238,
+      "line_end": 3240,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0239",
+      "scene_index": 239,
+      "header_raw": "INT. HOWARD JOHNSON’S LOBBY - EARLY MORNING - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "HOWARD JOHNSON’S LOBBY",
+      "location_canonical_id": "loc_howard_johnson_s_lobby",
+      "time_of_day": "EARLY MORNING",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3241,
+      "line_end": 3296,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0240",
+      "scene_index": 240,
+      "header_raw": "INT. LINCOLN - MOVING - HIGHWAY 80, OHIO - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "LINCOLN - MOVING - HIGHWAY 80, OHIO",
+      "location_canonical_id": "loc_lincoln_moving_highway_80_ohio",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3297,
+      "line_end": 3299,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0241",
+      "scene_index": 241,
+      "header_raw": "EXT. AIRSTRIP - PORT CLINTON - OHIO - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "AIRSTRIP - PORT CLINTON - OHIO",
+      "location_canonical_id": "loc_airstrip_port_clinton_ohio",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3300,
+      "line_end": 3302,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0242",
+      "scene_index": 242,
+      "header_raw": "EXT. MICHIGAN - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "MICHIGAN",
+      "location_canonical_id": "loc_michigan",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3303,
+      "line_end": 3305,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0243",
+      "scene_index": 243,
+      "header_raw": "INT/EXT. FORD - MICHIGAN - MOVING - DAY - 1975",
+      "header_prefix": "INT/EXT.",
+      "location_raw": "FORD - MICHIGAN - MOVING",
+      "location_canonical_id": "loc_ford_michigan_moving",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "mixed_interior_exterior"
+      ],
+      "line_start": 3306,
+      "line_end": 3308,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0244",
+      "scene_index": 244,
+      "header_raw": "INT. HOFFA’S CAR - PARKED - SAME TIME - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "HOFFA’S CAR - PARKED",
+      "location_canonical_id": "loc_hoffa_s_car_parked",
+      "time_of_day": "SAME TIME",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3309,
+      "line_end": 3311,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0245",
+      "scene_index": 245,
+      "header_raw": "EXT. PONTIAC, MICHIGAN - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "PONTIAC, MICHIGAN",
+      "location_canonical_id": "loc_pontiac_michigan",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3312,
+      "line_end": 3314,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0246",
+      "scene_index": 246,
+      "header_raw": "INT. HOUSE - PONTIAC - CONTINUOUS - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "HOUSE - PONTIAC",
+      "location_canonical_id": "loc_house_pontiac",
+      "time_of_day": "CONTINUOUS",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3315,
+      "line_end": 3338,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0247",
+      "scene_index": 247,
+      "header_raw": "EXT. HOUSE - PONTIAC - MOMENTS LATER - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "HOUSE - PONTIAC",
+      "location_canonical_id": "loc_house_pontiac",
+      "time_of_day": "MOMENTS LATER",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3339,
+      "line_end": 3377,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0248",
+      "scene_index": 248,
+      "header_raw": "INT. MERCURY - MOVING - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "MERCURY - MOVING",
+      "location_canonical_id": "loc_mercury_moving",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3378,
+      "line_end": 3404,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0249",
+      "scene_index": 249,
+      "header_raw": "EXT. MACHUS RED FOX RESTAURANT - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "MACHUS RED FOX RESTAURANT",
+      "location_canonical_id": "loc_machus_red_fox_restaurant",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3405,
+      "line_end": 3497,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0250",
+      "scene_index": 250,
+      "header_raw": "INT. CHUCKIE’S MERCURY - MOVING - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "CHUCKIE’S MERCURY - MOVING",
+      "location_canonical_id": "loc_chuckie_s_mercury_moving",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3498,
+      "line_end": 3528,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0251",
+      "scene_index": 251,
+      "header_raw": "EXT. HOUSE - PONTIAC - CONTINUOUS - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "HOUSE - PONTIAC",
+      "location_canonical_id": "loc_house_pontiac",
+      "time_of_day": "CONTINUOUS",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3529,
+      "line_end": 3537,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0252",
+      "scene_index": 252,
+      "header_raw": "INT. HOUSE - PONTIAC - CONTINUOUS - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "HOUSE - PONTIAC",
+      "location_canonical_id": "loc_house_pontiac",
+      "time_of_day": "CONTINUOUS",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3538,
+      "line_end": 3554,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0253",
+      "scene_index": 253,
+      "header_raw": "EXT. PORT CLINTON AIRSTRIP - LATER - DAY - 1975",
+      "header_prefix": "EXT.",
+      "location_raw": "PORT CLINTON AIRSTRIP",
+      "location_canonical_id": "loc_port_clinton_airstrip",
+      "time_of_day": "LATER",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3555,
+      "line_end": 3557,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0254",
+      "scene_index": 254,
+      "header_raw": "INT. CHURCH - DETROIT - NEXT DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "CHURCH - DETROIT - NEXT DAY",
+      "location_canonical_id": "loc_church_detroit_next_day",
+      "time_of_day": null,
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3558,
+      "line_end": 3560,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0255",
+      "scene_index": 255,
+      "header_raw": "INT. FRANK’S HOUSE - PHILADELPHIA - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE - PHILADELPHIA",
+      "location_canonical_id": "loc_frank_s_house_philadelphia",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3561,
+      "line_end": 3590,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0256",
+      "scene_index": 256,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY",
+      "location_canonical_id": "loc_assisted_living_facility",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3591,
+      "line_end": 3596,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0257",
+      "scene_index": 257,
+      "header_raw": "INT. FRANK’S HOUSE - DAY - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE",
+      "location_canonical_id": "loc_frank_s_house",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3597,
+      "line_end": 3607,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0258",
+      "scene_index": 258,
+      "header_raw": "EXT. HOUSE - PONTIAC, MICHIGAN - FOUR NIGHTS BEFORE",
+      "header_prefix": "EXT.",
+      "location_raw": "HOUSE - PONTIAC, MICHIGAN - FOUR NIGHTS BEFORE",
+      "location_canonical_id": "loc_house_pontiac_michigan_four_nights_before",
+      "time_of_day": null,
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 3608,
+      "line_end": 3610,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0259",
+      "scene_index": 259,
+      "header_raw": "EXT. FUNERAL PARLOR - PONTIAC - FOUR NIGHTS BEFORE",
+      "header_prefix": "EXT.",
+      "location_raw": "FUNERAL PARLOR - PONTIAC - FOUR NIGHTS BEFORE",
+      "location_canonical_id": "loc_funeral_parlor_pontiac_four_nights_before",
+      "time_of_day": null,
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 3611,
+      "line_end": 3616,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0260",
+      "scene_index": 260,
+      "header_raw": "INT. CREMATORY - PONTIAC - FOUR NIGHTS BEFORE",
+      "header_prefix": "INT.",
+      "location_raw": "CREMATORY - PONTIAC - FOUR NIGHTS BEFORE",
+      "location_canonical_id": "loc_crematory_pontiac_four_nights_before",
+      "time_of_day": null,
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 3617,
+      "line_end": 3619,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0261",
+      "scene_index": 261,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY",
+      "location_canonical_id": "loc_assisted_living_facility",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3620,
+      "line_end": 3624,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0262",
+      "scene_index": 262,
+      "header_raw": "INT. GRAND JURY COURTROOM - DAY - 1976",
+      "header_prefix": "INT.",
+      "location_raw": "GRAND JURY COURTROOM",
+      "location_canonical_id": "loc_grand_jury_courtroom",
+      "time_of_day": "DAY",
+      "year_explicit": 1976,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3625,
+      "line_end": 3643,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0263",
+      "scene_index": 263,
+      "header_raw": "INT. COURTHOUSE - DAY - 1976",
+      "header_prefix": "INT.",
+      "location_raw": "COURTHOUSE",
+      "location_canonical_id": "loc_courthouse",
+      "time_of_day": "DAY",
+      "year_explicit": 1976,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3644,
+      "line_end": 3649,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0264",
+      "scene_index": 264,
+      "header_raw": "INT. THE HOUSE IN PONTIAC - DAY - FLASHBACK - 1975",
+      "header_prefix": "INT.",
+      "location_raw": "THE HOUSE IN PONTIAC",
+      "location_canonical_id": "loc_the_house_in_pontiac",
+      "time_of_day": "DAY",
+      "year_explicit": 1975,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "flashback"
+      ],
+      "line_start": 3650,
+      "line_end": 3655,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0265",
+      "scene_index": 265,
+      "header_raw": "INT. ATTICA PRISON - DAY - 1979",
+      "header_prefix": "INT.",
+      "location_raw": "ATTICA PRISON",
+      "location_canonical_id": "loc_attica_prison",
+      "time_of_day": "DAY",
+      "year_explicit": 1979,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3656,
+      "line_end": 3661,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0266",
+      "scene_index": 266,
+      "header_raw": "INT. CAR - MOVING - DAY - FLASHBACK - 1961",
+      "header_prefix": "INT.",
+      "location_raw": "CAR - MOVING",
+      "location_canonical_id": "loc_car_moving",
+      "time_of_day": "DAY",
+      "year_explicit": 1961,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year",
+        "flashback"
+      ],
+      "line_start": 3662,
+      "line_end": 3670,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0267",
+      "scene_index": 267,
+      "header_raw": "EXT. FEDERAL BUILDING - DAY - 1978",
+      "header_prefix": "EXT.",
+      "location_raw": "FEDERAL BUILDING",
+      "location_canonical_id": "loc_federal_building",
+      "time_of_day": "DAY",
+      "year_explicit": 1978,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3671,
+      "line_end": 3676,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0268",
+      "scene_index": 268,
+      "header_raw": "INT. VILLA DI ROMA - NIGHT - 1978",
+      "header_prefix": "INT.",
+      "location_raw": "VILLA DI ROMA",
+      "location_canonical_id": "loc_villa_di_roma",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1978,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3677,
+      "line_end": 3682,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0269",
+      "scene_index": 269,
+      "header_raw": "EXT. LITTLE ITALY - NEW YORK - NIGHT - 1978",
+      "header_prefix": "EXT.",
+      "location_raw": "LITTLE ITALY - NEW YORK",
+      "location_canonical_id": "loc_little_italy_new_york",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1978,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3683,
+      "line_end": 3694,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0270",
+      "scene_index": 270,
+      "header_raw": "INT. OPERATING ROOM - DAY - 1978",
+      "header_prefix": "INT.",
+      "location_raw": "OPERATING ROOM",
+      "location_canonical_id": "loc_operating_room",
+      "time_of_day": "DAY",
+      "year_explicit": 1978,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3695,
+      "line_end": 3700,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0271",
+      "scene_index": 271,
+      "header_raw": "INT. VESUVIO - DAY - 1976",
+      "header_prefix": "INT.",
+      "location_raw": "VESUVIO",
+      "location_canonical_id": "loc_vesuvio",
+      "time_of_day": "DAY",
+      "year_explicit": 1976,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3701,
+      "line_end": 3709,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0272",
+      "scene_index": 272,
+      "header_raw": "EXT. PENN DRAPE & CURTAINS - DAY - 1976",
+      "header_prefix": "EXT.",
+      "location_raw": "PENN DRAPE & CURTAINS",
+      "location_canonical_id": "loc_penn_drape_curtains",
+      "time_of_day": "DAY",
+      "year_explicit": 1976,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3710,
+      "line_end": 3715,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0273",
+      "scene_index": 273,
+      "header_raw": "EXT. CAR WASH - DAY - 1978",
+      "header_prefix": "EXT.",
+      "location_raw": "CAR WASH",
+      "location_canonical_id": "loc_car_wash",
+      "time_of_day": "DAY",
+      "year_explicit": 1978,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3716,
+      "line_end": 3718,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0274",
+      "scene_index": 274,
+      "header_raw": "INT. COURTROOM - DAY - 1980",
+      "header_prefix": "INT.",
+      "location_raw": "COURTROOM",
+      "location_canonical_id": "loc_courtroom",
+      "time_of_day": "DAY",
+      "year_explicit": 1980,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3719,
+      "line_end": 3727,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0275",
+      "scene_index": 275,
+      "header_raw": "EXT. CRANE COMPANY - MARYLAND - NIGHT - 1977",
+      "header_prefix": "EXT.",
+      "location_raw": "CRANE COMPANY - MARYLAND",
+      "location_canonical_id": "loc_crane_company_maryland",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1977,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3728,
+      "line_end": 3736,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0276",
+      "scene_index": 276,
+      "header_raw": "INT. CAR WASH - DAY - CONTINUED - 1978",
+      "header_prefix": "INT.",
+      "location_raw": "CAR WASH",
+      "location_canonical_id": "loc_car_wash",
+      "time_of_day": "DAY",
+      "year_explicit": 1978,
+      "year_inferred": null,
+      "flags": [
+        "continued",
+        "explicit_year"
+      ],
+      "line_start": 3737,
+      "line_end": 3748,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0277",
+      "scene_index": 277,
+      "header_raw": "EXT. SPRINGFIELD PRISON - DAY - 1991",
+      "header_prefix": "EXT.",
+      "location_raw": "SPRINGFIELD PRISON",
+      "location_canonical_id": "loc_springfield_prison",
+      "time_of_day": "DAY",
+      "year_explicit": 1991,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3749,
+      "line_end": 3751,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0278",
+      "scene_index": 278,
+      "header_raw": "EXT. SPRINGFIELD PRISON - DAY - 1991",
+      "header_prefix": "EXT.",
+      "location_raw": "SPRINGFIELD PRISON",
+      "location_canonical_id": "loc_springfield_prison",
+      "time_of_day": "DAY",
+      "year_explicit": 1991,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3752,
+      "line_end": 3760,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0279",
+      "scene_index": 279,
+      "header_raw": "INT. SPRINGFIELD PRISON CAFETERIA - DAY - 1991",
+      "header_prefix": "INT.",
+      "location_raw": "SPRINGFIELD PRISON CAFETERIA",
+      "location_canonical_id": "loc_springfield_prison_cafeteria",
+      "time_of_day": "DAY",
+      "year_explicit": 1991,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3761,
+      "line_end": 3772,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0280",
+      "scene_index": 280,
+      "header_raw": "EXT. SPRINGFIELD PRISON - DAY - 1991",
+      "header_prefix": "EXT.",
+      "location_raw": "SPRINGFIELD PRISON",
+      "location_canonical_id": "loc_springfield_prison",
+      "time_of_day": "DAY",
+      "year_explicit": 1991,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3773,
+      "line_end": 3790,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0281",
+      "scene_index": 281,
+      "header_raw": "EXT. GRAVEYARD - YEADON, PA - DAY - 1995",
+      "header_prefix": "EXT.",
+      "location_raw": "GRAVEYARD - YEADON, PA",
+      "location_canonical_id": "loc_graveyard_yeadon_pa",
+      "time_of_day": "DAY",
+      "year_explicit": 1995,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3791,
+      "line_end": 3796,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0282",
+      "scene_index": 282,
+      "header_raw": "INT. FRANK’S HOUSE - THAT NIGHT - 1995",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE - THAT NIGHT",
+      "location_canonical_id": "loc_frank_s_house_that_night",
+      "time_of_day": null,
+      "year_explicit": 1995,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3797,
+      "line_end": 3799,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0283",
+      "scene_index": 283,
+      "header_raw": "INT. FRANK’S HOUSE - ANOTHER DAY - 1996",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE - ANOTHER DAY",
+      "location_canonical_id": "loc_frank_s_house_another_day",
+      "time_of_day": null,
+      "year_explicit": 1996,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3800,
+      "line_end": 3802,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0284",
+      "scene_index": 284,
+      "header_raw": "INT. FRANK’S HOUSE - ANOTHER DAY - 1996",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE - ANOTHER DAY",
+      "location_canonical_id": "loc_frank_s_house_another_day",
+      "time_of_day": null,
+      "year_explicit": 1996,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3803,
+      "line_end": 3805,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0285",
+      "scene_index": 285,
+      "header_raw": "INT. FRANK’S HOUSE - NIGHT - 1998",
+      "header_prefix": "INT.",
+      "location_raw": "FRANK’S HOUSE",
+      "location_canonical_id": "loc_frank_s_house",
+      "time_of_day": "NIGHT",
+      "year_explicit": 1998,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3806,
+      "line_end": 3808,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0286",
+      "scene_index": 286,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - LOUNGE ROOM - DAY - 1998",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY - LOUNGE ROOM",
+      "location_canonical_id": "loc_assisted_living_facility_lounge_room",
+      "time_of_day": "DAY",
+      "year_explicit": 1998,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3809,
+      "line_end": 3811,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0287",
+      "scene_index": 287,
+      "header_raw": "EXT. BANK - OUTSIDE PHILLY - DAY - 2000",
+      "header_prefix": "EXT.",
+      "location_raw": "BANK - OUTSIDE PHILLY",
+      "location_canonical_id": "loc_bank_outside_philly",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3812,
+      "line_end": 3817,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0288",
+      "scene_index": 288,
+      "header_raw": "INT. BANK - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "BANK",
+      "location_canonical_id": "loc_bank",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3818,
+      "line_end": 3823,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0289",
+      "scene_index": 289,
+      "header_raw": "EXT. DOLORES’S HOUSE - PHILLY - DAY - 2000",
+      "header_prefix": "EXT.",
+      "location_raw": "DOLORES’S HOUSE - PHILLY",
+      "location_canonical_id": "loc_dolores_s_house_philly",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3824,
+      "line_end": 3826,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0290",
+      "scene_index": 290,
+      "header_raw": "INT. DOLORES’S HOUSE - PHILLY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "DOLORES’S HOUSE - PHILLY",
+      "location_canonical_id": "loc_dolores_s_house_philly",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3827,
+      "line_end": 3862,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0291",
+      "scene_index": 291,
+      "header_raw": "INT. CASKET STORE - ANOTHER DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "CASKET STORE - ANOTHER DAY",
+      "location_canonical_id": "loc_casket_store_another_day",
+      "time_of_day": null,
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3863,
+      "line_end": 3886,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0292",
+      "scene_index": 292,
+      "header_raw": "EXT. HOLY CROSS CEMETERY - DAY - 2000",
+      "header_prefix": "EXT.",
+      "location_raw": "HOLY CROSS CEMETERY",
+      "location_canonical_id": "loc_holy_cross_cemetery",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3887,
+      "line_end": 3889,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0293",
+      "scene_index": 293,
+      "header_raw": "INT. HOLY CROSS CEMETERY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "HOLY CROSS CEMETERY",
+      "location_canonical_id": "loc_holy_cross_cemetery",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3890,
+      "line_end": 3901,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0294",
+      "scene_index": 294,
+      "header_raw": "EXT. ASSISTED LIVING FACILITY - DAY - 2000",
+      "header_prefix": "EXT.",
+      "location_raw": "ASSISTED LIVING FACILITY",
+      "location_canonical_id": "loc_assisted_living_facility",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3902,
+      "line_end": 3930,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0295",
+      "scene_index": 295,
+      "header_raw": "INT. CHAPEL - ASSISTED LIVING FACILITY - DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "CHAPEL - ASSISTED LIVING FACILITY",
+      "location_canonical_id": "loc_chapel_assisted_living_facility",
+      "time_of_day": "DAY",
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 3931,
+      "line_end": 4029,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0296",
+      "scene_index": 296,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - ANOTHER DAY - 2000",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY - ANOTHER DAY",
+      "location_canonical_id": "loc_assisted_living_facility_another_day",
+      "time_of_day": null,
+      "year_explicit": 2000,
+      "year_inferred": null,
+      "flags": [
+        "explicit_year"
+      ],
+      "line_start": 4030,
+      "line_end": 4086,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0297",
+      "scene_index": 297,
+      "header_raw": "INT. ASSISTED LIVING CORRIDOR / ROOM - DAY TO NIGHT",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING CORRIDOR / ROOM - DAY TO NIGHT",
+      "location_canonical_id": "loc_assisted_living_corridor_room_day_to_night",
+      "time_of_day": null,
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 4087,
+      "line_end": 4095,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    },
+    {
+      "scene_id": "scene_0298",
+      "scene_index": 298,
+      "header_raw": "INT. ASSISTED LIVING FACILITY - FRANK’S ROOM - NIGHT",
+      "header_prefix": "INT.",
+      "location_raw": "ASSISTED LIVING FACILITY - FRANK’S ROOM",
+      "location_canonical_id": "loc_assisted_living_facility_frank_s_room",
+      "time_of_day": "NIGHT",
+      "year_explicit": null,
+      "year_inferred": null,
+      "flags": [],
+      "line_start": 4096,
+      "line_end": 4130,
+      "source_file": "the-irishman-ampas-script-cleaned.md"
+    }
+  ]
+}

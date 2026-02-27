@@ -1,0 +1,4577 @@
+{
+  "metadata": {
+    "artifact_type": "entities",
+    "schema_version": "0.1.0-draft",
+    "pipeline_version": "phase2-entities-v0.1.0",
+    "build_timestamp": "2026-02-25T18:48:09Z",
+    "source_file_hash": "0b7310ae99a4293991a3f0d44a6a5d7a9e48a69596a8604e1da3c893826e6d2c",
+    "record_count": 249,
+    "entity_type_counts": {
+      "character": 45,
+      "group": 3,
+      "organization": 2,
+      "location": 199
+    },
+    "manual_seed_count": 17,
+    "ignored_cue_unique_count": 8,
+    "auto_generated_cue_unique_count": 33,
+    "source_artifacts": [
+      "data/intermediate/scenes.json",
+      "data/intermediate/utterances.json"
+    ],
+    "config_file": "config/entity_aliases.manual.json"
+  },
+  "items": [
+    {
+      "entity_id": "char_big_ears",
+      "entity_type": "character",
+      "canonical_name": "Big Ears",
+      "aliases": [
+        "BIG EARS"
+      ],
+      "first_scene_id": "scene_0127",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 2,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_bill_bufalino",
+      "entity_type": "character",
+      "canonical_name": "Bill Bufalino",
+      "aliases": [
+        "BILL",
+        "BILL (CONT'D)",
+        "BILL (PRE-LAP)"
+      ],
+      "first_scene_id": "scene_0030",
+      "metadata": {
+        "is_primary": true,
+        "priority": true,
+        "manual_seed": true,
+        "utterance_count": 26,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_bobby",
+      "entity_type": "character",
+      "canonical_name": "Bobby",
+      "aliases": [
+        "BOBBY"
+      ],
+      "first_scene_id": "scene_0115",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 3,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_bruno",
+      "entity_type": "character",
+      "canonical_name": "Bruno",
+      "aliases": [
+        "BRUNO",
+        "BRUNO (CONT’D)"
+      ],
+      "first_scene_id": "scene_0068",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 12,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_carrie_bufalino",
+      "entity_type": "character",
+      "canonical_name": "Carrie Bufalino",
+      "aliases": [
+        "CARRIE"
+      ],
+      "first_scene_id": "scene_0008",
+      "metadata": {
+        "priority": true,
+        "manual_seed": true,
+        "utterance_count": 9,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_chuckie",
+      "entity_type": "character",
+      "canonical_name": "Chuckie",
+      "aliases": [
+        "CHUCKIE"
+      ],
+      "first_scene_id": "scene_0247",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 11,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_deadbeat",
+      "entity_type": "character",
+      "canonical_name": "Deadbeat",
+      "aliases": [
+        "DEADBEAT"
+      ],
+      "first_scene_id": "scene_0049",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 3,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_dolores",
+      "entity_type": "character",
+      "canonical_name": "Dolores",
+      "aliases": [
+        "DOLORES",
+        "DOLORES O/S"
+      ],
+      "first_scene_id": "scene_0196",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 8,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_don_rickles",
+      "entity_type": "character",
+      "canonical_name": "Don Rickles",
+      "aliases": [
+        "DON RICKLES"
+      ],
+      "first_scene_id": "scene_0186",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 3,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_ewing_king",
+      "entity_type": "character",
+      "canonical_name": "Ewing King",
+      "aliases": [
+        "EWING KING"
+      ],
+      "first_scene_id": "scene_0159",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 3,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_fbi_agent",
+      "entity_type": "character",
+      "canonical_name": "FBI Agent",
+      "aliases": [
+        "FBI AGENT"
+      ],
+      "first_scene_id": "scene_0294",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 4,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_frank_fitzsimmons",
+      "entity_type": "character",
+      "canonical_name": "Frank Fitzsimmons",
+      "aliases": [
+        "FITZ"
+      ],
+      "first_scene_id": "scene_0169",
+      "metadata": {
+        "priority": false,
+        "manual_seed": true,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_frank_sheeran",
+      "entity_type": "character",
+      "canonical_name": "Frank Sheeran",
+      "aliases": [
+        "FRANK",
+        "FRANK (CONT'D)",
+        "FRANK (CONT’D)",
+        "FRANK (IN SYNC)",
+        "FRANK (IN SYNC) (CONT'D)",
+        "FRANK V/O",
+        "FRANK V/O (CONT'D)"
+      ],
+      "first_scene_id": "scene_0001",
+      "metadata": {
+        "is_primary": true,
+        "priority": true,
+        "manual_seed": true,
+        "utterance_count": 403,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_gallo",
+      "entity_type": "character",
+      "canonical_name": "Gallo",
+      "aliases": [
+        "GALLO"
+      ],
+      "first_scene_id": "scene_0182",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 4,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_grocer",
+      "entity_type": "character",
+      "canonical_name": "Grocer",
+      "aliases": [
+        "GROCER"
+      ],
+      "first_scene_id": "scene_0052",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_investigator",
+      "entity_type": "character",
+      "canonical_name": "Investigator",
+      "aliases": [
+        "INVESTIGATOR"
+      ],
+      "first_scene_id": "scene_0155",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_irene_sheeran",
+      "entity_type": "character",
+      "canonical_name": "Irene Sheeran",
+      "aliases": [
+        "IRENE"
+      ],
+      "first_scene_id": "scene_0255",
+      "metadata": {
+        "priority": true,
+        "manual_seed": true,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_jake_gottlieb",
+      "entity_type": "character",
+      "canonical_name": "Jake Gottlieb",
+      "aliases": [
+        "JAKE GOTTLIEB",
+        "JAKE GOTTLIEB (CONT'D)"
+      ],
+      "first_scene_id": "scene_0102",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 5,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_jim_neal",
+      "entity_type": "character",
+      "canonical_name": "Jim Neal",
+      "aliases": [
+        "JIM NEAL"
+      ],
+      "first_scene_id": "scene_0159",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 4,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_jimmy_hoffa",
+      "entity_type": "character",
+      "canonical_name": "Jimmy Hoffa",
+      "aliases": [
+        "HOFFA",
+        "HOFFA (CONT'D)",
+        "HOFFA (CONT’D)",
+        "HOFFA (OVERLAP)",
+        "HOFFA V/O"
+      ],
+      "first_scene_id": "scene_0085",
+      "metadata": {
+        "is_primary": true,
+        "priority": true,
+        "manual_seed": true,
+        "utterance_count": 221,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_jo_hoffa",
+      "entity_type": "character",
+      "canonical_name": "Jo Hoffa",
+      "aliases": [
+        "JO"
+      ],
+      "first_scene_id": "scene_0114",
+      "metadata": {
+        "priority": false,
+        "manual_seed": true,
+        "utterance_count": 6,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_joey",
+      "entity_type": "character",
+      "canonical_name": "Joey",
+      "aliases": [
+        "JOEY",
+        "JOEY (OVERLAP)"
+      ],
+      "first_scene_id": "scene_0090",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 12,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_johnny",
+      "entity_type": "character",
+      "canonical_name": "Johnny",
+      "aliases": [
+        "JOHNNY"
+      ],
+      "first_scene_id": "scene_0016",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 3,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_judge",
+      "entity_type": "character",
+      "canonical_name": "Judge",
+      "aliases": [
+        "JUDGE",
+        "JUDGE (CONT'D)"
+      ],
+      "first_scene_id": "scene_0032",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 5,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_mary_sheeran",
+      "entity_type": "character",
+      "canonical_name": "Mary Sheeran",
+      "aliases": [
+        "MARY"
+      ],
+      "first_scene_id": "scene_0050",
+      "metadata": {
+        "priority": true,
+        "manual_seed": true,
+        "utterance_count": 2,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_mccullough",
+      "entity_type": "character",
+      "canonical_name": "Mccullough",
+      "aliases": [
+        "MCCULLOUGH"
+      ],
+      "first_scene_id": "scene_0221",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 2,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_nurse",
+      "entity_type": "character",
+      "canonical_name": "Nurse",
+      "aliases": [
+        "NURSE",
+        "NURSE (CONT’D)"
+      ],
+      "first_scene_id": "scene_0296",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 10,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_peggy_sheeran",
+      "entity_type": "character",
+      "canonical_name": "Peggy Sheeran",
+      "aliases": [
+        "PEGGY"
+      ],
+      "first_scene_id": "scene_0083",
+      "metadata": {
+        "is_primary": true,
+        "priority": true,
+        "manual_seed": true,
+        "utterance_count": 11,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_photographer",
+      "entity_type": "character",
+      "canonical_name": "Photographer",
+      "aliases": [
+        "PHOTOGRAPHER"
+      ],
+      "first_scene_id": "scene_0225",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_priest",
+      "entity_type": "character",
+      "canonical_name": "Priest",
+      "aliases": [
+        "PRIEST",
+        "PRIEST (CONT’D)"
+      ],
+      "first_scene_id": "scene_0295",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 22,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_ramsey_clark",
+      "entity_type": "character",
+      "canonical_name": "Ramsey Clark",
+      "aliases": [
+        "RAMSEY CLARK"
+      ],
+      "first_scene_id": "scene_0178",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 2,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_reporter",
+      "entity_type": "character",
+      "canonical_name": "Reporter",
+      "aliases": [
+        "REPORTER"
+      ],
+      "first_scene_id": "scene_0161",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 4,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_russell_bufalino",
+      "entity_type": "character",
+      "canonical_name": "Russell Bufalino",
+      "aliases": [
+        "BUFALINO",
+        "BUFALINO (CONT'D)",
+        "BUFALINO (OVERLAP)"
+      ],
+      "first_scene_id": "scene_0008",
+      "metadata": {
+        "is_primary": true,
+        "priority": true,
+        "manual_seed": true,
+        "utterance_count": 110,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_s_attorney",
+      "entity_type": "character",
+      "canonical_name": "S. Attorney",
+      "aliases": [
+        "S. ATTORNEY"
+      ],
+      "first_scene_id": "scene_0262",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_salerno",
+      "entity_type": "character",
+      "canonical_name": "Salerno",
+      "aliases": [
+        "SALERNO",
+        "SALERNO (CONT'D)"
+      ],
+      "first_scene_id": "scene_0205",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 17,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_salesman",
+      "entity_type": "character",
+      "canonical_name": "Salesman",
+      "aliases": [
+        "SALESMAN"
+      ],
+      "first_scene_id": "scene_0291",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 3,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_sally_bugs",
+      "entity_type": "character",
+      "canonical_name": "Sally Bugs",
+      "aliases": [
+        "SALLY BUGS"
+      ],
+      "first_scene_id": "scene_0246",
+      "metadata": {
+        "is_primary": true,
+        "priority": true,
+        "manual_seed": true,
+        "utterance_count": 25,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_senator",
+      "entity_type": "character",
+      "canonical_name": "Senator",
+      "aliases": [
+        "SENATOR"
+      ],
+      "first_scene_id": "scene_0178",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 2,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_skinny_razor",
+      "entity_type": "character",
+      "canonical_name": "Skinny Razor",
+      "aliases": [
+        "SKINNY"
+      ],
+      "first_scene_id": "scene_0018",
+      "metadata": {
+        "priority": false,
+        "manual_seed": true,
+        "utterance_count": 16,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_store_manager",
+      "entity_type": "character",
+      "canonical_name": "Store Manager",
+      "aliases": [
+        "STORE MANAGER"
+      ],
+      "first_scene_id": "scene_0029",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 2,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_swanson",
+      "entity_type": "character",
+      "canonical_name": "Swanson",
+      "aliases": [
+        "SWANSON"
+      ],
+      "first_scene_id": "scene_0151",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_tv_anchor",
+      "entity_type": "character",
+      "canonical_name": "TV Anchor",
+      "aliases": [
+        "TV ANCHOR"
+      ],
+      "first_scene_id": "scene_0128",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_tony_jack",
+      "entity_type": "character",
+      "canonical_name": "Tony Jack",
+      "aliases": [
+        "TONY JACK"
+      ],
+      "first_scene_id": "scene_0202",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_truck_driver",
+      "entity_type": "character",
+      "canonical_name": "Truck Driver",
+      "aliases": [
+        "TRUCK DRIVER"
+      ],
+      "first_scene_id": "scene_0149",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "char_yard_manager",
+      "entity_type": "character",
+      "canonical_name": "Yard Manager",
+      "aliases": [
+        "YARD MANAGER"
+      ],
+      "first_scene_id": "scene_0022",
+      "metadata": {
+        "manual_seed": false,
+        "utterance_count": 3,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "grp_frank_family",
+      "entity_type": "group",
+      "canonical_name": "Frank's Family",
+      "aliases": [
+        "FRANK FAMILY",
+        "FRANK'S FAMILY"
+      ],
+      "first_scene_id": null,
+      "metadata": {
+        "priority": true,
+        "kind": "family_group",
+        "manual_seed": true
+      }
+    },
+    {
+      "entity_id": "grp_government_legal_institutions",
+      "entity_type": "group",
+      "canonical_name": "Government / Legal Institutions",
+      "aliases": [
+        "GOVERNMENT",
+        "LEGAL SYSTEM"
+      ],
+      "first_scene_id": null,
+      "metadata": {
+        "priority": true,
+        "kind": "institutional_group",
+        "manual_seed": true
+      }
+    },
+    {
+      "entity_id": "grp_teamsters",
+      "entity_type": "group",
+      "canonical_name": "Teamsters",
+      "aliases": [
+        "TEAMSTERS"
+      ],
+      "first_scene_id": "scene_0142",
+      "metadata": {
+        "priority": true,
+        "kind": "labor_group",
+        "manual_seed": true,
+        "utterance_count": 1,
+        "source_utterance_cues": true
+      }
+    },
+    {
+      "entity_id": "org_fbi",
+      "entity_type": "organization",
+      "canonical_name": "Federal Bureau of Investigation",
+      "aliases": [
+        "FBI"
+      ],
+      "first_scene_id": null,
+      "metadata": {
+        "priority": false,
+        "manual_seed": true
+      }
+    },
+    {
+      "entity_id": "org_teamsters_local_107",
+      "entity_type": "organization",
+      "canonical_name": "Teamsters Local 107",
+      "aliases": [
+        "TEAMSTER LOCAL ONE-O-SEVEN",
+        "TEAMSTERS LOCAL 107"
+      ],
+      "first_scene_id": null,
+      "metadata": {
+        "priority": false,
+        "manual_seed": true
+      }
+    },
+    {
+      "entity_id": "loc_a_bathroom_somewhere",
+      "entity_type": "location",
+      "canonical_name": "A BATHROOM SOMEWHERE",
+      "aliases": [
+        "A BATHROOM SOMEWHERE"
+      ],
+      "first_scene_id": "scene_0156",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "A BATHROOM SOMEWHERE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_a_room_somewhere",
+      "entity_type": "location",
+      "canonical_name": "A ROOM - SOMEWHERE",
+      "aliases": [
+        "A ROOM - SOMEWHERE"
+      ],
+      "first_scene_id": "scene_0188",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "A ROOM - SOMEWHERE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_airstrip_port_clinton_ohio",
+      "entity_type": "location",
+      "canonical_name": "AIRSTRIP - PORT CLINTON - OHIO",
+      "aliases": [
+        "AIRSTRIP - PORT CLINTON - OHIO"
+      ],
+      "first_scene_id": "scene_0241",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "AIRSTRIP - PORT CLINTON - OHIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_allen_dorfman_s_house_chicago",
+      "entity_type": "location",
+      "canonical_name": "ALLEN DORFMAN’S HOUSE - CHICAGO",
+      "aliases": [
+        "ALLEN DORFMAN’S HOUSE - CHICAGO"
+      ],
+      "first_scene_id": "scene_0172",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "ALLEN DORFMAN’S HOUSE - CHICAGO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_andrew_jackson_hotel_nashville",
+      "entity_type": "location",
+      "canonical_name": "ANDREW JACKSON HOTEL - NASHVILLE",
+      "aliases": [
+        "ANDREW JACKSON HOTEL - NASHVILLE"
+      ],
+      "first_scene_id": "scene_0155",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ANDREW JACKSON HOTEL - NASHVILLE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_andrew_jackson_hotel_suite",
+      "entity_type": "location",
+      "canonical_name": "ANDREW JACKSON HOTEL SUITE",
+      "aliases": [
+        "ANDREW JACKSON HOTEL SUITE"
+      ],
+      "first_scene_id": "scene_0158",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ANDREW JACKSON HOTEL SUITE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_armory_lounge",
+      "entity_type": "location",
+      "canonical_name": "ARMORY LOUNGE",
+      "aliases": [
+        "ARMORY LOUNGE"
+      ],
+      "first_scene_id": "scene_0113",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ARMORY LOUNGE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_assisted_living_corridor_room_day_to_night",
+      "entity_type": "location",
+      "canonical_name": "ASSISTED LIVING CORRIDOR / ROOM - DAY TO NIGHT",
+      "aliases": [
+        "ASSISTED LIVING CORRIDOR / ROOM - DAY TO NIGHT"
+      ],
+      "first_scene_id": "scene_0297",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ASSISTED LIVING CORRIDOR / ROOM - DAY TO NIGHT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_assisted_living_facility",
+      "entity_type": "location",
+      "canonical_name": "ASSISTED LIVING FACILITY",
+      "aliases": [
+        "ASSISTED LIVING FACILITY"
+      ],
+      "first_scene_id": "scene_0003",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 8,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ASSISTED LIVING FACILITY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_assisted_living_facility_another_day",
+      "entity_type": "location",
+      "canonical_name": "ASSISTED LIVING FACILITY - ANOTHER DAY",
+      "aliases": [
+        "ASSISTED LIVING FACILITY - ANOTHER DAY"
+      ],
+      "first_scene_id": "scene_0296",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ASSISTED LIVING FACILITY - ANOTHER DAY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_assisted_living_facility_frank_s_room",
+      "entity_type": "location",
+      "canonical_name": "ASSISTED LIVING FACILITY - FRANK’S ROOM",
+      "aliases": [
+        "ASSISTED LIVING FACILITY - FRANK’S ROOM"
+      ],
+      "first_scene_id": "scene_0298",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ASSISTED LIVING FACILITY - FRANK’S ROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_assisted_living_facility_lounge_room",
+      "entity_type": "location",
+      "canonical_name": "ASSISTED LIVING FACILITY - LOUNGE ROOM",
+      "aliases": [
+        "ASSISTED LIVING FACILITY - LOUNGE ROOM"
+      ],
+      "first_scene_id": "scene_0286",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ASSISTED LIVING FACILITY - LOUNGE ROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_attica_prison",
+      "entity_type": "location",
+      "canonical_name": "ATTICA PRISON",
+      "aliases": [
+        "ATTICA PRISON"
+      ],
+      "first_scene_id": "scene_0265",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ATTICA PRISON"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_bank",
+      "entity_type": "location",
+      "canonical_name": "BANK",
+      "aliases": [
+        "BANK"
+      ],
+      "first_scene_id": "scene_0288",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "BANK"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_bank_outside_philly",
+      "entity_type": "location",
+      "canonical_name": "BANK - OUTSIDE PHILLY",
+      "aliases": [
+        "BANK - OUTSIDE PHILLY"
+      ],
+      "first_scene_id": "scene_0287",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "BANK - OUTSIDE PHILLY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_beauty_parlor_detroit",
+      "entity_type": "location",
+      "canonical_name": "BEAUTY PARLOR - DETROIT",
+      "aliases": [
+        "BEAUTY PARLOR - DETROIT"
+      ],
+      "first_scene_id": "scene_0108",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "BEAUTY PARLOR - DETROIT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_bowling_alley",
+      "entity_type": "location",
+      "canonical_name": "BOWLING ALLEY",
+      "aliases": [
+        "BOWLING ALLEY"
+      ],
+      "first_scene_id": "scene_0082",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "BOWLING ALLEY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_bufalino_s_house",
+      "entity_type": "location",
+      "canonical_name": "BUFALINO'S HOUSE",
+      "aliases": [
+        "BUFALINO'S HOUSE"
+      ],
+      "first_scene_id": "scene_0039",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "BUFALINO'S HOUSE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_bufalino_s_house_pittston",
+      "entity_type": "location",
+      "canonical_name": "BUFALINO’S HOUSE - PITTSTON",
+      "aliases": [
+        "BUFALINO’S HOUSE - PITTSTON"
+      ],
+      "first_scene_id": "scene_0046",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "BUFALINO’S HOUSE - PITTSTON"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_bufalino_s_house_pittston_pa",
+      "entity_type": "location",
+      "canonical_name": "BUFALINO’S HOUSE - PITTSTON, PA",
+      "aliases": [
+        "BUFALINO’S HOUSE - PITTSTON, PA"
+      ],
+      "first_scene_id": "scene_0007",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "BUFALINO’S HOUSE - PITTSTON, PA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_cab_garage",
+      "entity_type": "location",
+      "canonical_name": "CAB GARAGE",
+      "aliases": [
+        "CAB GARAGE"
+      ],
+      "first_scene_id": "scene_0094",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "CAB GARAGE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_cadillac_linen_service",
+      "entity_type": "location",
+      "canonical_name": "CADILLAC LINEN SERVICE",
+      "aliases": [
+        "CADILLAC LINEN SERVICE"
+      ],
+      "first_scene_id": "scene_0058",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CADILLAC LINEN SERVICE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_cadillac_linen_service_delaware",
+      "entity_type": "location",
+      "canonical_name": "CADILLAC LINEN SERVICE - DELAWARE",
+      "aliases": [
+        "CADILLAC LINEN SERVICE - DELAWARE"
+      ],
+      "first_scene_id": "scene_0063",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "CADILLAC LINEN SERVICE - DELAWARE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_car_moving",
+      "entity_type": "location",
+      "canonical_name": "CAR - MOVING",
+      "aliases": [
+        "CAR - MOVING"
+      ],
+      "first_scene_id": "scene_0144",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CAR - MOVING"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_car_moving_miami",
+      "entity_type": "location",
+      "canonical_name": "CAR - MOVING - MIAMI",
+      "aliases": [
+        "CAR - MOVING - MIAMI"
+      ],
+      "first_scene_id": "scene_0203",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CAR - MOVING - MIAMI"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_car_wash",
+      "entity_type": "location",
+      "canonical_name": "CAR WASH",
+      "aliases": [
+        "CAR WASH"
+      ],
+      "first_scene_id": "scene_0273",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CAR WASH"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_casket_store_another_day",
+      "entity_type": "location",
+      "canonical_name": "CASKET STORE - ANOTHER DAY",
+      "aliases": [
+        "CASKET STORE - ANOTHER DAY"
+      ],
+      "first_scene_id": "scene_0291",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CASKET STORE - ANOTHER DAY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_chapel_assisted_living_facility",
+      "entity_type": "location",
+      "canonical_name": "CHAPEL - ASSISTED LIVING FACILITY",
+      "aliases": [
+        "CHAPEL - ASSISTED LIVING FACILITY"
+      ],
+      "first_scene_id": "scene_0295",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CHAPEL - ASSISTED LIVING FACILITY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_chicago",
+      "entity_type": "location",
+      "canonical_name": "CHICAGO",
+      "aliases": [
+        "CHICAGO"
+      ],
+      "first_scene_id": "scene_0089",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 3,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "CHICAGO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_chicago_bathhouse",
+      "entity_type": "location",
+      "canonical_name": "CHICAGO BATHHOUSE",
+      "aliases": [
+        "CHICAGO BATHHOUSE"
+      ],
+      "first_scene_id": "scene_0090",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CHICAGO BATHHOUSE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_chuckie_s_mercury_moving",
+      "entity_type": "location",
+      "canonical_name": "CHUCKIE’S MERCURY - MOVING",
+      "aliases": [
+        "CHUCKIE’S MERCURY - MOVING"
+      ],
+      "first_scene_id": "scene_0250",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CHUCKIE’S MERCURY - MOVING"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_church_detroit_next_day",
+      "entity_type": "location",
+      "canonical_name": "CHURCH - DETROIT - NEXT DAY",
+      "aliases": [
+        "CHURCH - DETROIT - NEXT DAY"
+      ],
+      "first_scene_id": "scene_0254",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CHURCH - DETROIT - NEXT DAY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_classroom",
+      "entity_type": "location",
+      "canonical_name": "CLASSROOM",
+      "aliases": [
+        "CLASSROOM"
+      ],
+      "first_scene_id": "scene_0104",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CLASSROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_coffee_shop_ohio",
+      "entity_type": "location",
+      "canonical_name": "COFFEE SHOP - OHIO",
+      "aliases": [
+        "COFFEE SHOP - OHIO"
+      ],
+      "first_scene_id": "scene_0197",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "COFFEE SHOP - OHIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_columbus_circle",
+      "entity_type": "location",
+      "canonical_name": "COLUMBUS CIRCLE",
+      "aliases": [
+        "COLUMBUS CIRCLE"
+      ],
+      "first_scene_id": "scene_0185",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "COLUMBUS CIRCLE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_concrete_plant_baltimore",
+      "entity_type": "location",
+      "canonical_name": "CONCRETE PLANT - BALTIMORE",
+      "aliases": [
+        "CONCRETE PLANT - BALTIMORE"
+      ],
+      "first_scene_id": "scene_0125",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "CONCRETE PLANT - BALTIMORE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_courthouse",
+      "entity_type": "location",
+      "canonical_name": "COURTHOUSE",
+      "aliases": [
+        "COURTHOUSE"
+      ],
+      "first_scene_id": "scene_0263",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "COURTHOUSE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_courthouse_nashville",
+      "entity_type": "location",
+      "canonical_name": "COURTHOUSE - NASHVILLE",
+      "aliases": [
+        "COURTHOUSE - NASHVILLE"
+      ],
+      "first_scene_id": "scene_0153",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "COURTHOUSE - NASHVILLE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_courtroom",
+      "entity_type": "location",
+      "canonical_name": "COURTROOM",
+      "aliases": [
+        "COURTROOM"
+      ],
+      "first_scene_id": "scene_0032",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "COURTROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_courtroom_nashville",
+      "entity_type": "location",
+      "canonical_name": "COURTROOM - NASHVILLE",
+      "aliases": [
+        "COURTROOM - NASHVILLE"
+      ],
+      "first_scene_id": "scene_0150",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 4,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "COURTROOM - NASHVILLE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_crane_company_maryland",
+      "entity_type": "location",
+      "canonical_name": "CRANE COMPANY - MARYLAND",
+      "aliases": [
+        "CRANE COMPANY - MARYLAND"
+      ],
+      "first_scene_id": "scene_0275",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "CRANE COMPANY - MARYLAND"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_crematory_pontiac_four_nights_before",
+      "entity_type": "location",
+      "canonical_name": "CREMATORY - PONTIAC - FOUR NIGHTS BEFORE",
+      "aliases": [
+        "CREMATORY - PONTIAC - FOUR NIGHTS BEFORE"
+      ],
+      "first_scene_id": "scene_0260",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "CREMATORY - PONTIAC - FOUR NIGHTS BEFORE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_daisy_linen_supply",
+      "entity_type": "location",
+      "canonical_name": "DAISY LINEN SUPPLY",
+      "aliases": [
+        "DAISY LINEN SUPPLY"
+      ],
+      "first_scene_id": "scene_0057",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "DAISY LINEN SUPPLY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_dark_street",
+      "entity_type": "location",
+      "canonical_name": "DARK STREET",
+      "aliases": [
+        "DARK STREET"
+      ],
+      "first_scene_id": "scene_0065",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "DARK STREET"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_deauville_hotel_miami",
+      "entity_type": "location",
+      "canonical_name": "DEAUVILLE HOTEL - MIAMI",
+      "aliases": [
+        "DEAUVILLE HOTEL - MIAMI"
+      ],
+      "first_scene_id": "scene_0135",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "DEAUVILLE HOTEL - MIAMI"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_deauville_hotel_ballroom_miami",
+      "entity_type": "location",
+      "canonical_name": "DEAUVILLE HOTEL BALLROOM - MIAMI",
+      "aliases": [
+        "DEAUVILLE HOTEL BALLROOM - MIAMI"
+      ],
+      "first_scene_id": "scene_0138",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "DEAUVILLE HOTEL BALLROOM - MIAMI"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_deauville_hotel_suite",
+      "entity_type": "location",
+      "canonical_name": "DEAUVILLE HOTEL SUITE",
+      "aliases": [
+        "DEAUVILLE HOTEL SUITE"
+      ],
+      "first_scene_id": "scene_0139",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "DEAUVILLE HOTEL SUITE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_department_of_justice",
+      "entity_type": "location",
+      "canonical_name": "DEPARTMENT OF JUSTICE",
+      "aliases": [
+        "DEPARTMENT OF JUSTICE"
+      ],
+      "first_scene_id": "scene_0177",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "DEPARTMENT OF JUSTICE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_detroit",
+      "entity_type": "location",
+      "canonical_name": "DETROIT",
+      "aliases": [
+        "DETROIT"
+      ],
+      "first_scene_id": "scene_0087",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "DETROIT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_detroit_river_marina",
+      "entity_type": "location",
+      "canonical_name": "DETROIT RIVER MARINA",
+      "aliases": [
+        "DETROIT RIVER MARINA"
+      ],
+      "first_scene_id": "scene_0209",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "DETROIT RIVER MARINA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_dolores_s_house_philly",
+      "entity_type": "location",
+      "canonical_name": "DOLORES’S HOUSE - PHILLY",
+      "aliases": [
+        "DOLORES’S HOUSE - PHILLY"
+      ],
+      "first_scene_id": "scene_0289",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "DOLORES’S HOUSE - PHILLY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_edgewater_hotel_living_room_suite",
+      "entity_type": "location",
+      "canonical_name": "EDGEWATER HOTEL LIVING ROOM SUITE",
+      "aliases": [
+        "EDGEWATER HOTEL LIVING ROOM SUITE"
+      ],
+      "first_scene_id": "scene_0098",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "EDGEWATER HOTEL LIVING ROOM SUITE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_edgewater_hotel_suite",
+      "entity_type": "location",
+      "canonical_name": "EDGEWATER HOTEL SUITE",
+      "aliases": [
+        "EDGEWATER HOTEL SUITE"
+      ],
+      "first_scene_id": "scene_0097",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "EDGEWATER HOTEL SUITE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_edgewater_hotel_suite_chicago",
+      "entity_type": "location",
+      "canonical_name": "EDGEWATER HOTEL SUITE - CHICAGO",
+      "aliases": [
+        "EDGEWATER HOTEL SUITE - CHICAGO"
+      ],
+      "first_scene_id": "scene_0096",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "EDGEWATER HOTEL SUITE - CHICAGO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_empty_house_a_blank_wall",
+      "entity_type": "location",
+      "canonical_name": "EMPTY HOUSE - A BLANK WALL",
+      "aliases": [
+        "EMPTY HOUSE - A BLANK WALL"
+      ],
+      "first_scene_id": "scene_0002",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "EMPTY HOUSE - A BLANK WALL"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_farm_new_jersey",
+      "entity_type": "location",
+      "canonical_name": "FARM - NEW JERSEY",
+      "aliases": [
+        "FARM - NEW JERSEY"
+      ],
+      "first_scene_id": "scene_0145",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "FARM - NEW JERSEY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_federal_building",
+      "entity_type": "location",
+      "canonical_name": "FEDERAL BUILDING",
+      "aliases": [
+        "FEDERAL BUILDING"
+      ],
+      "first_scene_id": "scene_0119",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "EXT./INT."
+        ],
+        "scene_location_examples": [
+          "FEDERAL BUILDING"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_food_fair_market",
+      "entity_type": "location",
+      "canonical_name": "FOOD FAIR MARKET",
+      "aliases": [
+        "FOOD FAIR MARKET"
+      ],
+      "first_scene_id": "scene_0020",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "FOOD FAIR MARKET"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_food_fair_market_day_dec_1956",
+      "entity_type": "location",
+      "canonical_name": "FOOD FAIR MARKET - DAY - DEC. 1956",
+      "aliases": [
+        "FOOD FAIR MARKET - DAY - DEC. 1956"
+      ],
+      "first_scene_id": "scene_0026",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "FOOD FAIR MARKET - DAY - DEC. 1956"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_food_fair_market_day_feb_1957",
+      "entity_type": "location",
+      "canonical_name": "FOOD FAIR MARKET - DAY - FEB. 1957",
+      "aliases": [
+        "FOOD FAIR MARKET - DAY - FEB. 1957"
+      ],
+      "first_scene_id": "scene_0029",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "FOOD FAIR MARKET - DAY - FEB. 1957"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_food_fair_market_later_day_dec_1956",
+      "entity_type": "location",
+      "canonical_name": "FOOD FAIR MARKET - LATER - DAY - DEC. 1956",
+      "aliases": [
+        "FOOD FAIR MARKET - LATER - DAY - DEC. 1956"
+      ],
+      "first_scene_id": "scene_0025",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "FOOD FAIR MARKET - LATER - DAY - DEC. 1956"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_ford_michigan_moving",
+      "entity_type": "location",
+      "canonical_name": "FORD - MICHIGAN - MOVING",
+      "aliases": [
+        "FORD - MICHIGAN - MOVING"
+      ],
+      "first_scene_id": "scene_0243",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT/EXT."
+        ],
+        "scene_location_examples": [
+          "FORD - MICHIGAN - MOVING"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_mary_s_house",
+      "entity_type": "location",
+      "canonical_name": "FRANK & MARY’S HOUSE",
+      "aliases": [
+        "FRANK & MARY'S HOUSE",
+        "FRANK & MARY’S HOUSE"
+      ],
+      "first_scene_id": "scene_0050",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 6,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "FRANK & MARY'S HOUSE",
+          "FRANK & MARY’S HOUSE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_s_car_philly_street",
+      "entity_type": "location",
+      "canonical_name": "FRANK’S CAR - PHILLY STREET",
+      "aliases": [
+        "FRANK’S CAR - PHILLY STREET"
+      ],
+      "first_scene_id": "scene_0048",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT/EXT."
+        ],
+        "scene_location_examples": [
+          "FRANK’S CAR - PHILLY STREET"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_s_house",
+      "entity_type": "location",
+      "canonical_name": "FRANK’S HOUSE",
+      "aliases": [
+        "FRANK’S HOUSE"
+      ],
+      "first_scene_id": "scene_0004",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 6,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "FRANK’S HOUSE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_s_house_another_day",
+      "entity_type": "location",
+      "canonical_name": "FRANK’S HOUSE - ANOTHER DAY",
+      "aliases": [
+        "FRANK’S HOUSE - ANOTHER DAY"
+      ],
+      "first_scene_id": "scene_0283",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "FRANK’S HOUSE - ANOTHER DAY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_s_house_morning_march_1961",
+      "entity_type": "location",
+      "canonical_name": "FRANK’S HOUSE - MORNING - MARCH 1961",
+      "aliases": [
+        "FRANK’S HOUSE - MORNING - MARCH 1961"
+      ],
+      "first_scene_id": "scene_0118",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "FRANK’S HOUSE - MORNING - MARCH 1961"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_s_house_night_april_1961",
+      "entity_type": "location",
+      "canonical_name": "FRANK’S HOUSE - NIGHT - APRIL, 1961",
+      "aliases": [
+        "FRANK’S HOUSE - NIGHT - APRIL, 1961"
+      ],
+      "first_scene_id": "scene_0131",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 3,
+        "header_prefixes": [
+          "INT.",
+          "INT/EXT."
+        ],
+        "scene_location_examples": [
+          "FRANK’S HOUSE - NIGHT - APRIL, 1961"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_s_house_philadelphia",
+      "entity_type": "location",
+      "canonical_name": "FRANK’S HOUSE - PHILADELPHIA",
+      "aliases": [
+        "FRANK’S HOUSE - PHILADELPHIA"
+      ],
+      "first_scene_id": "scene_0255",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "FRANK’S HOUSE - PHILADELPHIA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_s_house_that_night",
+      "entity_type": "location",
+      "canonical_name": "FRANK’S HOUSE - THAT NIGHT",
+      "aliases": [
+        "FRANK’S HOUSE - THAT NIGHT"
+      ],
+      "first_scene_id": "scene_0282",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "FRANK’S HOUSE - THAT NIGHT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_s_lincoln_moving",
+      "entity_type": "location",
+      "canonical_name": "FRANK’S LINCOLN - MOVING",
+      "aliases": [
+        "FRANK’S LINCOLN - MOVING"
+      ],
+      "first_scene_id": "scene_0038",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "FRANK’S LINCOLN - MOVING"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_frank_s_lincoln_wilkes_barre",
+      "entity_type": "location",
+      "canonical_name": "FRANK’S LINCOLN - WILKES-BARRE",
+      "aliases": [
+        "FRANK’S LINCOLN - WILKES-BARRE"
+      ],
+      "first_scene_id": "scene_0008",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "FRANK’S LINCOLN - WILKES-BARRE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_funeral_parlor_pontiac_four_nights_before",
+      "entity_type": "location",
+      "canonical_name": "FUNERAL PARLOR - PONTIAC - FOUR NIGHTS BEFORE",
+      "aliases": [
+        "FUNERAL PARLOR - PONTIAC - FOUR NIGHTS BEFORE"
+      ],
+      "first_scene_id": "scene_0259",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "FUNERAL PARLOR - PONTIAC - FOUR NIGHTS BEFORE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_gas_station_ohio",
+      "entity_type": "location",
+      "canonical_name": "GAS STATION - OHIO",
+      "aliases": [
+        "GAS STATION - OHIO"
+      ],
+      "first_scene_id": "scene_0231",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "GAS STATION - OHIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_gas_station_rural_ohio",
+      "entity_type": "location",
+      "canonical_name": "GAS STATION - RURAL OHIO",
+      "aliases": [
+        "GAS STATION - RURAL OHIO"
+      ],
+      "first_scene_id": "scene_0180",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "GAS STATION - RURAL OHIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_golf_course",
+      "entity_type": "location",
+      "canonical_name": "GOLF COURSE",
+      "aliases": [
+        "GOLF COURSE"
+      ],
+      "first_scene_id": "scene_0170",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "GOLF COURSE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_grand_jury_courtroom",
+      "entity_type": "location",
+      "canonical_name": "GRAND JURY COURTROOM",
+      "aliases": [
+        "GRAND JURY COURTROOM"
+      ],
+      "first_scene_id": "scene_0262",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "GRAND JURY COURTROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_graveyard_chicago",
+      "entity_type": "location",
+      "canonical_name": "GRAVEYARD - CHICAGO",
+      "aliases": [
+        "GRAVEYARD - CHICAGO"
+      ],
+      "first_scene_id": "scene_0110",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "GRAVEYARD - CHICAGO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_graveyard_yeadon_pa",
+      "entity_type": "location",
+      "canonical_name": "GRAVEYARD - YEADON, PA",
+      "aliases": [
+        "GRAVEYARD - YEADON, PA"
+      ],
+      "first_scene_id": "scene_0281",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "GRAVEYARD - YEADON, PA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_grocery_store",
+      "entity_type": "location",
+      "canonical_name": "GROCERY STORE",
+      "aliases": [
+        "GROCERY STORE"
+      ],
+      "first_scene_id": "scene_0051",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 3,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "GROCERY STORE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_grocery_store_chicago",
+      "entity_type": "location",
+      "canonical_name": "GROCERY STORE - CHICAGO",
+      "aliases": [
+        "GROCERY STORE - CHICAGO"
+      ],
+      "first_scene_id": "scene_0095",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "GROCERY STORE - CHICAGO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_harlem",
+      "entity_type": "location",
+      "canonical_name": "HARLEM",
+      "aliases": [
+        "HARLEM"
+      ],
+      "first_scene_id": "scene_0204",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "HARLEM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_highway",
+      "entity_type": "location",
+      "canonical_name": "HIGHWAY",
+      "aliases": [
+        "HIGHWAY"
+      ],
+      "first_scene_id": "scene_0124",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 3,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "HIGHWAY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_highway_tennessee",
+      "entity_type": "location",
+      "canonical_name": "HIGHWAY - TENNESSEE",
+      "aliases": [
+        "HIGHWAY - TENNESSEE"
+      ],
+      "first_scene_id": "scene_0157",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "HIGHWAY - TENNESSEE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_highway_i_80",
+      "entity_type": "location",
+      "canonical_name": "HIGHWAY I-80",
+      "aliases": [
+        "HIGHWAY I-80"
+      ],
+      "first_scene_id": "scene_0009",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "INT/EXT."
+        ],
+        "scene_location_examples": [
+          "HIGHWAY I-80"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_hoffa_s_office_anteroom",
+      "entity_type": "location",
+      "canonical_name": "HOFFA'S OFFICE - ANTEROOM",
+      "aliases": [
+        "HOFFA'S OFFICE - ANTEROOM"
+      ],
+      "first_scene_id": "scene_0103",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOFFA'S OFFICE - ANTEROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_hoffa_s_car_parked",
+      "entity_type": "location",
+      "canonical_name": "HOFFA’S CAR - PARKED",
+      "aliases": [
+        "HOFFA’S CAR - PARKED"
+      ],
+      "first_scene_id": "scene_0244",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOFFA’S CAR - PARKED"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_hoffa_s_dc_hotel_room",
+      "entity_type": "location",
+      "canonical_name": "HOFFA’S DC HOTEL ROOM",
+      "aliases": [
+        "HOFFA’S DC HOTEL ROOM"
+      ],
+      "first_scene_id": "scene_0206",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 5,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOFFA’S DC HOTEL ROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_hoffa_s_lake_orion_house_detroit",
+      "entity_type": "location",
+      "canonical_name": "HOFFA’S LAKE ORION HOUSE - DETROIT",
+      "aliases": [
+        "HOFFA’S LAKE ORION HOUSE - DETROIT"
+      ],
+      "first_scene_id": "scene_0114",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOFFA’S LAKE ORION HOUSE - DETROIT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_hoffa_s_office_foyer",
+      "entity_type": "location",
+      "canonical_name": "HOFFA’S OFFICE - FOYER",
+      "aliases": [
+        "HOFFA’S OFFICE - FOYER"
+      ],
+      "first_scene_id": "scene_0121",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOFFA’S OFFICE - FOYER"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_hoffa_s_office_teamsters_wxdc_hq",
+      "entity_type": "location",
+      "canonical_name": "HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ",
+      "aliases": [
+        "HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ"
+      ],
+      "first_scene_id": "scene_0102",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_hoffa_s_office_teamsters_wxdc_hq_day_april_1961",
+      "entity_type": "location",
+      "canonical_name": "HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ - DAY APRIL 1961",
+      "aliases": [
+        "HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ - DAY APRIL 1961"
+      ],
+      "first_scene_id": "scene_0129",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOFFA’S OFFICE - TEAMSTERS’ WXDC HQ - DAY APRIL 1961"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_holy_cross_cemetery",
+      "entity_type": "location",
+      "canonical_name": "HOLY CROSS CEMETERY",
+      "aliases": [
+        "HOLY CROSS CEMETERY"
+      ],
+      "first_scene_id": "scene_0292",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOLY CROSS CEMETERY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_hotel_suite_deauville_hotel",
+      "entity_type": "location",
+      "canonical_name": "HOTEL SUITE - DEAUVILLE HOTEL",
+      "aliases": [
+        "HOTEL SUITE - DEAUVILLE HOTEL"
+      ],
+      "first_scene_id": "scene_0136",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOTEL SUITE - DEAUVILLE HOTEL"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_house_pontiac",
+      "entity_type": "location",
+      "canonical_name": "HOUSE - PONTIAC",
+      "aliases": [
+        "HOUSE - PONTIAC"
+      ],
+      "first_scene_id": "scene_0246",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 4,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOUSE - PONTIAC"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_house_pontiac_michigan_four_nights_before",
+      "entity_type": "location",
+      "canonical_name": "HOUSE - PONTIAC, MICHIGAN - FOUR NIGHTS BEFORE",
+      "aliases": [
+        "HOUSE - PONTIAC, MICHIGAN - FOUR NIGHTS BEFORE"
+      ],
+      "first_scene_id": "scene_0258",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "HOUSE - PONTIAC, MICHIGAN - FOUR NIGHTS BEFORE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_howard_johnson_s_ohio",
+      "entity_type": "location",
+      "canonical_name": "HOWARD JOHNSON’S - OHIO",
+      "aliases": [
+        "HOWARD JOHNSON’S - OHIO"
+      ],
+      "first_scene_id": "scene_0232",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 3,
+        "header_prefixes": [
+          "EXT/INT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOWARD JOHNSON’S - OHIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_howard_johnson_s_lobby",
+      "entity_type": "location",
+      "canonical_name": "HOWARD JOHNSON’S LOBBY",
+      "aliases": [
+        "HOWARD JOHNSON’S LOBBY"
+      ],
+      "first_scene_id": "scene_0239",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOWARD JOHNSON’S LOBBY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_howard_johnson_s_motel_room",
+      "entity_type": "location",
+      "canonical_name": "HOWARD JOHNSON’S MOTEL ROOM",
+      "aliases": [
+        "HOWARD JOHNSON’S MOTEL ROOM"
+      ],
+      "first_scene_id": "scene_0235",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "HOWARD JOHNSON’S MOTEL ROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_ice_cream_parlor",
+      "entity_type": "location",
+      "canonical_name": "ICE CREAM PARLOR",
+      "aliases": [
+        "ICE CREAM PARLOR"
+      ],
+      "first_scene_id": "scene_0100",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "ICE CREAM PARLOR"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_ice_cream_shop_nashville_day_nov_22_1963",
+      "entity_type": "location",
+      "canonical_name": "ICE CREAM SHOP, NASHVILLE - DAY - NOV. 22, 1963",
+      "aliases": [
+        "ICE CREAM SHOP, NASHVILLE - DAY - NOV. 22, 1963"
+      ],
+      "first_scene_id": "scene_0160",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ICE CREAM SHOP, NASHVILLE - DAY - NOV. 22, 1963"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_italian_forest",
+      "entity_type": "location",
+      "canonical_name": "ITALIAN FOREST",
+      "aliases": [
+        "ITALIAN FOREST"
+      ],
+      "first_scene_id": "scene_0036",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "ITALIAN FOREST"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_italian_restaurant_ohio",
+      "entity_type": "location",
+      "canonical_name": "ITALIAN RESTAURANT - OHIO",
+      "aliases": [
+        "ITALIAN RESTAURANT - OHIO"
+      ],
+      "first_scene_id": "scene_0236",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "ITALIAN RESTAURANT - OHIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_jacksonville_florida",
+      "entity_type": "location",
+      "canonical_name": "JACKSONVILLE, FLORIDA",
+      "aliases": [
+        "JACKSONVILLE, FLORIDA"
+      ],
+      "first_scene_id": "scene_0127",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "JACKSONVILLE, FLORIDA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_jewelry_store_lewisburg",
+      "entity_type": "location",
+      "canonical_name": "JEWELRY STORE - LEWISBURG",
+      "aliases": [
+        "JEWELRY STORE - LEWISBURG"
+      ],
+      "first_scene_id": "scene_0081",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "JEWELRY STORE - LEWISBURG"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_jimmy_s_condo_miami",
+      "entity_type": "location",
+      "canonical_name": "JIMMY’S CONDO - MIAMI",
+      "aliases": [
+        "JIMMY’S CONDO - MIAMI"
+      ],
+      "first_scene_id": "scene_0201",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "JIMMY’S CONDO - MIAMI"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_john_francis_s_car_moving",
+      "entity_type": "location",
+      "canonical_name": "JOHN FRANCIS’S CAR - MOVING",
+      "aliases": [
+        "JOHN FRANCIS’S CAR - MOVING"
+      ],
+      "first_scene_id": "scene_0192",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "JOHN FRANCIS’S CAR - MOVING"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_lake_michigan",
+      "entity_type": "location",
+      "canonical_name": "LAKE MICHIGAN",
+      "aliases": [
+        "LAKE MICHIGAN"
+      ],
+      "first_scene_id": "scene_0092",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "LAKE MICHIGAN"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_las_vegas_day_1956_1960",
+      "entity_type": "location",
+      "canonical_name": "LAS VEGAS - DAY - 1956-1960",
+      "aliases": [
+        "LAS VEGAS - DAY - 1956-1960"
+      ],
+      "first_scene_id": "scene_0107",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "LAS VEGAS - DAY - 1956-1960"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_lewisburg_federal_penitentiary",
+      "entity_type": "location",
+      "canonical_name": "LEWISBURG FEDERAL PENITENTIARY",
+      "aliases": [
+        "LEWISBURG FEDERAL PENITENTIARY"
+      ],
+      "first_scene_id": "scene_0166",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "LEWISBURG FEDERAL PENITENTIARY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_lewisburg_penitentiary",
+      "entity_type": "location",
+      "canonical_name": "LEWISBURG PENITENTIARY",
+      "aliases": [
+        "LEWISBURG PENITENTIARY"
+      ],
+      "first_scene_id": "scene_0167",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 5,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "LEWISBURG PENITENTIARY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_lincoln_lewisburg_pa",
+      "entity_type": "location",
+      "canonical_name": "LINCOLN - LEWISBURG, PA.",
+      "aliases": [
+        "LINCOLN - LEWISBURG, PA."
+      ],
+      "first_scene_id": "scene_0080",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT/EXT."
+        ],
+        "scene_location_examples": [
+          "LINCOLN - LEWISBURG, PA."
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_lincoln_moving_highway_80_ohio",
+      "entity_type": "location",
+      "canonical_name": "LINCOLN - MOVING - HIGHWAY 80, OHIO",
+      "aliases": [
+        "LINCOLN - MOVING - HIGHWAY 80, OHIO"
+      ],
+      "first_scene_id": "scene_0240",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "LINCOLN - MOVING - HIGHWAY 80, OHIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_lincoln_towncar_day_oct_25_1957",
+      "entity_type": "location",
+      "canonical_name": "LINCOLN TOWNCAR - DAY - OCT. 25, 1957",
+      "aliases": [
+        "LINCOLN TOWNCAR - DAY - OCT. 25, 1957"
+      ],
+      "first_scene_id": "scene_0044",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "LINCOLN TOWNCAR - DAY - OCT. 25, 1957"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_little_italy",
+      "entity_type": "location",
+      "canonical_name": "LITTLE ITALY",
+      "aliases": [
+        "LITTLE ITALY"
+      ],
+      "first_scene_id": "scene_0193",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "LITTLE ITALY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_little_italy_new_york",
+      "entity_type": "location",
+      "canonical_name": "LITTLE ITALY - NEW YORK",
+      "aliases": [
+        "LITTLE ITALY - NEW YORK"
+      ],
+      "first_scene_id": "scene_0269",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "LITTLE ITALY - NEW YORK"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_live_chicken_market",
+      "entity_type": "location",
+      "canonical_name": "LIVE CHICKEN MARKET",
+      "aliases": [
+        "LIVE CHICKEN MARKET"
+      ],
+      "first_scene_id": "scene_0014",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "LIVE CHICKEN MARKET"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_local_107",
+      "entity_type": "location",
+      "canonical_name": "LOCAL 107",
+      "aliases": [
+        "LOCAL 107"
+      ],
+      "first_scene_id": "scene_0031",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "LOCAL 107"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_local_107_philadelphia",
+      "entity_type": "location",
+      "canonical_name": "LOCAL 107 - PHILADELPHIA",
+      "aliases": [
+        "LOCAL 107 - PHILADELPHIA"
+      ],
+      "first_scene_id": "scene_0030",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "LOCAL 107 - PHILADELPHIA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_local_299_detroit",
+      "entity_type": "location",
+      "canonical_name": "LOCAL 299 - DETROIT",
+      "aliases": [
+        "LOCAL 299 - DETROIT",
+        "LOCAL 299, DETROIT"
+      ],
+      "first_scene_id": "scene_0212",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "LOCAL 299 - DETROIT",
+          "LOCAL 299, DETROIT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_local_326",
+      "entity_type": "location",
+      "canonical_name": "LOCAL 326",
+      "aliases": [
+        "LOCAL 326"
+      ],
+      "first_scene_id": "scene_0152",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "LOCAL 326"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_local_326_office",
+      "entity_type": "location",
+      "canonical_name": "LOCAL 326 OFFICE",
+      "aliases": [
+        "LOCAL 326 OFFICE"
+      ],
+      "first_scene_id": "scene_0149",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "LOCAL 326 OFFICE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_lums_miami",
+      "entity_type": "location",
+      "canonical_name": "LUMS - MIAMI",
+      "aliases": [
+        "LUMS - MIAMI"
+      ],
+      "first_scene_id": "scene_0200",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "LUMS - MIAMI"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_machus_red_fox_restaurant",
+      "entity_type": "location",
+      "canonical_name": "MACHUS RED FOX RESTAURANT",
+      "aliases": [
+        "MACHUS RED FOX RESTAURANT"
+      ],
+      "first_scene_id": "scene_0249",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "MACHUS RED FOX RESTAURANT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_meat_company",
+      "entity_type": "location",
+      "canonical_name": "MEAT COMPANY",
+      "aliases": [
+        "MEAT COMPANY"
+      ],
+      "first_scene_id": "scene_0019",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "MEAT COMPANY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_meat_company_continuous_dec_1956",
+      "entity_type": "location",
+      "canonical_name": "MEAT COMPANY - CONTINUOUS - DEC. 1956",
+      "aliases": [
+        "MEAT COMPANY - CONTINUOUS - DEC. 1956"
+      ],
+      "first_scene_id": "scene_0023",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "MEAT COMPANY - CONTINUOUS - DEC. 1956"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_meat_company_day_dec_1956",
+      "entity_type": "location",
+      "canonical_name": "MEAT COMPANY - DAY - DEC. 1956",
+      "aliases": [
+        "MEAT COMPANY - DAY - DEC. 1956"
+      ],
+      "first_scene_id": "scene_0021",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "MEAT COMPANY - DAY - DEC. 1956"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_melrose_diner",
+      "entity_type": "location",
+      "canonical_name": "MELROSE DINER",
+      "aliases": [
+        "MELROSE DINER"
+      ],
+      "first_scene_id": "scene_0059",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "MELROSE DINER"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_melrose_diner_philly_day_late_fall_1958",
+      "entity_type": "location",
+      "canonical_name": "MELROSE DINER - PHILLY - DAY - LATE FALL 1958",
+      "aliases": [
+        "MELROSE DINER - PHILLY - DAY - LATE FALL 1958"
+      ],
+      "first_scene_id": "scene_0056",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "MELROSE DINER - PHILLY - DAY - LATE FALL 1958"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_mercury_moving",
+      "entity_type": "location",
+      "canonical_name": "MERCURY - MOVING",
+      "aliases": [
+        "MERCURY - MOVING"
+      ],
+      "first_scene_id": "scene_0248",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "MERCURY - MOVING"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_miami",
+      "entity_type": "location",
+      "canonical_name": "MIAMI",
+      "aliases": [
+        "MIAMI"
+      ],
+      "first_scene_id": "scene_0134",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "MIAMI"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_miami_beach_development",
+      "entity_type": "location",
+      "canonical_name": "MIAMI BEACH DEVELOPMENT",
+      "aliases": [
+        "MIAMI BEACH DEVELOPMENT"
+      ],
+      "first_scene_id": "scene_0109",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "MIAMI BEACH DEVELOPMENT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_michigan",
+      "entity_type": "location",
+      "canonical_name": "MICHIGAN",
+      "aliases": [
+        "MICHIGAN"
+      ],
+      "first_scene_id": "scene_0242",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "MICHIGAN"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_miniature_golf_course",
+      "entity_type": "location",
+      "canonical_name": "MINIATURE GOLF COURSE",
+      "aliases": [
+        "MINIATURE GOLF COURSE"
+      ],
+      "first_scene_id": "scene_0099",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "MINIATURE GOLF COURSE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_motel_lewisburg_pa_day_july_28_1975",
+      "entity_type": "location",
+      "canonical_name": "MOTEL - LEWISBURG, PA. - DAY - JULY 28, 1975",
+      "aliases": [
+        "MOTEL - LEWISBURG, PA. - DAY - JULY 28, 1975"
+      ],
+      "first_scene_id": "scene_0078",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "MOTEL - LEWISBURG, PA. - DAY - JULY 28, 1975"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_motel_office_lewisburg_pa",
+      "entity_type": "location",
+      "canonical_name": "MOTEL OFFICE - LEWISBURG, PA.",
+      "aliases": [
+        "MOTEL OFFICE - LEWISBURG, PA."
+      ],
+      "first_scene_id": "scene_0079",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "MOTEL OFFICE - LEWISBURG, PA."
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_mother_of_sorrows_church",
+      "entity_type": "location",
+      "canonical_name": "MOTHER OF SORROWS CHURCH",
+      "aliases": [
+        "MOTHER OF SORROWS CHURCH"
+      ],
+      "first_scene_id": "scene_0013",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "MOTHER OF SORROWS CHURCH"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_nemo_s_bar_detroit",
+      "entity_type": "location",
+      "canonical_name": "NEMO’S BAR - DETROIT",
+      "aliases": [
+        "NEMO’S BAR - DETROIT"
+      ],
+      "first_scene_id": "scene_0211",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "NEMO’S BAR - DETROIT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_new_jersey",
+      "entity_type": "location",
+      "canonical_name": "NEW JERSEY",
+      "aliases": [
+        "NEW JERSEY"
+      ],
+      "first_scene_id": "scene_0143",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "NEW JERSEY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_new_york_night_april_7_1972",
+      "entity_type": "location",
+      "canonical_name": "NEW YORK - NIGHT - APRIL 7, 1972",
+      "aliases": [
+        "NEW YORK - NIGHT - APRIL 7, 1972"
+      ],
+      "first_scene_id": "scene_0189",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "NEW YORK - NIGHT - APRIL 7, 1972"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_new_york_city",
+      "entity_type": "location",
+      "canonical_name": "NEW YORK CITY",
+      "aliases": [
+        "NEW YORK CITY"
+      ],
+      "first_scene_id": "scene_0191",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "NEW YORK CITY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_office",
+      "entity_type": "location",
+      "canonical_name": "OFFICE",
+      "aliases": [
+        "OFFICE"
+      ],
+      "first_scene_id": "scene_0105",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "OFFICE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_operating_room",
+      "entity_type": "location",
+      "canonical_name": "OPERATING ROOM",
+      "aliases": [
+        "OPERATING ROOM"
+      ],
+      "first_scene_id": "scene_0270",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "OPERATING ROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_palm_beach_estate_terrace",
+      "entity_type": "location",
+      "canonical_name": "PALM BEACH ESTATE - TERRACE",
+      "aliases": [
+        "PALM BEACH ESTATE - TERRACE"
+      ],
+      "first_scene_id": "scene_0130",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "PALM BEACH ESTATE - TERRACE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_palma_boys_social_club",
+      "entity_type": "location",
+      "canonical_name": "PALMA BOYS SOCIAL CLUB",
+      "aliases": [
+        "PALMA BOYS SOCIAL CLUB"
+      ],
+      "first_scene_id": "scene_0205",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 3,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "PALMA BOYS SOCIAL CLUB"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_park_sheraton_hotel_day_oct_25_1957",
+      "entity_type": "location",
+      "canonical_name": "PARK SHERATON HOTEL - DAY - OCT. 25, 1957",
+      "aliases": [
+        "PARK SHERATON HOTEL - DAY - OCT. 25, 1957"
+      ],
+      "first_scene_id": "scene_0043",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "PARK SHERATON HOTEL - DAY - OCT. 25, 1957"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_penn_drape_curtains",
+      "entity_type": "location",
+      "canonical_name": "PENN DRAPE & CURTAINS",
+      "aliases": [
+        "PENN DRAPE & CURTAINS"
+      ],
+      "first_scene_id": "scene_0272",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "PENN DRAPE & CURTAINS"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_penn_drape_curtains_day_october_25_1957",
+      "entity_type": "location",
+      "canonical_name": "PENN DRAPE & CURTAINS - DAY - OCTOBER 25, 1957",
+      "aliases": [
+        "PENN DRAPE & CURTAINS - DAY - OCTOBER 25, 1957"
+      ],
+      "first_scene_id": "scene_0045",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "PENN DRAPE & CURTAINS - DAY - OCTOBER 25, 1957"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_penn_drape_curtains_pittston_pa",
+      "entity_type": "location",
+      "canonical_name": "PENN DRAPE & CURTAINS, PITTSTON, PA",
+      "aliases": [
+        "PENN DRAPE & CURTAINS - PITTSTON, PA",
+        "PENN DRAPE & CURTAINS, PITTSTON, PA"
+      ],
+      "first_scene_id": "scene_0042",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "PENN DRAPE & CURTAINS - PITTSTON, PA",
+          "PENN DRAPE & CURTAINS, PITTSTON, PA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_pennsylvania",
+      "entity_type": "location",
+      "canonical_name": "PENNSYLVANIA",
+      "aliases": [
+        "PENNSYLVANIA"
+      ],
+      "first_scene_id": "scene_0165",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "PENNSYLVANIA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_philadelphia",
+      "entity_type": "location",
+      "canonical_name": "PHILADELPHIA",
+      "aliases": [
+        "PHILADELPHIA"
+      ],
+      "first_scene_id": "scene_0077",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "PHILADELPHIA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_philly",
+      "entity_type": "location",
+      "canonical_name": "PHILLY",
+      "aliases": [
+        "PHILLY"
+      ],
+      "first_scene_id": "scene_0123",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "PHILLY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_police_station_nashville",
+      "entity_type": "location",
+      "canonical_name": "POLICE STATION - NASHVILLE",
+      "aliases": [
+        "POLICE STATION - NASHVILLE"
+      ],
+      "first_scene_id": "scene_0151",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "POLICE STATION - NASHVILLE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_polling_place_chicago",
+      "entity_type": "location",
+      "canonical_name": "POLLING PLACE - CHICAGO",
+      "aliases": [
+        "POLLING PLACE - CHICAGO"
+      ],
+      "first_scene_id": "scene_0112",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "POLLING PLACE - CHICAGO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_pontiac_michigan",
+      "entity_type": "location",
+      "canonical_name": "PONTIAC, MICHIGAN",
+      "aliases": [
+        "PONTIAC, MICHIGAN"
+      ],
+      "first_scene_id": "scene_0245",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "PONTIAC, MICHIGAN"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_port_clinton_airstrip",
+      "entity_type": "location",
+      "canonical_name": "PORT CLINTON AIRSTRIP",
+      "aliases": [
+        "PORT CLINTON AIRSTRIP"
+      ],
+      "first_scene_id": "scene_0253",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "PORT CLINTON AIRSTRIP"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_private_club_miami",
+      "entity_type": "location",
+      "canonical_name": "PRIVATE CLUB - MIAMI",
+      "aliases": [
+        "PRIVATE CLUB - MIAMI"
+      ],
+      "first_scene_id": "scene_0202",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "PRIVATE CLUB - MIAMI"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_prosecutor_neal_s_office",
+      "entity_type": "location",
+      "canonical_name": "PROSECUTOR NEAL’S OFFICE",
+      "aliases": [
+        "PROSECUTOR NEAL’S OFFICE"
+      ],
+      "first_scene_id": "scene_0164",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "PROSECUTOR NEAL’S OFFICE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_pro_s_miami_house",
+      "entity_type": "location",
+      "canonical_name": "PRO’S MIAMI HOUSE",
+      "aliases": [
+        "PRO’S MIAMI HOUSE"
+      ],
+      "first_scene_id": "scene_0175",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "PRO’S MIAMI HOUSE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_restaurant_kitchen",
+      "entity_type": "location",
+      "canonical_name": "RESTAURANT KITCHEN",
+      "aliases": [
+        "RESTAURANT KITCHEN"
+      ],
+      "first_scene_id": "scene_0237",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "RESTAURANT KITCHEN"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_rural_ohio",
+      "entity_type": "location",
+      "canonical_name": "RURAL OHIO",
+      "aliases": [
+        "RURAL OHIO"
+      ],
+      "first_scene_id": "scene_0179",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "RURAL OHIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_rural_pennsylvania",
+      "entity_type": "location",
+      "canonical_name": "RURAL PENNSYLVANIA",
+      "aliases": [
+        "RURAL PENNSYLVANIA"
+      ],
+      "first_scene_id": "scene_0037",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "RURAL PENNSYLVANIA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_school_classroom",
+      "entity_type": "location",
+      "canonical_name": "SCHOOL CLASSROOM",
+      "aliases": [
+        "SCHOOL CLASSROOM"
+      ],
+      "first_scene_id": "scene_0101",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "SCHOOL CLASSROOM"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_schuylkill_river",
+      "entity_type": "location",
+      "canonical_name": "SCHUYLKILL RIVER",
+      "aliases": [
+        "SCHUYLKILL RIVER"
+      ],
+      "first_scene_id": "scene_0071",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "SCHUYLKILL RIVER"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_schuylkill_river_another_night",
+      "entity_type": "location",
+      "canonical_name": "SCHUYLKILL RIVER - ANOTHER NIGHT",
+      "aliases": [
+        "SCHUYLKILL RIVER - ANOTHER NIGHT"
+      ],
+      "first_scene_id": "scene_0073",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 3,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "SCHUYLKILL RIVER - ANOTHER NIGHT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_senate_chambers",
+      "entity_type": "location",
+      "canonical_name": "SENATE CHAMBERS",
+      "aliases": [
+        "SENATE CHAMBERS"
+      ],
+      "first_scene_id": "scene_0115",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "SENATE CHAMBERS"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_senate_chambers_day_1958_flashback",
+      "entity_type": "location",
+      "canonical_name": "SENATE CHAMBERS - DAY - 1958 FLASHBACK",
+      "aliases": [
+        "SENATE CHAMBERS - DAY - 1958 FLASHBACK"
+      ],
+      "first_scene_id": "scene_0182",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "SENATE CHAMBERS - DAY - 1958 FLASHBACK"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_silver_shop_pittsburgh_pa",
+      "entity_type": "location",
+      "canonical_name": "SILVER SHOP - PITTSBURGH, PA",
+      "aliases": [
+        "SILVER SHOP - PITTSBURGH, PA"
+      ],
+      "first_scene_id": "scene_0168",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "SILVER SHOP - PITTSBURGH, PA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_skinny_razor_s_house_philly",
+      "entity_type": "location",
+      "canonical_name": "SKINNY RAZOR’S HOUSE - PHILLY",
+      "aliases": [
+        "SKINNY RAZOR’S HOUSE - PHILLY"
+      ],
+      "first_scene_id": "scene_0047",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "SKINNY RAZOR’S HOUSE - PHILLY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_south_philly",
+      "entity_type": "location",
+      "canonical_name": "SOUTH PHILLY",
+      "aliases": [
+        "SOUTH PHILLY"
+      ],
+      "first_scene_id": "scene_0015",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "SOUTH PHILLY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_springfield_prison",
+      "entity_type": "location",
+      "canonical_name": "SPRINGFIELD PRISON",
+      "aliases": [
+        "SPRINGFIELD PRISON"
+      ],
+      "first_scene_id": "scene_0277",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 3,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "SPRINGFIELD PRISON"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_springfield_prison_cafeteria",
+      "entity_type": "location",
+      "canonical_name": "SPRINGFIELD PRISON CAFETERIA",
+      "aliases": [
+        "SPRINGFIELD PRISON CAFETERIA"
+      ],
+      "first_scene_id": "scene_0279",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "SPRINGFIELD PRISON CAFETERIA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_street",
+      "entity_type": "location",
+      "canonical_name": "STREET",
+      "aliases": [
+        "STREET"
+      ],
+      "first_scene_id": "scene_0069",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "STREET"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_stuckey_s_texaco_gas_station_i_80",
+      "entity_type": "location",
+      "canonical_name": "STUCKEY’S/TEXACO GAS STATION - I-80",
+      "aliases": [
+        "STUCKEY’S/TEXACO GAS STATION - I-80"
+      ],
+      "first_scene_id": "scene_0011",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "STUCKEY’S/TEXACO GAS STATION - I-80"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_teamster_rally_detroit",
+      "entity_type": "location",
+      "canonical_name": "TEAMSTER RALLY - DETROIT",
+      "aliases": [
+        "TEAMSTER RALLY - DETROIT"
+      ],
+      "first_scene_id": "scene_0088",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "TEAMSTER RALLY - DETROIT"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_teamsters_wxdc_headquarters",
+      "entity_type": "location",
+      "canonical_name": "TEAMSTERS’ WXDC HEADQUARTERS",
+      "aliases": [
+        "TEAMSTERS’ WXDC HEADQUARTERS"
+      ],
+      "first_scene_id": "scene_0161",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "TEAMSTERS’ WXDC HEADQUARTERS"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_teamsters_wxdc_headquarters_roof",
+      "entity_type": "location",
+      "canonical_name": "TEAMSTERS’ WXDC HEADQUARTERS - ROOF",
+      "aliases": [
+        "TEAMSTERS’ WXDC HEADQUARTERS - ROOF"
+      ],
+      "first_scene_id": "scene_0162",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "TEAMSTERS’ WXDC HEADQUARTERS - ROOF"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_teamster_s_wxdc_headquarters_office",
+      "entity_type": "location",
+      "canonical_name": "TEAMSTER’S WXDC HEADQUARTERS - OFFICE",
+      "aliases": [
+        "TEAMSTER’S WXDC HEADQUARTERS - OFFICE"
+      ],
+      "first_scene_id": "scene_0086",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "TEAMSTER’S WXDC HEADQUARTERS - OFFICE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_television_studio",
+      "entity_type": "location",
+      "canonical_name": "TELEVISION STUDIO",
+      "aliases": [
+        "TELEVISION STUDIO"
+      ],
+      "first_scene_id": "scene_0215",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "TELEVISION STUDIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_the_copa",
+      "entity_type": "location",
+      "canonical_name": "THE COPA",
+      "aliases": [
+        "THE COPA"
+      ],
+      "first_scene_id": "scene_0184",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 3,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "THE COPA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_the_friendly_lounge",
+      "entity_type": "location",
+      "canonical_name": "THE FRIENDLY LOUNGE",
+      "aliases": [
+        "THE FRIENDLY LOUNGE"
+      ],
+      "first_scene_id": "scene_0016",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 4,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "THE FRIENDLY LOUNGE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_the_friendly_lounge_later_day_dec_1956",
+      "entity_type": "location",
+      "canonical_name": "THE FRIENDLY LOUNGE - LATER - DAY - DEC. 1956",
+      "aliases": [
+        "THE FRIENDLY LOUNGE - LATER - DAY - DEC. 1956"
+      ],
+      "first_scene_id": "scene_0024",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "THE FRIENDLY LOUNGE - LATER - DAY - DEC. 1956"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_the_friendly_lounge_night_dec_1956",
+      "entity_type": "location",
+      "canonical_name": "THE FRIENDLY LOUNGE - NIGHT - DEC. 1956",
+      "aliases": [
+        "THE FRIENDLY LOUNGE - NIGHT - DEC. 1956"
+      ],
+      "first_scene_id": "scene_0028",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "THE FRIENDLY LOUNGE - NIGHT - DEC. 1956"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_the_house_in_pontiac",
+      "entity_type": "location",
+      "canonical_name": "THE HOUSE IN PONTIAC",
+      "aliases": [
+        "THE HOUSE IN PONTIAC"
+      ],
+      "first_scene_id": "scene_0264",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "THE HOUSE IN PONTIAC"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_the_latin_casino",
+      "entity_type": "location",
+      "canonical_name": "THE LATIN CASINO",
+      "aliases": [
+        "THE LATIN CASINO"
+      ],
+      "first_scene_id": "scene_0221",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 9,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "THE LATIN CASINO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_the_latin_casino_new_jersey",
+      "entity_type": "location",
+      "canonical_name": "THE LATIN CASINO - NEW JERSEY",
+      "aliases": [
+        "THE LATIN CASINO - NEW JERSEY"
+      ],
+      "first_scene_id": "scene_0220",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "THE LATIN CASINO - NEW JERSEY"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_trucking_company_delaware",
+      "entity_type": "location",
+      "canonical_name": "TRUCKING COMPANY - DELAWARE",
+      "aliases": [
+        "TRUCKING COMPANY - DELAWARE"
+      ],
+      "first_scene_id": "scene_0147",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "TRUCKING COMPANY - DELAWARE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_trucking_company_office",
+      "entity_type": "location",
+      "canonical_name": "TRUCKING COMPANY OFFICE",
+      "aliases": [
+        "TRUCKING COMPANY OFFICE"
+      ],
+      "first_scene_id": "scene_0148",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "TRUCKING COMPANY OFFICE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_umberto_s_clam_house",
+      "entity_type": "location",
+      "canonical_name": "UMBERTO’S CLAM HOUSE",
+      "aliases": [
+        "UMBERTO’S CLAM HOUSE"
+      ],
+      "first_scene_id": "scene_0190",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT.",
+          "INT/EXT."
+        ],
+        "scene_location_examples": [
+          "UMBERTO’S CLAM HOUSE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_vesuvio",
+      "entity_type": "location",
+      "canonical_name": "VESUVIO",
+      "aliases": [
+        "VESUVIO"
+      ],
+      "first_scene_id": "scene_0271",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "VESUVIO"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_villa_di_roma",
+      "entity_type": "location",
+      "canonical_name": "VILLA DI ROMA",
+      "aliases": [
+        "VILLA DI ROMA"
+      ],
+      "first_scene_id": "scene_0033",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 11,
+        "header_prefixes": [
+          "EXT.",
+          "INT."
+        ],
+        "scene_location_examples": [
+          "VILLA DI ROMA"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_villa_di_roma_angelo_bruno_table",
+      "entity_type": "location",
+      "canonical_name": "VILLA DI ROMA - ANGELO BRUNO TABLE",
+      "aliases": [
+        "VILLA DI ROMA - ANGELO BRUNO TABLE"
+      ],
+      "first_scene_id": "scene_0034",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "VILLA DI ROMA - ANGELO BRUNO TABLE"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_villa_di_roma_april_1961",
+      "entity_type": "location",
+      "canonical_name": "VILLA DI ROMA - APRIL 1961",
+      "aliases": [
+        "VILLA DI ROMA - APRIL 1961"
+      ],
+      "first_scene_id": "scene_0128",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "VILLA DI ROMA - APRIL 1961"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_villa_di_roma_night_march_1961",
+      "entity_type": "location",
+      "canonical_name": "VILLA DI ROMA - NIGHT - MARCH 1961",
+      "aliases": [
+        "VILLA DI ROMA - NIGHT - MARCH 1961"
+      ],
+      "first_scene_id": "scene_0122",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "VILLA DI ROMA - NIGHT - MARCH 1961"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_villa_romano_hoboken",
+      "entity_type": "location",
+      "canonical_name": "VILLA ROMANO - HOBOKEN",
+      "aliases": [
+        "VILLA ROMANO - HOBOKEN"
+      ],
+      "first_scene_id": "scene_0140",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "VILLA ROMANO - HOBOKEN"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_villa_romano_bar",
+      "entity_type": "location",
+      "canonical_name": "VILLA ROMANO BAR",
+      "aliases": [
+        "VILLA ROMANO BAR"
+      ],
+      "first_scene_id": "scene_0141",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 2,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "VILLA ROMANO BAR"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_visitors_room_lewisburg",
+      "entity_type": "location",
+      "canonical_name": "VISITORS ROOM - LEWISBURG",
+      "aliases": [
+        "VISITORS ROOM - LEWISBURG"
+      ],
+      "first_scene_id": "scene_0169",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "INT."
+        ],
+        "scene_location_examples": [
+          "VISITORS ROOM - LEWISBURG"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_wrecking_yard",
+      "entity_type": "location",
+      "canonical_name": "WRECKING YARD",
+      "aliases": [
+        "WRECKING YARD"
+      ],
+      "first_scene_id": "scene_0173",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "WRECKING YARD"
+        ]
+      }
+    },
+    {
+      "entity_id": "loc_yonkers",
+      "entity_type": "location",
+      "canonical_name": "YONKERS",
+      "aliases": [
+        "YONKERS"
+      ],
+      "first_scene_id": "scene_0195",
+      "metadata": {
+        "source_scene_header": true,
+        "scene_count": 1,
+        "header_prefixes": [
+          "EXT."
+        ],
+        "scene_location_examples": [
+          "YONKERS"
+        ]
+      }
+    }
+  ]
+}

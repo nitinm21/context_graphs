@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+coverage/
+__pycache__/
+*.log
+.DS_Store
+.env*
+!.env.example
+docs/
+*.md
+!README.md
